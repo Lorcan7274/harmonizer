@@ -257,14 +257,11 @@
 "layout": "L04",
 "made": 9,
 "need": [
-"eeg",
 "emg",
 "ecg"
 ],
-"all_required_right": false,
-"missing": [
-"eeg"
-]
+"all_required_right": true,
+"missing": []
 },
 {
 "id": "rbd21",
