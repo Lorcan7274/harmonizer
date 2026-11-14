@@ -95,6 +95,9 @@ def window_features(x, sr):
         f["hf_frac"] = _band(fr, p, 25, top) / (tot + 1e-30)
         f["mains50"] = _band(fr, p, 49, 51) / (tot + 1e-30)
         f["mains60"] = _band(fr, p, 59, 61) / (tot + 1e-30)
+        # slow drift and mains hum are not physiology, so muscle is also judged on what is left
+        fast = (fr >= 4) & (fr < top) & ~(((fr > 48) & (fr < 52)) | ((fr > 58) & (fr < 62)))
+        f["hf_share4"] = float(p[fast & (fr >= 25)].sum() / (p[fast].sum() + 1e-30))
         f.update(beats(x, sr))
         f["card_ac"] = _periodicity(x, sr, 0.5, 5, 0.4, 1.5, 25)
         f["rms_05_30"] = float(np.std(_bp(x, sr, 0.5, 30)))
@@ -111,6 +114,11 @@ def channel_features(x, sr, win_sec=300):
         out[k] = float(np.median(vals)) if vals else np.nan
     out["flat_windows"] = float(np.mean([f["std"] == 0 for f in fs]))
     return out
+
+
+RESP_PEAK_MIN = 4.5
+# below this sampling rate the trace cannot show what the label claims, so the channel is left unchecked
+MIN_SR = {"eeg": 50, "eog": 50, "emg": 50, "emg_leg": 50, "snore": 50, "pleth": 50, "ecg": 100, "effort": 4, "flow": 4}
 
 
 def signal_type(f, skip_ecg=False):
@@ -135,27 +143,28 @@ def signal_type(f, skip_ecg=False):
             return "ecg", f"beats every {f['rr_med']:.2f}s, spike ratio {f['spike']:.0f}"
         if f.get("card_frac", 0) > 0.6 and f["hf_frac"] < 0.05 and f["card_ac"] > 0.5:
             return "pleth", f"{f['card_frac']:.0%} of power at pulse rate"
-    if f.get("resp_frac", 0) > 0.6:
+    # breathing is periodic, so it must show a spectral peak; slow drift in an eye or scalp lead does not
+    if f.get("resp_frac", 0) > 0.6 and f.get("resp_peak", 0) >= RESP_PEAK_MIN:
         return "resp", f"{f['resp_frac']:.0%} of power at 0.1-0.6 Hz"
     if sr >= 50:
         if f["hf_frac"] > 0.35:
             return "emg", f"{f['hf_frac']:.0%} of power above 25 Hz"
+        if f.get("hf_share4", 0) > 0.5:
+            return "emg", f"{f['hf_share4']:.0%} of the power above 4 Hz lies above 25 Hz"
         return "neuro", f"{f['slow_frac']:.0%} of power at 0.5-4 Hz"
-    if f["nonneg"] > 0.99 and sr <= 2:
-        return "envelope", "non-negative low-rate trace"
     return "unknown", ""
 
 
 LABEL_RULES = [
     ("spo2", r"sao2|spo2"), ("stat", r"stat"), ("hr", r"^hr$|^pr$|pulse|heart rate"),
-    ("pleth", r"pleth"), ("pos", r"posi"), ("light", r"light"),
+    ("pleth", r"pleth"), ("pos", r"posi"), ("light", r"light"), ("temp", r"temp"),
     ("snore", r"mic|sound|snore"), ("ecg", r"ecg|ekg"),
     ("effort", r"tora|thor|ad+ome|abdo"), ("flow", r"flus|flow|can+ula|termis|nasal"),
     ("emg_leg", r"tib|^[sd]x\d|^dx|^sx|leg"), ("emg", r"emg|chin|milo|deltoid"),
-    ("eog", r"roc|loc|eog"),
+    ("eog", r"roc|loc|eog|(^|[^a-z0-9])e[12]([^0-9]|$)"),
     ("eeg", r"eeg|(^|[^a-z])(fp|af|f|fc|c|cp|p|po|o|t|a|m)\d"),
 ]
-COMPATIBLE = {"eeg": {"neuro"}, "eog": {"neuro"}, "emg": {"emg", "envelope"}, "emg_leg": {"emg"},
+COMPATIBLE = {"eeg": {"neuro"}, "eog": {"neuro"}, "emg": {"emg"}, "emg_leg": {"emg"},
               "ecg": {"ecg"}, "effort": {"resp"}, "flow": {"resp"}, "spo2": {"spo2", "hr_or_spo2"}, "hr": {"hr", "hr_or_spo2"},
               "pleth": {"pleth"}, "pos": {"discrete"}, "stat": {"discrete"}, "light": {"discrete"},
               "snore": {"emg"}}
@@ -203,8 +212,10 @@ def classify(chs, feats):
             agree = "flat"
         elif lt == "unknown":
             agree = "label_unread"
+        elif st in COMPATIBLE.get(lt, ()):
+            agree = "agree"
         else:
-            agree = "agree" if st in COMPATIBLE.get(lt, ()) else "conflict"
+            agree = "unchecked" if lt not in COMPATIBLE or c["sr"] < MIN_SR.get(lt, 0) else "conflict"
         us, uv = unit_check(st, f, c["unit"])
         rows.append(dict(idx=i, label=c["label"], unit=c["unit"], sr=c["sr"], label_type=lt, signal_type=st,
                          reason=why, agree=agree, unit_status=us, amp_uv=uv, cal_inverted=c["cal_inverted"],

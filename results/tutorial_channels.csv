@@ -36,8 +36,8 @@ learn-nsrr03,5,EOG(L),uV,50.0,eog,neuro,agree,ok,64.55891402097997,False,,False,
 learn-nsrr03,6,EOG(R),uV,50.0,eog,neuro,agree,ok,64.6187191703929,False,,False,75% of power at 0.5-4 Hz
 learn-nsrr03,7,EEG,uV,125.0,eeg,neuro,agree,ok,12.792479396105254,False,,False,65% of power at 0.5-4 Hz
 learn-nsrr03,8,AIRFLOW,,10.0,flow,resp,agree,n/a,,True,,False,82% of power at 0.1-0.6 Hz
-learn-nsrr03,9,THOR RES,,10.0,effort,resp,agree,n/a,,True,,False,66% of power at 0.1-0.6 Hz
-learn-nsrr03,10,ABDO RES,,10.0,effort,resp,agree,n/a,,True,,False,78% of power at 0.1-0.6 Hz
+learn-nsrr03,9,THOR RES,,10.0,effort,unknown,conflict,n/a,,True,,False,
+learn-nsrr03,10,ABDO RES,,10.0,effort,unknown,conflict,n/a,,True,,False,
 learn-nsrr03,11,POSITION,,1.0,pos,flat,flat,n/a,,False,,False,no variation
 learn-nsrr03,12,LIGHT,,1.0,light,flat,flat,n/a,,False,,False,no variation
 learn-nsrr03,13,OX STAT,,1.0,stat,discrete,agree,n/a,,False,,False,100% of samples in 5 levels
