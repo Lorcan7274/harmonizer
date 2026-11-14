@@ -6,6 +6,14 @@ from scipy import signal as sg
 UNIT_TO_UV = {"uv": 1.0, "mv": 1e3, "v": 1e6}
 
 
+def unit_scale(unit):
+    """Factor from a declared unit to uV, or None if it is not a voltage unit. The micro sign counts as u."""
+    u = unit.strip().lower()
+    for micro in ("\u00e2\u00b5", "\u00b5", "\u03bc"):
+        u = u.replace(micro, "u")
+    return UNIT_TO_UV.get(u)
+
+
 def _bp(x, sr, lo, hi, order=3):
     hi = min(hi, 0.45 * sr)
     if lo >= hi:
@@ -63,7 +71,7 @@ def window_features(x, sr):
     f["std"] = float(np.std(x))
     f["median"] = float(np.median(x))
     f["p01"], f["p99"] = (float(v) for v in np.percentile(x, [1, 99]))
-    vals, counts = np.unique(x, return_counts=True)
+    _, counts = np.unique(x, return_counts=True)
     f["top5"] = float(np.sort(counts)[-5:].sum() / len(x))
     f["nonneg"] = float(np.mean(x >= 0))
     f["iqr"] = float(np.subtract(*np.percentile(x, [75, 25])))
@@ -75,7 +83,7 @@ def window_features(x, sr):
         tot = _band(fr, p, 0.05, sr / 2)
         f["resp_frac"] = _band(fr, p, 0.1, 0.6) / (tot + 1e-30)
         m = (fr >= 0.1) & (fr < 0.6)
-        f["resp_peak"] = float(p[m].max() / (np.median(p[m]) + 1e-30))
+        f["resp_peak"] = float(p[m].max() / (np.median(p[m]) + 1e-30)) if m.any() else 0.0
         f["card_frac"] = _band(fr, p, 0.6, 3.0) / (tot + 1e-30)
         f["resp_ac"] = _periodicity(x, sr, 0.1, 0.6, 2, 8, 4)
     if sr >= 50:
@@ -97,8 +105,10 @@ def channel_features(x, sr, win_sec=300):
     n = int(win_sec * sr)
     wins = [x[i:i + n] for i in range(0, len(x) - n + 1, n)] or [x]
     fs = [window_features(w.astype(float), sr) for w in wins]
-    keys = set().union(*fs)
-    out = {k: float(np.nanmedian([f.get(k, np.nan) for f in fs])) for k in keys}
+    out = {}
+    for k in sorted(set().union(*fs)):
+        vals = [f[k] for f in fs if k in f and not np.isnan(f[k])]
+        out[k] = float(np.median(vals)) if vals else np.nan
     out["flat_windows"] = float(np.mean([f["std"] == 0 for f in fs]))
     return out
 
@@ -164,7 +174,7 @@ AMP_RANGE = {"neuro": ("rms_05_30", 2, 300), "ecg": ("p99", 100, 5000), "emg": (
 
 
 def unit_check(sig_type, f, unit):
-    k = UNIT_TO_UV.get(unit.strip().lower())
+    k = unit_scale(unit)
     if sig_type not in AMP_RANGE:
         return "n/a", None
     if k is None:
@@ -202,19 +212,16 @@ def classify(chs, feats):
     return rows
 
 
-def audit(path):
-    from .edf import read_signals
-    h, xs = read_signals(path)
+def audit(h, xs):
+    """Type every channel of a recording loaded with edf.read_signals."""
     for c in h["ch"]:
         c["cal_inverted"] = (c["pmax"] < c["pmin"]) != (c["dmax"] < c["dmin"])
     feats = [channel_features(x, c["sr"]) for c, x in zip(h["ch"], xs)]
-    return h, classify(h["ch"], feats)
+    return classify(h["ch"], feats)
 
 
-def pairs(path, thr=0.95):
+def pairs(h, xs, thr=0.95):
     """Same-rate channel pairs whose traces are near-identical or near-inverted."""
-    from .edf import read_signals
-    h, xs = read_signals(path)
     out = []
     by_sr = {}
     for i, c in enumerate(h["ch"]):

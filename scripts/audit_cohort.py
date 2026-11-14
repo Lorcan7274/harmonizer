@@ -3,12 +3,13 @@ import csv, glob, json, os, sys, time
 from concurrent.futures import ProcessPoolExecutor
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from harmonizer.checks import audit, pairs
+from harmonizer.edf import read_signals
 
 
 def one(p):
     t = time.time()
-    h, rows = audit(p)
-    return os.path.basename(p)[:-4], rows, pairs(p), time.time() - t
+    h, xs = read_signals(p)
+    return os.path.basename(p)[:-4], audit(h, xs), pairs(h, xs), time.time() - t
 
 
 if __name__ == "__main__":
