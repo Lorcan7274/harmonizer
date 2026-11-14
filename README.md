@@ -74,10 +74,10 @@ Label-swap recall on the held-out halves is 88.6% on CAP, 60.5% on HMC and 12.5%
 | Reader | CAP dev (63) | CAP held-out (45) | Sleep-EDF (197) | HMC (151) | Confident and wrong |
 | --- | --- | --- | --- | --- | --- |
 | Baseline label reader, no model | 62 | 45 | 197 | 151 | 0 |
-| Claude, headers only | 62 | 45 | not run | not run | 0 |
-| Claude with signal evidence | 62 | 45 | not run | not run | 0 |
+| Claude, headers only | 62 | 45 | 197 | 151 | 0 |
+| Claude with signal evidence | 63 | 45 | 197 | 151 | 0 |
 
-Before it was taught AASM-style headers (`EEG F4-M1`, `EOG E1-M2`), the baseline reader mapped none of HMC's six EEG and EOG channels. The Claude readers were not run on the two new cohorts and the CAP signal-evidence draft was not redrafted: no API key was available where this round was built. That draft was made with the earlier trace evidence, in which one drifting eye channel read as breathing, so Claude left it unmapped; under the corrected key that recording now misses its EOG (62 of 63, was 63). 17 of its 50 layouts need a new model answer.
+Before it was taught AASM-style headers (`EEG F4-M1`, `EOG E1-M2`), the baseline reader mapped none of HMC's six EEG and EOG channels. Both Claude readers map every recording of the two unseen cohorts with no change to their prompt. On CAP the signal-evidence reader was redrafted with the corrected trace evidence (17 of 50 layouts needed a new answer; 485 rules) and gets all 63 dev recordings. Its earlier draft, made when a drifting eye channel still read as breathing, had left that channel unmapped and scores 62 of 63 under the corrected key: better trace evidence gave a better mapping.
 
 **End to end.** On all 456 recordings MNE accepted every exported channel name and type, and every BIDS table uses valid types and statuses. YASA's stager ran on one recording from each cohort using the exported picks with no per-cohort channel configuration.
 
