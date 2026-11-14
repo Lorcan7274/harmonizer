@@ -1,0 +1,306 @@
+<title>__TITLE__</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@600&display=swap">
+<style>
+/* layout: one column. cohort summary, then the review queue (grouped by what the header and the trace each say), then every header layout. */
+:root {
+  --bg: #f4f6f9; --surface: #ffffff; --ink: #17202c; --muted: #586474; --line: #d8dee7;
+  --accent: #2b59c3; --trace: #1c2a45; --peer: #7a8799; --grid: #e6eaf0;
+  --ok: #1d8658; --check: #b56a00; --unread: #b3364a; --unchecked: #6a55b5; --flat: #8892a0;
+  --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --display: "IBM Plex Sans Condensed", "IBM Plex Sans", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f141b; --surface: #171e28; --ink: #e5eaf2; --muted: #9aa6b6; --line: #2a3442;
+  --accent: #86a8ff; --trace: #d6e0f2; --peer: #7f8da3; --grid: #222b38;
+  --ok: #4cc38a; --check: #f0a94a; --unread: #f08a9b; --unchecked: #ab98f0; --flat: #7c8797; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0f141b; --surface: #171e28; --ink: #e5eaf2; --muted: #9aa6b6; --line: #2a3442;
+  --accent: #86a8ff; --trace: #d6e0f2; --peer: #7f8da3; --grid: #222b38;
+  --ok: #4cc38a; --check: #f0a94a; --unread: #f08a9b; --unchecked: #ab98f0; --flat: #7c8797; color-scheme: dark }
+
+* { box-sizing: border-box }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 var(--sans) }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg) }
+.wrap { max-width: 1040px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-direction: column; gap: 36px }
+h1, h2 { font-family: var(--display); font-weight: 600; text-wrap: balance; margin: 0; letter-spacing: 0.005em }
+h1 { font-size: 34px; line-height: 1.1 }
+h2 { font-size: 22px; line-height: 1.2 }
+p { margin: 0 }
+.eyebrow { font: 500 12px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted) }
+.lede { color: var(--muted); max-width: 65ch }
+.mono { font-family: var(--mono); font-size: 0.92em }
+.num { font-variant-numeric: tabular-nums }
+header.top { display: flex; flex-direction: column; gap: 10px }
+section { display: flex; flex-direction: column; gap: 14px; min-width: 0 }
+
+.bar { display: flex; height: 14px; border-radius: 3px; overflow: hidden; background: var(--line) }
+.bar span { display: block; min-width: 2px }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: 14px }
+.legend li { display: flex; align-items: baseline; gap: 7px }
+ul { list-style: none; margin: 0; padding: 0 }
+.dot { width: 9px; height: 9px; border-radius: 50%; flex: none; align-self: center }
+.s-ok { background: var(--ok) } .s-check { background: var(--check) } .s-unread { background: var(--unread) }
+.s-unchecked { background: var(--unchecked) } .s-flat { background: var(--flat) }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 0; border-top: 1px solid var(--line) }
+.facts div { padding: 12px 16px 12px 0; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 2px }
+.facts b { font: 600 24px/1.1 var(--display) }
+.facts span { color: var(--muted); font-size: 13.5px }
+
+.reviewbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 10px;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; border-bottom: 1px solid var(--line) }
+.reviewbar .grow { flex: 1 1 200px; min-width: 0 }
+.progress { height: 4px; background: var(--line); border-radius: 2px; margin-top: 6px; overflow: hidden }
+.progress i { display: block; height: 100%; background: var(--accent); width: 0 }
+button { font: 500 13.5px/1 var(--sans); color: var(--ink); background: var(--surface); border: 1px solid var(--line);
+  border-radius: 4px; padding: 8px 11px; cursor: pointer }
+button:hover { border-color: var(--accent) }
+button:focus-visible, summary:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+button.primary { background: var(--accent); border-color: var(--accent); color: var(--surface) }
+button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--bg) }
+button.quiet { border-color: transparent; background: none; color: var(--accent); padding-inline: 4px }
+textarea { width: 100%; min-height: 120px; font: 12.5px/1.45 var(--mono); color: var(--ink); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 4px; padding: 10px }
+
+.group { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 16px; display: flex; flex-direction: column; gap: 14px; min-width: 0 }
+.ghead { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px }
+.ghead .label { font: 500 17px/1.2 var(--mono) }
+.pill { font: 500 12px/1 var(--mono); padding: 4px 7px; border-radius: 3px; border: 1px solid currentColor; white-space: nowrap }
+.pill.check { color: var(--check) } .pill.unread { color: var(--unread) }
+.rules { display: flex; flex-wrap: wrap; gap: 6px; align-items: center }
+.rules .lead { font-size: 13px; color: var(--muted); margin-right: 4px }
+.item { border-top: 1px solid var(--line); padding-top: 12px; display: flex; flex-direction: column; gap: 8px; min-width: 0 }
+.item .meta { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13.5px; color: var(--muted) }
+.item .meta b { color: var(--ink); font: 500 13.5px var(--mono) }
+.strips { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px }
+.strips svg { display: block; width: 100%; height: 58px; background: var(--bg); border-radius: 3px }
+.strips .tick { stroke: var(--grid); stroke-width: 1; vector-effect: non-scaling-stroke }
+.strips polyline { fill: none; stroke: var(--trace); stroke-width: 1; vector-effect: non-scaling-stroke; stroke-linejoin: round }
+.strips.peer polyline { stroke: var(--peer) }
+.cap { font-size: 12.5px; color: var(--muted) }
+.empty { color: var(--muted); border: 1px dashed var(--line); border-radius: 6px; padding: 18px }
+
+details { border-bottom: 1px solid var(--line) }
+summary { cursor: pointer; padding: 10px 0; display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: baseline; list-style: none }
+summary::-webkit-details-marker { display: none }
+summary::before { content: "+"; font: 500 15px/1 var(--mono); color: var(--accent); width: 12px }
+details[open] summary::before { content: "–" }
+summary b { font: 500 15px var(--mono) }
+summary span { color: var(--muted); font-size: 13.5px }
+.scroll { overflow-x: auto; padding-bottom: 12px }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; min-width: 620px }
+th { text-align: left; font: 500 11.5px/1 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); padding: 6px 12px 6px 0 }
+td { padding: 6px 12px 6px 0; border-top: 1px solid var(--line); vertical-align: top }
+td.reason { color: var(--muted); min-width: 220px }
+.tally { display: flex; flex-wrap: wrap; gap: 4px 10px }
+.tally span { display: inline-flex; align-items: center; gap: 5px }
+.recs { color: var(--muted); font: 12.5px/1.5 var(--mono); padding-bottom: 12px; overflow-wrap: anywhere }
+@media (prefers-reduced-motion: no-preference) { .progress i { transition: width 0.2s } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <p class="eyebrow">harmonizer · channel audit</p>
+    <h1 id="cohort"></h1>
+    <p class="lede" id="lede"></p>
+  </header>
+
+  <section aria-labelledby="h-sum">
+    <h2 id="h-sum">What the traces say about the headers</h2>
+    <div class="bar" id="bar" role="img"></div>
+    <ul class="legend" id="legend"></ul>
+    <div class="facts" id="facts"></div>
+  </section>
+
+  <section aria-labelledby="h-rev">
+    <h2 id="h-rev">Channels that need a reader</h2>
+    <p class="lede">Each channel below has a header label the trace does not support, or a label nobody could read. Nothing has been changed in the files. Three samples of each trace are shown, from early, middle and late in the recording. Your ruling settles the channel in the answer key.</p>
+    <div class="reviewbar">
+      <div class="grow"><span class="num" id="count"></span><div class="progress"><i id="prog"></i></div></div>
+      <button class="primary" id="copy" type="button">Copy rulings as CSV</button>
+      <button id="clear" type="button">Clear all</button>
+    </div>
+    <div id="csvbox" hidden>
+      <p class="cap" id="csvhint"></p>
+      <textarea id="csv" readonly aria-label="Rulings as CSV"></textarea>
+    </div>
+    <div id="groups" style="display:flex;flex-direction:column;gap:14px"></div>
+  </section>
+
+  <section aria-labelledby="h-lay">
+    <h2 id="h-lay">Header layouts and drafted mappings</h2>
+    <p class="lede">Recordings with the same set of channel labels share one layout and one group of rules. The trace check counts how many recordings back each mapping.</p>
+    <div id="layouts"></div>
+  </section>
+</div>
+
+<script type="application/json" id="audit-data">__DATA__</script>
+<script>
+(function () {
+  var D = JSON.parse(document.getElementById("audit-data").textContent);
+  var STATUS = [["ok", "trace agrees with the header"], ["check", "trace disagrees with the header"], ["unread", "label not understood"],
+                ["unchecked", "cannot be checked at this sampling rate"], ["flat", "flat trace"]];
+  var KINDS = [["eeg", "EEG"], ["eog", "EOG"], ["emg", "Chin EMG"], ["emg_leg", "Leg EMG"], ["ecg", "ECG"], ["resp", "Breathing"],
+               ["other", "Something else"], ["unusable", "Unusable"]];
+  var NAME = { eeg: "EEG", eog: "EOG", emg: "EMG", emg_leg: "leg EMG", ecg: "ECG", effort: "breathing effort", flow: "airflow",
+               neuro: "EEG or EOG", resp: "breathing", pleth: "pulse wave", spo2: "oxygen saturation", hr: "heart rate",
+               hr_or_spo2: "heart rate or saturation", discrete: "a few fixed levels", slow_other: "a slow trace", unknown: "unclear" };
+  var HEADER_AS = { effort: "resp", flow: "resp" };
+  var KEY = "harmonizer:rulings:" + D.name, rulings = {};
+  try { rulings = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { rulings = {}; }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(rulings)); } catch (e) {} }
+  function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
+  function nice(k) { return NAME[k] || k; }
+  function plural(n, w) { return n.toLocaleString("en-US") + " " + w + (n === 1 ? "" : "s"); }
+
+  document.getElementById("cohort").textContent = D.name;
+  document.getElementById("lede").textContent = plural(D.recordings, "recording") + ", " + plural(D.channels, "channel") + " in " +
+    plural(D.layouts.length, "header layout") + ". Mapped by the " + D.reader + " reader.";
+
+  var bar = document.getElementById("bar"), legend = document.getElementById("legend"), parts = [];
+  STATUS.forEach(function (s) {
+    var n = D.counts[s[0]] || 0; if (!n) return;
+    var seg = el("span", "s-" + s[0]); seg.style.flex = n + " 1 0"; bar.appendChild(seg);
+    var li = el("li"); li.appendChild(el("span", "dot s-" + s[0])); li.appendChild(el("b", "num", n.toLocaleString("en-US")));
+    li.appendChild(el("span", null, s[1])); legend.appendChild(li); parts.push(n + " " + s[1]);
+  });
+  bar.setAttribute("aria-label", parts.join(", "));
+  var facts = document.getElementById("facts");
+  [[D.staging.ready + " of " + D.recordings, "recordings have a trace-confirmed EEG, EOG and chin EMG for automatic staging"],
+   [D.mapped.toLocaleString("en-US"), "channels mapped to a canonical name"],
+   [String(D.queue), "channels waiting for a reader"]].forEach(function (f) {
+    var d = el("div"); d.appendChild(el("b", "num", f[0])); d.appendChild(el("span", null, f[1])); facts.appendChild(d);
+  });
+
+  function strip(vals, peer) {
+    var NS = "http://www.w3.org/2000/svg", n = vals.length / 2, W = 160, H = 58, svg = document.createElementNS(NS, "svg");
+    svg.setAttribute("viewBox", "0 0 " + W + " " + H); svg.setAttribute("preserveAspectRatio", "none"); svg.setAttribute("aria-hidden", "true");
+    for (var t = 1; t < 10; t++) {
+      var ln = document.createElementNS(NS, "line"); ln.setAttribute("class", "tick");
+      ln.setAttribute("x1", W * t / 10); ln.setAttribute("x2", W * t / 10); ln.setAttribute("y1", 0); ln.setAttribute("y2", H); svg.appendChild(ln);
+    }
+    var pts = [];
+    for (var i = 0; i < n; i++) {
+      var x = (n > 1 ? i / (n - 1) : 0.5) * W;
+      pts.push(x.toFixed(1) + "," + (H / 2 - vals[2 * i] / 100 * (H / 2 - 3)).toFixed(1));
+      pts.push(x.toFixed(1) + "," + (H / 2 - vals[2 * i + 1] / 100 * (H / 2 - 3)).toFixed(1));
+    }
+    var pl = document.createElementNS(NS, "polyline"); pl.setAttribute("points", pts.join(" ")); svg.appendChild(pl);
+    return svg;
+  }
+  function strips(tr, peer) {
+    var box = el("div", "strips" + (peer ? " peer" : ""));
+    tr.strips.forEach(function (v) { box.appendChild(strip(v, peer)); });
+    return box;
+  }
+  function ruleButtons(lead, says, get, set) {
+    var row = el("div", "rules"); row.appendChild(el("span", "lead", lead));
+    var opts = KINDS.slice();
+    if (says) opts.unshift([HEADER_AS[says] || (KINDS.some(function (k) { return k[0] === says; }) ? says : "other"), "Header is right"]);
+    opts.forEach(function (k) {
+      var b = el("button", null, k[1]); b.type = "button"; b.dataset.rule = k[0];
+      b.addEventListener("click", function () { set(get() === k[0] ? "" : k[0]); });
+      row.appendChild(b);
+    });
+    return row;
+  }
+  function paint(row, value) {
+    Array.prototype.forEach.call(row.querySelectorAll("button"), function (b) {
+      b.setAttribute("aria-pressed", value && b.dataset.rule === value ? "true" : "false");
+    });
+  }
+
+  var groupsBox = document.getElementById("groups"), painters = [];
+  function refresh() {
+    var done = 0; D.groups.forEach(function (g) { g.items.forEach(function (it) { if (rulings[it.id + "|" + it.idx]) done++; }); });
+    document.getElementById("count").textContent = done + " of " + D.queue + " ruled";
+    document.getElementById("prog").style.width = (D.queue ? 100 * done / D.queue : 0) + "%";
+    painters.forEach(function (p) { p(); });
+  }
+  function itemNode(g, it) {
+    var box = el("div", "item"), meta = el("div", "meta"), key = it.id + "|" + it.idx;
+    meta.appendChild(el("b", null, it.id)); meta.appendChild(el("span", "num", it.sr + " Hz" + (it.unit ? " · " + it.unit : "")));
+    meta.appendChild(el("span", null, it.evidence)); box.appendChild(meta);
+    if (it.trace) {
+      box.appendChild(strips(it.trace));
+      box.appendChild(el("p", "cap", "This channel. Three samples of " + it.trace.sec + " s each; full height is " + it.trace.span + "."));
+      if (it.peer) {
+        box.appendChild(strips(it.peer, true));
+        box.appendChild(el("p", "cap", "For comparison, " + it.peer.label + " from the same recording: a channel whose trace does match " + nice(g.says) + ". Full height is " + it.peer.span + "."));
+      }
+    } else box.appendChild(el("p", "cap", "No preview stored for this channel."));
+    var row = ruleButtons("This channel is", g.status === "check" ? g.says : "", function () { return rulings[key] || ""; },
+      function (v) { if (v) rulings[key] = v; else delete rulings[key]; save(); refresh(); });
+    painters.push(function () { paint(row, rulings[key] || ""); });
+    box.appendChild(row);
+    return box;
+  }
+  D.groups.forEach(function (g) {
+    var box = el("div", "group"), head = el("div", "ghead");
+    head.appendChild(el("span", "label", g.label)); head.appendChild(el("span", "pill " + g.status, g.status === "check" ? "trace disagrees" : "label not read"));
+    head.appendChild(el("span", null, (g.status === "check" ? "Header says " + nice(g.says) + ". " : "") + "Trace looks like " + nice(g.looks) + "."));
+    head.appendChild(el("span", "cap num", plural(g.items.length, "recording")));
+    box.appendChild(head);
+    if (g.items.length > 1) {
+      var common = function () {
+        var v = rulings[g.items[0].id + "|" + g.items[0].idx] || "";
+        return g.items.every(function (it) { return (rulings[it.id + "|" + it.idx] || "") === v; }) ? v : "";
+      };
+      var all = ruleButtons("Rule all " + g.items.length + " as", g.status === "check" ? g.says : "", common, function (v) {
+        g.items.forEach(function (it) { if (v) rulings[it.id + "|" + it.idx] = v; else delete rulings[it.id + "|" + it.idx]; }); save(); refresh();
+      });
+      painters.push(function () { paint(all, common()); });
+      box.appendChild(all);
+    }
+    var shown = 0, more = null;
+    function show(n) { for (; shown < Math.min(n, g.items.length); shown++) box.insertBefore(itemNode(g, g.items[shown]), more); refresh(); }
+    if (g.items.length > 2) {
+      more = el("button", "quiet", "Show all " + g.items.length + " recordings"); more.type = "button";
+      more.addEventListener("click", function () { show(g.items.length); more.hidden = true; });
+      box.appendChild(more);
+    }
+    groupsBox.appendChild(box); show(2);
+  });
+  if (!D.groups.length) groupsBox.appendChild(el("p", "empty", "Every readable label is backed by its trace. Nothing needs a ruling."));
+
+  function csv() {
+    var q = function (s) { s = String(s); return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; }, out = ["id,idx,label,ruling"];
+    D.groups.forEach(function (g) { g.items.forEach(function (it) { var r = rulings[it.id + "|" + it.idx]; if (r) out.push([q(it.id), it.idx, q(g.label), r].join(",")); }); });
+    return out.join("\n") + "\n";
+  }
+  document.getElementById("copy").addEventListener("click", function () {
+    var box = document.getElementById("csvbox"), ta = document.getElementById("csv"), hint = document.getElementById("csvhint"), text = csv();
+    ta.value = text; box.hidden = false;
+    var manual = function () { ta.focus(); ta.select(); hint.textContent = "Copy the selected text into a file named rulings.csv, then run: harmonizer rule AUDIT_PREFIX rulings.csv"; };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(function () {
+      hint.textContent = "Copied. Paste into a file named rulings.csv, then run: harmonizer rule AUDIT_PREFIX rulings.csv";
+    }, manual); else manual();
+  });
+  document.getElementById("clear").addEventListener("click", function () { rulings = {}; save(); document.getElementById("csvbox").hidden = true; refresh(); });
+  refresh();
+
+  var lay = document.getElementById("layouts");
+  D.layouts.forEach(function (L, i) {
+    var d = el("details"), s = el("summary"), flagged = 0, mapped = 0;
+    L.rows.forEach(function (r) { if (r.target) mapped++; if (r.tally.check || r.tally.unread) flagged++; });
+    s.appendChild(el("b", null, L.id)); s.appendChild(el("span", "num", plural(L.recs.length, "recording") + " · " + plural(L.rows.length, "channel") +
+      " · " + mapped + " mapped" + (flagged ? " · " + flagged + " flagged" : "")));
+    d.appendChild(s); if (i === 0) d.open = true;
+    var sc = el("div", "scroll"), t = el("table"), hr = el("tr");
+    ["Header label", "Header says", "Maps to", "Trace check", "Why"].forEach(function (h) { hr.appendChild(el("th", null, h)); });
+    t.appendChild(hr);
+    L.rows.forEach(function (r) {
+      var tr = el("tr"); tr.appendChild(el("td", "mono", r.label)); tr.appendChild(el("td", null, nice(r.kind)));
+      tr.appendChild(el("td", "mono", r.target ? r.target + (r.ref ? " (minus " + r.ref + ")" : "") : "–"));
+      var td = el("td"), tl = el("div", "tally num");
+      STATUS.forEach(function (st) { if (r.tally[st[0]]) { var sp = el("span"); sp.appendChild(el("i", "dot s-" + st[0])); sp.appendChild(document.createTextNode(r.tally[st[0]])); sp.title = st[1]; tl.appendChild(sp); } });
+      td.appendChild(tl); tr.appendChild(td); tr.appendChild(el("td", "reason", r.reason)); t.appendChild(tr);
+    });
+    sc.appendChild(t); d.appendChild(sc); d.appendChild(el("p", "recs", L.recs.join("  ")));
+    lay.appendChild(d);
+  });
+})();
+</script>

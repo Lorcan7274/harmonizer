@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "harmonizer"
+version = "0.2.0"
+description = "Check what each channel of a sleep recording really is, draft Luna CANONICAL rules, and export channel tables for MNE, BIDS and automatic stagers."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy"]
+
+[project.optional-dependencies]
+model = ["anthropic"]
+score = ["lunapi"]
+dev = ["pytest"]
+
+[project.scripts]
+harmonizer = "harmonizer.cli:main"
+
+[tool.setuptools]
+packages = ["harmonizer"]
+
+[tool.setuptools.package-data]
+harmonizer = ["report.html"]
