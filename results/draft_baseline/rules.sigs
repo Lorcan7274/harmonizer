@@ -1641,12 +1641,13 @@ pos
  req:
   sig = Position
 
-% L17 (1 recordings): DX1 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
+% L17 (1 recordings): DX1 / DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
 RAT
  group:
   L17
  req:
   sig = DX1
+  ref = DX2
   unit = uV
   unit = mV
   unit = V
@@ -1788,12 +1789,13 @@ F3_M2
  set:
   unit = uV
 
-% L17 (1 recordings): SX1 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
+% L17 (1 recordings): SX1 / SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
 LAT
  group:
   L17
  req:
   sig = SX1
+  ref = SX2
   unit = uV
   unit = mV
   unit = V

@@ -12,6 +12,14 @@ _EEG = [("C4_M1", r"^c4.{0,3}[am]1$", "C4", r"^[am]1$"), ("C3_M2", r"^c3.{0,3}[a
         ("O2_M1", r"^o2.{0,3}[am]1$", "O2", r"^[am]1$"), ("O1_M2", r"^o1.{0,3}[am]2$", "O1", r"^[am]2$")]
 _SIMPLE = {"emg": "EMG", "ecg": "ECG", "spo2": "SpO2", "hr": "HR", "pleth": "pleth", "pos": "pos",
            "snore": "snore", "flow": "airflow"}
+_PAIRED = ("emg", "ecg", "emg_leg")
+
+
+def leg_side(s):
+    """RAT or LAT when a lower-cased leg label names exactly one side, else None."""
+    right = re.search(r"dx|right|(^|_)r(_|\d|$)|^r(leg|tib)", s)
+    left = re.search(r"sx|sin|left|(^|_)l(_|\d|$)|^l(leg|tib)", s)
+    return ("RAT" if right else "LAT") if bool(right) != bool(left) else None
 
 
 def baseline(labels):
@@ -20,6 +28,11 @@ def baseline(labels):
 
     def find(pat):
         return next((l for l in labels if re.search(pat, low[l])), None)
+
+    def partner(s):
+        """The other half of a numbered pair (EMG1 for EMG2 and back), if the layout has it."""
+        m = re.search(r"[a-z]([12])$", s)
+        return find("^" + re.escape(s[:-1]) + ("2" if m.group(1) == "1" else "1") + "$") if m else None
 
     def add(label, target, reason, ref=None):
         if target in used:
@@ -32,6 +45,7 @@ def baseline(labels):
         s, t = low[l], label_type(l)
         hit = next((e for e in _EEG if re.search(e[1], s)), None)
         bare = next((e for e in _EEG if s == e[2].lower()), None)
+        pair = partner(s) if t in _PAIRED else None
         if hit:
             add(l, hit[0], "label names electrode and contralateral mastoid")
         elif bare and find(bare[3]):
@@ -45,14 +59,18 @@ def baseline(labels):
                 add(l, "LOC", "left eye label")
             else:
                 add(l, None, "eye label without a side")
-        elif t in ("emg", "ecg") and re.search(r"[a-z]1$", s) and find("^" + re.escape(s[:-1]) + "2$"):
-            add(l, _SIMPLE[t], "first of a numbered pair, referenced to the second", ref=find("^" + re.escape(s[:-1]) + "2$"))
-        elif t in ("emg", "ecg") and re.search(r"[a-z]2$", s) and find("^" + re.escape(s[:-1]) + "1$"):
+        elif pair and s.endswith("2"):
             add(l, None, "used as reference for its pair")
+        elif pair and t in ("emg", "ecg"):
+            add(l, _SIMPLE[t], "first of a numbered pair, referenced to the second", ref=pair)
         elif t == "effort":
             add(l, "thorax" if re.search(r"tor|thor", s) else "abdomen", "effort belt label")
         elif t == "emg_leg":
-            add(l, "RAT" if re.search(r"dx|right|^r", s) else "LAT", "leg label; dx is right, sx/sin is left")
+            side = leg_side(s)
+            if side:
+                add(l, side, "leg label; dx is right, sx/sin is left", ref=pair)
+            else:
+                add(l, None, "leg label without a side")
         elif t in _SIMPLE:
             add(l, _SIMPLE[t], f"label reads as {t}")
         else:

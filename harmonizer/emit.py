@@ -3,9 +3,13 @@ import os
 from .targets import TARGETS, VOLTAGE
 
 
+def _one_line(text):
+    return " ".join(str(text).split()).rstrip(".")
+
+
 def rule_text(layout_id, n_rec, m, voltage_units_ok, note):
     lines = [f"% {layout_id} ({n_rec} recordings): {m['label']}" + (f" / {m['ref']}" if m["ref"] else "") +
-             f" -> {m['target']}. {m['reason']}. {note}",
+             f" -> {m['target']}. {_one_line(m['reason'])}. {_one_line(note)}",
              m["target"], " group:", f"  {layout_id}", " req:", f"  sig = {m['label']}"]
     if m["ref"]:
         lines.append(f"  ref = {m['ref']}")
@@ -15,7 +19,10 @@ def rule_text(layout_id, n_rec, m, voltage_units_ok, note):
 
 
 def write_outputs(out_dir, layouts, mappings, notes, units_ok, prescript_lines):
-    """layouts: id -> (key, paths). mappings: id -> mapping. notes: (id, label) -> evidence note."""
+    """layouts: id -> (key, paths). mappings: id -> mapping. notes: (id, label) -> evidence note.
+
+    Sample-list paths are relative to out_dir, which run.sh changes into.
+    """
     os.makedirs(out_dir, exist_ok=True)
     with open(os.path.join(out_dir, "rules.sigs"), "w") as fh:
         fh.write("% Drafted CANONICAL rules. One group per header layout; run each layout's sample list with its group.\n\n")
@@ -28,11 +35,14 @@ def write_outputs(out_dir, layouts, mappings, notes, units_ok, prescript_lines):
     for lid, (_, paths) in layouts.items():
         with open(os.path.join(out_dir, "lists", f"{lid}.lst"), "w") as fh:
             for p in paths:
-                fh.write(f"{os.path.basename(p)[:-4]}\t{os.path.abspath(p)}\n")
+                fh.write(f"{os.path.basename(p)[:-4]}\t{os.path.relpath(p, out_dir)}\n")
     with open(os.path.join(out_dir, "prescript.txt"), "w") as fh:
         fh.write("% Luna pre-script. Every line is a suggestion left commented out: nothing is auto-corrected.\n")
         fh.write("\n".join(prescript_lines) + "\n")
-    with open(os.path.join(out_dir, "run.sh"), "w") as fh:
+    run = os.path.join(out_dir, "run.sh")
+    with open(run, "w") as fh:
         fh.write("#!/bin/sh\n# one CANONICAL run per layout, because the group is chosen per run\n")
+        fh.write('cd "$(dirname "$0")" || exit 1\n')
         for lid in layouts:
             fh.write(f"luna lists/{lid}.lst -o {lid}.db -s 'CANONICAL file=rules.sigs group={lid} drop-originals'\n")
+    os.chmod(run, 0o755)

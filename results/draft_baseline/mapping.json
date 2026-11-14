@@ -2125,14 +2125,14 @@
    {
     "label": "DX1",
     "target": "RAT",
-    "ref": null,
+    "ref": "DX2",
     "reason": "leg label; dx is right, sx/sin is left"
    },
    {
     "label": "DX2",
     "target": null,
     "ref": null,
-    "reason": "second candidate for an already mapped target (leg label; dx is right, sx/sin is left)"
+    "reason": "used as reference for its pair"
    },
    {
     "label": "MIC",
@@ -2287,14 +2287,14 @@
    {
     "label": "SX1",
     "target": "LAT",
-    "ref": null,
+    "ref": "SX2",
     "reason": "leg label; dx is right, sx/sin is left"
    },
    {
     "label": "SX2",
     "target": null,
     "ref": null,
-    "reason": "second candidate for an already mapped target (leg label; dx is right, sx/sin is left)"
+    "reason": "used as reference for its pair"
    },
    {
     "label": "TORACE",

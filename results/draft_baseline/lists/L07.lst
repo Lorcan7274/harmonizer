@@ -1,4 +1,4 @@
-ins2	/home/user/harmonizer/data/cap/excerpts/ins2.edf
-ins6	/home/user/harmonizer/data/cap/excerpts/ins6.edf
-narco5	/home/user/harmonizer/data/cap/excerpts/narco5.edf
-plm7	/home/user/harmonizer/data/cap/excerpts/plm7.edf
+ins2	../../data/cap/excerpts/ins2.edf
+ins6	../../data/cap/excerpts/ins6.edf
+narco5	../../data/cap/excerpts/narco5.edf
+plm7	../../data/cap/excerpts/plm7.edf

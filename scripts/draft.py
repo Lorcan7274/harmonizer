@@ -12,8 +12,11 @@ from harmonizer.mapping import baseline, validate
 from harmonizer.evidence import confidence, layout_evidence
 from harmonizer.emit import write_outputs
 from harmonizer.targets import TARGETS, VOLTAGE
-from harmonizer.checks import UNIT_TO_UV
+from harmonizer.checks import unit_scale
 
+READERS = ("baseline", "model-headers", "model-signals")
+if len(sys.argv) < 4 or (len(sys.argv) > 4 and sys.argv[4] not in READERS):
+    sys.exit(__doc__.strip())
 edf_dir, prefix, out_dir = sys.argv[1:4]
 reader = sys.argv[4] if len(sys.argv) > 4 else "baseline"
 audit = defaultdict(list)
@@ -26,6 +29,7 @@ mappings, notes, units_ok, problems, conf_rows, pre = {}, {}, {}, [], [], []
 for lid, (_, paths) in layouts.items():
     heads = {rid(p): read_header(p) for p in paths}
     labs = {r: luna_labels(h) for r, h in heads.items()}
+    pos = {r: {x.upper(): i for i, x in enumerate(ls)} for r, ls in labs.items()}
     first = heads[rid(paths[0])]
     order = labs[rid(paths[0])]
     ev = layout_evidence(labs, audit)
@@ -36,7 +40,7 @@ for lid, (_, paths) in layouts.items():
         from harmonizer.model import ask, layout_prompt
         chans = []
         for i, lab in enumerate(order):
-            idx = {r: [x.upper() for x in labs[r]].index(lab.upper()) for r in heads}
+            idx = {r: pos[r][lab.upper()] for r in heads}
             chans.append(dict(label=lab, original=first["ch"][i]["label"],
                               units=sorted({heads[r]["ch"][idx[r]]["unit"] for r in heads}),
                               rates=sorted({heads[r]["ch"][idx[r]]["sr"] for r in heads}),
@@ -52,16 +56,14 @@ for lid, (_, paths) in layouts.items():
         key = m["label"].upper()
         tally = Counter()
         for r in heads:
-            i = [x.upper() for x in labs[r]].index(key)
-            row = audit[r][i]
+            row = audit[r][pos[r][key]]
             c = confidence(m["target"], row)
             tally[c] += 1
             conf_rows.append(dict(layout=lid, id=r, label=m["label"], target=m["target"], confidence=c,
                                   trace_type=row["signal_type"], evidence=row["reason"]))
             if m["target"] == "ECG" and row["ecg_pol"] and float(row["ecg_pol"]) < -0.5:
                 pre.append(f"% {r}: ECG beats point down in {m['label']} (unverified heuristic).   FLIP sig={m['label']}")
-        units_ok[(lid, key)] = all(
-            heads[r]["ch"][[x.upper() for x in labs[r]].index(key)]["unit"].strip().lower() in UNIT_TO_UV for r in heads)
+        units_ok[(lid, key)] = all(unit_scale(heads[r]["ch"][pos[r][key]]["unit"]) is not None for r in heads)
         if TARGETS[m["target"]] in VOLTAGE and not units_ok[(lid, key)]:
             pre.append(f"% {lid}: {m['label']} has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig={m['label']} unit=?")
         notes[(lid, key)] = "Evidence: " + ", ".join(f"{n} {k}" for k, n in sorted(tally.items()))

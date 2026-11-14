@@ -1,5 +1,5 @@
-rbd19	/home/user/harmonizer/data/cap/excerpts/rbd19.edf
-rbd2	/home/user/harmonizer/data/cap/excerpts/rbd2.edf
-rbd21	/home/user/harmonizer/data/cap/excerpts/rbd21.edf
-rbd22	/home/user/harmonizer/data/cap/excerpts/rbd22.edf
-rbd9	/home/user/harmonizer/data/cap/excerpts/rbd9.edf
+rbd19	../../data/cap/excerpts/rbd19.edf
+rbd2	../../data/cap/excerpts/rbd2.edf
+rbd21	../../data/cap/excerpts/rbd21.edf
+rbd22	../../data/cap/excerpts/rbd22.edf
+rbd9	../../data/cap/excerpts/rbd9.edf

@@ -1,2 +1,2 @@
-rbd16	/home/lorcan/code/github.com/Lorcan7274/harmonizer/data/cap/excerpts/rbd16.edf
-rbd3	/home/lorcan/code/github.com/Lorcan7274/harmonizer/data/cap/excerpts/rbd3.edf
+rbd16	../../data/cap/excerpts/rbd16.edf
+rbd3	../../data/cap/excerpts/rbd3.edf

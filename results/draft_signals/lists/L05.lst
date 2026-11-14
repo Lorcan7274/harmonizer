@@ -1,5 +1,5 @@
-rbd19	/home/lorcan/code/github.com/Lorcan7274/harmonizer/data/cap/excerpts/rbd19.edf
-rbd2	/home/lorcan/code/github.com/Lorcan7274/harmonizer/data/cap/excerpts/rbd2.edf
-rbd21	/home/lorcan/code/github.com/Lorcan7274/harmonizer/data/cap/excerpts/rbd21.edf
-rbd22	/home/lorcan/code/github.com/Lorcan7274/harmonizer/data/cap/excerpts/rbd22.edf
-rbd9	/home/lorcan/code/github.com/Lorcan7274/harmonizer/data/cap/excerpts/rbd9.edf
+rbd19	../../data/cap/excerpts/rbd19.edf
+rbd2	../../data/cap/excerpts/rbd2.edf
+rbd21	../../data/cap/excerpts/rbd21.edf
+rbd22	../../data/cap/excerpts/rbd22.edf
+rbd9	../../data/cap/excerpts/rbd9.edf
