@@ -1,0 +1,43 @@
+id,idx,label,unit,sr,label_type,signal_type,agree,unit_status,amp_uv,cal_inverted,ecg_pol,ecg_artefact,reason
+learn-nsrr01,0,SaO2,%,1.0,spo2,spo2,agree,n/a,,False,,False,"median 95, capped at 100"
+learn-nsrr01,1,PR,BPM,1.0,hr,hr,agree,n/a,,False,,False,median 67
+learn-nsrr01,2,EEG(sec),uV,125.0,eeg,neuro,agree,ok,7.917036474286166,False,,False,66% of power at 0.5-4 Hz
+learn-nsrr01,3,ECG,mV,250.0,ecg,ecg,agree,ok,132.35294117647055,False,-0.4822096317280453,False,"beats every 0.86s, spike ratio 25"
+learn-nsrr01,4,EMG,uV,125.0,emg,emg,agree,ok,3.216637667405764,False,,False,62% of power above 25 Hz
+learn-nsrr01,5,EOG(L),uV,50.0,eog,neuro,agree,ok,6.727850013261071,False,,False,87% of power at 0.5-4 Hz
+learn-nsrr01,6,EOG(R),uV,50.0,eog,neuro,agree,ok,6.29066794950743,False,,False,82% of power at 0.5-4 Hz
+learn-nsrr01,7,EEG,uV,125.0,eeg,neuro,agree,ok,8.815092502427255,False,,False,65% of power at 0.5-4 Hz
+learn-nsrr01,8,AIRFLOW,,10.0,flow,resp,agree,n/a,,True,,False,71% of power at 0.1-0.6 Hz
+learn-nsrr01,9,THOR RES,,10.0,effort,resp,agree,n/a,,True,,False,89% of power at 0.1-0.6 Hz
+learn-nsrr01,10,ABDO RES,,10.0,effort,resp,agree,n/a,,True,,False,84% of power at 0.1-0.6 Hz
+learn-nsrr01,11,POSITION,,1.0,pos,flat,flat,n/a,,False,,False,no variation
+learn-nsrr01,12,LIGHT,,1.0,light,flat,flat,n/a,,False,,False,no variation
+learn-nsrr01,13,OX STAT,,1.0,stat,flat,flat,n/a,,False,,False,no variation
+learn-nsrr02,0,SaO2,%,1.0,spo2,spo2,agree,n/a,,False,,False,"median 96, capped at 100"
+learn-nsrr02,1,PR,BPM,1.0,hr,hr,agree,n/a,,False,,False,median 62
+learn-nsrr02,2,EEG(sec),uV,125.0,eeg,emg,conflict,ok,23.124527377610676,False,,False,57% of power above 25 Hz
+learn-nsrr02,3,ECG,mV,250.0,ecg,ecg,agree,ok,1014.7058823529411,False,1.0,False,"beats every 0.93s, spike ratio 29"
+learn-nsrr02,4,EMG,uV,125.0,emg,emg,agree,ok,17.36024585209317,False,,False,88% of power above 25 Hz
+learn-nsrr02,5,EOG(L),uV,50.0,eog,neuro,agree,ok,10.422297168978035,False,,False,82% of power at 0.5-4 Hz
+learn-nsrr02,6,EOG(R),uV,50.0,eog,neuro,agree,ok,10.534461162676369,False,,False,83% of power at 0.5-4 Hz
+learn-nsrr02,7,EEG,uV,125.0,eeg,neuro,agree,ok,15.306286114864811,False,,False,65% of power at 0.5-4 Hz
+learn-nsrr02,8,AIRFLOW,,10.0,flow,resp,agree,n/a,,True,,False,93% of power at 0.1-0.6 Hz
+learn-nsrr02,9,THOR RES,,10.0,effort,discrete,conflict,n/a,,True,,False,100% of samples in 5 levels
+learn-nsrr02,10,ABDO RES,,10.0,effort,discrete,conflict,n/a,,True,,False,100% of samples in 5 levels
+learn-nsrr02,11,POSITION,,1.0,pos,flat,flat,n/a,,False,,False,no variation
+learn-nsrr02,12,LIGHT,,1.0,light,flat,flat,n/a,,False,,False,no variation
+learn-nsrr02,13,OX STAT,,1.0,stat,flat,flat,n/a,,False,,False,no variation
+learn-nsrr03,0,SaO2,%,1.0,spo2,spo2,agree,n/a,,False,,False,"median 93, capped at 100"
+learn-nsrr03,1,PR,BPM,1.0,hr,hr,agree,n/a,,False,,False,median 62
+learn-nsrr03,2,EEG(sec),uV,125.0,eeg,neuro,agree,ok,11.595281812356411,False,,False,69% of power at 0.5-4 Hz
+learn-nsrr03,3,ECG,mV,250.0,ecg,ecg,agree,ok,191.17647058823528,False,-0.8514494793132563,False,"beats every 0.81s, spike ratio 24"
+learn-nsrr03,4,EMG,uV,125.0,emg,emg,agree,ok,9.747853869930914,False,,False,58% of power above 25 Hz
+learn-nsrr03,5,EOG(L),uV,50.0,eog,neuro,agree,ok,64.55891402097997,False,,False,77% of power at 0.5-4 Hz
+learn-nsrr03,6,EOG(R),uV,50.0,eog,neuro,agree,ok,64.6187191703929,False,,False,75% of power at 0.5-4 Hz
+learn-nsrr03,7,EEG,uV,125.0,eeg,neuro,agree,ok,12.792479396105254,False,,False,65% of power at 0.5-4 Hz
+learn-nsrr03,8,AIRFLOW,,10.0,flow,resp,agree,n/a,,True,,False,82% of power at 0.1-0.6 Hz
+learn-nsrr03,9,THOR RES,,10.0,effort,resp,agree,n/a,,True,,False,66% of power at 0.1-0.6 Hz
+learn-nsrr03,10,ABDO RES,,10.0,effort,resp,agree,n/a,,True,,False,78% of power at 0.1-0.6 Hz
+learn-nsrr03,11,POSITION,,1.0,pos,flat,flat,n/a,,False,,False,no variation
+learn-nsrr03,12,LIGHT,,1.0,light,flat,flat,n/a,,False,,False,no variation
+learn-nsrr03,13,OX STAT,,1.0,stat,discrete,agree,n/a,,False,,False,100% of samples in 5 levels

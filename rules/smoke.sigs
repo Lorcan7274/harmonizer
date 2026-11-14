@@ -1,0 +1,10 @@
+% smoke-test rules only: checks that CANONICAL runs through lunapi, not a harmonisation proposal
+ECG
+ req:
+  sig = ECG,EKG
+  unit = mV
+  unit = uV
+ set:
+  unit = mV
+
+SpO2 <- SaO2 SpO2
