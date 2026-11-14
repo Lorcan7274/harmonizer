@@ -24,8 +24,14 @@ def rng(url, a, b):
 
 
 def size(url):
-    with urllib.request.urlopen(urllib.request.Request(url, method="HEAD"), timeout=60) as r:
-        return int(r.headers["Content-Length"])
+    for attempt in range(5):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, method="HEAD"), timeout=60) as r:
+                return int(r.headers["Content-Length"])
+        except Exception:
+            if attempt == 4:
+                raise
+            time.sleep(2 ** attempt)
 
 
 def fetch(name, out, nwin, wsec):
@@ -64,7 +70,7 @@ if __name__ == "__main__":
     os.makedirs(out, exist_ok=True)
     names = urllib.request.urlopen("https://physionet.org/files/capslpdb/1.0.0/RECORDS", timeout=60).read().decode().split()
     t = time.time()
-    with ThreadPoolExecutor(6) as ex:
+    with ThreadPoolExecutor(4) as ex:
         for name, st in ex.map(lambda n: fetch(n, out, nwin, wsec), names):
             print(name, st, flush=True)
     print(f"done {len(names)} in {time.time() - t:.0f}s")
