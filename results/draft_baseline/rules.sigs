@@ -12,7 +12,7 @@ C4_M1
  set:
   unit = uV
 
-% L01 (22 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 flag, 21 high
+% L01 (22 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 22 high
 EOG
  group:
   L01
@@ -105,7 +105,7 @@ C4_M1
  set:
   unit = uV
 
-% L02 (10 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 4 flag, 6 high
+% L02 (10 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 flag, 9 high
 EOG
  group:
   L02
@@ -300,7 +300,7 @@ pleth
  req:
   sig = PLETH
 
-% L04 (5 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 flag, 4 high
+% L04 (5 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 5 high
 C4_M1
  group:
   L04
@@ -312,7 +312,7 @@ C4_M1
  set:
   unit = uV
 
-% L04 (5 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 flag, 4 high
+% L04 (5 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 5 high
 EOG
  group:
   L04
@@ -417,7 +417,7 @@ C4_M1
  set:
   unit = uV
 
-% L05 (5 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 flag, 4 high
+% L05 (5 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 5 high
 EMG
  group:
   L05
@@ -591,7 +591,7 @@ C4_M1
  set:
   unit = uV
 
-% L07 (4 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 flag, 3 high
+% L07 (4 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 4 high
 EOG
  group:
   L07
@@ -951,7 +951,7 @@ thorax
  req:
   sig = TORACE
 
-% L10 (2 recordings): ADDOME -> abdomen. effort belt label. Evidence: 2 high
+% L10 (2 recordings): ADDOME -> abdomen. effort belt label. Evidence: 1 flag, 1 high
 abdomen
  group:
   L10
@@ -1065,14 +1065,14 @@ LAT
  set:
   unit = uV
 
-% L11 (2 recordings): TORACE -> thorax. effort belt label. Evidence: 2 high
+% L11 (2 recordings): TORACE -> thorax. effort belt label. Evidence: 1 flag, 1 high
 thorax
  group:
   L11
  req:
   sig = TORACE
 
-% L11 (2 recordings): ADDOME -> abdomen. effort belt label. Evidence: 2 high
+% L11 (2 recordings): ADDOME -> abdomen. effort belt label. Evidence: 1 flag, 1 high
 abdomen
  group:
   L11
@@ -1107,7 +1107,7 @@ pleth
  req:
   sig = PLETH
 
-% L12 (2 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 flag, 1 high
+% L12 (2 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 2 high
 EOG
  group:
   L12
@@ -1849,7 +1849,7 @@ C4_M1
  set:
   unit = uV
 
-% L18 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 flag
+% L18 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
 EOG
  group:
   L18
@@ -2324,7 +2324,7 @@ C4_M1
  set:
   unit = uV
 
-% L22 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 flag
+% L22 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
 EOG
  group:
   L22
@@ -2709,7 +2709,7 @@ airflow
  req:
   sig = TERMISTORE
 
-% L25 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 high
+% L25 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 flag
 thorax
  group:
   L25
@@ -2961,7 +2961,7 @@ thorax
  req:
   sig = TORACE
 
-% L27 (1 recordings): ADDOME -> abdomen. effort belt label. Evidence: 1 high
+% L27 (1 recordings): ADDOME -> abdomen. effort belt label. Evidence: 1 flag
 abdomen
  group:
   L27
@@ -3726,7 +3726,7 @@ C4_M1
  set:
   unit = uV
 
-% L36 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 flag
+% L36 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
 EOG
  group:
   L36
@@ -4210,7 +4210,7 @@ C4_M1
  set:
   unit = uV
 
-% L41 (1 recordings): milo -> EMG. label reads as emg. Evidence: 1 flag
+% L41 (1 recordings): milo -> EMG. label reads as emg. Evidence: 1 high
 EMG
  group:
   L41
@@ -4234,7 +4234,7 @@ LOC
  set:
   unit = uV
 
-% L41 (1 recordings): tib_dx -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
+% L41 (1 recordings): tib_dx -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
 RAT
  group:
   L41
@@ -4656,7 +4656,7 @@ snore
  req:
   sig = MIC
 
-% L46 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 flag
+% L46 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
 EOG
  group:
   L46

@@ -157,6 +157,7 @@
 "made": 10,
 "need": [
 "eeg",
+"eog",
 "emg",
 "ecg"
 ],
@@ -257,6 +258,8 @@
 "layout": "L04",
 "made": 9,
 "need": [
+"eeg",
+"eog",
 "emg",
 "ecg"
 ],
@@ -270,6 +273,7 @@
 "need": [
 "eeg",
 "eog",
+"emg",
 "ecg"
 ],
 "all_required_right": true,
@@ -421,6 +425,7 @@
 "made": 12,
 "need": [
 "eeg",
+"eog",
 "emg",
 "ecg"
 ],
@@ -459,6 +464,7 @@
 "made": 14,
 "need": [
 "eeg",
+"eog",
 "emg",
 "ecg"
 ],
@@ -532,6 +538,7 @@
 "need": [
 "eeg",
 "eog",
+"emg",
 "ecg"
 ],
 "all_required_right": true,

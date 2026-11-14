@@ -5,6 +5,7 @@
 "made": 9,
 "need": [
 "eeg",
+"eog",
 "emg",
 "ecg"
 ],
@@ -311,6 +312,7 @@
 "made": 10,
 "need": [
 "eeg",
+"eog",
 "emg",
 "ecg"
 ],
@@ -323,6 +325,7 @@
 "made": 10,
 "need": [
 "eeg",
+"eog",
 "emg",
 "ecg"
 ],
@@ -360,6 +363,7 @@
 "made": 10,
 "need": [
 "eeg",
+"eog",
 "emg",
 "ecg"
 ],
@@ -526,6 +530,8 @@
 "layout": "L04",
 "made": 9,
 "need": [
+"eeg",
+"eog",
 "emg",
 "ecg"
 ],
@@ -565,6 +571,7 @@
 "need": [
 "eeg",
 "eog",
+"emg",
 "ecg"
 ],
 "all_required_right": true,
@@ -706,6 +713,7 @@
 "made": 9,
 "need": [
 "eeg",
+"eog",
 "emg",
 "ecg"
 ],
@@ -832,6 +840,7 @@
 "made": 12,
 "need": [
 "eeg",
+"eog",
 "emg",
 "ecg"
 ],
@@ -958,6 +967,7 @@
 "made": 14,
 "need": [
 "eeg",
+"eog",
 "emg",
 "ecg"
 ],
@@ -1007,6 +1017,7 @@
 "made": 13,
 "need": [
 "eeg",
+"eog",
 "emg"
 ],
 "all_required_right": true,
@@ -1188,6 +1199,7 @@
 "made": 10,
 "need": [
 "eeg",
+"eog",
 "emg",
 "ecg"
 ],
@@ -1251,6 +1263,7 @@
 "need": [
 "eeg",
 "eog",
+"emg",
 "ecg"
 ],
 "all_required_right": true,
@@ -1314,6 +1327,7 @@
 "made": 10,
 "need": [
 "eeg",
+"eog",
 "emg",
 "ecg"
 ],
