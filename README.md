@@ -4,7 +4,7 @@ Channel auditor for sleep recordings: checks what each channel is against what t
 
 ## Status
 
-Built: EDF reader, layout grouping, per-channel signal checks, label-swap injector, evidence-based confidence, a rule drafter that writes the three output files, and a scorer that runs the drafted rules through Luna's real `CANONICAL` via `lunapi`. The model reader is written but has not been run: no API key was available where this was built. Not built: the EEG polarity check (needs staging) and stage 1 against the NSRR rule file.
+Built: EDF reader, layout grouping, per-channel signal checks, label-swap injector, evidence-based confidence, a rule drafter that writes the three output files, a scorer that runs the drafted rules through Luna's real `CANONICAL` via `lunapi`, and two Claude label readers (headers only, and headers plus signal evidence), both run on CAP. Not built: the EEG polarity check (needs staging) and stage 1 against the NSRR rule file.
 
 ## Draft and score
 
@@ -16,9 +16,9 @@ python3 scripts/draft.py data/cap/excerpts results/cap results/draft_headers mod
 python3 scripts/draft.py data/cap/excerpts results/cap results/draft_signals model-signals
 ```
 
-Each draft directory holds `rules.sigs` (one group per layout, reason and evidence as a comment on every rule), `lists/Lnn.lst`, `prescript.txt` (suggestions, all commented out), `run.sh`, `confidence.csv` and `mapping.json`. Model responses are cached in `model_cache/`.
+Each draft directory holds `rules.sigs` (one group per layout, reason and evidence as a comment on every rule), `lists/Lnn.lst` (paths relative to the draft directory), `prescript.txt` (suggestions, all commented out), `run.sh` (runs from any directory), `confidence.csv` and `mapping.json`. Model responses are cached in `model_cache/`, so redrafting with unchanged prompts needs no API key.
 
-Results on CAP (share of recordings where every required signal comes out right through real CANONICAL):
+Results on CAP (recordings where every required signal comes out right through real CANONICAL, out of 63 dev and 45 held-out):
 
 | Reader | Dev (63) | Held-out (45) | Confident and wrong |
 | --- | --- | --- | --- |
@@ -43,18 +43,20 @@ What the signal evidence changed: it mapped `TAG` to left leg EMG (French, tibia
 | `harmonizer/model.py` | Claude label reader, cached |
 | `harmonizer/evidence.py` | Confidence from label/trace agreement |
 | `harmonizer/emit.py` | Rule file, sample lists, pre-script |
+| `harmonizer/targets.py` | Canonical targets and which types a recording must get right |
 | `scripts/draft.py` | Draft rules for a cohort |
 | `scripts/score.py` | Score a draft through CANONICAL against the answer key |
 | `scripts/fetch_cap.py` | Fetch CAP excerpts by HTTP range request |
 | `scripts/audit_cohort.py` | Run the checks on a directory of EDFs |
 | `scripts/retype.py` | Re-type from cached features after a rule change |
 | `scripts/summarise.py` | Agreement table, flags per recording, swap recall |
-| `scripts/answer_key.py` | Draft answer key with settled/unsettled status |
+| `scripts/answer_key.py` | Draft answer key with settled/unsettled status; keeps reader rulings on re-run |
+| `tests/test_core.py` | Unit tests on synthetic EDFs, no data needed: `python3 -m pytest tests` |
 
 ## Reproduce
 
 ```
-pip install lunapi numpy scipy anthropic
+pip install lunapi numpy scipy anthropic pytest
 python3 scripts/fetch_cap.py data/cap/excerpts 8 300   # 3 GB, about 1 minute
 python3 scripts/audit_cohort.py data/cap/excerpts results/cap   # about 3.5 minutes on 4 cores
 python3 scripts/summarise.py results/cap held
