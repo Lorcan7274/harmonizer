@@ -1,0 +1,96 @@
+{
+ "prompt": "Layout L45, 1 recording(s).\n\nCanonical targets (name: kind): C4_M1: eeg, C3_M2: eeg, F4_M1: eeg, F3_M2: eeg, O2_M1: eeg, O1_M2: eeg, LOC: eog, ROC: eog, EOG: eog, EMG: emg, ECG: ecg, LAT: emg_leg, RAT: emg_leg, thorax: effort, abdomen: effort, airflow: flow, nas_pres: flow, SpO2: spo2, HR: hr, pleth: pleth, pos: pos, snore: snore\n\nChannels:\n- label=Fp2_F4 | original='Fp2-F4' | units=['uV'] | rates_hz=[512.0] | transducer='EEG Fp2-F4' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=F4_C4 | original='F4-C4' | units=['uV'] | rates_hz=[512.0] | transducer='EEG F4-C4' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=C4_P4 | original='C4-P4' | units=['uV'] | rates_hz=[512.0] | transducer='EEG C4-P4' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=P4_O2 | original='P4-O2' | units=['uV'] | rates_hz=[512.0] | transducer='EEG P4-O2' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=C4_A1 | original='C4-A1' | units=['uV'] | rates_hz=[512.0] | transducer='EEG C4-A1' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=ROC_LOC | original='ROC-LOC' | units=['uV'] | rates_hz=[128.0] | transducer='EOG' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=EMG1_EMG2 | original='EMG1-EMG2' | units=['uV'] | rates_hz=[512.0] | transducer='EEG EMG1-EMG2' | prefilter='LP:100.00Hz HP:10.00Hz NOTCH:50'\n- label=ECG1_ECG2 | original='ECG1-ECG2' | units=['mV'] | rates_hz=[512.0] | transducer='EEG ECG1-ECG2' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=DX1_DX2 | original='DX1-DX2' | units=['uV'] | rates_hz=[128.0] | transducer='EMG' | prefilter='LP:100.00Hz HP:10.00Hz NOTCH:50'\n- label=SX1_SX2 | original='SX1-SX2' | units=['uV'] | rates_hz=[128.0] | transducer='EMG' | prefilter='LP:100.00Hz HP:10.00Hz NOTCH:50'\n- label=SAO2 | original='SAO2' | units=['%'] | rates_hz=[1.0] | transducer='Oximeter' | prefilter=''\n- label=HR | original='HR' | units=['BPM'] | rates_hz=[1.0] | transducer='Oximeter' | prefilter=''\n- label=PLETH | original='PLETH' | units=['mV'] | rates_hz=[128.0] | transducer='Pwave' | prefilter=''\n- label=STAT | original='STAT' | units=[''] | rates_hz=[1.0] | transducer='Oximeter' | prefilter=''\n- label=MIC | original='MIC' | units=['uV'] | rates_hz=[128.0] | transducer='Sound' | prefilter='LP:80.00Hz HP:10.00Hz NOTCH:50'",
+ "model": "claude-opus-5-5",
+ "channels": [
+  {
+   "label": "Fp2_F4",
+   "target": "none",
+   "ref": "",
+   "reason": "Bipolar EEG chain Fp2-F4 has no canonical counterpart."
+  },
+  {
+   "label": "F4_C4",
+   "target": "none",
+   "ref": "",
+   "reason": "Bipolar EEG chain F4-C4 has no canonical counterpart."
+  },
+  {
+   "label": "C4_P4",
+   "target": "none",
+   "ref": "",
+   "reason": "Bipolar EEG chain C4-P4 has no canonical counterpart."
+  },
+  {
+   "label": "P4_O2",
+   "target": "none",
+   "ref": "",
+   "reason": "Bipolar EEG chain P4-O2 has no canonical counterpart."
+  },
+  {
+   "label": "C4_A1",
+   "target": "C4_M1",
+   "ref": "",
+   "reason": "Right central EEG referenced to contralateral mastoid A1 (=M1)."
+  },
+  {
+   "label": "ROC_LOC",
+   "target": "EOG",
+   "ref": "",
+   "reason": "Bipolar right-minus-left EOG derivation, not a single-side LOC/ROC."
+  },
+  {
+   "label": "EMG1_EMG2",
+   "target": "EMG",
+   "ref": "",
+   "reason": "Bipolar EMG with 10-100 Hz filter, chin EMG."
+  },
+  {
+   "label": "ECG1_ECG2",
+   "target": "ECG",
+   "ref": "",
+   "reason": "Bipolar ECG lead in mV."
+  },
+  {
+   "label": "DX1_DX2",
+   "target": "RAT",
+   "ref": "",
+   "reason": "Italian 'dx' (right) EMG pair, right leg/tibialis EMG."
+  },
+  {
+   "label": "SX1_SX2",
+   "target": "LAT",
+   "ref": "",
+   "reason": "Italian 'sx' (left) EMG pair, left leg/tibialis EMG."
+  },
+  {
+   "label": "SAO2",
+   "target": "SpO2",
+   "ref": "",
+   "reason": "Oximeter saturation in %."
+  },
+  {
+   "label": "HR",
+   "target": "HR",
+   "ref": "",
+   "reason": "Oximeter heart rate in BPM."
+  },
+  {
+   "label": "PLETH",
+   "target": "pleth",
+   "ref": "",
+   "reason": "Oximeter pulse waveform."
+  },
+  {
+   "label": "STAT",
+   "target": "none",
+   "ref": "",
+   "reason": "Oximeter status channel, no canonical counterpart."
+  },
+  {
+   "label": "MIC",
+   "target": "snore",
+   "ref": "",
+   "reason": "Sound microphone channel, used as snore sensor."
+  }
+ ]
+}

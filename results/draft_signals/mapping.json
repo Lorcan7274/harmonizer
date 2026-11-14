@@ -1,0 +1,5494 @@
+{
+ "reader": "model-signals",
+ "layouts": {
+  "L01": [
+   "n11",
+   "nfle1",
+   "nfle12",
+   "nfle15",
+   "nfle16",
+   "nfle17",
+   "nfle2",
+   "nfle21",
+   "nfle27",
+   "nfle28",
+   "nfle29",
+   "nfle3",
+   "nfle34",
+   "nfle35",
+   "nfle36",
+   "nfle38",
+   "nfle39",
+   "nfle40",
+   "nfle5",
+   "nfle7",
+   "plm9",
+   "rbd18"
+  ],
+  "L02": [
+   "n3",
+   "n5",
+   "nfle13",
+   "nfle14",
+   "nfle18",
+   "nfle22",
+   "nfle24",
+   "nfle30",
+   "nfle37",
+   "nfle4"
+  ],
+  "L03": [
+   "ins8",
+   "rbd10",
+   "rbd11",
+   "rbd5",
+   "rbd8"
+  ],
+  "L04": [
+   "nfle10",
+   "nfle11",
+   "nfle19",
+   "nfle23",
+   "nfle26"
+  ],
+  "L05": [
+   "rbd19",
+   "rbd2",
+   "rbd21",
+   "rbd22",
+   "rbd9"
+  ],
+  "L06": [
+   "narco4",
+   "nfle9",
+   "plm2",
+   "plm6",
+   "rbd17"
+  ],
+  "L07": [
+   "ins2",
+   "ins6",
+   "narco5",
+   "plm7"
+  ],
+  "L08": [
+   "brux1",
+   "brux2",
+   "n10"
+  ],
+  "L09": [
+   "ins1",
+   "sdb4"
+  ],
+  "L10": [
+   "rbd16",
+   "rbd3"
+  ],
+  "L11": [
+   "rbd12",
+   "rbd13"
+  ],
+  "L12": [
+   "ins9",
+   "rbd7"
+  ],
+  "L13": [
+   "n13",
+   "n14"
+  ],
+  "L14": [
+   "n6",
+   "n7"
+  ],
+  "L15": [
+   "ins5",
+   "ins7"
+  ],
+  "L16": [
+   "nfle25"
+  ],
+  "L17": [
+   "nfle33"
+  ],
+  "L18": [
+   "nfle31"
+  ],
+  "L19": [
+   "n8"
+  ],
+  "L20": [
+   "plm1"
+  ],
+  "L21": [
+   "sdb2"
+  ],
+  "L22": [
+   "sdb1"
+  ],
+  "L23": [
+   "n1"
+  ],
+  "L24": [
+   "plm10"
+  ],
+  "L25": [
+   "sdb3"
+  ],
+  "L26": [
+   "rbd6"
+  ],
+  "L27": [
+   "plm5"
+  ],
+  "L28": [
+   "rbd14"
+  ],
+  "L29": [
+   "rbd1"
+  ],
+  "L30": [
+   "ins3"
+  ],
+  "L31": [
+   "plm8"
+  ],
+  "L32": [
+   "plm4"
+  ],
+  "L33": [
+   "n15"
+  ],
+  "L34": [
+   "n12"
+  ],
+  "L35": [
+   "n9"
+  ],
+  "L36": [
+   "nfle6"
+  ],
+  "L37": [
+   "nfle20"
+  ],
+  "L38": [
+   "nfle32"
+  ],
+  "L39": [
+   "plm3"
+  ],
+  "L40": [
+   "nfle8"
+  ],
+  "L41": [
+   "n4"
+  ],
+  "L42": [
+   "rbd4"
+  ],
+  "L43": [
+   "rbd20"
+  ],
+  "L44": [
+   "rbd15"
+  ],
+  "L45": [
+   "n2"
+  ],
+  "L46": [
+   "narco1"
+  ],
+  "L47": [
+   "narco3"
+  ],
+  "L48": [
+   "narco2"
+  ],
+  "L49": [
+   "ins4"
+  ],
+  "L50": [
+   "n16"
+  ]
+ },
+ "mappings": {
+  "L01": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "T4_T6",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "T3_T5",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "Right central EEG referenced to left mastoid/ear (contralateral reference is a reasonable C4_M1 equivalent); traces neuro."
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC eye derivation, traces neuro; single combined EOG."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG with 10-100 Hz filter; traces mostly emg."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead; traces mostly ecg."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "DX (Italian destro, right) EMG pair, likely right tibialis; traces emg."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "SX (Italian sinistro, left) EMG pair, likely left tibialis; traces mostly emg."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in %, 1 Hz; traces spo2."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM; traces hr."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse wave plethysmogram from oximeter; traces pleth."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status channel, mostly flat; no canonical counterpart."
+   }
+  ],
+  "L02": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "T4_T6",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "T3_T5",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to left mastoid/ear (A1), neuro trace in all recordings."
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar right-minus-left eye derivation, single combined EOG channel."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG with 10-100 Hz filter and EMG-like trace."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead with ECG trace in all recordings."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Italian 'dx' (right) EMG channel, likely right tibialis leg EMG."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Italian 'sx' (left) EMG channel, likely left tibialis leg EMG."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in % at 1 Hz."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse waveform from oximeter with pleth trace."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status channel, flat, no canonical counterpart."
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "Sound microphone channel used for snoring."
+   }
+  ],
+  "L03": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar right-to-left eye derivation with an EOG transducer and neuro-type traces, so it is a single combined EOG channel."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 is referenced to the contralateral left ear (A1), the standard central derivation, and the traces look neuro."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar EMG pair with a 10-100 Hz filter and EMG-like traces, consistent with chin EMG."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead, and the trace is ECG-like in 4 of 5 recordings."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Italian 'dx' means right, and the EMG transducer with EMG traces fits right leg EMG."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Italian 'sx' means left, and the EMG transducer with EMG traces fits left leg EMG."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "The label is a bipolar temporal EEG chain, but the 10-100 Hz filter and EMG-like traces make its actual use unclear."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "The label is a bipolar temporal EEG chain, and its EMG filter and mixed EMG/neuro traces make its use unclear."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Italian 'torace' means thorax, and the trace shows a respiratory effort signal."
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "Italian 'addome' means abdomen, and the trace shows a respiratory effort signal."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation channel in % with SpO2-like traces."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate channel in BPM with HR-like traces."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse wave transducer with plethysmogram traces."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status channel that is flat in all recordings, so it is not a physiological signal."
+   }
+  ],
+  "L04": [
+   {
+    "label": "FP2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "T4_T6",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "T3_T5",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to contralateral mastoid A1; trace looked neuro in 4 of 5 recordings (one odd resp-like trace)."
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar right-minus-left eye derivation, so generic EOG rather than LOC or ROC."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Chin EMG bipolar pair at 256 Hz with 10-100 Hz filter; trace was EMG in all recordings."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "ECG bipolar lead; trace was ECG in all recordings."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Italian 'dx' (right) leg EMG pair at 256 Hz with EMG filter; trace mixed neuro/EMG, likely low-amplitude leg EMG, worth checking."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Italian 'sx' (left) leg EMG pair at 256 Hz with EMG filter; trace mostly EMG."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oxygen saturation in % at 1 Hz; trace was SpO2 in all recordings."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Heart rate in BPM at 1 Hz; trace was HR in all recordings."
+   },
+   {
+    "label": "Pleth",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Plethysmogram from oximeter; trace was pleth in 4 of 5 recordings."
+   },
+   {
+    "label": "Ox_Status",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status flag, flat in all recordings; no canonical counterpart."
+   }
+  ],
+  "L05": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Single bipolar ROC-LOC eye derivation with EOG transducer and neuro trace."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to contralateral mastoid/ear A1, neuro trace."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG with 10-100 Hz filter; emg trace in 4 of 5 recordings."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead in mV with ecg trace in all recordings."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Italian dx (right) bipolar EMG pair with emg trace, consistent with right tibialis."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Italian sx/sin (left) bipolar EMG pair with emg trace, consistent with left tibialis."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG chain with EMG-like filtering; no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG chain with mixed traces; no canonical counterpart."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in % at 1 Hz with spo2 trace."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM with hr trace."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse waveform channel with pleth trace."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status flag, flat or discrete, not a physiological signal."
+   }
+  ],
+  "L06": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "Right central EEG referenced to a mastoid/ear electrode (A1), a pre-referenced central derivation with neuro traces."
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar right-minus-left EOG derivation, not a single-side LOC or ROC."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG with 10-100 Hz filter and EMG-like traces."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead in mV with ECG traces."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Italian 'dx' (right) bipolar EMG with 10 Hz high-pass and EMG traces, consistent with right leg tibialis."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Italian 'sx' (left) bipolar EMG with 10 Hz high-pass and EMG traces, consistent with left leg tibialis."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in % with SpO2 traces."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM with HR traces."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Oximeter pulse waveform with pleth traces."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status channel, mostly flat, not a physiological signal."
+   }
+  ],
+  "L07": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation Fp2-F4 has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation F4-C4 has no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation C4-P4 has no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation P4-O2 has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to the left ear/mastoid (A1), with neuro traces in all recordings."
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC eye channel with EOG transducer; it looked neuro in 3 of 4 recordings (1 resp-like)."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG with a 10-100 Hz filter and EMG traces in all recordings."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG in mV with ECG traces in all recordings."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "DX (Italian destro, right) with an EMG filter and mostly EMG traces fits right tibialis."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "SX (Italian sinistro, left) with mostly EMG traces fits left tibialis."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in % with SpO2 traces in all recordings."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM with HR traces in all recordings."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse-wave plethysmogram, which looked like pleth in 3 of 4 recordings."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status flag, flat or discrete, with no canonical counterpart."
+   }
+  ],
+  "L08": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "T4_T6",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "T3_T5",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": null,
+    "ref": null,
+    "reason": "C4 referenced to ipsilateral A1 (left mastoid is contralateral to C4 so this is actually C4-M1 equivalent) \u2014 A1 is left ear, so C4-A1 matches C4_M1."
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar right-minus-left eye derivation with EOG transducer and neuro-type trace."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG with 10-100 Hz filter and EMG-like trace."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead with ECG-like trace in all recordings."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Italian 'dx' (right) EMG pair with EMG filter, consistent with right leg/tibialis EMG."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Italian 'sx' (left) EMG pair with EMG filter, consistent with left leg/tibialis EMG."
+   }
+  ],
+  "L09": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "Right central EEG referenced to an ear/mastoid (A1); only referenced central lead, neuro trace in both recordings."
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar right-left eye derivation, so it maps to the generic EOG target rather than LOC or ROC."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Chin EMG bipolar pair with a 10-80 Hz filter; it showed an EMG-like trace in one recording."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "ECG lead pair; it showed an ECG trace in one recording."
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "Microphone with a sound transducer, used as the snore channel."
+   },
+   {
+    "label": "Flusso",
+    "target": "nas_pres",
+    "ref": null,
+    "reason": "Italian 'flusso' (flow) with a pressure transducer, so it is nasal pressure; flat in one recording."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Italian 'torace' is thoracic effort; respiratory trace in both recordings."
+   },
+   {
+    "label": "ADDDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "Misspelled Italian 'addome' is abdominal effort; respiratory trace in one recording."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in % at 1 Hz."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Italian 'sinistra' (SX) EMG pair with a 10-80 Hz filter and EMG trace, so left leg EMG."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Italian 'destra' (DX) EMG pair with a 10 Hz high-pass, so right leg EMG; EMG trace in one recording."
+   },
+   {
+    "label": "Position",
+    "target": "pos",
+    "ref": null,
+    "reason": "Body position channel; flat in both recordings, which can be normal if the patient did not change position."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Oximeter pulse waveform (Pwave transducer); pleth trace in one recording."
+   }
+  ],
+  "L10": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC EOG derivation fits the generic EOG target; one recording's trace looked respiratory-like, so it is worth checking."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain Fp2-F4 has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain F4-C4 has no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain C4-P4 has no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain P4-O2 has no canonical counterpart."
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain Fp1-F3 has no canonical counterpart."
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain F3-C3 has no canonical counterpart."
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain C3-P3 has no canonical counterpart."
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain P3-O1 has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to contralateral mastoid/ear A1 with neuro trace."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG with 10-100 Hz filter and EMG trace."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead with ECG trace in both recordings."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "DX (Italian destra, right) leg EMG with EMG transducer and filtering."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "SX (Italian sinistra, left) leg EMG with EMG trace in both recordings."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain F8-T4 with EMG-like trace has no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain F7-T3 with EMG-like trace has no canonical counterpart."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Italian torace = thoracic effort belt with respiratory trace."
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "Italian addome = abdominal effort belt with respiratory trace."
+   },
+   {
+    "label": "Position",
+    "target": null,
+    "ref": null,
+    "reason": "Labeled position, but the trace was flat in both recordings, so the signal does not support mapping."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in % with SpO2 trace."
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "Sound microphone channel with high-frequency trace, consistent with a snore sensor."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse waveform with pleth trace in both recordings."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status channel is flat and has no canonical counterpart."
+   }
+  ],
+  "L11": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC EOG derivation with an EOG transducer and a neuro-type trace, so it maps to the generic EOG."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to the contralateral mastoid/ear A1, with a neuro trace."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Chin EMG bipolar pair with a 10-100 Hz filter and an EMG-type trace."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "ECG lead in mV with an ECG-type trace."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Italian dx (right) EMG pair with an EMG trace, taken as right tibialis leg EMG."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Italian sx/sin (left) EMG pair with an EMG trace, taken as left tibialis leg EMG."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal channel with an EMG-type filter and trace; no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal channel with an EMG/ECG-like trace; no canonical counterpart."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Italian torace (thorax) effort belt with a respiratory trace."
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "Italian addome (abdomen) effort belt with a respiratory trace."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in % with an SpO2 trace."
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "Sound microphone with a 10-80 Hz filter, used as the snore channel; its EMG-like trace fits an audio signal."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM; one recording's trace looked SpO2-like but the HR and SpO2 value ranges overlap."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse waveform from the oximeter with a pleth trace."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status channel, flat in both recordings."
+   }
+  ],
+  "L12": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC derivation with EOG transducer; one recording looked respiratory-like, so check it, but the label and filters support a combined EOG."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to the contralateral mastoid/ear A1, with neuro traces in both recordings."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG with a 10-100 Hz filter and EMG traces."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG in mV with ECG traces."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "DX (Italian destra, right) bipolar leg EMG with EMG traces."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "SX (Italian sinistra, left) bipolar leg EMG with EMG traces."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG chain (EMG-like filter) with no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Italian torace means thoracic effort, and the traces are respiratory."
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "Italian addome means abdominal effort, and the traces are respiratory."
+   },
+   {
+    "label": "Position",
+    "target": "pos",
+    "ref": null,
+    "reason": "Body position DC channel; discrete in one recording and flat in the other."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in % with SpO2 traces."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM with HR traces."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse waveform with pleth traces."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status channel, flat, with no canonical counterpart."
+   }
+  ],
+  "L13": [
+   {
+    "label": "LOC",
+    "target": "LOC",
+    "ref": null,
+    "reason": "Left outer canthus EOG label with a neuro-type trace."
+   },
+   {
+    "label": "ROC",
+    "target": "ROC",
+    "ref": null,
+    "reason": "Right outer canthus EOG label with a neuro-type trace."
+   },
+   {
+    "label": "CHIN1",
+    "target": "EMG",
+    "ref": "CHIN2",
+    "reason": "Chin EMG electrode with an EMG-type trace, referenced to the separately recorded CHIN2."
+   },
+   {
+    "label": "CHIN2",
+    "target": null,
+    "ref": null,
+    "reason": "Second chin electrode, used as the reference for CHIN1."
+   },
+   {
+    "label": "F3A2",
+    "target": "F3_M2",
+    "ref": null,
+    "reason": "F3 referenced to A2 (contralateral mastoid) with a neuro trace."
+   },
+   {
+    "label": "F4A1",
+    "target": "F4_M1",
+    "ref": null,
+    "reason": "F4 referenced to A1 (contralateral mastoid) with a neuro trace."
+   },
+   {
+    "label": "C3A2",
+    "target": "C3_M2",
+    "ref": null,
+    "reason": "C3 referenced to A2 with a neuro trace."
+   },
+   {
+    "label": "C4A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to A1 with a neuro trace."
+   },
+   {
+    "label": "O1A2",
+    "target": "O1_M2",
+    "ref": null,
+    "reason": "O1 referenced to A2 with a neuro trace."
+   },
+   {
+    "label": "O2A1",
+    "target": "O2_M1",
+    "ref": null,
+    "reason": "O2 referenced to A1 with a neuro trace."
+   },
+   {
+    "label": "ECG",
+    "target": "ECG",
+    "ref": null,
+    "reason": "ECG label with an ECG-type trace in both recordings."
+   }
+  ],
+  "L14": [
+   {
+    "label": "LOC_A1",
+    "target": "LOC",
+    "ref": null,
+    "reason": "Left outer canthus EOG referenced to A1 (mastoid); the trace looks neural."
+   },
+   {
+    "label": "ROC_A2",
+    "target": "ROC",
+    "ref": null,
+    "reason": "Right outer canthus EOG referenced to A2 (mastoid); the trace looks neural."
+   },
+   {
+    "label": "EMG_EMG",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar EMG derivation, presumably chin, with an EMG-like trace."
+   },
+   {
+    "label": "C3_A2",
+    "target": "C3_M2",
+    "ref": null,
+    "reason": "C3 is referenced to the contralateral A2 mastoid and the trace is neural."
+   },
+   {
+    "label": "O2_A1",
+    "target": "O2_M1",
+    "ref": null,
+    "reason": "O2 is referenced to the contralateral A1 mastoid and the trace is neural."
+   },
+   {
+    "label": "ECG",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Labelled ECG, with an ECG-like trace in both recordings."
+   },
+   {
+    "label": "TAG",
+    "target": null,
+    "ref": null,
+    "reason": "The EMG-like trace suggests tibialis or leg EMG, but the label gives no side, so it is not mapped."
+   },
+   {
+    "label": "THE",
+    "target": "airflow",
+    "ref": null,
+    "reason": "THE likely abbreviates thermistor airflow, and the trace is respiratory in both recordings."
+   }
+  ],
+  "L15": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG derivation Fp2-F4 has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG derivation F4-C4 has no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG derivation C4-P4 has no canonical counterpart; one recording also looked respiratory."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG derivation P4-O2 has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to an ear/mastoid electrode, neuro trace in both recordings; nearest match is C4_M1."
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC eye derivation maps to the combined EOG channel."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar EMG with 10-100 Hz filter and an EMG-like trace; this is the chin EMG."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead with an ECG trace in both recordings."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in % at 1 Hz with an SpO2 trace."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM with an HR trace."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Oximeter pulse waveform at 128 Hz with a pleth trace."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status flag that is flat or discrete; not a physiological signal."
+   }
+  ],
+  "L16": [
+   {
+    "label": "Position",
+    "target": "pos",
+    "ref": null,
+    "reason": "Body position channel; a flat trace is consistent with an unchanged position."
+   },
+   {
+    "label": "TIB_Sx",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Italian 'TIB Sx' means left tibialis leg EMG."
+   },
+   {
+    "label": "TIB_Dx",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Italian 'TIB Dx' means right tibialis leg EMG."
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "Microphone with a sound transducer is the snore channel."
+   },
+   {
+    "label": "C3",
+    "target": "C3_M2",
+    "ref": "A2",
+    "reason": "Unreferenced C3 with contralateral A2 recorded separately."
+   },
+   {
+    "label": "C4",
+    "target": "C4_M1",
+    "ref": "A1",
+    "reason": "Unreferenced C4 with contralateral A1 recorded separately."
+   },
+   {
+    "label": "O1",
+    "target": null,
+    "ref": null,
+    "reason": "Labelled O1, but the trace looked EMG-like rather than EEG, so it is not mapped."
+   },
+   {
+    "label": "O2",
+    "target": "O2_M1",
+    "ref": "A1",
+    "reason": "Unreferenced O2 with contralateral A1 recorded separately."
+   },
+   {
+    "label": "A1",
+    "target": null,
+    "ref": null,
+    "reason": "Left mastoid reference electrode, used as the reference for right-side EEG."
+   },
+   {
+    "label": "A2",
+    "target": null,
+    "ref": null,
+    "reason": "Right mastoid reference electrode (EMG-like trace, so check it), used as the reference for left-side EEG."
+   },
+   {
+    "label": "ROC",
+    "target": "ROC",
+    "ref": null,
+    "reason": "Right outer canthus EOG."
+   },
+   {
+    "label": "LOC",
+    "target": "LOC",
+    "ref": null,
+    "reason": "Left outer canthus EOG."
+   },
+   {
+    "label": "ECG1",
+    "target": "ECG",
+    "ref": "ECG2",
+    "reason": "ECG electrode paired with ECG2 as a bipolar lead; the trace shows ECG."
+   },
+   {
+    "label": "ECG2",
+    "target": null,
+    "ref": null,
+    "reason": "Second ECG electrode, used as the reference for ECG1."
+   },
+   {
+    "label": "EMG1",
+    "target": "EMG",
+    "ref": "EMG2",
+    "reason": "Chin EMG electrode paired with EMG2."
+   },
+   {
+    "label": "EMG2",
+    "target": null,
+    "ref": null,
+    "reason": "Second chin EMG electrode, used as the reference for EMG1."
+   },
+   {
+    "label": "Fp2",
+    "target": null,
+    "ref": null,
+    "reason": "Frontopolar EEG has no canonical target."
+   },
+   {
+    "label": "F4",
+    "target": "F4_M1",
+    "ref": "A1",
+    "reason": "Unreferenced F4 with contralateral A1 recorded separately."
+   },
+   {
+    "label": "P4",
+    "target": null,
+    "ref": null,
+    "reason": "Parietal EEG has no canonical target."
+   },
+   {
+    "label": "FP1",
+    "target": null,
+    "ref": null,
+    "reason": "Frontopolar EEG has no canonical target."
+   },
+   {
+    "label": "F3",
+    "target": "F3_M2",
+    "ref": "A2",
+    "reason": "Unreferenced F3 with contralateral A2 recorded separately."
+   },
+   {
+    "label": "P3",
+    "target": null,
+    "ref": null,
+    "reason": "Parietal EEG has no canonical target."
+   },
+   {
+    "label": "F8",
+    "target": null,
+    "ref": null,
+    "reason": "F8 EEG has no canonical target."
+   },
+   {
+    "label": "T4",
+    "target": null,
+    "ref": null,
+    "reason": "Temporal EEG has no canonical target."
+   },
+   {
+    "label": "T6",
+    "target": null,
+    "ref": null,
+    "reason": "Temporal EEG has no canonical target."
+   },
+   {
+    "label": "F7",
+    "target": null,
+    "ref": null,
+    "reason": "F7 EEG has no canonical target."
+   },
+   {
+    "label": "T5",
+    "target": null,
+    "ref": null,
+    "reason": "Temporal EEG has no canonical target."
+   },
+   {
+    "label": "T3",
+    "target": null,
+    "ref": null,
+    "reason": "Temporal EEG has no canonical target."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Italian 'torace' is the thoracic effort belt."
+   },
+   {
+    "label": "ADDDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "Misspelled Italian 'addome' is the abdominal effort belt."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Flat oximeter status channel, not a physiological signal."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Heart rate from the oximeter in BPM."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oxygen saturation in percent; the trace looks like SpO2."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse waveform from the oximeter; the trace looks like a plethysmogram."
+   }
+  ],
+  "L17": [
+   {
+    "label": "Position",
+    "target": "pos",
+    "ref": null,
+    "reason": "Body position channel; flat trace is consistent with an unchanging position."
+   },
+   {
+    "label": "DX1",
+    "target": "RAT",
+    "ref": "DX2",
+    "reason": "Italian dx = right; leg EMG electrode paired with DX2, and the ECG-like trace fits cardiac contamination."
+   },
+   {
+    "label": "DX2",
+    "target": null,
+    "ref": null,
+    "reason": "Reference electrode for the right leg EMG pair DX1."
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "Microphone with sound transducer; the noisy trace is plausible for a snore signal."
+   },
+   {
+    "label": "C3",
+    "target": "C3_M2",
+    "ref": "A2",
+    "reason": "Monopolar C3 with contralateral mastoid A2 recorded separately."
+   },
+   {
+    "label": "C4",
+    "target": "C4_M1",
+    "ref": "A1",
+    "reason": "Monopolar C4 with contralateral mastoid A1 recorded separately."
+   },
+   {
+    "label": "ECG1",
+    "target": null,
+    "ref": null,
+    "reason": "Labelled ECG, but the trace looks EEG/EOG-like rather than ECG, so it is left unmapped."
+   },
+   {
+    "label": "ECG2",
+    "target": null,
+    "ref": null,
+    "reason": "Second ECG electrode with a neuro-like trace; left unmapped."
+   },
+   {
+    "label": "A1",
+    "target": null,
+    "ref": null,
+    "reason": "Left mastoid reference electrode, used as ref for C4, F4 and O2."
+   },
+   {
+    "label": "A2",
+    "target": null,
+    "ref": null,
+    "reason": "Right mastoid reference electrode, used as ref for C3, F3 and O1."
+   },
+   {
+    "label": "ROC",
+    "target": "ROC",
+    "ref": null,
+    "reason": "Right EOG channel with a neuro-type trace."
+   },
+   {
+    "label": "LOC",
+    "target": null,
+    "ref": null,
+    "reason": "Labelled left EOG, but the trace looked respiratory, so it is not mapped."
+   },
+   {
+    "label": "O1",
+    "target": "O1_M2",
+    "ref": "A2",
+    "reason": "Monopolar O1 referenced to A2."
+   },
+   {
+    "label": "O2",
+    "target": "O2_M1",
+    "ref": "A1",
+    "reason": "Monopolar O2 referenced to A1."
+   },
+   {
+    "label": "EMG1",
+    "target": "EMG",
+    "ref": "EMG2",
+    "reason": "Chin EMG electrode paired with EMG2."
+   },
+   {
+    "label": "EMG2",
+    "target": null,
+    "ref": null,
+    "reason": "Reference electrode for chin EMG1."
+   },
+   {
+    "label": "Fp2",
+    "target": null,
+    "ref": null,
+    "reason": "Frontopolar EEG has no canonical target."
+   },
+   {
+    "label": "F4",
+    "target": "F4_M1",
+    "ref": "A1",
+    "reason": "Monopolar F4 referenced to A1."
+   },
+   {
+    "label": "P4",
+    "target": null,
+    "ref": null,
+    "reason": "Parietal EEG has no canonical target."
+   },
+   {
+    "label": "FP1",
+    "target": null,
+    "ref": null,
+    "reason": "Frontopolar EEG has no canonical target."
+   },
+   {
+    "label": "F3",
+    "target": "F3_M2",
+    "ref": "A2",
+    "reason": "Monopolar F3 referenced to A2."
+   },
+   {
+    "label": "P3",
+    "target": null,
+    "ref": null,
+    "reason": "Parietal EEG has no canonical target."
+   },
+   {
+    "label": "F8",
+    "target": null,
+    "ref": null,
+    "reason": "Lateral frontal EEG has no canonical target."
+   },
+   {
+    "label": "T4",
+    "target": null,
+    "ref": null,
+    "reason": "Temporal EEG has no canonical target."
+   },
+   {
+    "label": "T6",
+    "target": null,
+    "ref": null,
+    "reason": "Temporal EEG has no canonical target."
+   },
+   {
+    "label": "F7",
+    "target": null,
+    "ref": null,
+    "reason": "Lateral frontal EEG has no canonical target."
+   },
+   {
+    "label": "T5",
+    "target": null,
+    "ref": null,
+    "reason": "Temporal EEG has no canonical target."
+   },
+   {
+    "label": "T3",
+    "target": null,
+    "ref": null,
+    "reason": "Temporal EEG has no canonical target."
+   },
+   {
+    "label": "SX1",
+    "target": "LAT",
+    "ref": "SX2",
+    "reason": "Italian sx = left; leg EMG electrode paired with SX2, and the ECG-like trace fits cardiac contamination."
+   },
+   {
+    "label": "SX2",
+    "target": null,
+    "ref": null,
+    "reason": "Reference electrode for the left leg EMG pair SX1."
+   },
+   {
+    "label": "TORACE",
+    "target": null,
+    "ref": null,
+    "reason": "Labelled thorax effort, but the trace looked neuro-like rather than respiratory, so it is left unmapped."
+   },
+   {
+    "label": "ADDOME",
+    "target": null,
+    "ref": null,
+    "reason": "Labelled abdomen effort, but the trace looked neuro-like rather than respiratory, so it is left unmapped."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status channel with a flat trace."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM with an HR trace."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in % with an SpO2 trace."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse waveform channel with a pleth trace."
+   }
+  ],
+  "L18": [
+   {
+    "label": "FP2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "T4_T6",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "T3_T5",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "Right central EEG referenced to a mastoid/ear electrode (A1), with a neuro trace."
+   },
+   {
+    "label": "ROC_LOC",
+    "target": null,
+    "ref": null,
+    "reason": "The label says bipolar EOG, but the trace looked respiratory, which does not support an EOG mapping."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG at 256 Hz with a 10-100 Hz filter, and the trace looked like EMG."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead, and the trace looked like ECG."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": null,
+    "ref": null,
+    "reason": "DX (Italian for right) suggests right leg EMG, but the trace looked neuro rather than EMG, so it is left unmapped."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "SX (Italian for left) leg EMG with a 10-100 Hz filter, and the trace looked like EMG."
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "Microphone channel at 256 Hz is the snore sensor."
+   },
+   {
+    "label": "Canula",
+    "target": "nas_pres",
+    "ref": null,
+    "reason": "Nasal cannula pressure flow signal, and the trace looked respiratory."
+   },
+   {
+    "label": "Torace",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Torace is Italian for thorax, and the trace looked respiratory."
+   },
+   {
+    "label": "Abdo",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "Abdominal effort belt, and the trace looked respiratory."
+   },
+   {
+    "label": "Position",
+    "target": "pos",
+    "ref": null,
+    "reason": "Body position channel; the flat trace is consistent with an unchanged position."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oxygen saturation in %, and the trace looked like SpO2."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Heart rate in BPM, and the trace looked like HR."
+   },
+   {
+    "label": "Pleth",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Oximeter plethysmogram, and the trace looked like pleth."
+   },
+   {
+    "label": "Ox_Status",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status flag channel with no canonical counterpart."
+   }
+  ],
+  "L19": [
+   {
+    "label": "C3_A2",
+    "target": "C3_M2",
+    "ref": null,
+    "reason": "C3 referenced to A2 (contralateral mastoid/ear), neuro trace."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar C4-P4 derivation has no canonical counterpart."
+   },
+   {
+    "label": "EKG",
+    "target": "ECG",
+    "ref": null,
+    "reason": "EKG label with ECG-like trace."
+   },
+   {
+    "label": "EOG_L",
+    "target": "LOC",
+    "ref": null,
+    "reason": "Left EOG referenced to A2 per transducer, neuro trace."
+   },
+   {
+    "label": "EOG_R",
+    "target": "ROC",
+    "ref": null,
+    "reason": "Right EOG referenced to A1 per transducer, neuro trace."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar F4-C4 derivation has no canonical counterpart."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar Fp2-F4 derivation has no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar P4-O2 derivation has no canonical counterpart."
+   },
+   {
+    "label": "Tib_dx",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Tibialis dx (right) leg EMG, EMG trace."
+   },
+   {
+    "label": "Tib_sx",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Tibialis sx (left) leg EMG, EMG trace."
+   },
+   {
+    "label": "abdomen",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "Piezo abdominal effort belt, slow trace."
+   },
+   {
+    "label": "flow",
+    "target": "nas_pres",
+    "ref": null,
+    "reason": "Nasal cannula pressure in mBar, respiratory trace."
+   },
+   {
+    "label": "milo",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Milo (mylohyoid) submental chin EMG, EMG trace."
+   },
+   {
+    "label": "thorax",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Piezo thoracic effort belt, slow trace."
+   }
+  ],
+  "L20": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar Fp2-F4 chain derivation has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar F4-C4 chain derivation has no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar C4-P4 chain derivation has no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar P4-O2 chain derivation has no canonical counterpart."
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar Fp1-F3 chain derivation has no canonical counterpart."
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar F3-C3 chain derivation has no canonical counterpart."
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar C3-P3 chain derivation has no canonical counterpart."
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar P3-O1 chain derivation has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to contralateral left mastoid/ear (A1), neuro trace."
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Single bipolar ROC-LOC eye derivation, not separable into LOC/ROC."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG with EMG-like trace and 10-80 Hz filter."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead with ECG trace."
+   },
+   {
+    "label": "Flusso",
+    "target": "nas_pres",
+    "ref": null,
+    "reason": "Italian 'flusso' (flow) with pressure transducer ('Pressione'), respiratory trace."
+   },
+   {
+    "label": "TIB_Sx",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Left (sinistro) tibialis EMG."
+   },
+   {
+    "label": "TIB_Dx",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Right (destro) tibialis EMG."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in %, SpO2 trace."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Oximeter pulse waveform, pleth trace."
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "Sound microphone channel used for snoring."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status channel, flat, no canonical counterpart."
+   },
+   {
+    "label": "Position",
+    "target": "pos",
+    "ref": null,
+    "reason": "Body position DC channel; flat trace consistent with unchanged position."
+   },
+   {
+    "label": "Flusso.1",
+    "target": null,
+    "ref": null,
+    "reason": "Duplicate of Flusso pressure flow channel; first copy already mapped."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Italian 'torace' thoracic effort belt, respiratory trace."
+   },
+   {
+    "label": "ADDDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "Italian 'addome' (misspelled) abdominal effort belt, respiratory trace."
+   }
+  ],
+  "L21": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation Fp2-F4 has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation F4-C4 has no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation C4-P4 has no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation P4-O2 has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to contralateral left ear/mastoid (A1), neuro-like trace."
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar right-minus-left eye derivation, so it is a single combined EOG rather than LOC or ROC."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar EMG with a 10-80 Hz filter; this is the chin EMG."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead with ECG transducer."
+   },
+   {
+    "label": "Flusso",
+    "target": "nas_pres",
+    "ref": null,
+    "reason": "Italian 'flusso' (flow) with a 'Pressione' transducer, which indicates a nasal pressure cannula; the trace is respiratory."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Italian 'torace' is the thoracic effort belt; the trace is respiratory."
+   },
+   {
+    "label": "ADDDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "Misspelling of Italian 'addome', the abdominal effort belt; the trace is respiratory."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oxygen saturation in % from the oximeter."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "SX (sinistra, left) bipolar leg EMG with a 10 Hz high-pass; the trace looks like EMG."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "DX (destra, right) bipolar leg EMG; the trace looks like EMG."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Heart rate in BPM from the oximeter."
+   },
+   {
+    "label": "PLETH",
+    "target": null,
+    "ref": null,
+    "reason": "Labelled as pleth, but the trace looked neuro rather than plethysmographic, so it is left unmapped."
+   }
+  ],
+  "L22": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar Fp2-F4 EEG derivation has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar F4-C4 EEG derivation has no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar C4-P4 EEG derivation has no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar P4-O2 EEG derivation has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to the contralateral ear (A1) is equivalent to C4-M1, and the trace looked neural."
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC eye derivation; the slow resp-like trace is consistent with slow eye movements at HP 0.1 Hz."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG with a 10-80 Hz filter, and the trace looked EMG-like."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Labelled ECG with an ECG transducer, although the trace was classed as neuro rather than ecg."
+   },
+   {
+    "label": "TIB_Sx",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Italian 'TIB Sx' means left tibialis EMG."
+   },
+   {
+    "label": "TIB_Dx",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Italian 'TIB Dx' means right tibialis EMG."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in %, and the trace looked like SpO2."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM, and the trace looked like HR."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse-wave transducer recorded at 128 Hz, which matches a plethysmogram."
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "Microphone channel with a sound transducer, used for snore."
+   },
+   {
+    "label": "Flusso",
+    "target": "nas_pres",
+    "ref": null,
+    "reason": "Italian 'Flusso' with a pressure transducer indicates nasal pressure airflow, and the trace looked respiratory."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Italian 'torace' is the thoracic effort belt, and the trace looked respiratory."
+   },
+   {
+    "label": "ADDDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "Misspelled Italian 'addome' is the abdominal effort belt, and the trace looked respiratory."
+   }
+  ],
+  "L23": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC eye derivation; the single bipolar EOG target takes this one."
+   },
+   {
+    "label": "LOC_ROC",
+    "target": null,
+    "ref": null,
+    "reason": "Inverted duplicate of ROC-LOC; the EOG target is already assigned."
+   },
+   {
+    "label": "F2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar frontal chain with no mastoid reference, so it has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain, not O2 against a mastoid, so it has no canonical counterpart."
+   },
+   {
+    "label": "F1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain, not O1 against a mastoid, so it has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to the contralateral left ear (A1) is equivalent to C4-M1; the neuro trace fits."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar EMG with 10-100 Hz filtering and an EMG-like trace; taken as chin EMG."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead and the trace looks like ECG."
+   },
+   {
+    "label": "TERMISTORE",
+    "target": "airflow",
+    "ref": null,
+    "reason": "Italian 'termistore' means thermistor airflow, and the trace is respiratory."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Italian 'torace' means thoracic effort belt, and the trace is respiratory."
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "Italian 'addome' means abdominal effort belt, and the trace is respiratory."
+   },
+   {
+    "label": "Dx1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "'Dx' means right; an EMG pair with an EMG trace, taken as right tibialis."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "'Sx' means left; an EMG pair with an EMG trace, taken as left tibialis."
+   },
+   {
+    "label": "Posizione",
+    "target": "pos",
+    "ref": null,
+    "reason": "Italian 'posizione' means body position; the flat DC trace fits a patient who stayed in one position."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM, and the trace looks like HR."
+   },
+   {
+    "label": "SpO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in %, and the trace looks like SpO2."
+   }
+  ],
+  "L24": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to contralateral mastoid/ear A1, neuro trace."
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC eye derivation, not a single-side EOG."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Chin EMG bipolar pair with EMG-like trace and 10-100 Hz filter."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "ECG lead pair in mV with ECG trace."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Italian dx (right) EMG pair, leg tibialis EMG trace."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Italian sx (left) EMG pair, leg tibialis EMG trace."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Italian torace = thoracic effort, respiratory trace."
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "Italian addome = abdominal effort, respiratory trace."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in %."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse waveform from oximeter with pleth trace."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Flat oximeter status channel, not a physiological signal."
+   }
+  ],
+  "L25": [
+   {
+    "label": "ROC_LOC",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar ROC-LOC is the same derivation as LOC-ROC with inverted polarity, and that channel is used for EOG.Only one channel can take the target.\""
+   }
+  ],
+  "L26": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC eye derivation with neuro-like trace maps to the single bipolar EOG target."
+   },
+   {
+    "label": "LOC_ROC",
+    "target": null,
+    "ref": null,
+    "reason": "Inverted duplicate of ROC-LOC; EOG target already assigned."
+   },
+   {
+    "label": "F2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain F2-F4 has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain F4-C4 has no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain C4-P4 has no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain P4-O2 has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to contralateral A1 (left ear/mastoid) is the C4-M1 equivalent, neuro trace."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar EMG at 256 Hz with 10-100 Hz filter and EMG trace, chin EMG."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead with ECG-like trace."
+   },
+   {
+    "label": "TERMISTORE",
+    "target": "airflow",
+    "ref": null,
+    "reason": "Italian 'termistore' is the thermistor airflow sensor; resp trace."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Italian 'torace' is thoracic effort; resp trace."
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "Italian 'addome' is abdominal effort; resp trace."
+   },
+   {
+    "label": "Dx1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Italian 'dx' (right) bipolar EMG pair, right tibialis leg EMG with EMG trace."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Italian 'sx' (left) bipolar EMG pair, left tibialis leg EMG with EMG trace."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM at 1 Hz."
+   },
+   {
+    "label": "SpO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in % at 1 Hz."
+   }
+  ],
+  "L27": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar right-to-left eye derivation with EOG transducer; neuro trace fits a single EOG channel."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to contralateral left ear/mastoid A1; neuro trace confirms EEG."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar EMG with 10-100 Hz filter and EMG-like trace, the chin EMG."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead with ECG-like trace."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Italian dx (right) EMG pair with EMG filter and trace, right leg EMG."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Italian sx (left) EMG pair with EMG filter and trace, left leg EMG."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG chain (EMG-filtered) with no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG chain (EMG-filtered) with no canonical counterpart."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Italian torace = thoracic effort belt; respiratory trace."
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "Italian addome = abdominal effort belt; respiratory trace."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in % with SpO2 trace."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM with HR trace."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse wave plethysmogram with pleth trace."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status code, discrete signal with no canonical counterpart."
+   }
+  ],
+  "L28": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC eye channel with an EOG transducer fits the generic EOG target, not LOC or ROC alone."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain Fp2-F4 has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain F4-C4 has no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain C4-P4 has no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain P4-O2 has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to the contralateral ear A1 is the standard central derivation, and the trace looks like EEG."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar EMG with a 10-100 Hz filter and an EMG-like trace is the chin EMG."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG in mV with an ECG-like trace."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "DX (Italian destra, right) EMG pair is the right leg EMG, and the trace looks like EMG."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "SX (Italian sinistra, left) EMG pair is the left leg EMG, and the trace looks like EMG."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain F8-T4 with an EMG-like filter and trace has no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain F7-T3 with an EMG-like filter and trace has no canonical counterpart."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "TORACE is Italian for thorax, and the trace is a respiratory effort signal."
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "ADDOME is Italian for abdomen, and the trace is a respiratory effort signal."
+   },
+   {
+    "label": "Position",
+    "target": "pos",
+    "ref": null,
+    "reason": "DC body-position channel; the trace was flat, which may mean the patient held one position all night."
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "Sound microphone with a 10-80 Hz band-pass is the snore channel."
+   }
+  ],
+  "L29": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC derivation with EOG transducer and neuro-like trace; single combined EOG."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to the contralateral mastoid/ear (A1), neuro trace; maps to C4_M1."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar EMG1-EMG2 with 10-100 Hz filter and EMG-like trace; chin EMG."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead with ECG-like trace."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Italian dx (right) EMG pair with EMG-like trace; right leg tibialis."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Italian sx (left) EMG pair with EMG-like trace; left leg tibialis."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG chain filtered as EMG; no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG chain filtered as EMG; no canonical counterpart."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Italian torace (thorax) effort belt with respiratory trace."
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "Italian addome (abdomen) effort belt with respiratory trace."
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "Microphone with Sound transducer and high-frequency trace; snore sensor."
+   }
+  ],
+  "L30": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC eye derivation with EOG transducer and neuro-type trace; fits the single EOG channel."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain Fp2-F4 has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain F4-C4 has no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain C4-P4 has no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain P4-O2 has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to the contralateral left ear (A1), equivalent to C4-M1, with a neuro trace."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar EMG1-EMG2 with a 10-100 Hz filter and EMG-like trace; this is the chin EMG."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG derivation with an ECG-like trace."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "DX is Italian for right; this EMG channel with an EMG trace is the right leg/tibialis."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "SX is Italian for left; this EMG channel with an EMG trace is the left leg/tibialis."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain F8-T4 is EMG-filtered with an EMG-like trace and has no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain F7-T3 is EMG-filtered with an EMG-like trace and has no canonical counterpart."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "TORACE is Italian for thorax; the respiratory trace is consistent with a thoracic effort belt."
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "ADDOME is Italian for abdomen; the respiratory trace is consistent with an abdominal effort belt."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status channel at 1 Hz with a flat trace; not SpO2 or HR."
+   }
+  ],
+  "L31": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC EOG derivation fits the single EOG target, not LOC or ROC separately."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to the left mastoid/ear (A1) corresponds to C4-M1 per label; trace is neuro."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG with 10-100 Hz filter and EMG-like trace."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead with ECG-like trace."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Italian 'dx' = right; EMG transducer and EMG trace indicate right leg (tibialis) EMG."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Italian 'sx' = left; EMG transducer and EMG trace indicate left leg (tibialis) EMG."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Italian 'torace' = thorax effort belt with respiratory trace."
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "Italian 'addome' = abdominal effort belt with respiratory trace."
+   },
+   {
+    "label": "Position",
+    "target": "pos",
+    "ref": null,
+    "reason": "Body position channel with discrete-valued signal."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in % at 1 Hz."
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "Microphone sound transducer, used as snore channel."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Oximeter pulse waveform with pleth-like trace."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status channel, flat, no canonical counterpart."
+   }
+  ],
+  "L32": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC eye channel with EOG transducer and neuro-like trace; mapped to generic EOG since it is not a single-sided LOC/ROC."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain Fp2-F4 has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain F4-C4 has no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain C4-P4 has no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain P4-O2 has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to contralateral mastoid/ear A1 matches C4_M1; neuro trace."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Chin EMG bipolar pair with 10-100 Hz filter and EMG-like trace."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "ECG lead pair in mV with ECG-like trace."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "DX (Italian destra, right) EMG pair with EMG transducer, consistent with right leg/tibialis EMG."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "SX (Italian sinistra, left) EMG pair with EMG transducer, consistent with left leg/tibialis EMG."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Italian torace = thoracic effort belt; respiratory trace."
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "Italian addome = abdominal effort belt; respiratory trace."
+   }
+  ],
+  "L33": [
+   {
+    "label": "EOG_L",
+    "target": "LOC",
+    "ref": null,
+    "reason": "Left EOG per label and transducer; neuro trace consistent."
+   },
+   {
+    "label": "EOG_R",
+    "target": "ROC",
+    "ref": null,
+    "reason": "Right EOG per label and transducer; neuro trace consistent."
+   },
+   {
+    "label": "CHIN1",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Chin EMG electrode with EMG-like trace; chosen as the chin EMG channel."
+   },
+   {
+    "label": "CHIN2",
+    "target": null,
+    "ref": null,
+    "reason": "Second chin EMG electrode; EMG target already assigned to CHIN1."
+   },
+   {
+    "label": "F3A2",
+    "target": "F3_M2",
+    "ref": null,
+    "reason": "F3 referenced to A2 (contralateral mastoid) per label and transducer."
+   },
+   {
+    "label": "F4A1",
+    "target": "F4_M1",
+    "ref": null,
+    "reason": "F4 referenced to A1 per label and transducer."
+   },
+   {
+    "label": "C3A2",
+    "target": "C3_M2",
+    "ref": null,
+    "reason": "C3 referenced to A2 per label and transducer."
+   },
+   {
+    "label": "C4A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to A1 per label and transducer."
+   },
+   {
+    "label": "O1A2",
+    "target": "O1_M2",
+    "ref": null,
+    "reason": "O1 referenced to A2 per label and transducer."
+   },
+   {
+    "label": "O2A1",
+    "target": "O2_M1",
+    "ref": null,
+    "reason": "O2 referenced to A1 per label and transducer."
+   },
+   {
+    "label": "EKG",
+    "target": "ECG",
+    "ref": null,
+    "reason": "EKG label with ECG-like trace."
+   }
+  ],
+  "L34": [
+   {
+    "label": "LOC___A2",
+    "target": "LOC",
+    "ref": null,
+    "reason": "Left outer canthus EOG referenced to A2; trace is neuro-type as expected."
+   },
+   {
+    "label": "ROC___A1",
+    "target": "ROC",
+    "ref": null,
+    "reason": "Right outer canthus EOG referenced to A1; trace is neuro-type as expected."
+   },
+   {
+    "label": "CHIN",
+    "target": null,
+    "ref": null,
+    "reason": "Duplicate chin label whose trace looked neuro rather than EMG; CHIN.1 is the better EMG candidate."
+   },
+   {
+    "label": "CHIN.1",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Chin channel whose trace looked like EMG."
+   },
+   {
+    "label": "C3_A2",
+    "target": "C3_M2",
+    "ref": null,
+    "reason": "C3 referenced to contralateral mastoid A2 (M2)."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to contralateral mastoid A1 (M1)."
+   },
+   {
+    "label": "O1_A2",
+    "target": "O1_M2",
+    "ref": null,
+    "reason": "O1 referenced to contralateral mastoid A2 (M2)."
+   },
+   {
+    "label": "O2_A1",
+    "target": "O2_M1",
+    "ref": null,
+    "reason": "O2 referenced to contralateral mastoid A1 (M1)."
+   },
+   {
+    "label": "EKG",
+    "target": "ECG",
+    "ref": null,
+    "reason": "EKG label and the trace looked like ECG."
+   }
+  ],
+  "L35": [
+   {
+    "label": "LOC_A1",
+    "target": "LOC",
+    "ref": null,
+    "reason": "Left outer canthus EOG referenced to A1, neuro-type trace."
+   },
+   {
+    "label": "ROC_A2",
+    "target": "ROC",
+    "ref": null,
+    "reason": "Right outer canthus EOG referenced to A2, neuro-type trace."
+   },
+   {
+    "label": "EMG",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Generic EMG label, presumably chin EMG."
+   },
+   {
+    "label": "C3_A2",
+    "target": "C3_M2",
+    "ref": null,
+    "reason": "C3 referenced to the contralateral mastoid/ear A2."
+   },
+   {
+    "label": "O2_A1",
+    "target": "O2_M1",
+    "ref": null,
+    "reason": "O2 referenced to the contralateral mastoid/ear A1."
+   },
+   {
+    "label": "ECG",
+    "target": "ECG",
+    "ref": null,
+    "reason": "ECG label with an ECG-like trace."
+   },
+   {
+    "label": "TAG",
+    "target": null,
+    "ref": null,
+    "reason": "EMG-like trace, possibly tibialis anterior, but the label does not clearly give leg side, so left as unmapped."
+   },
+   {
+    "label": "THE",
+    "target": "airflow",
+    "ref": null,
+    "reason": "THE likely means thermistor; the respiratory-type trace supports oronasal airflow."
+   }
+  ],
+  "L36": [
+   {
+    "label": "FP2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain Fp2-F4 has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain F4-C4 has no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain C4-P4 has no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain P4-O2 has no canonical counterpart."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain F8-T4 has no canonical counterpart."
+   },
+   {
+    "label": "T4_T6",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain T4-T6 has no canonical counterpart."
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain Fp1-F3 has no canonical counterpart."
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain F3-C3 has no canonical counterpart."
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain C3-P3 has no canonical counterpart."
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain P3-O1 has no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain F7-T3 has no canonical counterpart."
+   },
+   {
+    "label": "T3_T5",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal chain T3-T5 has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to contralateral left ear/mastoid A1, neuro trace consistent."
+   },
+   {
+    "label": "ROC_LOC",
+    "target": null,
+    "ref": null,
+    "reason": "Label says bipolar ROC-LOC EOG but the trace looked respiratory, so not mapped to EOG."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG at 256 Hz with 10-100 Hz filter, EMG trace seen."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead with ECG-like trace."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "DX (Italian destra = right) EMG channel, likely right tibialis, EMG trace seen."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "SX (Italian sinistra = left) EMG channel, likely left tibialis, EMG trace seen."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oxygen saturation in %, SpO2 trace seen."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Heart rate in bpm, HR trace seen."
+   },
+   {
+    "label": "Pleth",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Plethysmogram with 5 Hz low-pass; pulsatile cardiac waveform plausibly scored as ECG-like."
+   },
+   {
+    "label": "Ox_Status",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status flag, flat, no canonical counterpart."
+   },
+   {
+    "label": "MIC",
+    "target": null,
+    "ref": null,
+    "reason": "Microphone/snore channel but trace was flat, so not mapped to snore."
+   }
+  ],
+  "L37": [
+   {
+    "label": "FP2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG derivation with no canonical counterpart."
+   },
+   {
+    "label": "T4",
+    "target": null,
+    "ref": null,
+    "reason": "Single temporal electrode with no canonical target."
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG derivation with no canonical counterpart."
+   },
+   {
+    "label": "T3_T5",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "Right central EEG against a mastoid/ear reference, with an EEG-like trace."
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC eye derivation, so it maps to the single EOG target."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG with a 10-100 Hz filter and an EMG trace."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead with an ECG trace."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "DX (Italian destra = right) bipolar EMG-filtered channel, which is the right tibialis."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "SX (Italian sinistra = left) bipolar EMG-filtered channel, which is the left tibialis."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oxygen saturation in % at 1 Hz."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Heart rate in BPM at 1 Hz."
+   },
+   {
+    "label": "Pleth",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Plethysmogram trace from the oximeter."
+   },
+   {
+    "label": "Ox_Status",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status flag that is flat and not physiological."
+   }
+  ],
+  "L38": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "T4_T6",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "Right central EEG referenced to left mastoid/ear (A1), neuro trace confirms."
+   },
+   {
+    "label": "ROC_LOC",
+    "target": null,
+    "ref": null,
+    "reason": "Labelled as bipolar EOG but the trace looked respiratory, so not mapped pending review."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG with 10-100 Hz filter and EMG-like trace."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": null,
+    "ref": null,
+    "reason": "Labelled ECG but trace looked like EEG rather than cardiac, so not mapped pending review."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Italian dx = right; bipolar EMG with EMG trace, i.e. right tibialis."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Italian sx = left; bipolar EMG with EMG trace, i.e. left tibialis."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in %, SpO2 trace."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM, HR trace."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse waveform from oximeter, pleth trace."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Flat oximeter status channel, no canonical counterpart."
+   }
+  ],
+  "L39": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain Fp2-F4 has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain F4-C4 has no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain C4-P4 has no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain P4-O2 has no canonical counterpart."
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain Fp1-F3 has no canonical counterpart."
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain F3-C3 has no canonical counterpart."
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain C3-P3 has no canonical counterpart."
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain P3-O1 has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to contralateral mastoid/ear A1, neuro trace confirms EEG."
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC derivation is a single combined EOG channel."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG with 10-100 Hz filter and EMG-like trace."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead with ECG-like trace."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "DX (Italian destra = right) bipolar EMG with EMG trace, i.e. right tibialis."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "SX (Italian sinistra = left) bipolar EMG with EMG trace, i.e. left tibialis."
+   },
+   {
+    "label": "T4_T6",
+    "target": null,
+    "ref": null,
+    "reason": "Labelled as temporal bipolar EEG but filtered 10-100 Hz with EMG trace; ambiguous, no counterpart."
+   },
+   {
+    "label": "T3_T5",
+    "target": null,
+    "ref": null,
+    "reason": "Labelled as temporal bipolar EEG but filtered 10-100 Hz with EMG trace; ambiguous, no counterpart."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in % with SpO2 trace."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM with HR trace."
+   },
+   {
+    "label": "PLETH",
+    "target": null,
+    "ref": null,
+    "reason": "Labelled pleth but the trace looked neuro rather than plethysmographic, so mapping is not supported."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Flat oximeter status channel, not a physiological signal."
+   }
+  ],
+  "L40": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar longitudinal EEG derivation Fp2-F4 has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG derivation F4-C4 has no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG derivation C4-P4 has no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG derivation P4-O2 has no canonical counterpart."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG derivation has no canonical counterpart."
+   },
+   {
+    "label": "T4_T6",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG derivation has no canonical counterpart."
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG derivation Fp1-F3 has no canonical counterpart."
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG derivation F3-C3 has no canonical counterpart."
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG derivation C3-P3 has no canonical counterpart."
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG derivation P3-O1 has no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG derivation has no canonical counterpart."
+   },
+   {
+    "label": "T3_T5",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG derivation has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to contralateral ear A1, equivalent to C4-M1; neuro trace consistent."
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar right-left eye derivation ROC-LOC, not a single-side EOG."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG pair with EMG trace and 10-100 Hz filter."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead with ECG-like trace."
+   },
+   {
+    "label": "TIB_Sx",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Tibialis sinistro (left) leg EMG per label and EMG transducer."
+   },
+   {
+    "label": "TIB_Dx",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Tibialis destro (right) leg EMG per label and EMG transducer."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in % at 1 Hz with SpO2 trace."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM with HR trace."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse waveform from oximeter with pleth trace."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status channel, flat, not a physiological signal."
+   }
+  ],
+  "L41": [
+   {
+    "label": "EOG_dx",
+    "target": "ROC",
+    "ref": null,
+    "reason": "Right EOG ('dx'), already referenced to A1 per transducer field."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to contralateral mastoid A1, the standard C4-M1 derivation."
+   },
+   {
+    "label": "milo",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Italian 'milo' (mylohyoid) with submental chin EMG transducer."
+   },
+   {
+    "label": "EOG_sin",
+    "target": "LOC",
+    "ref": null,
+    "reason": "Left EOG ('sin'), already referenced to A2 per transducer field."
+   },
+   {
+    "label": "tib_dx",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Right tibialis EMG ('dx') at 200 Hz; the neuro-type trace fits a leg EMG signal."
+   },
+   {
+    "label": "tib_sin",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Left tibialis EMG ('sin'), and the trace looks like EMG."
+   },
+   {
+    "label": "cannula",
+    "target": "nas_pres",
+    "ref": null,
+    "reason": "Nasal pressure cannula in mBar with a respiratory trace."
+   },
+   {
+    "label": "toracico",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Thoracic piezo effort belt per transducer field; trace type was unclassified, so worth a visual check."
+   },
+   {
+    "label": "ekg",
+    "target": "ECG",
+    "ref": null,
+    "reason": "EKG channel with an ECG-like trace."
+   },
+   {
+    "label": "deltoide",
+    "target": null,
+    "ref": null,
+    "reason": "Deltoid arm EMG has no canonical target."
+   },
+   {
+    "label": "Heart_Rate_Varia",
+    "target": null,
+    "ref": null,
+    "reason": "Heart rate variability (bpm/s) is a derived signal, not heart rate."
+   },
+   {
+    "label": "Flattening",
+    "target": null,
+    "ref": null,
+    "reason": "Derived flow-flattening index has no canonical target."
+   },
+   {
+    "label": "Flow",
+    "target": null,
+    "ref": null,
+    "reason": "Flow derived from the nasal cannula, not a thermistor airflow; the raw cannula is already mapped to nas_pres."
+   }
+  ],
+  "L42": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC derivation with EOG transducer; fits the generic EOG target, not LOC or ROC alone."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain Fp2-F4 has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain F4-C4 has no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain C4-P4 has no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain P4-O2 has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to the left mastoid A1 is the closest match to C4_M1."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "EMG1-EMG2 bipolar chin EMG with a 10-100 Hz filter and an EMG-like trace."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "ECG1-ECG2 in mV with an ECG trace."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "DX (Italian destra = right) with an EMG transducer and trace indicates right leg EMG."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "SX (Italian sinistra = left) with an EMG transducer and trace indicates left leg EMG."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar F8-T4 temporal chain (EMG-filtered) has no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar F7-T3 temporal chain has no canonical counterpart."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Italian torace = thorax; low-pass respiratory effort trace."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in %."
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "Microphone with a sound transducer is the snore sensor."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse-wave plethysmogram with a pleth trace."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status channel; flat trace with no canonical counterpart."
+   }
+  ],
+  "L43": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC eye derivation with EOG transducer, so it maps to the single combined EOG channel."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to the contralateral mastoid/ear (A1) is the standard C4-M1 derivation; the trace looks neural."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG with a 10-100 Hz filter; the trace looks like EMG."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead; the trace looks like ECG."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "DX (Italian destro, right) is an EMG-filtered bipolar pair, so it maps to right tibialis; the trace looks like EMG."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "SX (Italian sinistro, left) is an EMG-filtered bipolar pair, so it maps to left tibialis; the trace looks like EMG."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG derivation with an EMG-style filter and no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG derivation with no canonical counterpart."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in percent; the trace looks like SpO2."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse waveform from the oximeter; the trace looks like a pleth."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status channel that is flat and has no canonical counterpart."
+   }
+  ],
+  "L44": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar right-minus-left EOG derivation with EOG transducer; it fits the single-channel EOG target."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 is referenced to the contralateral ear/mastoid (A1), equivalent to C4-M1, and the trace looks neural."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Chin EMG bipolar pair with a 10-100 Hz filter and an EMG-like trace."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "ECG lead pair with an ECG-like trace."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "DX (Italian destro, right) EMG pair with an EMG trace; read as the right leg (tibialis) EMG."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "SX (Italian sinistro, left) EMG pair with an EMG trace; read as the left leg (tibialis) EMG."
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG chain with an EMG filter and EMG-like trace; it has no canonical counterpart."
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar temporal EEG chain with an EMG filter and EMG-like trace; it has no canonical counterpart."
+   }
+  ],
+  "L45": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain Fp2-F4 has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain F4-C4 has no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain C4-P4 has no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain P4-O2 has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to contralateral mastoid/ear A1, neuro trace, matches C4_M1."
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar right-minus-left eye derivation, best fits generic EOG."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG with 10-100 Hz filter and EMG-like trace."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead in mV with ECG trace."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "Italian dx (right) EMG channel, 10-100 Hz filter, likely right tibialis."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "Italian sx (sinistra, left) EMG channel, 10-100 Hz filter, likely left tibialis."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in % with SpO2 trace."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM with HR trace."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse wave plethysmogram with pleth trace."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Oximeter status channel, flat, not a physiological signal."
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "Sound microphone channel filtered 10-80 Hz, used for snoring."
+   }
+  ],
+  "L46": [
+   {
+    "label": "ROC_LOC",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar ROC-LOC EOG derivation, but the trace looked respiratory rather than ocular, so it is left unmapped."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain Fp2-F4 has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain F4-C4 has no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain C4-P4 has no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain P4-O2 has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to the contralateral left ear (A1) matches C4-M1, and the trace is neuro."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar chin EMG with a 10-100 Hz filter and an EMG-like trace."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead with an ECG-like trace."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Italian 'torace' means thoracic effort, and the trace is respiratory."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "'DX' (Italian destra, right) bipolar EMG with an EMG trace is taken as the right leg EMG."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "'SX' (Italian sinistra, left) bipolar EMG with an EMG trace is taken as the left leg EMG."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in percent."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse-wave plethysmogram from the oximeter."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Discrete oximeter status channel with no canonical counterpart."
+   }
+  ],
+  "L47": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC eye derivation with an EOG transducer and an EEG/EOG-like trace, so it maps to the single EOG channel."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain Fp2-F4 has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain F4-C4 has no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain C4-P4 has no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain P4-O2 has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 is referenced to the contralateral left mastoid/ear (A1), which equals C4_M1."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar EMG with a 10-100 Hz filter and an EMG-like trace, consistent with chin EMG."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "Bipolar ECG lead in mV; the trace was classed neuro-like, but there is no other ECG candidate."
+   },
+   {
+    "label": "DX1_DX2",
+    "target": null,
+    "ref": null,
+    "reason": "Label suggests right leg, but the 0.05-3 Hz filter and neuro-like trace do not support leg EMG."
+   },
+   {
+    "label": "SX1_SX2",
+    "target": null,
+    "ref": null,
+    "reason": "Label suggests left leg, but the 0.3-30 Hz filter and neuro-like trace do not support leg EMG."
+   }
+  ],
+  "L48": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC eye derivation with EOG transducer and neuro-like trace, so it fits the single EOG channel."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar EEG chain derivation with no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to the left ear (A1), equivalent to C4-M1, with an EEG-like trace."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar EMG pair with 10-100 Hz filtering and an EMG-like trace; no leg label, so treated as chin EMG."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": null,
+    "ref": null,
+    "reason": "Labelled ECG, but the trace looked neuro rather than cardiac, so it is left unmapped pending a visual check."
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "Italian 'torace' means thoracic effort, and the trace is respiratory."
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "Oximeter saturation in % with an SpO2 trace."
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "Oximeter heart rate in BPM with an HR trace."
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "Pulse waveform with a pleth trace."
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "Flat oximeter status channel with no canonical counterpart."
+   }
+  ],
+  "L49": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "Bipolar ROC-LOC eye derivation with EOG transducer fits the single EOG target, not LOC or ROC alone."
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar Fp2-F4 chain has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar F4-C4 chain has no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar C4-P4 chain has no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar P4-O2 chain has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to contralateral mastoid A1 is the standard C4-M1 derivation; the neuro trace is consistent."
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "Bipolar EMG with a 10-100 Hz filter and an EMG-like trace is chin EMG."
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "ECG1-ECG2 lead in mV shows an ECG trace."
+   }
+  ],
+  "L50": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar Fp2-F4 chain derivation has no canonical counterpart."
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar F4-C4 chain derivation has no canonical counterpart."
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar C4-P4 chain derivation has no canonical counterpart."
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "Bipolar P4-O2 chain derivation has no canonical counterpart."
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "C4 referenced to the contralateral ear (A1) is the standard C4-M1 central derivation, and the trace looks neural."
+   }
+  ]
+ },
+ "problems": []
+}

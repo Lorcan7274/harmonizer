@@ -1,0 +1,569 @@
+[
+{
+"id": "nfle12",
+"layout": "L01",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"emg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "nfle15",
+"layout": "L01",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "nfle2",
+"layout": "L01",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "nfle21",
+"layout": "L01",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "nfle27",
+"layout": "L01",
+"made": 9,
+"need": [
+"eeg",
+"eog"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "nfle3",
+"layout": "L01",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "nfle36",
+"layout": "L01",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "nfle38",
+"layout": "L01",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "nfle5",
+"layout": "L01",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "nfle7",
+"layout": "L01",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "plm9",
+"layout": "L01",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "rbd18",
+"layout": "L01",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "nfle14",
+"layout": "L02",
+"made": 10,
+"need": [
+"eeg",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "nfle18",
+"layout": "L02",
+"made": 10,
+"need": [
+"eeg",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "nfle22",
+"layout": "L02",
+"made": 10,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "nfle37",
+"layout": "L02",
+"made": 10,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "ins8",
+"layout": "L03",
+"made": 11,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "rbd5",
+"layout": "L03",
+"made": 11,
+"need": [
+"eeg",
+"eog",
+"emg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "nfle10",
+"layout": "L04",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "nfle19",
+"layout": "L04",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "nfle26",
+"layout": "L04",
+"made": 9,
+"need": [
+"eeg",
+"emg",
+"ecg"
+],
+"all_required_right": false,
+"missing": [
+"eeg"
+]
+},
+{
+"id": "rbd21",
+"layout": "L05",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "rbd22",
+"layout": "L05",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "plm2",
+"layout": "L06",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "plm6",
+"layout": "L06",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "ins2",
+"layout": "L07",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "ins6",
+"layout": "L07",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "brux1",
+"layout": "L08",
+"made": 6,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "ins1",
+"layout": "L09",
+"made": 14,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "sdb4",
+"layout": "L09",
+"made": 14,
+"need": [
+"eeg",
+"eog"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "rbd16",
+"layout": "L10",
+"made": 13,
+"need": [
+"eeg",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "rbd3",
+"layout": "L10",
+"made": 13,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "rbd13",
+"layout": "L11",
+"made": 12,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "ins9",
+"layout": "L12",
+"made": 12,
+"need": [
+"eeg",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "n6",
+"layout": "L14",
+"made": 7,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "ins7",
+"layout": "L15",
+"made": 7,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "nfle31",
+"layout": "L18",
+"made": 14,
+"need": [
+"eeg",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "n8",
+"layout": "L19",
+"made": 10,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "sdb2",
+"layout": "L21",
+"made": 12,
+"need": [
+"eeg",
+"eog"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "sdb3",
+"layout": "L25",
+"made": 13,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "n9",
+"layout": "L35",
+"made": 7,
+"need": [
+"eeg",
+"eog",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "nfle32",
+"layout": "L38",
+"made": 9,
+"need": [
+"eeg",
+"emg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "n4",
+"layout": "L41",
+"made": 9,
+"need": [
+"eeg",
+"eog",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "rbd4",
+"layout": "L42",
+"made": 11,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+},
+{
+"id": "n2",
+"layout": "L45",
+"made": 10,
+"need": [
+"eeg",
+"eog",
+"emg",
+"ecg"
+],
+"all_required_right": true,
+"missing": []
+}
+]

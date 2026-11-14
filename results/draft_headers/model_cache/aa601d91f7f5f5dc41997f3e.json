@@ -1,0 +1,114 @@
+{
+ "prompt": "Layout L06, 5 recording(s).\n\nCanonical targets (name: kind): C4_M1: eeg, C3_M2: eeg, F4_M1: eeg, F3_M2: eeg, O2_M1: eeg, O1_M2: eeg, LOC: eog, ROC: eog, EOG: eog, EMG: emg, ECG: ecg, LAT: emg_leg, RAT: emg_leg, thorax: effort, abdomen: effort, airflow: flow, nas_pres: flow, SpO2: spo2, HR: hr, pleth: pleth, pos: pos, snore: snore\n\nChannels:\n- label=Fp2_F4 | original='Fp2-F4' | units=['uV'] | rates_hz=[512.0] | transducer='EEG Fp2-F4' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=F4_C4 | original='F4-C4' | units=['uV'] | rates_hz=[512.0] | transducer='EEG F4-C4' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=C4_P4 | original='C4-P4' | units=['uV'] | rates_hz=[512.0] | transducer='EEG C4-P4' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=P4_O2 | original='P4-O2' | units=['uV'] | rates_hz=[512.0] | transducer='EEG P4-O2' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=FP1_F3 | original='FP1-F3' | units=['uV'] | rates_hz=[512.0] | transducer='EEG FP1-F3' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=F3_C3 | original='F3-C3' | units=['uV'] | rates_hz=[512.0] | transducer='EEG F3-C3' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=C3_P3 | original='C3-P3' | units=['uV'] | rates_hz=[512.0] | transducer='EEG C3-P3' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=P3_O1 | original='P3-O1' | units=['uV'] | rates_hz=[512.0] | transducer='EEG P3-O1' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=C4_A1 | original='C4-A1' | units=['uV'] | rates_hz=[512.0] | transducer='EEG C4-A1' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=ROC_LOC | original='ROC-LOC' | units=['mV', 'uV'] | rates_hz=[128.0] | transducer='EOG' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=EMG1_EMG2 | original='EMG1-EMG2' | units=['uV'] | rates_hz=[512.0] | transducer='EEG EMG1-EMG2' | prefilter='LP:100.00Hz HP:10.00Hz NOTCH:50'\n- label=ECG1_ECG2 | original='ECG1-ECG2' | units=['mV'] | rates_hz=[512.0] | transducer='EEG ECG1-ECG2' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=DX1_DX2 | original='DX1-DX2' | units=['mV', 'uV'] | rates_hz=[128.0, 512.0] | transducer='EEG DX1-DX2' | prefilter='LP:100.00Hz HP:10.00Hz NOTCH:50'\n- label=SX1_SX2 | original='SX1-SX2' | units=['uV'] | rates_hz=[128.0, 512.0] | transducer='EEG SX1-SX2' | prefilter='LP:30.00Hz HP:10.00Hz NOTCH:50'\n- label=SAO2 | original='SAO2' | units=['%'] | rates_hz=[1.0] | transducer='Oximeter' | prefilter=''\n- label=HR | original='HR' | units=['BPM'] | rates_hz=[1.0] | transducer='Oximeter' | prefilter=''\n- label=PLETH | original='PLETH' | units=['mV'] | rates_hz=[128.0] | transducer='Pwave' | prefilter=''\n- label=STAT | original='STAT' | units=[''] | rates_hz=[1.0] | transducer='Oximeter' | prefilter=''",
+ "model": "claude-opus-5-5",
+ "channels": [
+  {
+   "label": "Fp2_F4",
+   "target": "none",
+   "ref": "",
+   "reason": "Bipolar EEG chain derivation Fp2-F4 has no canonical counterpart."
+  },
+  {
+   "label": "F4_C4",
+   "target": "none",
+   "ref": "",
+   "reason": "Bipolar EEG chain derivation F4-C4 has no canonical counterpart."
+  },
+  {
+   "label": "C4_P4",
+   "target": "none",
+   "ref": "",
+   "reason": "Bipolar EEG chain derivation C4-P4 has no canonical counterpart."
+  },
+  {
+   "label": "P4_O2",
+   "target": "none",
+   "ref": "",
+   "reason": "Bipolar EEG chain derivation P4-O2 has no canonical counterpart."
+  },
+  {
+   "label": "FP1_F3",
+   "target": "none",
+   "ref": "",
+   "reason": "Bipolar EEG chain derivation Fp1-F3 has no canonical counterpart."
+  },
+  {
+   "label": "F3_C3",
+   "target": "none",
+   "ref": "",
+   "reason": "Bipolar EEG chain derivation F3-C3 has no canonical counterpart."
+  },
+  {
+   "label": "C3_P3",
+   "target": "none",
+   "ref": "",
+   "reason": "Bipolar EEG chain derivation C3-P3 has no canonical counterpart."
+  },
+  {
+   "label": "P3_O1",
+   "target": "none",
+   "ref": "",
+   "reason": "Bipolar EEG chain derivation P3-O1 has no canonical counterpart."
+  },
+  {
+   "label": "C4_A1",
+   "target": "C4_M1",
+   "ref": "",
+   "reason": "C4 referenced to the contralateral left ear/mastoid (A1) is equivalent to C4-M1."
+  },
+  {
+   "label": "ROC_LOC",
+   "target": "EOG",
+   "ref": "",
+   "reason": "Bipolar right-minus-left eye derivation with an EOG transducer maps to the single EOG channel."
+  },
+  {
+   "label": "EMG1_EMG2",
+   "target": "EMG",
+   "ref": "",
+   "reason": "Bipolar EMG derivation with a 10-100 Hz filter is the chin EMG."
+  },
+  {
+   "label": "ECG1_ECG2",
+   "target": "ECG",
+   "ref": "",
+   "reason": "The bipolar ECG lead is in mV."
+  },
+  {
+   "label": "DX1_DX2",
+   "target": "RAT",
+   "ref": "",
+   "reason": "DX (Italian destro, right) is a bipolar pair with an EMG-style 10-100 Hz filter, consistent with right tibialis."
+  },
+  {
+   "label": "SX1_SX2",
+   "target": "LAT",
+   "ref": "",
+   "reason": "SX (Italian sinistro, left) is a bipolar pair with a 10 Hz high-pass, consistent with left tibialis EMG."
+  },
+  {
+   "label": "SAO2",
+   "target": "SpO2",
+   "ref": "",
+   "reason": "Oximeter saturation channel in % at 1 Hz."
+  },
+  {
+   "label": "HR",
+   "target": "HR",
+   "ref": "",
+   "reason": "Oximeter heart rate in BPM."
+  },
+  {
+   "label": "PLETH",
+   "target": "pleth",
+   "ref": "",
+   "reason": "Plethysmographic pulse waveform from the oximeter."
+  },
+  {
+   "label": "STAT",
+   "target": "none",
+   "ref": "",
+   "reason": "Oximeter status channel with no canonical counterpart."
+  }
+ ]
+}

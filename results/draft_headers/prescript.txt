@@ -1,0 +1,92 @@
+% Luna pre-script. Every line is a suggestion left commented out: nothing is auto-corrected.
+% n11: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle1: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle16: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle17: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle2: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle21: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle28: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle3: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle38: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle39: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle40: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle5: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle7: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% plm9: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% n5: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle13: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle18: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle22: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle24: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle30: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle37: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle4: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% ins8: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd10: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd11: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd8: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle10: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle19: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle23: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle26: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd19: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd2: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd21: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd22: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd9: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% narco4: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle9: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd17: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% ins2: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% ins6: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% narco5: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% brux1: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% n10: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd16: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd3: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd12: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd13: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd7: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% L13: LOC has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=LOC unit=?
+% L13: ROC has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=ROC unit=?
+% L13: CHIN1 has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=CHIN1 unit=?
+% L13: F3A2 has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=F3A2 unit=?
+% L13: F4A1 has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=F4A1 unit=?
+% L13: C3A2 has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=C3A2 unit=?
+% L13: C4A1 has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=C4A1 unit=?
+% L13: O1A2 has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=O1A2 unit=?
+% L13: O2A1 has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=O2A1 unit=?
+% L13: ECG has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=ECG unit=?
+% n6: ECG beats point down in ECG (unverified heuristic).   FLIP sig=ECG
+% n7: ECG beats point down in ECG (unverified heuristic).   FLIP sig=ECG
+% ins5: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% ins7: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle31: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% n1: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% sdb3: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd6: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% plm5: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd14: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd1: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% plm8: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% plm4: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% L33: EOG_L has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=EOG_L unit=?
+% L33: EOG_R has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=EOG_R unit=?
+% L33: CHIN1 has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=CHIN1 unit=?
+% L33: F3A2 has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=F3A2 unit=?
+% L33: F4A1 has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=F4A1 unit=?
+% L33: C3A2 has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=C3A2 unit=?
+% L33: C4A1 has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=C4A1 unit=?
+% L33: O1A2 has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=O1A2 unit=?
+% L33: O2A1 has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=O2A1 unit=?
+% n15: ECG beats point down in EKG (unverified heuristic).   FLIP sig=EKG
+% L33: EKG has a blank or non-voltage unit in some recordings; set it before rescaling.   SET-HEADERS sig=EKG unit=?
+% n9: ECG beats point down in ECG (unverified heuristic).   FLIP sig=ECG
+% plm3: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% nfle8: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd4: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd20: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% rbd15: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% n2: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% narco1: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% ins4: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
