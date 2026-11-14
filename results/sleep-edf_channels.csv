@@ -1,0 +1,1292 @@
+id,idx,label,unit,sr,label_type,signal_type,agree,unit_status,amp_uv,cal_inverted,ecg_pol,ecg_artefact,reason
+SC4001E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,19.744891515237924,False,,False,86% of power at 0.5-4 Hz
+SC4001E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.036165880542423,False,,False,58% of power at 0.5-4 Hz
+SC4001E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,52.72754613720689,False,,False,90% of power at 0.5-4 Hz
+SC4001E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 116
+SC4001E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.4
+SC4001E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4001E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 855
+SC4002E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,21.154956548312544,False,,False,76% of power at 0.5-4 Hz
+SC4002E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.850542107746922,False,,False,61% of power at 0.5-4 Hz
+SC4002E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,29.558363548093993,False,,False,88% of power at 0.5-4 Hz
+SC4002E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 118
+SC4002E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.65
+SC4002E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4002E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.02e+03
+SC4011E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,20.284629740599158,False,,False,92% of power at 0.5-4 Hz
+SC4011E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.34947917452824,False,,False,56% of power at 0.5-4 Hz
+SC4011E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,59.50552915362937,False,,False,94% of power at 0.5-4 Hz
+SC4011E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 63
+SC4011E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.15
+SC4011E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4011E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 900
+SC4012E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.682674560234645,False,,False,90% of power at 0.5-4 Hz
+SC4012E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,10.559352464711694,False,,False,71% of power at 0.5-4 Hz
+SC4012E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,62.18106142966326,False,,False,95% of power at 0.5-4 Hz
+SC4012E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 52
+SC4012E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 4.85
+SC4012E0-PSG,5,Temp rectal,,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4012E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.42e+03
+SC4021E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,13.166193413826043,False,,False,93% of power at 0.5-4 Hz
+SC4021E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,11.831971323493626,False,,False,33% of power at 0.5-4 Hz
+SC4021E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,48.75175953177691,False,,False,94% of power at 0.5-4 Hz
+SC4021E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 93
+SC4021E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.43
+SC4021E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4021E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 999
+SC4022E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,18.105026880548973,False,,False,95% of power at 0.5-4 Hz
+SC4022E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.6532098894602605,False,,False,82% of power at 0.5-4 Hz
+SC4022E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,63.45218294020408,False,,False,94% of power at 0.5-4 Hz
+SC4022E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 72
+SC4022E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.08
+SC4022E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4022E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 976
+SC4031E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,12.491037443432244,False,,False,67% of power at 0.5-4 Hz
+SC4031E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,17.59578261317436,False,,False,39% of power at 0.5-4 Hz
+SC4031E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,74.18304962246167,False,,False,91% of power at 0.5-4 Hz
+SC4031E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 30
+SC4031E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.45
+SC4031E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 38
+SC4031E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 993
+SC4032E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,20.284962321041164,False,,False,73% of power at 0.5-4 Hz
+SC4032E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,12.870758572122035,False,,False,40% of power at 0.5-4 Hz
+SC4032E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,66.44754671942852,False,,False,95% of power at 0.5-4 Hz
+SC4032E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 46
+SC4032E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.76
+SC4032E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4032E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.01e+03
+SC4041E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,15.363349843633497,False,,False,79% of power at 0.5-4 Hz
+SC4041E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.145599430533551,False,,False,56% of power at 0.5-4 Hz
+SC4041E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,31.00406245699675,False,,False,90% of power at 0.5-4 Hz
+SC4041E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 82
+SC4041E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.89
+SC4041E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4041E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 892
+SC4042E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,21.871933215349955,False,,False,83% of power at 0.5-4 Hz
+SC4042E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.409170495078456,False,,False,56% of power at 0.5-4 Hz
+SC4042E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,36.7463245019211,False,,False,88% of power at 0.5-4 Hz
+SC4042E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 98
+SC4042E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.99
+SC4042E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4042E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 972
+SC4051E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,24.135153002296462,False,,False,84% of power at 0.5-4 Hz
+SC4051E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,9.376550972579913,False,,False,57% of power at 0.5-4 Hz
+SC4051E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,52.564020959729405,False,,False,93% of power at 0.5-4 Hz
+SC4051E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median -1.5
+SC4051E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.82
+SC4051E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.1
+SC4051E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 807
+SC4052E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,18.525832320671626,False,,False,81% of power at 0.5-4 Hz
+SC4052E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,10.329404357141678,False,,False,67% of power at 0.5-4 Hz
+SC4052E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,16.575287205709394,False,,False,90% of power at 0.5-4 Hz
+SC4052E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median -62
+SC4052E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.69
+SC4052E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.9
+SC4052E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 781
+SC4061E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,37.194339982421354,False,,False,68% of power at 0.5-4 Hz
+SC4061E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.978966816345345,False,,False,58% of power at 0.5-4 Hz
+SC4061E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,106.8859759427126,False,,False,95% of power at 0.5-4 Hz
+SC4061E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 7.5
+SC4061E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.44
+SC4061E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4061E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 696
+SC4062E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,16.750359572419224,False,,False,85% of power at 0.5-4 Hz
+SC4062E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,14.138377438996022,False,,False,43% of power at 0.5-4 Hz
+SC4062E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,67.54071309921378,False,,False,95% of power at 0.5-4 Hz
+SC4062E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 17.5
+SC4062E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.85
+SC4062E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4062E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.32e+03
+SC4071E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,11.020683480504662,False,,False,84% of power at 0.5-4 Hz
+SC4071E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.640431422799817,False,,False,38% of power at 0.5-4 Hz
+SC4071E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,22.437370136012518,False,,False,87% of power at 0.5-4 Hz
+SC4071E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 156
+SC4071E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 4.05
+SC4071E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4071E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.16e+03
+SC4072E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,18.021971906514104,False,,False,68% of power at 0.5-4 Hz
+SC4072E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.780303279276362,False,,False,30% of power at 0.5-4 Hz
+SC4072E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,41.619390790332325,False,,False,88% of power at 0.5-4 Hz
+SC4072E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 111
+SC4072E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 4.3
+SC4072E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4072E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.12e+03
+SC4081E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,19.83513720519795,False,,False,86% of power at 0.5-4 Hz
+SC4081E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.880488105751168,False,,False,55% of power at 0.5-4 Hz
+SC4081E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,65.65916811898681,False,,False,96% of power at 0.5-4 Hz
+SC4081E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 50
+SC4081E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.83
+SC4081E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4081E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 932
+SC4082E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,21.29139963406254,False,,False,90% of power at 0.5-4 Hz
+SC4082E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.6313183996061325,False,,False,72% of power at 0.5-4 Hz
+SC4082E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,26.953189969572534,False,,False,96% of power at 0.5-4 Hz
+SC4082E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 64
+SC4082E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median -0.0205
+SC4082E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4082E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.07e+03
+SC4091E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,13.1799296368219,False,,False,79% of power at 0.5-4 Hz
+SC4091E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.728171465393352,False,,False,65% of power at 0.5-4 Hz
+SC4091E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,20.946016898322387,False,,False,88% of power at 0.5-4 Hz
+SC4091E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 74
+SC4091E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.99
+SC4091E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4091E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.28e+03
+SC4092E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,20.428245489084667,False,,False,71% of power at 0.5-4 Hz
+SC4092E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,14.774350036468054,False,,False,70% of power at 0.5-4 Hz
+SC4092E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,24.950875347906674,False,,False,86% of power at 0.5-4 Hz
+SC4092E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 40
+SC4092E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.18
+SC4092E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4092E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1e+03
+SC4101E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,15.669878109266538,False,,False,87% of power at 0.5-4 Hz
+SC4101E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.34294151806313,False,,False,77% of power at 0.5-4 Hz
+SC4101E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,40.41387313636355,False,,False,93% of power at 0.5-4 Hz
+SC4101E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 185
+SC4101E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 4.01
+SC4101E0-PSG,5,Temp rectal,,1.0,temp,hr,unchecked,n/a,,False,,False,median 36
+SC4101E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.02e+03
+SC4102E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,15.872842062896027,False,,False,90% of power at 0.5-4 Hz
+SC4102E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,4.9715054376104035,False,,False,63% of power at 0.5-4 Hz
+SC4102E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,37.18150642511661,False,,False,90% of power at 0.5-4 Hz
+SC4102E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 179
+SC4102E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.65
+SC4102E0-PSG,5,Temp rectal,,1.0,temp,hr,unchecked,n/a,,False,,False,median 36
+SC4102E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 988
+SC4111E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.598132487038093,False,,False,70% of power at 0.5-4 Hz
+SC4111E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,10.691649133072094,False,,False,45% of power at 0.5-4 Hz
+SC4111E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,45.79697947120865,False,,False,90% of power at 0.5-4 Hz
+SC4111E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 56
+SC4111E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.85
+SC4111E0-PSG,5,Temp rectal,,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4111E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 893
+SC4112E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,23.253825465530543,False,,False,75% of power at 0.5-4 Hz
+SC4112E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,emg,conflict,ok,14.2917789986643,False,,False,35% of power above 25 Hz
+SC4112E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,49.164067049352724,False,,False,89% of power at 0.5-4 Hz
+SC4112E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 30.8
+SC4112E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.35
+SC4112E0-PSG,5,Temp rectal,,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4112E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 982
+SC4121E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,12.64682670913005,False,,False,82% of power at 0.5-4 Hz
+SC4121E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.912997438995259,False,,False,70% of power at 0.5-4 Hz
+SC4121E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,26.079871689821424,False,,False,80% of power at 0.5-4 Hz
+SC4121E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median -49.5
+SC4121E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.09
+SC4121E0-PSG,5,Temp rectal,,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4121E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 915
+SC4122E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,20.86140703770672,False,,False,87% of power at 0.5-4 Hz
+SC4122E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.9843957814771,False,,False,70% of power at 0.5-4 Hz
+SC4122E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,33.38175908473134,False,,False,93% of power at 0.5-4 Hz
+SC4122E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median -64.2
+SC4122E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.82
+SC4122E0-PSG,5,Temp rectal,,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4122E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 952
+SC4131E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.21094371209058,False,,False,70% of power at 0.5-4 Hz
+SC4131E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.779434694836585,False,,False,69% of power at 0.5-4 Hz
+SC4131E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,32.78598552586727,False,,False,92% of power at 0.5-4 Hz
+SC4131E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 109
+SC4131E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.95
+SC4131E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13
+SC4131E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 929
+SC4141E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,18.79949250900333,False,,False,78% of power at 0.5-4 Hz
+SC4141E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,9.079562456368405,False,,False,59% of power at 0.5-4 Hz
+SC4141E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,35.74213673121402,False,,False,89% of power at 0.5-4 Hz
+SC4141E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 53
+SC4141E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.49
+SC4141E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.2
+SC4141E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.05e+03
+SC4142E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.662350971312286,False,,False,69% of power at 0.5-4 Hz
+SC4142E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.2052255836527115,False,,False,52% of power at 0.5-4 Hz
+SC4142E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,54.1717452737817,False,,False,92% of power at 0.5-4 Hz
+SC4142E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 44
+SC4142E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.16
+SC4142E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4142E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 918
+SC4151E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,10.55885049208695,False,,False,84% of power at 0.5-4 Hz
+SC4151E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,4.532113250465402,False,,False,71% of power at 0.5-4 Hz
+SC4151E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,30.949321431618174,False,,False,97% of power at 0.5-4 Hz
+SC4151E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 72
+SC4151E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.07
+SC4151E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4151E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 993
+SC4152E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,20.6011407840968,False,,False,69% of power at 0.5-4 Hz
+SC4152E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.439224682437787,False,,False,67% of power at 0.5-4 Hz
+SC4152E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,36.67763915707141,False,,False,92% of power at 0.5-4 Hz
+SC4152E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 25
+SC4152E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.5
+SC4152E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 36
+SC4152E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.08e+03
+SC4161E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,19.810989839273887,False,,False,90% of power at 0.5-4 Hz
+SC4161E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.840279051370257,False,,False,86% of power at 0.5-4 Hz
+SC4161E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,29.76186788447292,False,,False,93% of power at 0.5-4 Hz
+SC4161E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 27.5
+SC4161E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 4.76
+SC4161E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4161E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.18e+03
+SC4162E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,18.15380625807817,False,,False,76% of power at 0.5-4 Hz
+SC4162E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.1996797958261975,False,,False,59% of power at 0.5-4 Hz
+SC4162E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,30.22277895923756,False,,False,94% of power at 0.5-4 Hz
+SC4162E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 44
+SC4162E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.65
+SC4162E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4162E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 938
+SC4171E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,19.45908656211497,False,,False,81% of power at 0.5-4 Hz
+SC4171E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,10.970545393650406,False,,False,83% of power at 0.5-4 Hz
+SC4171E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,19.177711544488623,False,,False,91% of power at 0.5-4 Hz
+SC4171E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 168
+SC4171E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.99
+SC4171E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.1
+SC4171E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.06e+03
+SC4172E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,19.407745118040133,False,,False,71% of power at 0.5-4 Hz
+SC4172E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,13.439228392470048,False,,False,77% of power at 0.5-4 Hz
+SC4172E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,16.365641814704638,False,,False,87% of power at 0.5-4 Hz
+SC4172E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 116
+SC4172E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.95
+SC4172E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14
+SC4172E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.04e+03
+SC4181E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,20.986466461324394,False,,False,87% of power at 0.5-4 Hz
+SC4181E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.308514106762226,False,,False,44% of power at 0.5-4 Hz
+SC4181E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,29.823498248994472,False,,False,86% of power at 0.5-4 Hz
+SC4181E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 65
+SC4181E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.01
+SC4181E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 35
+SC4181E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 930
+SC4182E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.469221806082203,False,,False,81% of power at 0.5-4 Hz
+SC4182E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,emg,conflict,ok,9.478777697925382,False,,False,51% of the power above 4 Hz lies above 25 Hz
+SC4182E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,47.68043114321557,False,,False,91% of power at 0.5-4 Hz
+SC4182E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 36
+SC4182E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.28
+SC4182E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 34.9
+SC4182E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 636
+SC4191E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,16.21406037762121,False,,False,73% of power at 0.5-4 Hz
+SC4191E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.105205132401388,False,,False,59% of power at 0.5-4 Hz
+SC4191E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,20.195468566130803,False,,False,88% of power at 0.5-4 Hz
+SC4191E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 21.2
+SC4191E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.22
+SC4191E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 36
+SC4191E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1e+03
+SC4192E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.93102380472409,False,,False,76% of power at 0.5-4 Hz
+SC4192E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.169292249179822,False,,False,72% of power at 0.5-4 Hz
+SC4192E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,12.112841982924238,False,,False,91% of power at 0.5-4 Hz
+SC4192E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 32.5
+SC4192E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.46
+SC4192E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4192E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.07e+03
+SC4201E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,18.685928526109763,False,,False,87% of power at 0.5-4 Hz
+SC4201E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,12.419846024780327,False,,False,59% of power at 0.5-4 Hz
+SC4201E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,51.23283275148583,False,,False,94% of power at 0.5-4 Hz
+SC4201E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 192
+SC4201E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.54
+SC4201E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.5
+SC4201E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 965
+SC4202E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,8.321746915656732,False,,False,62% of power at 0.5-4 Hz
+SC4202E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.53080861990147,False,,False,53% of power at 0.5-4 Hz
+SC4202E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,40.16257879314586,False,,False,94% of power at 0.5-4 Hz
+SC4202E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 180
+SC4202E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.27
+SC4202E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.6
+SC4202E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 937
+SC4211E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,20.8805774656988,False,,False,80% of power at 0.5-4 Hz
+SC4211E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.406242064441208,False,,False,44% of power at 0.5-4 Hz
+SC4211E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,41.87597813179474,False,,False,93% of power at 0.5-4 Hz
+SC4211E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 31.8
+SC4211E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.91
+SC4211E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4211E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 955
+SC4212E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,15.2131347286616,False,,False,91% of power at 0.5-4 Hz
+SC4212E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,4.3423479823466105,False,,False,47% of power at 0.5-4 Hz
+SC4212E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,39.129551839479674,False,,False,93% of power at 0.5-4 Hz
+SC4212E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 60
+SC4212E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.88
+SC4212E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4212E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 964
+SC4221E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,16.9835039999121,False,,False,69% of power at 0.5-4 Hz
+SC4221E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,1.8376519247798477,False,,False,85% of power at 0.5-4 Hz
+SC4221E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,25.478842872368123,False,,False,93% of power at 0.5-4 Hz
+SC4221E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median -104
+SC4221E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.99
+SC4221E0-PSG,5,Temp rectal,,1.0,temp,hr,unchecked,n/a,,False,,False,median 36
+SC4221E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 958
+SC4222E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,21.54361616393877,False,,False,75% of power at 0.5-4 Hz
+SC4222E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.761668971184403,False,,False,36% of power at 0.5-4 Hz
+SC4222E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,33.642416373181184,False,,False,94% of power at 0.5-4 Hz
+SC4222E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median -127
+SC4222E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.67
+SC4222E0-PSG,5,Temp rectal,,1.0,temp,hr,unchecked,n/a,,False,,False,median 36
+SC4222E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 941
+SC4231E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,20.10791834981991,False,,False,90% of power at 0.5-4 Hz
+SC4231E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.931309865353075,False,,False,54% of power at 0.5-4 Hz
+SC4231E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,72.63672228026988,False,,False,95% of power at 0.5-4 Hz
+SC4231E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 65
+SC4231E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.06
+SC4231E0-PSG,5,Temp rectal,,1.0,temp,hr,unchecked,n/a,,False,,False,median 36
+SC4231E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.04e+03
+SC4232E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,emg,conflict,ok,27.12138747345974,False,,False,56% of power above 25 Hz
+SC4232E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.434580583275819,False,,False,49% of power at 0.5-4 Hz
+SC4232E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,56.03243971876867,False,,False,94% of power at 0.5-4 Hz
+SC4232E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 69
+SC4232E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.91
+SC4232E0-PSG,5,Temp rectal,,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4232E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 930
+SC4241E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,15.951210193606787,False,,False,86% of power at 0.5-4 Hz
+SC4241E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.640677093654398,False,,False,40% of power at 0.5-4 Hz
+SC4241E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,32.77886066580435,False,,False,95% of power at 0.5-4 Hz
+SC4241E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 59
+SC4241E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.67
+SC4241E0-PSG,5,Temp rectal,,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4241E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.05e+03
+SC4242E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,30.219180529851897,False,,False,74% of power at 0.5-4 Hz
+SC4242E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,9.863928437375431,False,,False,48% of power at 0.5-4 Hz
+SC4242E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,83.68030389795939,False,,False,93% of power at 0.5-4 Hz
+SC4242E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 27.2
+SC4242E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.89
+SC4242E0-PSG,5,Temp rectal,,1.0,temp,hr,unchecked,n/a,,False,,False,median 36
+SC4242E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.04e+03
+SC4251E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,15.273717050960999,False,,False,77% of power at 0.5-4 Hz
+SC4251E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.493038177482527,False,,False,60% of power at 0.5-4 Hz
+SC4251E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,37.691337913912136,False,,False,94% of power at 0.5-4 Hz
+SC4251E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 86
+SC4251E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.87
+SC4251E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4251E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 976
+SC4252E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,14.121078345173203,False,,False,77% of power at 0.5-4 Hz
+SC4252E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.398184825915155,False,,False,67% of power at 0.5-4 Hz
+SC4252E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,33.41649936787074,False,,False,91% of power at 0.5-4 Hz
+SC4252E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 90
+SC4252E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.91
+SC4252E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4252E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.01e+03
+SC4261F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,12.507172283557942,False,,False,76% of power at 0.5-4 Hz
+SC4261F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.243468199113604,False,,False,68% of power at 0.5-4 Hz
+SC4261F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,12.242515063510371,False,,False,82% of power at 0.5-4 Hz
+SC4261F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 94
+SC4261F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 4.41
+SC4261F0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14
+SC4261F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.04e+03
+SC4262F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,23.500488511540635,False,,False,72% of power at 0.5-4 Hz
+SC4262F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.506280098417633,False,,False,65% of power at 0.5-4 Hz
+SC4262F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,15.783545920914904,False,,False,91% of power at 0.5-4 Hz
+SC4262F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 49
+SC4262F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 4.27
+SC4262F0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14
+SC4262F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 980
+SC4271F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,18.220818830615993,False,,False,71% of power at 0.5-4 Hz
+SC4271F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,10.186233912888294,False,,False,46% of power at 0.5-4 Hz
+SC4271F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,24.426574390611833,False,,False,89% of power at 0.5-4 Hz
+SC4271F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 112
+SC4271F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.74
+SC4271F0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.9
+SC4271F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 955
+SC4272F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,18.92167847898027,False,,False,63% of power at 0.5-4 Hz
+SC4272F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,11.146475683244455,False,,False,73% of power at 0.5-4 Hz
+SC4272F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,29.223970170461094,False,,False,93% of power at 0.5-4 Hz
+SC4272F0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 170
+SC4272F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 4
+SC4272F0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14
+SC4272F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 984
+SC4281G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,21.424404491945594,False,,False,87% of power at 0.5-4 Hz
+SC4281G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.226268729553869,False,,False,68% of power at 0.5-4 Hz
+SC4281G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,21.363092476126063,False,,False,94% of power at 0.5-4 Hz
+SC4281G0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 109
+SC4281G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.85
+SC4281G0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.1
+SC4281G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.13e+03
+SC4282G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,21.559636936192348,False,,False,83% of power at 0.5-4 Hz
+SC4282G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,emg,conflict,ok,20.706884102093646,False,,False,51% of the power above 4 Hz lies above 25 Hz
+SC4282G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,44.900587695311444,False,,False,93% of power at 0.5-4 Hz
+SC4282G0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 85
+SC4282G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.94
+SC4282G0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.5
+SC4282G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 987
+SC4291G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,21.436599577786208,False,,False,85% of power at 0.5-4 Hz
+SC4291G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,9.482162621643656,False,,False,61% of power at 0.5-4 Hz
+SC4291G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,47.889671114895094,False,,False,94% of power at 0.5-4 Hz
+SC4291G0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 80
+SC4291G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.05
+SC4291G0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4291G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.01e+03
+SC4292G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,22.801139729437388,False,,False,87% of power at 0.5-4 Hz
+SC4292G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,9.430912589836487,False,,False,65% of power at 0.5-4 Hz
+SC4292G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,45.31801414826339,False,,False,95% of power at 0.5-4 Hz
+SC4292G0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 80
+SC4292G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.92
+SC4292G0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4292G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 972
+SC4301E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.5480530601194,False,,False,76% of power at 0.5-4 Hz
+SC4301E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.938493940891247,False,,False,55% of power at 0.5-4 Hz
+SC4301E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,60.45247276450944,False,,False,90% of power at 0.5-4 Hz
+SC4301E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 97
+SC4301E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.97
+SC4301E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4301E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.01e+03
+SC4302E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.280636105967567,False,,False,59% of power at 0.5-4 Hz
+SC4302E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.665930467954921,False,,False,47% of power at 0.5-4 Hz
+SC4302E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,52.346459000557445,False,,False,92% of power at 0.5-4 Hz
+SC4302E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 98
+SC4302E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.8
+SC4302E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 36
+SC4302E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 934
+SC4311E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,15.806054963363223,False,,False,68% of power at 0.5-4 Hz
+SC4311E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.94256252435527,False,,False,41% of power at 0.5-4 Hz
+SC4311E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,27.870064724766213,False,,False,93% of power at 0.5-4 Hz
+SC4311E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 31.5
+SC4311E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.84
+SC4311E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 36
+SC4311E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 890
+SC4312E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,16.253519443053676,False,,False,84% of power at 0.5-4 Hz
+SC4312E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.676858358279448,False,,False,53% of power at 0.5-4 Hz
+SC4312E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,25.712874161959,False,,False,81% of power at 0.5-4 Hz
+SC4312E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 60
+SC4312E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.81
+SC4312E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 36
+SC4312E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 941
+SC4321E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,11.242707206214199,False,,False,83% of power at 0.5-4 Hz
+SC4321E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,4.00886255756022,False,,False,74% of power at 0.5-4 Hz
+SC4321E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,34.39374238154511,False,,False,93% of power at 0.5-4 Hz
+SC4321E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 56
+SC4321E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.79
+SC4321E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 36
+SC4321E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 895
+SC4322E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,11.914765724517324,False,,False,74% of power at 0.5-4 Hz
+SC4322E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,4.769897396249261,False,,False,61% of power at 0.5-4 Hz
+SC4322E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,31.35900395613359,False,,False,93% of power at 0.5-4 Hz
+SC4322E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 54
+SC4322E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 0.928
+SC4322E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 36
+SC4322E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.03e+03
+SC4331F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,11.658319197916754,False,,False,86% of power at 0.5-4 Hz
+SC4331F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.47802501455102,False,,False,71% of power at 0.5-4 Hz
+SC4331F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,27.752785149387048,False,,False,94% of power at 0.5-4 Hz
+SC4331F0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 146
+SC4331F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.81
+SC4331F0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14
+SC4331F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 986
+SC4332F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,20.23841685990547,False,,False,77% of power at 0.5-4 Hz
+SC4332F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.454552654720017,False,,False,52% of power at 0.5-4 Hz
+SC4332F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,46.89981467087583,False,,False,88% of power at 0.5-4 Hz
+SC4332F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 56
+SC4332F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.24
+SC4332F0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.1
+SC4332F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 626
+SC4341F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,12.098575312602696,False,,False,87% of power at 0.5-4 Hz
+SC4341F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,3.647243721825089,False,,False,62% of power at 0.5-4 Hz
+SC4341F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,36.42495006049393,False,,False,94% of power at 0.5-4 Hz
+SC4341F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 129
+SC4341F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 0.675
+SC4341F0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.1
+SC4341F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 769
+SC4342F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,11.137219674820564,False,,False,90% of power at 0.5-4 Hz
+SC4342F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,4.112488248302257,False,,False,63% of power at 0.5-4 Hz
+SC4342F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,35.03979464253432,False,,False,91% of power at 0.5-4 Hz
+SC4342F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 108
+SC4342F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.3
+SC4342F0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.1
+SC4342F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 884
+SC4351F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,10.082084162984483,False,,False,73% of power at 0.5-4 Hz
+SC4351F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,3.2559928731834606,False,,False,70% of power at 0.5-4 Hz
+SC4351F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,13.429273716527291,False,,False,77% of power at 0.5-4 Hz
+SC4351F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 62
+SC4351F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.42
+SC4351F0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.3
+SC4351F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 729
+SC4352F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,14.421097252494079,False,,False,70% of power at 0.5-4 Hz
+SC4352F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.204710909616894,False,,False,57% of power at 0.5-4 Hz
+SC4352F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,25.398214658479596,False,,False,81% of power at 0.5-4 Hz
+SC4352F0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 33.5
+SC4352F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.93
+SC4352F0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4352F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 954
+SC4362F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,14.403141951238485,False,,False,78% of power at 0.5-4 Hz
+SC4362F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,9.37537467420173,False,,False,56% of power at 0.5-4 Hz
+SC4362F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,17.085848001875856,False,,False,86% of power at 0.5-4 Hz
+SC4362F0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median -127
+SC4362F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 4.48
+SC4362F0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 3.51
+SC4362F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.03e+03
+SC4371F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,14.457871496626447,False,,False,88% of power at 0.5-4 Hz
+SC4371F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.979638950997714,False,,False,64% of power at 0.5-4 Hz
+SC4371F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,16.039085375540015,False,,False,90% of power at 0.5-4 Hz
+SC4371F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 126
+SC4371F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 4.34
+SC4371F0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.8
+SC4371F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 951
+SC4372F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,12.508594115600953,False,,False,78% of power at 0.5-4 Hz
+SC4372F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.04939002487463,False,,False,72% of power at 0.5-4 Hz
+SC4372F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,9.93533728630057,False,,False,86% of power at 0.5-4 Hz
+SC4372F0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 18.8
+SC4372F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.24
+SC4372F0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.8
+SC4372F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.05e+03
+SC4381F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,8.932550193932965,False,,False,71% of power at 0.5-4 Hz
+SC4381F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,4.12978209263923,False,,False,46% of power at 0.5-4 Hz
+SC4381F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,13.003986540086393,False,,False,88% of power at 0.5-4 Hz
+SC4381F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 74
+SC4381F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.88
+SC4381F0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.2
+SC4381F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 848
+SC4382F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,10.034826283603934,False,,False,57% of power at 0.5-4 Hz
+SC4382F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.143551199762162,False,,False,40% of power at 0.5-4 Hz
+SC4382F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,40.32993312160876,False,,False,93% of power at 0.5-4 Hz
+SC4382F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 76
+SC4382F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 0.591
+SC4382F0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.2
+SC4382F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 942
+SC4401E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,8.677412727139735,False,,False,79% of power at 0.5-4 Hz
+SC4401E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.599902294156337,False,,False,39% of power at 0.5-4 Hz
+SC4401E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,24.086646826425962,False,,False,83% of power at 0.5-4 Hz
+SC4401E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 68
+SC4401E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.04
+SC4401E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4401E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 996
+SC4402E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,15.183683282748852,False,,False,71% of power at 0.5-4 Hz
+SC4402E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.091260950075769,False,,False,35% of power at 0.5-4 Hz
+SC4402E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,24.39979963359165,False,,False,86% of power at 0.5-4 Hz
+SC4402E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 33.5
+SC4402E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.22
+SC4402E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4402E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 998
+SC4411E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,18.11019347961539,False,,False,63% of power at 0.5-4 Hz
+SC4411E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.40292447858659,False,,False,46% of power at 0.5-4 Hz
+SC4411E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,30.37922630925625,False,,False,94% of power at 0.5-4 Hz
+SC4411E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median -194
+SC4411E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 6.5
+SC4411E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4411E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 2.01e+03
+SC4412E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,25.12295010493016,False,,False,63% of power at 0.5-4 Hz
+SC4412E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.283692463217939,False,,False,71% of power at 0.5-4 Hz
+SC4412E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,53.36832283608068,False,,False,93% of power at 0.5-4 Hz
+SC4412E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median -96.5
+SC4412E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.6
+SC4412E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.2
+SC4412E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.1e+03
+SC4421E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,27.62609040995701,False,,False,84% of power at 0.5-4 Hz
+SC4421E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,emg,conflict,ok,18.32622361345407,False,,False,45% of power above 25 Hz
+SC4421E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,67.96832506149012,False,,False,96% of power at 0.5-4 Hz
+SC4421E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median -11
+SC4421E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3
+SC4421E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 36
+SC4421E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 985
+SC4422E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,27.195776040214685,False,,False,89% of power at 0.5-4 Hz
+SC4422E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.118432057147508,False,,False,43% of power at 0.5-4 Hz
+SC4422E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,64.71681221272061,False,,False,96% of power at 0.5-4 Hz
+SC4422E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median -58.5
+SC4422E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.9
+SC4422E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4422E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1e+03
+SC4431E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,emg,conflict,ok,30.422071469882983,False,,False,51% of the power above 4 Hz lies above 25 Hz
+SC4431E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,11.018939715999656,False,,False,41% of power at 0.5-4 Hz
+SC4431E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,52.57935126577216,False,,False,92% of power at 0.5-4 Hz
+SC4431E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 75
+SC4431E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.39
+SC4431E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4431E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.05e+03
+SC4432E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,20.325038441269253,False,,False,74% of power at 0.5-4 Hz
+SC4432E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,9.807000984277927,False,,False,42% of power at 0.5-4 Hz
+SC4432E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,71.50264942880372,False,,False,92% of power at 0.5-4 Hz
+SC4432E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 37
+SC4432E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 1.03
+SC4432E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4432E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.03e+03
+SC4441E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,20.551362216603515,False,,False,61% of power at 0.5-4 Hz
+SC4441E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.670809524273235,False,,False,40% of power at 0.5-4 Hz
+SC4441E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,30.294577257791875,False,,False,87% of power at 0.5-4 Hz
+SC4441E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 18.5
+SC4441E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.05
+SC4441E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 36
+SC4441E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 882
+SC4442E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,31.637350515860128,False,,False,58% of power at 0.5-4 Hz
+SC4442E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.20332907708366,False,,False,45% of power at 0.5-4 Hz
+SC4442E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,73.54593051315032,False,,False,93% of power at 0.5-4 Hz
+SC4442E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 40
+SC4442E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.45
+SC4442E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 36
+SC4442E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.05e+03
+SC4451F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,13.950231327621996,False,,False,44% of power at 0.5-4 Hz
+SC4451F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.993442332625804,False,,False,59% of power at 0.5-4 Hz
+SC4451F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,23.449296758832638,False,,False,79% of power at 0.5-4 Hz
+SC4451F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 92
+SC4451F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.21
+SC4451F0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4451F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 971
+SC4452F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,18.909630119673494,False,,False,70% of power at 0.5-4 Hz
+SC4452F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.001054459371936,False,,False,54% of power at 0.5-4 Hz
+SC4452F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,21.369767166463305,False,,False,88% of power at 0.5-4 Hz
+SC4452F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 70
+SC4452F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.37
+SC4452F0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4452F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 989
+SC4461F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,15.170550178880763,False,,False,84% of power at 0.5-4 Hz
+SC4461F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,emg,conflict,ok,11.048963143358005,False,,False,54% of the power above 4 Hz lies above 25 Hz
+SC4461F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,38.82149535043169,False,,False,94% of power at 0.5-4 Hz
+SC4461F0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 136
+SC4461F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.48
+SC4461F0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.1
+SC4461F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 858
+SC4462F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,13.788758045779087,False,,False,82% of power at 0.5-4 Hz
+SC4462F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.8399038254542734,False,,False,36% of power at 0.5-4 Hz
+SC4462F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,24.797255710006766,False,,False,89% of power at 0.5-4 Hz
+SC4462F0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 147
+SC4462F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.41
+SC4462F0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 12.7
+SC4462F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 818
+SC4471F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,20.042458299671477,False,,False,83% of power at 0.5-4 Hz
+SC4471F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.518888315786513,False,,False,67% of power at 0.5-4 Hz
+SC4471F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,22.083007883832646,False,,False,90% of power at 0.5-4 Hz
+SC4471F0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 8.25
+SC4471F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.8
+SC4471F0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4471F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 884
+SC4472F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.307616216934804,False,,False,88% of power at 0.5-4 Hz
+SC4472F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.927111179501756,False,,False,75% of power at 0.5-4 Hz
+SC4472F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,23.204075716248333,False,,False,93% of power at 0.5-4 Hz
+SC4472F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 90
+SC4472F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.76
+SC4472F0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4472F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 850
+SC4481F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,19.871605026655185,False,,False,82% of power at 0.5-4 Hz
+SC4481F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,10.306391523257934,False,,False,54% of power at 0.5-4 Hz
+SC4481F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,48.77331963841233,False,,False,93% of power at 0.5-4 Hz
+SC4481F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 116
+SC4481F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.16
+SC4481F0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.4
+SC4481F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 977
+SC4482F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,18.232301061012116,False,,False,62% of power at 0.5-4 Hz
+SC4482F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,10.420503185956594,False,,False,50% of power at 0.5-4 Hz
+SC4482F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,43.57333275650687,False,,False,93% of power at 0.5-4 Hz
+SC4482F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 59
+SC4482F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.15
+SC4482F0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.4
+SC4482F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 958
+SC4491G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,21.762158727386016,False,,False,76% of power at 0.5-4 Hz
+SC4491G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.571044711421411,False,,False,46% of power at 0.5-4 Hz
+SC4491G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,60.0154111791635,False,,False,92% of power at 0.5-4 Hz
+SC4491G0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 3.5
+SC4491G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 4.43
+SC4491G0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13
+SC4491G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.15e+03
+SC4492G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,18.61153993665316,False,,False,70% of power at 0.5-4 Hz
+SC4492G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.656663933406673,False,,False,26% of power at 0.5-4 Hz
+SC4492G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,35.94775846746004,False,,False,92% of power at 0.5-4 Hz
+SC4492G0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 4.5
+SC4492G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.56
+SC4492G0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.2
+SC4492G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 957
+SC4501E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,12.560949429022596,False,,False,72% of power at 0.5-4 Hz
+SC4501E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.633458890869747,False,,False,34% of power at 0.5-4 Hz
+SC4501E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,17.986200547839175,False,,False,92% of power at 0.5-4 Hz
+SC4501E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median -72
+SC4501E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.44
+SC4501E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.7
+SC4501E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.09e+03
+SC4502E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.042250626744906,False,,False,78% of power at 0.5-4 Hz
+SC4502E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.344665238125646,False,,False,41% of power at 0.5-4 Hz
+SC4502E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,28.03021226762001,False,,False,90% of power at 0.5-4 Hz
+SC4502E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median -115
+SC4502E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.5
+SC4502E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.2
+SC4502E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.08e+03
+SC4511E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,11.38653884792743,False,,False,69% of power at 0.5-4 Hz
+SC4511E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,3.846046119864406,False,,False,54% of power at 0.5-4 Hz
+SC4511E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,22.915531713235183,False,,False,90% of power at 0.5-4 Hz
+SC4511E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 183
+SC4511E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.65
+SC4511E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 36
+SC4511E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 946
+SC4512E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,emg,conflict,ok,19.066733684801527,False,,False,36% of power above 25 Hz
+SC4512E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,3.9489919561345177,False,,False,58% of power at 0.5-4 Hz
+SC4512E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,17.827908068274933,False,,False,88% of power at 0.5-4 Hz
+SC4512E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 174
+SC4512E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.98
+SC4512E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 36
+SC4512E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 910
+SC4522E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,15.175562304979398,False,,False,89% of power at 0.5-4 Hz
+SC4522E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,4.463505522864324,False,,False,64% of power at 0.5-4 Hz
+SC4522E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,41.76304248614435,False,,False,88% of power at 0.5-4 Hz
+SC4522E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 72
+SC4522E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.88
+SC4522E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.9
+SC4522E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 906
+SC4531E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,emg,conflict,ok,28.459292093685704,False,,False,52% of the power above 4 Hz lies above 25 Hz
+SC4531E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,emg,conflict,ok,8.804767519392023,False,,False,51% of the power above 4 Hz lies above 25 Hz
+SC4531E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,36.07469376604378,False,,False,72% of power at 0.5-4 Hz
+SC4531E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 80
+SC4531E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.7
+SC4531E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 36
+SC4531E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 881
+SC4532E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,14.275723234679603,False,,False,76% of power at 0.5-4 Hz
+SC4532E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.123687101824073,False,,False,55% of power at 0.5-4 Hz
+SC4532E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,35.167253793165784,False,,False,80% of power at 0.5-4 Hz
+SC4532E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 61
+SC4532E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.71
+SC4532E0-PSG,5,Temp rectal,DegC,1.0,temp,hr,unchecked,n/a,,False,,False,median 37
+SC4532E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 852
+SC4541F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,8.145830703156145,False,,False,75% of power at 0.5-4 Hz
+SC4541F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,3.3207258701149094,False,,False,54% of power at 0.5-4 Hz
+SC4541F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,11.982367757974167,False,,False,76% of power at 0.5-4 Hz
+SC4541F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 96
+SC4541F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.64
+SC4541F0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.1
+SC4541F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 929
+SC4542F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,15.142542143751271,False,,False,85% of power at 0.5-4 Hz
+SC4542F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,4.579487512391139,False,,False,55% of power at 0.5-4 Hz
+SC4542F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,42.44028802453755,False,,False,91% of power at 0.5-4 Hz
+SC4542F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 76
+SC4542F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.65
+SC4542F0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.2
+SC4542F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.06e+03
+SC4551F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,12.829731822631594,False,,False,73% of power at 0.5-4 Hz
+SC4551F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.406558933027306,False,,False,48% of power at 0.5-4 Hz
+SC4551F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,22.70053973555467,False,,False,92% of power at 0.5-4 Hz
+SC4551F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 62
+SC4551F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.87
+SC4551F0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.1
+SC4551F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 954
+SC4552F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,10.392099697705383,False,,False,84% of power at 0.5-4 Hz
+SC4552F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.466220729343716,False,,False,47% of power at 0.5-4 Hz
+SC4552F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,25.69657416193886,False,,False,94% of power at 0.5-4 Hz
+SC4552F0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 139
+SC4552F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.65
+SC4552F0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13
+SC4552F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.04e+03
+SC4561F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,12.931808460012753,False,,False,82% of power at 0.5-4 Hz
+SC4561F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.715240669400842,False,,False,69% of power at 0.5-4 Hz
+SC4561F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,30.842609757142952,False,,False,95% of power at 0.5-4 Hz
+SC4561F0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median -12.8
+SC4561F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.82
+SC4561F0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.2
+SC4561F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.06e+03
+SC4562F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,16.03479886425535,False,,False,87% of power at 0.5-4 Hz
+SC4562F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.914922832455684,False,,False,76% of power at 0.5-4 Hz
+SC4562F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,24.850979507767022,False,,False,95% of power at 0.5-4 Hz
+SC4562F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 54
+SC4562F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.29
+SC4562F0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4562F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 950
+SC4571F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,10.25089012083873,False,,False,68% of power at 0.5-4 Hz
+SC4571F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.489971353904684,False,,False,63% of power at 0.5-4 Hz
+SC4571F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,23.984170464119366,False,,False,90% of power at 0.5-4 Hz
+SC4571F0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 148
+SC4571F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.29
+SC4571F0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.3
+SC4571F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 948
+SC4572F0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,emg,conflict,ok,27.575528353858452,False,,False,51% of the power above 4 Hz lies above 25 Hz
+SC4572F0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,2.5604693665475846,False,,False,46% of power at 0.5-4 Hz
+SC4572F0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,28.890923054425937,False,,False,86% of power at 0.5-4 Hz
+SC4572F0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 105
+SC4572F0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.94
+SC4572F0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.5
+SC4572F0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 858
+SC4581G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,15.93246461288933,False,,False,75% of power at 0.5-4 Hz
+SC4581G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.404406190652526,False,,False,75% of power at 0.5-4 Hz
+SC4581G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,26.41708725537525,False,,False,89% of power at 0.5-4 Hz
+SC4581G0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 96
+SC4581G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.48
+SC4581G0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.5
+SC4581G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.03e+03
+SC4582G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.697019433277184,False,,False,66% of power at 0.5-4 Hz
+SC4582G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.503323333741542,False,,False,45% of power at 0.5-4 Hz
+SC4582G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,13.166943821132154,False,,False,88% of power at 0.5-4 Hz
+SC4582G0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 100
+SC4582G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.33
+SC4582G0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.3
+SC4582G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1e+03
+SC4591G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,10.20437453955482,False,,False,65% of power at 0.5-4 Hz
+SC4591G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.222900108158564,False,,False,46% of power at 0.5-4 Hz
+SC4591G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,17.10776261700989,False,,False,89% of power at 0.5-4 Hz
+SC4591G0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median -88.5
+SC4591G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.52
+SC4591G0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.2
+SC4591G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 914
+SC4592G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,13.74097819690835,False,,False,88% of power at 0.5-4 Hz
+SC4592G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,4.296832222144779,False,,False,68% of power at 0.5-4 Hz
+SC4592G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,12.362747648507629,False,,False,84% of power at 0.5-4 Hz
+SC4592G0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median -70.5
+SC4592G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.45
+SC4592G0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.4
+SC4592G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.08e+03
+SC4601E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,11.217906759124569,False,,False,71% of power at 0.5-4 Hz
+SC4601E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.214913010736659,False,,False,55% of power at 0.5-4 Hz
+SC4601E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,21.27023665251334,False,,False,93% of power at 0.5-4 Hz
+SC4601E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 65
+SC4601E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.04
+SC4601E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.2
+SC4601E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 916
+SC4602E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,12.275215831129621,False,,False,73% of power at 0.5-4 Hz
+SC4602E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,11.305451307439153,False,,False,30% of power at 0.5-4 Hz
+SC4602E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,45.29586781306627,False,,False,92% of power at 0.5-4 Hz
+SC4602E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 32.5
+SC4602E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.36
+SC4602E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4602E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 992
+SC4611E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,18.00202782080899,False,,False,74% of power at 0.5-4 Hz
+SC4611E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,emg,conflict,ok,7.487033184608203,False,,False,39% of power above 25 Hz
+SC4611E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,37.8235285005434,False,,False,93% of power at 0.5-4 Hz
+SC4611E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 146
+SC4611E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median -0.979
+SC4611E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.1
+SC4611E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 939
+SC4612E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,11.485132042376517,False,,False,57% of power at 0.5-4 Hz
+SC4612E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,emg,conflict,ok,7.311955830335254,False,,False,39% of power above 25 Hz
+SC4612E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,20.659044481536498,False,,False,85% of power at 0.5-4 Hz
+SC4612E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 108
+SC4612E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.73
+SC4612E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.1
+SC4612E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 936
+SC4621E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,11.107310488557252,False,,False,86% of power at 0.5-4 Hz
+SC4621E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.970803265861374,False,,False,66% of power at 0.5-4 Hz
+SC4621E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,12.483271926297421,False,,False,85% of power at 0.5-4 Hz
+SC4621E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 185
+SC4621E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 1.33
+SC4621E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.3
+SC4621E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.32e+03
+SC4622E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,9.562896852283156,False,,False,81% of power at 0.5-4 Hz
+SC4622E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,4.624247396311457,False,,False,27% of power at 0.5-4 Hz
+SC4622E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,15.857645812401667,False,,False,85% of power at 0.5-4 Hz
+SC4622E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 146
+SC4622E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.47
+SC4622E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4622E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.06e+03
+SC4631E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,18.10498982369748,False,,False,69% of power at 0.5-4 Hz
+SC4631E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.111559562900071,False,,False,40% of power at 0.5-4 Hz
+SC4631E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,41.77793375161164,False,,False,94% of power at 0.5-4 Hz
+SC4631E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 69
+SC4631E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.21
+SC4631E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4631E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 906
+SC4632E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,13.066145631951969,False,,False,75% of power at 0.5-4 Hz
+SC4632E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.59626527016091,False,,False,60% of power at 0.5-4 Hz
+SC4632E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,28.358064201548764,False,,False,87% of power at 0.5-4 Hz
+SC4632E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 88
+SC4632E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.13
+SC4632E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.2
+SC4632E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 954
+SC4641E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,11.359022793373676,False,,False,85% of power at 0.5-4 Hz
+SC4641E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.464933761602461,False,,False,50% of power at 0.5-4 Hz
+SC4641E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,28.744756734394787,False,,False,87% of power at 0.5-4 Hz
+SC4641E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 76
+SC4641E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.96
+SC4641E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.4
+SC4641E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 944
+SC4642E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,10.379432000732585,False,,False,77% of power at 0.5-4 Hz
+SC4642E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.637827673712554,False,,False,56% of power at 0.5-4 Hz
+SC4642E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,22.687221646460937,False,,False,86% of power at 0.5-4 Hz
+SC4642E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 74
+SC4642E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.65
+SC4642E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.6
+SC4642E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 852
+SC4651E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,13.547849700599432,False,,False,90% of power at 0.5-4 Hz
+SC4651E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.958812655586488,False,,False,78% of power at 0.5-4 Hz
+SC4651E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,16.177421122892106,False,,False,89% of power at 0.5-4 Hz
+SC4651E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 175
+SC4651E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.12
+SC4651E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4651E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 973
+SC4652E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.550026827976787,False,,False,84% of power at 0.5-4 Hz
+SC4652E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.252478888268184,False,,False,55% of power at 0.5-4 Hz
+SC4652E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,35.41797302938293,False,,False,92% of power at 0.5-4 Hz
+SC4652E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 144
+SC4652E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 4.02
+SC4652E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.2
+SC4652E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.36e+03
+SC4661E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,24.620235936181928,False,,False,54% of power at 0.5-4 Hz
+SC4661E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.078923999023201,False,,False,38% of power at 0.5-4 Hz
+SC4661E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,47.017981693063874,False,,False,89% of power at 0.5-4 Hz
+SC4661E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 85
+SC4661E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 4.86
+SC4661E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.9
+SC4661E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.23e+03
+SC4662E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,16.322279429349884,False,,False,79% of power at 0.5-4 Hz
+SC4662E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,9.713369592477196,False,,False,50% of power at 0.5-4 Hz
+SC4662E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,31.762457386736287,False,,False,83% of power at 0.5-4 Hz
+SC4662E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 100
+SC4662E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.95
+SC4662E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 12.9
+SC4662E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.02e+03
+SC4671G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,11.823231679357736,False,,False,63% of power at 0.5-4 Hz
+SC4671G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.687721084308983,False,,False,62% of power at 0.5-4 Hz
+SC4671G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,29.929759635611113,False,,False,88% of power at 0.5-4 Hz
+SC4671G0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 40
+SC4671G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.48
+SC4671G0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.1
+SC4671G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 936
+SC4672G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,13.035287838950879,False,,False,86% of power at 0.5-4 Hz
+SC4672G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.035512222744725,False,,False,83% of power at 0.5-4 Hz
+SC4672G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,32.3874229539109,False,,False,90% of power at 0.5-4 Hz
+SC4672G0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 119
+SC4672G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.07
+SC4672G0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.5
+SC4672G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.02e+03
+SC4701E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,8.72533212175266,False,,False,57% of power at 0.5-4 Hz
+SC4701E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.773694617440131,False,,False,50% of power at 0.5-4 Hz
+SC4701E0-PSG,2,EOG horizontal,uV,100.0,eog,emg,conflict,ok,15.904241212308857,False,,False,52% of the power above 4 Hz lies above 25 Hz
+SC4701E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 153
+SC4701E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 0.9
+SC4701E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.2
+SC4701E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 747
+SC4702E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,emg,conflict,ok,9.75628561182885,False,,False,51% of the power above 4 Hz lies above 25 Hz
+SC4702E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.397024155990696,False,,False,77% of power at 0.5-4 Hz
+SC4702E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,13.586807931994702,False,,False,72% of power at 0.5-4 Hz
+SC4702E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 152
+SC4702E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 1.43
+SC4702E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.2
+SC4702E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 955
+SC4711E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,11.723660523465519,False,,False,65% of power at 0.5-4 Hz
+SC4711E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.760679685861741,False,,False,51% of power at 0.5-4 Hz
+SC4711E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,19.605573183846175,False,,False,90% of power at 0.5-4 Hz
+SC4711E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 116
+SC4711E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 6.19
+SC4711E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.2
+SC4711E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.91e+03
+SC4712E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,8.13739774793212,False,,False,84% of power at 0.5-4 Hz
+SC4712E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,4.864855533214687,False,,False,59% of power at 0.5-4 Hz
+SC4712E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,23.964778583953233,False,,False,91% of power at 0.5-4 Hz
+SC4712E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 125
+SC4712E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.66
+SC4712E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.2
+SC4712E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.15e+03
+SC4721E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,12.169526050955806,False,,False,73% of power at 0.5-4 Hz
+SC4721E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,4.779451364745953,False,,False,69% of power at 0.5-4 Hz
+SC4721E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,26.272105114102537,False,,False,90% of power at 0.5-4 Hz
+SC4721E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 113
+SC4721E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.42
+SC4721E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.1
+SC4721E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 985
+SC4722E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,10.294895804924504,False,,False,86% of power at 0.5-4 Hz
+SC4722E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,4.1499883456806455,False,,False,70% of power at 0.5-4 Hz
+SC4722E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,25.493662867298898,False,,False,94% of power at 0.5-4 Hz
+SC4722E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 159
+SC4722E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.27
+SC4722E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.2
+SC4722E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 960
+SC4731E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,14.823012303761187,False,,False,79% of power at 0.5-4 Hz
+SC4731E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,3.7384073292102364,False,,False,66% of power at 0.5-4 Hz
+SC4731E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,28.655167096440778,False,,False,92% of power at 0.5-4 Hz
+SC4731E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 56
+SC4731E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.76
+SC4731E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4731E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 836
+SC4732E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,12.232998761101888,False,,False,82% of power at 0.5-4 Hz
+SC4732E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,3.974044013546373,False,,False,63% of power at 0.5-4 Hz
+SC4732E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,27.938012724314508,False,,False,93% of power at 0.5-4 Hz
+SC4732E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 62
+SC4732E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.79
+SC4732E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.4
+SC4732E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 904
+SC4741E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,6.656686343415197,False,,False,91% of power at 0.5-4 Hz
+SC4741E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,4.308605726261837,False,,False,53% of power at 0.5-4 Hz
+SC4741E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,22.04135983546547,False,,False,89% of power at 0.5-4 Hz
+SC4741E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 168
+SC4741E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.01
+SC4741E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4741E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 992
+SC4742E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,8.384942011862709,False,,False,90% of power at 0.5-4 Hz
+SC4742E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,3.537082900336255,False,,False,44% of power at 0.5-4 Hz
+SC4742E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,30.18970509782223,False,,False,91% of power at 0.5-4 Hz
+SC4742E0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 155
+SC4742E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.45
+SC4742E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.2
+SC4742E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 956
+SC4751E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,12.315938422393593,False,,False,84% of power at 0.5-4 Hz
+SC4751E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.658884680150254,False,,False,53% of power at 0.5-4 Hz
+SC4751E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,23.203641629126025,False,,False,81% of power at 0.5-4 Hz
+SC4751E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 110
+SC4751E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.65
+SC4751E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.1
+SC4751E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1e+03
+SC4752E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,12.874617725940432,False,,False,81% of power at 0.5-4 Hz
+SC4752E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,4.48067585033006,False,,False,63% of power at 0.5-4 Hz
+SC4752E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,13.972832513887205,False,,False,85% of power at 0.5-4 Hz
+SC4752E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 113
+SC4752E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 17.6
+SC4752E0-PSG,5,Temp rectal,DegC,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.2
+SC4752E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 970
+SC4761E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,28.268990833752433,False,,False,67% of power at 0.5-4 Hz
+SC4761E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,emg,conflict,ok,10.226241705295239,False,,False,36% of power above 25 Hz
+SC4761E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,33.88245920898443,False,,False,78% of power at 0.5-4 Hz
+SC4761E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 36
+SC4761E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.27
+SC4761E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4761E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 951
+SC4762E0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,emg,conflict,ok,30.844844302809463,False,,False,40% of power above 25 Hz
+SC4762E0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.24242108270357,False,,False,56% of power at 0.5-4 Hz
+SC4762E0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,25.206394233438544,False,,False,77% of power at 0.5-4 Hz
+SC4762E0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 72
+SC4762E0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.72
+SC4762E0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.3
+SC4762E0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 880
+SC4771G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,13.4417762318133,False,,False,48% of power at 0.5-4 Hz
+SC4771G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.757104831394882,False,,False,63% of power at 0.5-4 Hz
+SC4771G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,32.86603571114579,False,,False,87% of power at 0.5-4 Hz
+SC4771G0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 66
+SC4771G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.26
+SC4771G0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.2
+SC4771G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 981
+SC4772G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,15.016262475461101,False,,False,50% of power at 0.5-4 Hz
+SC4772G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.004235724366748,False,,False,58% of power at 0.5-4 Hz
+SC4772G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,23.364524873631808,False,,False,91% of power at 0.5-4 Hz
+SC4772G0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 64
+SC4772G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.54
+SC4772G0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.5
+SC4772G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.13e+03
+SC4801G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,7.9535601030383525,False,,False,81% of power at 0.5-4 Hz
+SC4801G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.5054434093954665,False,,False,67% of power at 0.5-4 Hz
+SC4801G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,10.523871079688146,False,,False,86% of power at 0.5-4 Hz
+SC4801G0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median 2.75
+SC4801G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.42
+SC4801G0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.3
+SC4801G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.32e+03
+SC4802G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,14.7316436225075,False,,False,74% of power at 0.5-4 Hz
+SC4802G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,11.551306580515757,False,,False,66% of power at 0.5-4 Hz
+SC4802G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,35.031014933667706,False,,False,93% of power at 0.5-4 Hz
+SC4802G0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median -151
+SC4802G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 6.23
+SC4802G0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.5
+SC4802G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.85e+03
+SC4811G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,16.18045658115942,False,,False,84% of power at 0.5-4 Hz
+SC4811G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.286647207783048,False,,False,48% of power at 0.5-4 Hz
+SC4811G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,15.880225427379468,False,,False,90% of power at 0.5-4 Hz
+SC4811G0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median -6
+SC4811G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 2.33
+SC4811G0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.5
+SC4811G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 820
+SC4812G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,22.955557665724665,False,,False,76% of power at 0.5-4 Hz
+SC4812G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,10.02979392512734,False,,False,44% of power at 0.5-4 Hz
+SC4812G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,31.22818735251995,False,,False,92% of power at 0.5-4 Hz
+SC4812G0-PSG,3,Resp oro-nasal,,1.0,flow,slow_other,unchecked,n/a,,False,,False,median -49
+SC4812G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.49
+SC4812G0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 13.3
+SC4812G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 946
+SC4821G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.833988530301745,False,,False,72% of power at 0.5-4 Hz
+SC4821G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,10.76376773125817,False,,False,39% of power at 0.5-4 Hz
+SC4821G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,54.7308299285716,False,,False,95% of power at 0.5-4 Hz
+SC4821G0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 64
+SC4821G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.24
+SC4821G0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.2
+SC4821G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 952
+SC4822G0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,23.535778686376105,False,,False,74% of power at 0.5-4 Hz
+SC4822G0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.974893648612989,False,,False,47% of power at 0.5-4 Hz
+SC4822G0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,32.52913543860781,False,,False,95% of power at 0.5-4 Hz
+SC4822G0-PSG,3,Resp oro-nasal,,1.0,flow,hr,unchecked,n/a,,False,,False,median 62
+SC4822G0-PSG,4,EMG submental,uV,1.0,emg,slow_other,unchecked,n/a,,False,,False,median 3.29
+SC4822G0-PSG,5,Temp rectal,,1.0,temp,slow_other,unchecked,n/a,,False,,False,median 14.2
+SC4822G0-PSG,6,Event marker,,1.0,unknown,slow_other,label_unread,n/a,,False,,False,median 1.07e+03
+ST7011J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,14.375581981415255,False,,False,84% of power at 0.5-4 Hz
+ST7011J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.728542035953851,False,,False,64% of power at 0.5-4 Hz
+ST7011J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,15.304752119553429,False,,False,91% of power at 0.5-4 Hz
+ST7011J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,7.527838086160683,False,,False,36% of power above 25 Hz
+ST7011J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7012J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,15.315237512402726,False,,False,87% of power at 0.5-4 Hz
+ST7012J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.546927256683428,False,,False,74% of power at 0.5-4 Hz
+ST7012J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,12.478346926363942,False,,False,73% of power at 0.5-4 Hz
+ST7012J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,5.8790498657899,False,,False,38% of power above 25 Hz
+ST7012J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7021J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.028218253729,False,,False,70% of power at 0.5-4 Hz
+ST7021J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,13.053008375129313,False,,False,72% of power at 0.5-4 Hz
+ST7021J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,8.563659315543985,False,,False,73% of power at 0.5-4 Hz
+ST7021J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,4.429609596103701,False,,False,55% of the power above 4 Hz lies above 25 Hz
+ST7021J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7022J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,15.6632216720309,False,,False,79% of power at 0.5-4 Hz
+ST7022J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,11.697197385014631,False,,False,74% of power at 0.5-4 Hz
+ST7022J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,16.57540292083185,False,,False,83% of power at 0.5-4 Hz
+ST7022J0-PSG,3,EMG submental,uV,100.0,emg,resp,conflict,n/a,,False,,False,70% of power at 0.1-0.6 Hz
+ST7022J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7041J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,23.35006765476291,False,,False,92% of power at 0.5-4 Hz
+ST7041J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,33.28268237955969,False,,False,84% of power at 0.5-4 Hz
+ST7041J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,16.385226493877468,False,,False,94% of power at 0.5-4 Hz
+ST7041J0-PSG,3,EMG submental,uV,100.0,emg,neuro,conflict,ok,6.562800963809269,False,,False,91% of power at 0.5-4 Hz
+ST7041J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7042J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,14.491745637848734,False,,False,83% of power at 0.5-4 Hz
+ST7042J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,10.903320449630193,False,,False,80% of power at 0.5-4 Hz
+ST7042J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,6.928487727778723,False,,False,75% of power at 0.5-4 Hz
+ST7042J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,3.425172176549576,False,,False,52% of the power above 4 Hz lies above 25 Hz
+ST7042J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7051J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,11.802465849772988,False,,False,85% of power at 0.5-4 Hz
+ST7051J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.698666107943298,False,,False,66% of power at 0.5-4 Hz
+ST7051J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,10.864848496669122,False,,False,92% of power at 0.5-4 Hz
+ST7051J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,3.7313824359472383,False,,False,35% of power above 25 Hz
+ST7051J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7052J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,16.760104197903715,False,,False,87% of power at 0.5-4 Hz
+ST7052J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.783190744429097,False,,False,68% of power at 0.5-4 Hz
+ST7052J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,26.068511982532513,False,,False,95% of power at 0.5-4 Hz
+ST7052J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,4.033471078866281,False,,False,55% of the power above 4 Hz lies above 25 Hz
+ST7052J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7061J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,11.158643594536372,False,,False,73% of power at 0.5-4 Hz
+ST7061J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.277619781887559,False,,False,71% of power at 0.5-4 Hz
+ST7061J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,10.787798143861773,False,,False,77% of power at 0.5-4 Hz
+ST7061J0-PSG,3,EMG submental,uV,100.0,emg,resp,conflict,n/a,,False,,False,60% of power at 0.1-0.6 Hz
+ST7061J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7062J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,10.949640393300665,False,,False,69% of power at 0.5-4 Hz
+ST7062J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,12.280924686757736,False,,False,86% of power at 0.5-4 Hz
+ST7062J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,11.479313692454394,False,,False,84% of power at 0.5-4 Hz
+ST7062J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,8.009014148266298,False,,False,47% of power above 25 Hz
+ST7062J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7071J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.52571520011558,False,,False,85% of power at 0.5-4 Hz
+ST7071J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,12.631583182371502,False,,False,86% of power at 0.5-4 Hz
+ST7071J0-PSG,2,EOG horizontal,uV,100.0,eog,resp,conflict,n/a,,False,,False,62% of power at 0.1-0.6 Hz
+ST7071J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,14.474368907346806,False,,False,45% of power above 25 Hz
+ST7071J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7072J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,13.808803760494294,False,,False,79% of power at 0.5-4 Hz
+ST7072J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,9.667391460620166,False,,False,77% of power at 0.5-4 Hz
+ST7072J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,8.732249616643548,False,,False,78% of power at 0.5-4 Hz
+ST7072J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,6.611355625120492,False,,False,51% of the power above 4 Hz lies above 25 Hz
+ST7072J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7081J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,15.112049251264132,False,,False,84% of power at 0.5-4 Hz
+ST7081J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.118758756219309,False,,False,73% of power at 0.5-4 Hz
+ST7081J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,12.049235384234306,False,,False,91% of power at 0.5-4 Hz
+ST7081J0-PSG,3,EMG submental,uV,100.0,emg,neuro,conflict,ok,1.4956413724362891,False,,False,71% of power at 0.5-4 Hz
+ST7081J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7082J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.734820679007157,False,,False,83% of power at 0.5-4 Hz
+ST7082J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,10.039591608700551,False,,False,78% of power at 0.5-4 Hz
+ST7082J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,16.153343443134556,False,,False,95% of power at 0.5-4 Hz
+ST7082J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,15.938056068450802,False,,False,53% of the power above 4 Hz lies above 25 Hz
+ST7082J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7091J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,10.415274085112173,False,,False,77% of power at 0.5-4 Hz
+ST7091J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.7732971943600635,False,,False,62% of power at 0.5-4 Hz
+ST7091J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,7.582503783902128,False,,False,60% of power at 0.5-4 Hz
+ST7091J0-PSG,3,EMG submental,uV,100.0,emg,neuro,conflict,ok,2.038564414402254,False,,False,42% of power at 0.5-4 Hz
+ST7091J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7092J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,12.117531248794789,False,,False,83% of power at 0.5-4 Hz
+ST7092J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.810389033314323,False,,False,63% of power at 0.5-4 Hz
+ST7092J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,10.95635474476271,False,,False,81% of power at 0.5-4 Hz
+ST7092J0-PSG,3,EMG submental,uV,100.0,emg,neuro,conflict,ok,6.781669030669468,False,,False,35% of power at 0.5-4 Hz
+ST7092J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7101J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,22.29383695363928,False,,False,81% of power at 0.5-4 Hz
+ST7101J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,16.27932025713455,False,,False,84% of power at 0.5-4 Hz
+ST7101J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,12.106179360085939,False,,False,83% of power at 0.5-4 Hz
+ST7101J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,6.008311923187586,False,,False,39% of power above 25 Hz
+ST7101J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7102J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.054102232716325,False,,False,79% of power at 0.5-4 Hz
+ST7102J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,10.16476419617213,False,,False,78% of power at 0.5-4 Hz
+ST7102J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,5.637508563968938,False,,False,85% of power at 0.5-4 Hz
+ST7102J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,2.482059753896908,False,,False,39% of power above 25 Hz
+ST7102J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7111J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,14.914508616581422,False,,False,78% of power at 0.5-4 Hz
+ST7111J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,10.847443346819599,False,,False,81% of power at 0.5-4 Hz
+ST7111J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,13.851490398427613,False,,False,94% of power at 0.5-4 Hz
+ST7111J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,5.2161059701963275,False,,False,39% of power above 25 Hz
+ST7111J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7112J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.004037546199104,False,,False,84% of power at 0.5-4 Hz
+ST7112J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,11.376863093352348,False,,False,84% of power at 0.5-4 Hz
+ST7112J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,26.93542766850608,False,,False,95% of power at 0.5-4 Hz
+ST7112J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,3.6363716395725305,False,,False,52% of the power above 4 Hz lies above 25 Hz
+ST7112J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7121J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,18.461207608509362,False,,False,82% of power at 0.5-4 Hz
+ST7121J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,9.242446217561884,False,,False,77% of power at 0.5-4 Hz
+ST7121J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,9.436127857888982,False,,False,83% of power at 0.5-4 Hz
+ST7121J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,8.595595954205379,False,,False,55% of the power above 4 Hz lies above 25 Hz
+ST7121J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7122J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.186542592535382,False,,False,81% of power at 0.5-4 Hz
+ST7122J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.55489258890802,False,,False,72% of power at 0.5-4 Hz
+ST7122J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,11.045639661612547,False,,False,83% of power at 0.5-4 Hz
+ST7122J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,10.156308749223417,False,,False,56% of the power above 4 Hz lies above 25 Hz
+ST7122J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7131J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.825877941594996,False,,False,90% of power at 0.5-4 Hz
+ST7131J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,13.064111334881432,False,,False,90% of power at 0.5-4 Hz
+ST7131J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,10.147776629024271,False,,False,90% of power at 0.5-4 Hz
+ST7131J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,4.151126519367605,False,,False,53% of the power above 4 Hz lies above 25 Hz
+ST7131J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7132J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,19.67272657162644,False,,False,84% of power at 0.5-4 Hz
+ST7132J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,10.614078143741239,False,,False,85% of power at 0.5-4 Hz
+ST7132J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,22.33724989217883,False,,False,93% of power at 0.5-4 Hz
+ST7132J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,7.607355565952648,False,,False,54% of the power above 4 Hz lies above 25 Hz
+ST7132J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7141J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,16.475160962451234,False,,False,81% of power at 0.5-4 Hz
+ST7141J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,10.771535094764614,False,,False,81% of power at 0.5-4 Hz
+ST7141J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,8.459694608598515,False,,False,88% of power at 0.5-4 Hz
+ST7141J0-PSG,3,EMG submental,uV,100.0,emg,resp,conflict,n/a,,False,,False,66% of power at 0.1-0.6 Hz
+ST7141J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7142J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,12.890579599477313,False,,False,74% of power at 0.5-4 Hz
+ST7142J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.611856891743706,False,,False,74% of power at 0.5-4 Hz
+ST7142J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,4.875052919745803,False,,False,74% of power at 0.5-4 Hz
+ST7142J0-PSG,3,EMG submental,uV,100.0,emg,neuro,conflict,ok,0.9852705213154186,False,,False,41% of power at 0.5-4 Hz
+ST7142J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7151J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,13.810109440994667,False,,False,87% of power at 0.5-4 Hz
+ST7151J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,9.58012538472294,False,,False,75% of power at 0.5-4 Hz
+ST7151J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,13.976479499783355,False,,False,93% of power at 0.5-4 Hz
+ST7151J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,7.1153307652174576,False,,False,43% of power above 25 Hz
+ST7151J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7152J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,15.736567540024533,False,,False,85% of power at 0.5-4 Hz
+ST7152J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,9.825346307029388,False,,False,71% of power at 0.5-4 Hz
+ST7152J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,11.427334270832535,False,,False,88% of power at 0.5-4 Hz
+ST7152J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,3.6267638577210013,False,,False,35% of power above 25 Hz
+ST7152J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7161J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,10.747367168950678,False,,False,82% of power at 0.5-4 Hz
+ST7161J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.066325004909412,False,,False,63% of power at 0.5-4 Hz
+ST7161J0-PSG,2,EOG horizontal,uV,100.0,eog,resp,conflict,n/a,,False,,False,60% of power at 0.1-0.6 Hz
+ST7161J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,4.53628058555171,False,,False,51% of the power above 4 Hz lies above 25 Hz
+ST7161J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7162J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,10.774814948432224,False,,False,83% of power at 0.5-4 Hz
+ST7162J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,6.952112305114801,False,,False,67% of power at 0.5-4 Hz
+ST7162J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,9.770262679253989,False,,False,89% of power at 0.5-4 Hz
+ST7162J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,5.077512974118326,False,,False,47% of power above 25 Hz
+ST7162J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7171J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,13.00134147962579,False,,False,84% of power at 0.5-4 Hz
+ST7171J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.529484386905757,False,,False,80% of power at 0.5-4 Hz
+ST7171J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,13.529022586678934,False,,False,83% of power at 0.5-4 Hz
+ST7171J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,6.423555915381195,False,,False,38% of power above 25 Hz
+ST7171J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7172J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,12.219472966216333,False,,False,84% of power at 0.5-4 Hz
+ST7172J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.341478690789043,False,,False,79% of power at 0.5-4 Hz
+ST7172J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,6.7297768871254515,False,,False,88% of power at 0.5-4 Hz
+ST7172J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,6.024368722022137,False,,False,55% of the power above 4 Hz lies above 25 Hz
+ST7172J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7181J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,13.558494539926523,False,,False,66% of power at 0.5-4 Hz
+ST7181J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.88644225603818,False,,False,59% of power at 0.5-4 Hz
+ST7181J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,9.126721505865278,False,,False,51% of power at 0.5-4 Hz
+ST7181J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,3.563575070457243,False,,False,41% of power above 25 Hz
+ST7181J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7182J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,12.581565250714196,False,,False,69% of power at 0.5-4 Hz
+ST7182J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.70901715750828,False,,False,63% of power at 0.5-4 Hz
+ST7182J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,7.849524486547949,False,,False,78% of power at 0.5-4 Hz
+ST7182J0-PSG,3,EMG submental,uV,100.0,emg,neuro,conflict,ok,1.2699394610847667,False,,False,59% of power at 0.5-4 Hz
+ST7182J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7191J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,17.354349027851327,False,,False,75% of power at 0.5-4 Hz
+ST7191J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,11.705721541215087,False,,False,69% of power at 0.5-4 Hz
+ST7191J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,10.542748974917817,False,,False,81% of power at 0.5-4 Hz
+ST7191J0-PSG,3,EMG submental,uV,100.0,emg,neuro,conflict,ok,2.4269887529279917,False,,False,90% of power at 0.5-4 Hz
+ST7191J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7192J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,14.711180562072759,False,,False,76% of power at 0.5-4 Hz
+ST7192J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,11.456555636883087,False,,False,70% of power at 0.5-4 Hz
+ST7192J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,13.341195944093016,False,,False,92% of power at 0.5-4 Hz
+ST7192J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,2.7055657931506065,False,,False,56% of the power above 4 Hz lies above 25 Hz
+ST7192J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7201J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,15.866761235381617,False,,False,82% of power at 0.5-4 Hz
+ST7201J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,8.122929129167375,False,,False,79% of power at 0.5-4 Hz
+ST7201J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,11.51664087396789,False,,False,89% of power at 0.5-4 Hz
+ST7201J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,9.895462496197256,False,,False,41% of power above 25 Hz
+ST7201J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7202J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,14.617762153915546,False,,False,75% of power at 0.5-4 Hz
+ST7202J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,7.201488076566173,False,,False,70% of power at 0.5-4 Hz
+ST7202J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,8.058681533143158,False,,False,71% of power at 0.5-4 Hz
+ST7202J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,10.529742333111647,False,,False,39% of power above 25 Hz
+ST7202J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7211J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,18.49516254582713,False,,False,64% of power at 0.5-4 Hz
+ST7211J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,9.197831028013724,False,,False,55% of power at 0.5-4 Hz
+ST7211J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,9.187833430354935,False,,False,78% of power at 0.5-4 Hz
+ST7211J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,4.128485611871544,False,,False,43% of power above 25 Hz
+ST7211J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7212J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,21.42729100254119,False,,False,79% of power at 0.5-4 Hz
+ST7212J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,11.662516540836432,False,,False,71% of power at 0.5-4 Hz
+ST7212J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,18.836649661341756,False,,False,90% of power at 0.5-4 Hz
+ST7212J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,8.608521942020982,False,,False,54% of the power above 4 Hz lies above 25 Hz
+ST7212J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7221J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,10.295342886994046,False,,False,73% of power at 0.5-4 Hz
+ST7221J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.965659320860296,False,,False,62% of power at 0.5-4 Hz
+ST7221J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,10.114621352474078,False,,False,91% of power at 0.5-4 Hz
+ST7221J0-PSG,3,EMG submental,uV,100.0,emg,neuro,conflict,ok,1.0654442254127734,False,,False,72% of power at 0.5-4 Hz
+ST7221J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7222J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,8.346255873296432,False,,False,73% of power at 0.5-4 Hz
+ST7222J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,5.809879537125434,False,,False,68% of power at 0.5-4 Hz
+ST7222J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,7.453088201563547,False,,False,83% of power at 0.5-4 Hz
+ST7222J0-PSG,3,EMG submental,uV,100.0,emg,neuro,conflict,ok,7.072433315098888,False,,False,86% of power at 0.5-4 Hz
+ST7222J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7241J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,16.96221922106475,False,,False,88% of power at 0.5-4 Hz
+ST7241J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,9.182459006031012,False,,False,77% of power at 0.5-4 Hz
+ST7241J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,13.467247328396539,False,,False,92% of power at 0.5-4 Hz
+ST7241J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,8.546495391828012,False,,False,50% of the power above 4 Hz lies above 25 Hz
+ST7241J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation
+ST7242J0-PSG,0,EEG Fpz-Cz,uV,100.0,eeg,neuro,agree,ok,14.994653442842676,False,,False,86% of power at 0.5-4 Hz
+ST7242J0-PSG,1,EEG Pz-Oz,uV,100.0,eeg,neuro,agree,ok,9.046972716474645,False,,False,81% of power at 0.5-4 Hz
+ST7242J0-PSG,2,EOG horizontal,uV,100.0,eog,neuro,agree,ok,9.12050130414282,False,,False,84% of power at 0.5-4 Hz
+ST7242J0-PSG,3,EMG submental,uV,100.0,emg,emg,agree,ok,5.08128508252768,False,,False,44% of power above 25 Hz
+ST7242J0-PSG,4,Marker,ID+M-E,10.0,unknown,flat,flat,n/a,,False,,False,no variation

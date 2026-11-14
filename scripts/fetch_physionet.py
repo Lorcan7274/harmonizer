@@ -1,14 +1,20 @@
-"""Fetch CAP headers and a fixed set of excerpt windows per recording via HTTP range requests.
+"""Fetch headers and a fixed set of excerpt windows per recording from an open PhysioNet sleep dataset.
 
 Each excerpt is written as a valid EDF (original header, fewer records), so Luna and the
-signal checks read the same bytes. Usage: fetch_cap.py OUTDIR [n_windows] [window_seconds]
+signal checks read the same bytes. Usage: fetch_physionet.py DATASET OUTDIR [n_windows] [window_seconds]
+DATASET is one of: cap, hmc, sleep-edf.
 """
 import json, os, sys, time, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from harmonizer.edf import parse_header
 
-BASE = "https://physionet-open.s3.amazonaws.com/capslpdb/1.0.0/"
+HOST = "https://physionet-open.s3.amazonaws.com/"
+DATASETS = {  # name: (path under HOST, keeps a RECORDS entry)
+    "cap": ("capslpdb/1.0.0/", lambda n: n.endswith(".edf")),
+    "hmc": ("hmc-sleep-staging/1.1/", lambda n: n.endswith(".edf") and "sleepscoring" not in n),
+    "sleep-edf": ("sleep-edfx/1.0.0/", lambda n: n.endswith("-PSG.edf")),
+}
 
 
 def _fetch(req, timeout, tries=5):
@@ -31,11 +37,11 @@ def size(url):
     return int(_fetch(urllib.request.Request(url, method="HEAD"), 60)[0]["Content-Length"])
 
 
-def fetch(name, out, nwin, wsec):
-    dst = os.path.join(out, name)
+def fetch(base, name, out, nwin, wsec):
+    dst = os.path.join(out, os.path.basename(name))
     if os.path.exists(dst):
         return name, "cached"
-    url = BASE + name
+    url = base + name
     hb = rng(url, 0, 65535)
     h = parse_header(hb)
     hb = hb[: h["hdr_bytes"]]
@@ -61,13 +67,17 @@ def fetch(name, out, nwin, wsec):
 
 
 if __name__ == "__main__":
-    out = sys.argv[1]
-    nwin = int(sys.argv[2]) if len(sys.argv) > 2 else 8
-    wsec = float(sys.argv[3]) if len(sys.argv) > 3 else 300
+    if len(sys.argv) < 3 or sys.argv[1] not in DATASETS:
+        sys.exit(__doc__.strip())
+    path, keep = DATASETS[sys.argv[1]]
+    out = sys.argv[2]
+    nwin = int(sys.argv[3]) if len(sys.argv) > 3 else 8
+    wsec = float(sys.argv[4]) if len(sys.argv) > 4 else 300
     os.makedirs(out, exist_ok=True)
-    names = _fetch(urllib.request.Request(BASE + "RECORDS"), 60)[1].decode().split()
+    base = HOST + path
+    names = [n for n in _fetch(urllib.request.Request(base + "RECORDS"), 60)[1].decode().split() if keep(n)]
     t = time.time()
     with ThreadPoolExecutor(4) as ex:
-        for name, st in ex.map(lambda n: fetch(n, out, nwin, wsec), names):
+        for name, st in ex.map(lambda n: fetch(base, n, out, nwin, wsec), names):
             print(name, st, flush=True)
     print(f"done {len(names)} in {time.time() - t:.0f}s")

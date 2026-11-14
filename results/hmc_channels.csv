@@ -1,0 +1,1209 @@
+id,idx,label,unit,sr,label_type,signal_type,agree,unit_status,amp_uv,cal_inverted,ecg_pol,ecg_artefact,reason
+SN001,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,15.924237042752559,False,,False,89% of power at 0.5-4 Hz
+SN001,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,13.18519002434017,False,,False,77% of power at 0.5-4 Hz
+SN001,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,10.363487515295487,False,,False,61% of power at 0.5-4 Hz
+SN001,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,12.852571423169316,False,,False,75% of power at 0.5-4 Hz
+SN001,4,EMG chin,uV,256.0,emg,emg,agree,ok,3.2023943285701364,False,,False,43% of power above 25 Hz
+SN001,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,17.386285762074053,False,,False,93% of power at 0.5-4 Hz
+SN001,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,14.513133253626734,False,,False,92% of power at 0.5-4 Hz
+SN001,7,ECG,uV,256.0,ecg,neuro,conflict,ok,116.31264056727937,False,,False,20% of power at 0.5-4 Hz
+SN002,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,17.957861303206585,False,,False,81% of power at 0.5-4 Hz
+SN002,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,17.371480001441476,False,,False,76% of power at 0.5-4 Hz
+SN002,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,10.519162723162534,False,,False,69% of power at 0.5-4 Hz
+SN002,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,16.699720196005465,False,,False,80% of power at 0.5-4 Hz
+SN002,4,EMG chin,uV,256.0,emg,emg,agree,ok,2.0905080398155196,False,,False,44% of power above 25 Hz
+SN002,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,11.225441164373507,False,,False,85% of power at 0.5-4 Hz
+SN002,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,12.657399263100679,False,,False,85% of power at 0.5-4 Hz
+SN002,7,ECG,uV,256.0,ecg,ecg,agree,ok,433.67946898603503,False,1.0,False,"beats every 1.33s, spike ratio 44"
+SN003,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,15.58638576338192,False,,False,83% of power at 0.5-4 Hz
+SN003,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,11.648206319764904,False,,False,50% of power at 0.5-4 Hz
+SN003,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,8.344718707857492,False,,False,81% of power at 0.5-4 Hz
+SN003,3,EEG C3-M2,uV,256.0,eeg,emg,conflict,ok,18.053766070052504,False,,False,42% of power above 25 Hz
+SN003,4,EMG chin,uV,256.0,emg,emg,agree,ok,7.337806474104784,False,,False,62% of the power above 4 Hz lies above 25 Hz
+SN003,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,9.684845959521407,False,,False,77% of power at 0.5-4 Hz
+SN003,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,13.232055467754625,False,,False,87% of power at 0.5-4 Hz
+SN003,7,ECG,uV,256.0,ecg,ecg,agree,ok,677.9788509956502,False,1.0,False,"beats every 1.03s, spike ratio 45"
+SN004,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,8.35735359492864,False,,False,70% of power at 0.5-4 Hz
+SN004,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,7.140520769177372,False,,False,74% of power at 0.5-4 Hz
+SN004,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,5.514705883341897,False,,False,65% of power at 0.5-4 Hz
+SN004,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,5.822989098499077,False,,False,68% of power at 0.5-4 Hz
+SN004,4,EMG chin,uV,256.0,emg,emg,agree,ok,2.2167577356609183,False,,False,51% of power above 25 Hz
+SN004,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,6.148707143215615,False,,True,60% of power at 0.5-4 Hz; carries heartbeat artefact
+SN004,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,7.663365983487579,False,,False,72% of power at 0.5-4 Hz
+SN004,7,ECG,uV,256.0,ecg,ecg,agree,ok,1163.5215381093994,False,1.0,False,"beats every 1.06s, spike ratio 52"
+SN005,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,27.79141558588401,False,,False,89% of power at 0.5-4 Hz
+SN005,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,27.72415506871373,False,,False,85% of power at 0.5-4 Hz
+SN005,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,24.50580859932039,False,,False,93% of power at 0.5-4 Hz
+SN005,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,20.638633680739318,False,,False,75% of power at 0.5-4 Hz
+SN005,4,EMG chin,uV,256.0,emg,emg,agree,ok,86.29877092800687,False,,False,61% of the power above 4 Hz lies above 25 Hz
+SN005,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,23.036086538608828,False,,False,89% of power at 0.5-4 Hz
+SN005,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,15.919447509578296,False,,False,89% of power at 0.5-4 Hz
+SN005,7,ECG,uV,256.0,ecg,ecg,agree,ok,203.94671549553647,False,0.9773450426371388,False,"beats every 1.02s, spike ratio 24"
+SN006,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,22.40771901033042,False,,False,85% of power at 0.5-4 Hz
+SN006,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,21.717913060913126,False,,False,85% of power at 0.5-4 Hz
+SN006,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,16.872447386437212,False,,False,88% of power at 0.5-4 Hz
+SN006,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,20.690388689458203,False,,False,86% of power at 0.5-4 Hz
+SN006,4,EMG chin,uV,256.0,emg,emg,agree,ok,20.938198541627358,False,,False,38% of power above 25 Hz
+SN006,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,14.028130776945233,False,,False,91% of power at 0.5-4 Hz
+SN006,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,13.462630794647282,False,,False,84% of power at 0.5-4 Hz
+SN006,7,ECG,uV,256.0,ecg,ecg,agree,ok,2400.0,False,1.0,False,"beats every 0.56s, spike ratio 18"
+SN007,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,17.60403155606518,False,,False,82% of power at 0.5-4 Hz
+SN007,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,18.19211318250631,False,,False,80% of power at 0.5-4 Hz
+SN007,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,18.3185045621954,False,,False,70% of power at 0.5-4 Hz
+SN007,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,20.345689806306346,False,,False,86% of power at 0.5-4 Hz
+SN007,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,12.337939276593271,False,,False,89% of power at 0.5-4 Hz
+SN007,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,11.271695460795076,False,,False,89% of power at 0.5-4 Hz
+SN007,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,20.740014662404413,False,,False,95% of power at 0.5-4 Hz
+SN007,7,ECG,uV,256.0,ecg,ecg,agree,ok,196.07232776379047,False,-1.0,False,"beats every 0.91s, spike ratio 29"
+SN008,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,14.851443643092146,False,,False,72% of power at 0.5-4 Hz
+SN008,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,13.741216719818478,False,,False,65% of power at 0.5-4 Hz
+SN008,2,EEG O2-M1,uV,256.0,eeg,emg,conflict,ok,76.25470430797782,False,,False,54% of power above 25 Hz
+SN008,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,11.959064936303397,False,,False,49% of power at 0.5-4 Hz
+SN008,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,16.065079984217803,False,,False,86% of power at 0.5-4 Hz
+SN008,5,EOG E1-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,66% of power at 0.1-0.6 Hz
+SN008,6,EOG E2-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,67% of power at 0.1-0.6 Hz
+SN008,7,ECG,uV,256.0,ecg,ecg,agree,ok,1035.1882810711813,False,1.0,False,"beats every 1.03s, spike ratio 57"
+SN009,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,18.49317321092542,False,,False,66% of power at 0.5-4 Hz
+SN009,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,19.305986874808156,False,,False,64% of power at 0.5-4 Hz
+SN009,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,16.514497632567103,False,,False,75% of power at 0.5-4 Hz
+SN009,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,19.100980914131924,False,,False,65% of power at 0.5-4 Hz
+SN009,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,6.0424425412645935,False,,False,60% of power at 0.5-4 Hz
+SN009,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,14.044375110797471,False,,False,67% of power at 0.5-4 Hz
+SN009,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,15.473951524737311,False,,False,68% of power at 0.5-4 Hz
+SN009,7,ECG,uV,256.0,ecg,ecg,agree,ok,791.2133669031803,False,1.0,False,"beats every 0.90s, spike ratio 28"
+SN010,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,16.804105805390638,False,,False,83% of power at 0.5-4 Hz
+SN010,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,17.392961098434725,False,,False,67% of power at 0.5-4 Hz
+SN010,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,12.704018426834324,False,,False,64% of power at 0.5-4 Hz
+SN010,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,21.797009268742194,False,,False,80% of power at 0.5-4 Hz
+SN010,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,3.969473703524623,False,,False,62% of power at 0.5-4 Hz
+SN010,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,11.143800205676623,False,,False,83% of power at 0.5-4 Hz
+SN010,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,12.727421240046898,False,,False,89% of power at 0.5-4 Hz
+SN010,7,ECG,uV,256.0,ecg,ecg,agree,ok,211.30876630807882,False,0.9929824561403509,False,"beats every 1.12s, spike ratio 48"
+SN011,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,25.565497082752465,False,,False,66% of power at 0.5-4 Hz
+SN011,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,25.24375249011384,False,,False,64% of power at 0.5-4 Hz
+SN011,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,19.648698315667296,False,,False,61% of power at 0.5-4 Hz
+SN011,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,24.81296504005841,False,,False,65% of power at 0.5-4 Hz
+SN011,4,EMG chin,uV,256.0,emg,emg,agree,ok,8.08885814943716,False,,False,71% of power above 25 Hz
+SN011,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,16.484575361193375,False,,False,82% of power at 0.5-4 Hz
+SN011,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,18.957241593992933,False,,False,81% of power at 0.5-4 Hz
+SN011,7,ECG,uV,256.0,ecg,ecg,agree,ok,1648.0494392309445,False,0.9949030607607101,False,"beats every 0.76s, spike ratio 33"
+SN012,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,15.29913777577585,False,,False,85% of power at 0.5-4 Hz
+SN012,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,17.459554554097792,False,,False,88% of power at 0.5-4 Hz
+SN012,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,16.424094893416868,False,,False,91% of power at 0.5-4 Hz
+SN012,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,21.837018975147252,False,,False,89% of power at 0.5-4 Hz
+SN012,4,EMG chin,uV,256.0,emg,emg,agree,ok,13.880551556901448,False,,False,71% of the power above 4 Hz lies above 25 Hz
+SN012,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,15.203339546592492,False,,False,90% of power at 0.5-4 Hz
+SN012,6,EOG E2-M2,uV,256.0,eog,emg,conflict,ok,35.4465524924719,False,,False,57% of the power above 4 Hz lies above 25 Hz
+SN012,7,ECG,uV,256.0,ecg,ecg,agree,ok,123.92803845273511,False,-1.0,False,"beats every 1.09s, spike ratio 44"
+SN013,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,15.715899188057849,False,,False,81% of power at 0.5-4 Hz
+SN013,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,13.583997686257394,False,,False,76% of power at 0.5-4 Hz
+SN013,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,11.432965347044162,False,,False,77% of power at 0.5-4 Hz
+SN013,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,15.132503673469923,False,,False,79% of power at 0.5-4 Hz
+SN013,4,EMG chin,uV,256.0,emg,emg,agree,ok,16.17813576715083,False,,False,68% of the power above 4 Hz lies above 25 Hz
+SN013,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,11.156629733579635,False,,False,83% of power at 0.5-4 Hz
+SN013,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,10.444924615327071,False,,False,88% of power at 0.5-4 Hz
+SN013,7,ECG,uV,256.0,ecg,ecg,agree,ok,72.07141222247665,False,-1.0,False,"beats every 0.85s, spike ratio 32"
+SN015,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,9.709896940622926,False,,False,70% of power at 0.5-4 Hz
+SN015,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,7.9494927163792815,False,,False,65% of power at 0.5-4 Hz
+SN015,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,6.14184544666027,False,,False,59% of power at 0.5-4 Hz
+SN015,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,8.754379086868102,False,,False,67% of power at 0.5-4 Hz
+SN015,4,EMG chin,uV,256.0,emg,emg,agree,ok,54.28967828634187,False,,False,77% of power above 25 Hz
+SN015,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,8.974915402425513,False,,False,83% of power at 0.5-4 Hz
+SN015,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,8.138160104018732,False,,False,87% of power at 0.5-4 Hz
+SN015,7,ECG,uV,256.0,ecg,ecg,agree,ok,1078.435523002975,False,1.0,False,"beats every 0.85s, spike ratio 41"
+SN016,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,17.50371397243414,False,,False,80% of power at 0.5-4 Hz
+SN016,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,15.611071306467144,False,,False,74% of power at 0.5-4 Hz
+SN016,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,9.389073453559103,False,,False,61% of power at 0.5-4 Hz
+SN016,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,18.105365629161074,False,,False,85% of power at 0.5-4 Hz
+SN016,4,EMG chin,uV,256.0,emg,emg,agree,ok,95.24997399890955,False,,False,84% of power above 25 Hz
+SN016,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,10.869475026469761,False,,False,77% of power at 0.5-4 Hz
+SN016,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,8.542193168103363,False,,False,79% of power at 0.5-4 Hz
+SN016,7,ECG,uV,256.0,ecg,emg,conflict,ok,80.94875354198538,False,,False,40% of power above 25 Hz
+SN017,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,18.475607709301926,False,,False,67% of power at 0.5-4 Hz
+SN017,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,17.32575388891469,False,,False,55% of power at 0.5-4 Hz
+SN017,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,12.059447961627018,False,,False,57% of power at 0.5-4 Hz
+SN017,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,16.043841527672683,False,,False,67% of power at 0.5-4 Hz
+SN017,4,EMG chin,uV,256.0,emg,emg,agree,ok,6.497215686439718,False,,False,52% of the power above 4 Hz lies above 25 Hz
+SN017,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,12.603618321771538,False,,False,77% of power at 0.5-4 Hz
+SN017,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,9.960517209306435,False,,False,74% of power at 0.5-4 Hz
+SN017,7,ECG,uV,256.0,ecg,ecg,agree,ok,317.91403067063334,False,0.9900660080433643,False,"beats every 0.97s, spike ratio 47"
+SN018,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,50.54187976645748,False,,False,91% of power at 0.5-4 Hz
+SN018,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,46.94022097392882,False,,False,91% of power at 0.5-4 Hz
+SN018,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,62.986485050824115,False,,False,96% of power at 0.5-4 Hz
+SN018,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,35.087083068215925,False,,False,96% of power at 0.5-4 Hz
+SN018,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,11.397127111965208,False,,False,76% of power at 0.5-4 Hz
+SN018,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,31.865887215863467,False,,False,95% of power at 0.5-4 Hz
+SN018,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,31.45184875546147,False,,False,94% of power at 0.5-4 Hz
+SN018,7,ECG,uV,256.0,ecg,ecg,agree,ok,424.00952162966155,False,-0.5117678122120173,False,"beats every 0.92s, spike ratio 34"
+SN019,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,13.719069155789622,False,,False,75% of power at 0.5-4 Hz
+SN019,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,12.415413066938717,False,,False,68% of power at 0.5-4 Hz
+SN019,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,9.099061795407529,False,,False,71% of power at 0.5-4 Hz
+SN019,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,13.228542065833993,False,,False,77% of power at 0.5-4 Hz
+SN019,4,EMG chin,uV,256.0,emg,emg,agree,ok,4.864891184314494,False,,False,52% of the power above 4 Hz lies above 25 Hz
+SN019,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,9.576183705684322,False,,False,80% of power at 0.5-4 Hz
+SN019,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,12.842433623825123,False,,False,83% of power at 0.5-4 Hz
+SN019,7,ECG,uV,256.0,ecg,ecg,agree,ok,361.35133897916864,False,0.996078431372549,False,"beats every 1.21s, spike ratio 76"
+SN020,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,89.81248390621593,False,,False,55% of power at 0.5-4 Hz
+SN020,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,90.64101346485906,False,,False,58% of power at 0.5-4 Hz
+SN020,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,89.89176133855794,False,,False,64% of power at 0.5-4 Hz
+SN020,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,15.0665450245132,False,,False,76% of power at 0.5-4 Hz
+SN020,4,EMG chin,uV,256.0,emg,emg,agree,ok,18.200303962373262,False,,False,40% of power above 25 Hz
+SN020,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,7.6444414212841405,False,,False,82% of power at 0.5-4 Hz
+SN020,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,9.617010967779045,False,,False,73% of power at 0.5-4 Hz
+SN020,7,ECG,uV,256.0,ecg,ecg,agree,ok,875.3732204165684,False,0.9917127071823204,False,"beats every 0.86s, spike ratio 47"
+SN021,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,16.696447801128482,False,,False,71% of power at 0.5-4 Hz
+SN021,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,17.286306284328408,False,,False,66% of power at 0.5-4 Hz
+SN021,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,14.559509426288312,False,,False,59% of power at 0.5-4 Hz
+SN021,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,17.770112885659376,False,,False,79% of power at 0.5-4 Hz
+SN021,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,13.647717340897067,False,,False,75% of power at 0.5-4 Hz
+SN021,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,14.321684349145595,False,,False,87% of power at 0.5-4 Hz
+SN021,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,12.270401177220462,False,,False,90% of power at 0.5-4 Hz
+SN021,7,ECG,uV,256.0,ecg,ecg,agree,ok,71.00938429846659,False,-1.0,False,"beats every 1.08s, spike ratio 37"
+SN022,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,24.72216766928679,False,,False,82% of power at 0.5-4 Hz
+SN022,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,25.996100542751282,False,,False,68% of power at 0.5-4 Hz
+SN022,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,18.060308369889732,False,,False,80% of power at 0.5-4 Hz
+SN022,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,26.755402242990712,False,,False,62% of power at 0.5-4 Hz
+SN022,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,72.08120837532624,False,,False,48% of power at 0.5-4 Hz
+SN022,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,20.5506690693325,False,,False,70% of power at 0.5-4 Hz
+SN022,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,16.9040562003554,False,,False,72% of power at 0.5-4 Hz
+SN022,7,ECG,uV,256.0,ecg,ecg,agree,ok,995.1219958800632,False,0.44187936260289445,False,"beats every 0.97s, spike ratio 65"
+SN023,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,18.834256523731774,False,,False,77% of power at 0.5-4 Hz
+SN023,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,16.36571382187961,False,,False,74% of power at 0.5-4 Hz
+SN023,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,11.55002200701837,False,,False,71% of power at 0.5-4 Hz
+SN023,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,19.367448630022125,False,,False,79% of power at 0.5-4 Hz
+SN023,4,EMG chin,uV,256.0,emg,emg,agree,ok,11.652112301021727,False,,False,73% of the power above 4 Hz lies above 25 Hz
+SN023,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,15.038715755339014,False,,False,87% of power at 0.5-4 Hz
+SN023,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,11.27831322856832,False,,False,88% of power at 0.5-4 Hz
+SN023,7,ECG,uV,256.0,ecg,ecg,agree,ok,207.5740901808182,False,-1.0,False,"beats every 0.99s, spike ratio 38"
+SN024,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,14.911076676626477,False,,False,80% of power at 0.5-4 Hz
+SN024,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,14.34014997566345,False,,False,76% of power at 0.5-4 Hz
+SN024,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,12.658149729474559,False,,False,87% of power at 0.5-4 Hz
+SN024,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,15.511188915227113,False,,False,80% of power at 0.5-4 Hz
+SN024,4,EMG chin,uV,256.0,emg,emg,agree,ok,6.522791590358169,False,,False,68% of power above 25 Hz
+SN024,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,14.427350837016242,False,,False,86% of power at 0.5-4 Hz
+SN024,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,14.20670163140035,False,,False,94% of power at 0.5-4 Hz
+SN024,7,ECG,uV,256.0,ecg,ecg,agree,ok,540.572945754177,False,0.9963503649635037,False,"beats every 1.09s, spike ratio 44"
+SN025,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,14.654079824608633,False,,False,70% of power at 0.5-4 Hz
+SN025,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,13.808413247600093,False,,False,71% of power at 0.5-4 Hz
+SN025,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,10.768301578893354,False,,False,76% of power at 0.5-4 Hz
+SN025,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,15.997065089727588,False,,False,60% of power at 0.5-4 Hz
+SN025,4,EMG chin,uV,256.0,emg,emg,agree,ok,19.5145922573763,False,,False,84% of the power above 4 Hz lies above 25 Hz
+SN025,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,14.432109541926426,False,,False,68% of power at 0.5-4 Hz
+SN025,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,10.300104204158242,False,,False,70% of power at 0.5-4 Hz
+SN025,7,ECG,uV,256.0,ecg,ecg,agree,ok,234.37857633325717,False,-0.9934924078091106,False,"beats every 0.65s, spike ratio 26"
+SN026,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,16.407878944945224,False,,False,39% of power at 0.5-4 Hz
+SN026,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,15.551781293263613,False,,False,34% of power at 0.5-4 Hz
+SN026,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,16.878409915264683,False,,False,40% of power at 0.5-4 Hz
+SN026,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,18.50160667666261,False,,False,48% of power at 0.5-4 Hz
+SN026,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,19.998277466225353,False,,False,96% of power at 0.5-4 Hz
+SN026,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,18.37966979278017,False,,False,72% of power at 0.5-4 Hz
+SN026,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,14.827330426447652,False,,False,79% of power at 0.5-4 Hz
+SN026,7,ECG,uV,256.0,ecg,ecg,agree,ok,559.0661478599224,False,1.0,False,"beats every 0.87s, spike ratio 37"
+SN027,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,10.443562551614118,False,,False,76% of power at 0.5-4 Hz
+SN027,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,8.610013129124653,False,,False,53% of power at 0.5-4 Hz
+SN027,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,7.99756025393753,False,,False,48% of power at 0.5-4 Hz
+SN027,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,8.639313823484375,False,,False,64% of power at 0.5-4 Hz
+SN027,4,EMG chin,uV,256.0,emg,emg,agree,ok,12.251473057683524,False,,False,80% of the power above 4 Hz lies above 25 Hz
+SN027,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,6.411482486685781,False,,False,63% of power at 0.5-4 Hz
+SN027,6,EOG E2-M2,uV,256.0,eog,emg,conflict,ok,11.11174149794741,False,,False,54% of the power above 4 Hz lies above 25 Hz
+SN027,7,ECG,uV,256.0,ecg,ecg,agree,ok,309.6368047608146,False,1.0,False,"beats every 0.91s, spike ratio 39"
+SN028,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,14.029313901529038,False,,False,72% of power at 0.5-4 Hz
+SN028,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,12.212272638286425,False,,False,67% of power at 0.5-4 Hz
+SN028,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,11.688755962097357,False,,False,66% of power at 0.5-4 Hz
+SN028,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,12.596389634106878,False,,False,71% of power at 0.5-4 Hz
+SN028,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,8.273421555283333,False,,False,73% of power at 0.5-4 Hz
+SN028,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,9.88585138526625,False,,False,73% of power at 0.5-4 Hz
+SN028,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,12.713154857072318,False,,False,84% of power at 0.5-4 Hz
+SN028,7,ECG,uV,256.0,ecg,ecg,agree,ok,670.2143282215603,False,1.0,False,"beats every 1.06s, spike ratio 79"
+SN029,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,12.60957326070757,False,,False,86% of power at 0.5-4 Hz
+SN029,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,10.86951005224098,False,,False,77% of power at 0.5-4 Hz
+SN029,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,9.221468613118706,False,,False,77% of power at 0.5-4 Hz
+SN029,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,12.292872252597672,False,,False,78% of power at 0.5-4 Hz
+SN029,4,EMG chin,uV,256.0,emg,resp,conflict,n/a,,False,,False,75% of power at 0.1-0.6 Hz
+SN029,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,7.820244673318087,False,,False,87% of power at 0.5-4 Hz
+SN029,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,13.817308038718874,False,,False,91% of power at 0.5-4 Hz
+SN029,7,ECG,uV,256.0,ecg,ecg,agree,ok,158.13229571984448,False,-0.07246137472934788,False,"beats every 0.92s, spike ratio 48"
+SN030,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,21.142173552001616,False,,False,84% of power at 0.5-4 Hz
+SN030,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,19.92258089440772,False,,False,82% of power at 0.5-4 Hz
+SN030,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,13.363676104614246,False,,False,85% of power at 0.5-4 Hz
+SN030,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,17.671883081587485,False,,False,74% of power at 0.5-4 Hz
+SN030,4,EMG chin,uV,256.0,emg,emg,agree,ok,6.0697653559804685,False,,False,58% of power above 25 Hz
+SN030,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,11.948491725755542,False,,False,85% of power at 0.5-4 Hz
+SN030,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,14.23969322879632,False,,False,85% of power at 0.5-4 Hz
+SN030,7,ECG,uV,256.0,ecg,ecg,agree,ok,648.4266422522298,False,1.0,False,"beats every 1.21s, spike ratio 52"
+SN031,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,22.766241152496782,False,,False,92% of power at 0.5-4 Hz
+SN031,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,24.1488409019366,False,,False,92% of power at 0.5-4 Hz
+SN031,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,19.58359652942096,False,,False,90% of power at 0.5-4 Hz
+SN031,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,23.216503729157836,False,,False,97% of power at 0.5-4 Hz
+SN031,4,EMG chin,uV,256.0,emg,emg,agree,ok,7.976583317965863,False,,False,39% of power above 25 Hz
+SN031,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,17.52701972675304,False,,False,97% of power at 0.5-4 Hz
+SN031,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,21.230411786709475,False,,False,97% of power at 0.5-4 Hz
+SN031,7,ECG,uV,256.0,ecg,ecg,agree,ok,829.1149462119475,False,1.0,False,"beats every 0.94s, spike ratio 58"
+SN032,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,205.69689423916537,False,,False,93% of power at 0.5-4 Hz
+SN032,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,151.73385969323485,False,,False,96% of power at 0.5-4 Hz
+SN032,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,201.22702788884914,False,,False,92% of power at 0.5-4 Hz
+SN032,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,68.47518829838475,False,,False,96% of power at 0.5-4 Hz
+SN032,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,234.8256776875404,False,,False,75% of power at 0.5-4 Hz
+SN032,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,60.224553019073156,False,,False,96% of power at 0.5-4 Hz
+SN032,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,69.60136791788673,False,,False,96% of power at 0.5-4 Hz
+SN032,7,ECG,uV,256.0,ecg,ecg,agree,ok,900.857495994506,False,-0.9557625526896281,False,"beats every 0.69s, spike ratio 30"
+SN033,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,114.05092771448017,False,,False,97% of power at 0.5-4 Hz
+SN033,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,115.68580381856657,False,,False,96% of power at 0.5-4 Hz
+SN033,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,111.47565182200816,False,,False,97% of power at 0.5-4 Hz
+SN033,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,50.53061453931931,False,,False,95% of power at 0.5-4 Hz
+SN033,4,EMG chin,uV,256.0,emg,emg,agree,ok,11.58440763959557,False,,False,70% of the power above 4 Hz lies above 25 Hz
+SN033,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,48.923391928325394,False,,False,96% of power at 0.5-4 Hz
+SN033,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,51.19780829406034,False,,False,97% of power at 0.5-4 Hz
+SN033,7,ECG,uV,256.0,ecg,ecg,agree,ok,256.2069123369184,False,-0.9377275674597236,False,"beats every 0.83s, spike ratio 35"
+SN034,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,20.12906944813971,False,,False,71% of power at 0.5-4 Hz
+SN034,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,19.576613387536394,False,,False,67% of power at 0.5-4 Hz
+SN034,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,14.586702377946398,False,,False,65% of power at 0.5-4 Hz
+SN034,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,16.84352870619636,False,,False,66% of power at 0.5-4 Hz
+SN034,4,EMG chin,uV,256.0,emg,emg,agree,ok,8.08200859050555,False,,False,52% of the power above 4 Hz lies above 25 Hz
+SN034,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,12.967903083795244,False,,False,85% of power at 0.5-4 Hz
+SN034,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,12.702593273483004,False,,False,86% of power at 0.5-4 Hz
+SN034,7,ECG,uV,256.0,ecg,ecg,agree,ok,2392.7859006637673,False,1.0,False,"beats every 0.94s, spike ratio 48"
+SN035,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,29.41236328133828,False,,False,89% of power at 0.5-4 Hz
+SN035,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,29.179284705659683,False,,False,89% of power at 0.5-4 Hz
+SN035,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,20.422340200254148,False,,False,88% of power at 0.5-4 Hz
+SN035,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,25.665911690958804,False,,False,84% of power at 0.5-4 Hz
+SN035,4,EMG chin,uV,256.0,emg,emg,agree,ok,8.608283159196208,False,,False,61% of the power above 4 Hz lies above 25 Hz
+SN035,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,20.47358551037865,False,,False,90% of power at 0.5-4 Hz
+SN035,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,15.915167447087919,False,,False,89% of power at 0.5-4 Hz
+SN035,7,ECG,uV,256.0,ecg,ecg,agree,ok,1070.232272831311,False,1.0,False,"beats every 1.11s, spike ratio 43"
+SN036,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,15.411178241459377,False,,False,76% of power at 0.5-4 Hz
+SN036,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,13.348049053522503,False,,False,67% of power at 0.5-4 Hz
+SN036,2,EEG O2-M1,uV,256.0,eeg,resp,conflict,n/a,,False,,False,63% of power at 0.1-0.6 Hz
+SN036,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,14.29160388622056,False,,False,74% of power at 0.5-4 Hz
+SN036,4,EMG chin,uV,256.0,emg,emg,agree,ok,11.92975691802466,False,,False,66% of power above 25 Hz
+SN036,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,10.49076128803676,False,,False,78% of power at 0.5-4 Hz
+SN036,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,8.782608257555609,False,,False,79% of power at 0.5-4 Hz
+SN036,7,ECG,uV,256.0,ecg,ecg,agree,ok,2400.0,False,-0.8348711529841595,False,"beats every 0.95s, spike ratio 19"
+SN037,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,24.21381189110369,False,,False,87% of power at 0.5-4 Hz
+SN037,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,24.21603460309487,False,,False,89% of power at 0.5-4 Hz
+SN037,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,18.221249520363443,False,,False,90% of power at 0.5-4 Hz
+SN037,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,18.91604035402544,False,,False,75% of power at 0.5-4 Hz
+SN037,4,EMG chin,uV,256.0,emg,resp,conflict,n/a,,False,,False,63% of power at 0.1-0.6 Hz
+SN037,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,14.63780933075213,False,,False,72% of power at 0.5-4 Hz
+SN037,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,13.960888925982426,False,,False,87% of power at 0.5-4 Hz
+SN037,7,ECG,uV,256.0,ecg,ecg,agree,ok,809.2689402609276,False,1.0,False,"beats every 1.28s, spike ratio 41"
+SN038,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,19.536504208075378,False,,False,73% of power at 0.5-4 Hz
+SN038,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,17.039693420114947,False,,False,71% of power at 0.5-4 Hz
+SN038,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,12.26081353787001,False,,False,71% of power at 0.5-4 Hz
+SN038,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,15.980393770530906,False,,False,53% of power at 0.5-4 Hz
+SN038,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,4.798766655894196,False,,True,57% of power at 0.5-4 Hz; carries heartbeat artefact
+SN038,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,17.404293308178804,False,,False,78% of power at 0.5-4 Hz
+SN038,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,13.313761595640354,False,,False,82% of power at 0.5-4 Hz
+SN038,7,ECG,uV,256.0,ecg,ecg,agree,ok,678.1982146944373,False,1.0,False,"beats every 0.84s, spike ratio 42"
+SN039,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,19.61462784484405,False,,False,95% of power at 0.5-4 Hz
+SN039,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,20.36378292474319,False,,False,96% of power at 0.5-4 Hz
+SN039,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,17.584672514684627,False,,False,96% of power at 0.5-4 Hz
+SN039,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,16.58171591151794,False,,False,95% of power at 0.5-4 Hz
+SN039,4,EMG chin,uV,256.0,emg,emg,agree,ok,6.801899507871345,False,,False,66% of the power above 4 Hz lies above 25 Hz
+SN039,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,17.251657770383595,False,,False,96% of power at 0.5-4 Hz
+SN039,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,13.864252589877019,False,,False,98% of power at 0.5-4 Hz
+SN039,7,ECG,uV,256.0,ecg,ecg,agree,ok,519.295399404898,False,1.0,False,"beats every 0.99s, spike ratio 65"
+SN040,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,19.089653022439457,False,,False,90% of power at 0.5-4 Hz
+SN040,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,16.73271258562506,False,,False,79% of power at 0.5-4 Hz
+SN040,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,12.849908190156773,False,,False,72% of power at 0.5-4 Hz
+SN040,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,31.0764872989255,False,,False,97% of power at 0.5-4 Hz
+SN040,4,EMG chin,uV,256.0,emg,emg,agree,ok,5.105357648755181,False,,False,43% of power above 25 Hz
+SN040,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,30.33473693309425,False,,False,98% of power at 0.5-4 Hz
+SN040,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,30.22824172316649,False,,False,98% of power at 0.5-4 Hz
+SN040,7,ECG,uV,256.0,ecg,ecg,agree,ok,178.34744792858788,False,-1.0,False,"beats every 0.79s, spike ratio 20"
+SN041,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,17.11679069057806,False,,False,67% of power at 0.5-4 Hz
+SN041,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,16.373524934609488,False,,False,56% of power at 0.5-4 Hz
+SN041,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,10.379703501963867,False,,False,52% of power at 0.5-4 Hz
+SN041,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,16.66068048683595,False,,False,63% of power at 0.5-4 Hz
+SN041,4,EMG chin,uV,256.0,emg,emg,agree,ok,11.350986686582601,False,,False,64% of the power above 4 Hz lies above 25 Hz
+SN041,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,14.312677495523676,False,,False,66% of power at 0.5-4 Hz
+SN041,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,10.334463545818242,False,,False,75% of power at 0.5-4 Hz
+SN041,7,ECG,uV,256.0,ecg,ecg,agree,ok,74.41519798580923,False,-1.0,False,"beats every 0.98s, spike ratio 42"
+SN042,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,14.675703066546138,False,,False,72% of power at 0.5-4 Hz
+SN042,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,15.046262526959795,False,,False,59% of power at 0.5-4 Hz
+SN042,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,15.140703422169485,False,,False,73% of power at 0.5-4 Hz
+SN042,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,14.860362517530856,False,,False,63% of power at 0.5-4 Hz
+SN042,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,5.044377915260725,False,,False,72% of power at 0.5-4 Hz
+SN042,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,18.985895722173886,False,,False,90% of power at 0.5-4 Hz
+SN042,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,14.544202736643758,False,,False,88% of power at 0.5-4 Hz
+SN042,7,ECG,uV,256.0,ecg,ecg,agree,ok,1071.780270084682,False,1.0,False,"beats every 0.97s, spike ratio 48"
+SN043,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,14.817975027879548,False,,False,74% of power at 0.5-4 Hz
+SN043,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,16.723466138294853,False,,False,77% of power at 0.5-4 Hz
+SN043,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,13.248006636931263,False,,False,72% of power at 0.5-4 Hz
+SN043,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,19.376476318280524,False,,False,54% of power at 0.5-4 Hz
+SN043,4,EMG chin,uV,256.0,emg,emg,agree,ok,6.746045276971145,False,,False,51% of the power above 4 Hz lies above 25 Hz
+SN043,5,EOG E1-M2,uV,256.0,eog,emg,conflict,ok,29.726754775202515,False,,False,42% of power above 25 Hz
+SN043,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,14.200192313753824,False,,False,70% of power at 0.5-4 Hz
+SN043,7,ECG,uV,256.0,ecg,ecg,agree,ok,268.4022888532835,False,-0.3160667251975417,False,"beats every 0.99s, spike ratio 59"
+SN044,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,14.382060732363863,False,,False,79% of power at 0.5-4 Hz
+SN044,1,EEG C4-M1,uV,256.0,eeg,emg,conflict,ok,31.131098686236395,False,,False,45% of power above 25 Hz
+SN044,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,19.525778235198686,False,,False,64% of power at 0.5-4 Hz
+SN044,3,EEG C3-M2,uV,256.0,eeg,emg,conflict,ok,27.911126794409665,False,,False,52% of power above 25 Hz
+SN044,4,EMG chin,uV,256.0,emg,emg,agree,ok,22.991630270700846,False,,False,55% of the power above 4 Hz lies above 25 Hz
+SN044,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,10.755728117353769,False,,False,54% of power at 0.5-4 Hz
+SN044,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,17.14540405196052,False,,False,62% of power at 0.5-4 Hz
+SN044,7,ECG,uV,256.0,ecg,ecg,agree,ok,419.1725337605855,False,0.941793713532844,False,"beats every 1.05s, spike ratio 35"
+SN045,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,18.538425093724864,False,,False,83% of power at 0.5-4 Hz
+SN045,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,15.115597435140504,False,,False,78% of power at 0.5-4 Hz
+SN045,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,11.459319285874493,False,,False,62% of power at 0.5-4 Hz
+SN045,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,20.07504579534666,False,,False,81% of power at 0.5-4 Hz
+SN045,4,EMG chin,uV,256.0,emg,emg,agree,ok,8.941391234180436,False,,False,64% of the power above 4 Hz lies above 25 Hz
+SN045,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,14.302517080099816,False,,False,91% of power at 0.5-4 Hz
+SN045,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,13.085652020896665,False,,False,92% of power at 0.5-4 Hz
+SN045,7,ECG,uV,256.0,ecg,ecg,agree,ok,273.16310368505276,False,1.0,False,"beats every 1.13s, spike ratio 56"
+SN046,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,21.079646526595827,False,,False,86% of power at 0.5-4 Hz
+SN046,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,21.90413433441997,False,,False,83% of power at 0.5-4 Hz
+SN046,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,20.87257957119577,False,,False,77% of power at 0.5-4 Hz
+SN046,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,21.66628709851885,False,,False,79% of power at 0.5-4 Hz
+SN046,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,6.962328121818501,False,,False,71% of power at 0.5-4 Hz
+SN046,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,13.315610288396428,False,,False,95% of power at 0.5-4 Hz
+SN046,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,16.406551205971734,False,,False,94% of power at 0.5-4 Hz
+SN046,7,ECG,uV,256.0,ecg,ecg,agree,ok,774.0777294575388,False,1.0,False,"beats every 0.79s, spike ratio 44"
+SN047,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,14.802647383358906,False,,False,81% of power at 0.5-4 Hz
+SN047,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,19.089837454699286,False,,False,89% of power at 0.5-4 Hz
+SN047,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,9.440720603086977,False,,False,86% of power at 0.5-4 Hz
+SN047,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,17.420394053236272,False,,False,88% of power at 0.5-4 Hz
+SN047,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,20.30286858199905,False,,False,55% of power at 0.5-4 Hz
+SN047,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,15.093416343947851,False,,False,93% of power at 0.5-4 Hz
+SN047,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,13.677539762950985,False,,False,93% of power at 0.5-4 Hz
+SN047,7,ECG,uV,256.0,ecg,ecg,agree,ok,125.39290455481796,False,-1.0,False,"beats every 1.05s, spike ratio 38"
+SN048,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,13.490540908430209,False,,False,62% of power at 0.5-4 Hz
+SN048,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,12.854609624234094,False,,False,57% of power at 0.5-4 Hz
+SN048,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,12.472173514243067,False,,False,56% of power at 0.5-4 Hz
+SN048,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,13.329107325051142,False,,False,44% of power at 0.5-4 Hz
+SN048,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,21.984228833336207,False,,False,89% of power at 0.5-4 Hz
+SN048,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,11.597680110005562,False,,False,82% of power at 0.5-4 Hz
+SN048,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,14.765279659538457,False,,False,72% of power at 0.5-4 Hz
+SN048,7,ECG,uV,256.0,ecg,ecg,agree,ok,390.86326390478365,False,0.9892185007974481,False,"beats every 1.06s, spike ratio 75"
+SN049,0,EEG F4-M1,uV,256.0,eeg,emg,conflict,ok,26.95324309874858,False,,False,46% of power above 25 Hz
+SN049,1,EEG C4-M1,uV,256.0,eeg,emg,conflict,ok,116.43737890679722,False,,False,95% of power above 25 Hz
+SN049,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,15.997816399962531,False,,False,74% of power at 0.5-4 Hz
+SN049,3,EEG C3-M2,uV,256.0,eeg,emg,conflict,ok,130.7588516033661,False,,False,81% of power above 25 Hz
+SN049,4,EMG chin,uV,256.0,emg,emg,agree,ok,16.876997414461442,False,,False,66% of the power above 4 Hz lies above 25 Hz
+SN049,5,EOG E1-M2,uV,256.0,eog,emg,conflict,ok,75.53861591107042,False,,False,61% of power above 25 Hz
+SN049,6,EOG E2-M2,uV,256.0,eog,emg,conflict,ok,77.82568482045089,False,,False,68% of power above 25 Hz
+SN049,7,ECG,uV,256.0,ecg,ecg,agree,ok,654.3952391851669,False,0.9949620887662194,False,"beats every 0.78s, spike ratio 41"
+SN050,0,EEG F4-M1,uV,256.0,eeg,resp,conflict,n/a,,False,,False,60% of power at 0.1-0.6 Hz
+SN050,1,EEG C4-M1,uV,256.0,eeg,resp,conflict,n/a,,False,,False,63% of power at 0.1-0.6 Hz
+SN050,2,EEG O2-M1,uV,256.0,eeg,resp,conflict,n/a,,False,,False,67% of power at 0.1-0.6 Hz
+SN050,3,EEG C3-M2,uV,256.0,eeg,resp,conflict,n/a,,False,,False,64% of power at 0.1-0.6 Hz
+SN050,4,EMG chin,uV,256.0,emg,resp,conflict,n/a,,False,,False,65% of power at 0.1-0.6 Hz
+SN050,5,EOG E1-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,66% of power at 0.1-0.6 Hz
+SN050,6,EOG E2-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,69% of power at 0.1-0.6 Hz
+SN050,7,ECG,uV,256.0,ecg,ecg,agree,ok,355.6328679331656,False,-1.0,False,"beats every 1.38s, spike ratio 87"
+SN051,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,13.522696847056494,False,,False,86% of power at 0.5-4 Hz
+SN051,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,13.68079383322733,False,,False,81% of power at 0.5-4 Hz
+SN051,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,9.50697591476094,False,,False,80% of power at 0.5-4 Hz
+SN051,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,15.84123591793505,False,,False,85% of power at 0.5-4 Hz
+SN051,4,EMG chin,uV,256.0,emg,emg,agree,ok,9.137281364522726,False,,False,55% of the power above 4 Hz lies above 25 Hz
+SN051,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,11.337119546042981,False,,False,89% of power at 0.5-4 Hz
+SN051,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,10.958182478515853,False,,False,93% of power at 0.5-4 Hz
+SN051,7,ECG,uV,256.0,ecg,ecg,agree,ok,1874.745525291824,False,1.0,False,"beats every 0.93s, spike ratio 71"
+SN052,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,11.92946506843396,False,,False,72% of power at 0.5-4 Hz
+SN052,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,11.564957009264326,False,,False,69% of power at 0.5-4 Hz
+SN052,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,10.948261084023073,False,,False,74% of power at 0.5-4 Hz
+SN052,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,12.065592541495747,False,,False,66% of power at 0.5-4 Hz
+SN052,4,EMG chin,uV,256.0,emg,emg,agree,ok,13.799156513259529,False,,False,54% of power above 25 Hz
+SN052,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,7.797050447525525,False,,False,64% of power at 0.5-4 Hz
+SN052,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,14.355402466105993,False,,False,86% of power at 0.5-4 Hz
+SN052,7,ECG,uV,256.0,ecg,ecg,agree,ok,799.4887617303725,False,-0.9913231695840392,False,"beats every 1.31s, spike ratio 111"
+SN053,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,17.564994070395407,False,,False,90% of power at 0.5-4 Hz
+SN053,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,17.46412706517164,False,,False,87% of power at 0.5-4 Hz
+SN053,2,EEG O2-M1,uV,256.0,eeg,resp,conflict,n/a,,False,,False,68% of power at 0.1-0.6 Hz
+SN053,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,16.34719293065394,False,,False,82% of power at 0.5-4 Hz
+SN053,4,EMG chin,uV,256.0,emg,emg,agree,ok,5.7963163131417605,False,,False,45% of power above 25 Hz
+SN053,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,14.66486929866834,False,,False,93% of power at 0.5-4 Hz
+SN053,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,12.664560894591292,False,,False,94% of power at 0.5-4 Hz
+SN053,7,ECG,uV,256.0,ecg,ecg,agree,ok,741.3350423437844,False,1.0,False,"beats every 0.84s, spike ratio 23"
+SN054,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,16.113801913279325,False,,False,56% of power at 0.5-4 Hz
+SN054,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,14.685453765881334,False,,False,57% of power at 0.5-4 Hz
+SN054,2,EEG O2-M1,uV,256.0,eeg,emg,conflict,ok,35.540792113622615,False,,False,60% of power above 25 Hz
+SN054,3,EEG C3-M2,uV,256.0,eeg,emg,conflict,ok,52.17719708846998,False,,False,76% of power above 25 Hz
+SN054,4,EMG chin,uV,256.0,emg,emg,agree,ok,24.604028973458433,False,,False,64% of power above 25 Hz
+SN054,5,EOG E1-M2,uV,256.0,eog,emg,conflict,ok,53.45063964212373,False,,False,80% of power above 25 Hz
+SN054,6,EOG E2-M2,uV,256.0,eog,emg,conflict,ok,48.89392730521186,False,,False,79% of power above 25 Hz
+SN054,7,ECG,uV,256.0,ecg,neuro,conflict,ok,147.33629252538822,False,,False,24% of power at 0.5-4 Hz
+SN055,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,25.8972140990483,False,,False,90% of power at 0.5-4 Hz
+SN055,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,25.70387365390954,False,,False,89% of power at 0.5-4 Hz
+SN055,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,21.738921206631005,False,,False,88% of power at 0.5-4 Hz
+SN055,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,18.017138389579852,False,,False,75% of power at 0.5-4 Hz
+SN055,4,EMG chin,uV,256.0,emg,emg,agree,ok,8.150049272088262,False,,False,50% of power above 25 Hz
+SN055,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,23.585473467712262,False,,False,94% of power at 0.5-4 Hz
+SN055,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,20.988683394399274,False,,False,94% of power at 0.5-4 Hz
+SN055,7,ECG,uV,256.0,ecg,ecg,agree,ok,142.3128404669256,False,0.9118408933916647,False,"beats every 0.93s, spike ratio 37"
+SN056,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,11.316296888384546,False,,False,46% of power at 0.5-4 Hz
+SN056,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,12.141593297796458,False,,False,48% of power at 0.5-4 Hz
+SN056,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,10.502210922574452,False,,False,46% of power at 0.5-4 Hz
+SN056,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,11.84946607727092,False,,False,45% of power at 0.5-4 Hz
+SN056,4,EMG chin,uV,256.0,emg,emg,agree,ok,11.134736126004483,False,,False,49% of power above 25 Hz
+SN056,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,7.61787766470059,False,,False,71% of power at 0.5-4 Hz
+SN056,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,9.514847066420625,False,,False,61% of power at 0.5-4 Hz
+SN056,7,ECG,uV,256.0,ecg,ecg,agree,ok,895.5469901579304,False,1.0,False,"beats every 0.87s, spike ratio 46"
+SN057,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,15.283370940574887,False,,False,70% of power at 0.5-4 Hz
+SN057,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,15.022403841177745,False,,False,63% of power at 0.5-4 Hz
+SN057,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,12.402063640741417,False,,False,59% of power at 0.5-4 Hz
+SN057,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,16.453935255086165,False,,False,70% of power at 0.5-4 Hz
+SN057,4,EMG chin,uV,256.0,emg,emg,agree,ok,10.809323372543027,False,,False,36% of power above 25 Hz
+SN057,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,12.867095881810359,False,,False,76% of power at 0.5-4 Hz
+SN057,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,10.146279481843784,False,,False,82% of power at 0.5-4 Hz
+SN057,7,ECG,uV,256.0,ecg,ecg,agree,ok,365.0080109864959,False,1.0,False,"beats every 1.09s, spike ratio 56"
+SN058,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,21.083632427385687,False,,False,85% of power at 0.5-4 Hz
+SN058,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,18.71755069701706,False,,False,68% of power at 0.5-4 Hz
+SN058,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,17.09200085454132,False,,False,83% of power at 0.5-4 Hz
+SN058,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,20.851841599015337,False,,False,92% of power at 0.5-4 Hz
+SN058,4,EMG chin,uV,256.0,emg,emg,agree,ok,32.02641862982055,False,,False,43% of power above 25 Hz
+SN058,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,20.242377004499723,False,,False,78% of power at 0.5-4 Hz
+SN058,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,17.494876099648348,False,,False,95% of power at 0.5-4 Hz
+SN058,7,ECG,uV,256.0,ecg,neuro,conflict,ok,211.1864090334519,False,,False,14% of power at 0.5-4 Hz
+SN059,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,16.176382323561608,False,,False,86% of power at 0.5-4 Hz
+SN059,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,15.147730014239684,False,,False,77% of power at 0.5-4 Hz
+SN059,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,12.09535427922092,False,,False,76% of power at 0.5-4 Hz
+SN059,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,18.51950330109225,False,,False,88% of power at 0.5-4 Hz
+SN059,4,EMG chin,uV,256.0,emg,emg,agree,ok,23.168802157249164,False,,False,63% of the power above 4 Hz lies above 25 Hz
+SN059,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,18.2062192961688,False,,False,94% of power at 0.5-4 Hz
+SN059,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,13.490048616705552,False,,False,95% of power at 0.5-4 Hz
+SN059,7,ECG,uV,256.0,ecg,ecg,agree,ok,404.48688487067955,False,1.0,False,"beats every 0.90s, spike ratio 41"
+SN060,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,31.537125673262395,False,,False,78% of power at 0.5-4 Hz
+SN060,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,31.101565234276762,False,,False,77% of power at 0.5-4 Hz
+SN060,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,24.382211001533896,False,,False,82% of power at 0.5-4 Hz
+SN060,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,28.606168278649065,False,,False,69% of power at 0.5-4 Hz
+SN060,4,EMG chin,uV,256.0,emg,emg,agree,ok,8.483619501522405,False,,False,38% of power above 25 Hz
+SN060,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,26.124674560885573,False,,False,88% of power at 0.5-4 Hz
+SN060,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,17.689795739280093,False,,False,78% of power at 0.5-4 Hz
+SN060,7,ECG,uV,256.0,ecg,ecg,agree,ok,1093.3808194094736,False,0.9938271016908788,False,"beats every 0.89s, spike ratio 40"
+SN061,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,12.508134350627087,False,,False,68% of power at 0.5-4 Hz
+SN061,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,15.228651136576099,False,,False,71% of power at 0.5-4 Hz
+SN061,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,11.299725721689581,False,,False,75% of power at 0.5-4 Hz
+SN061,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,13.455049123863773,False,,False,74% of power at 0.5-4 Hz
+SN061,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,7.72915063418986,False,,False,67% of power at 0.5-4 Hz
+SN061,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,8.023275720185078,False,,False,82% of power at 0.5-4 Hz
+SN061,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,13.345355742410206,False,,False,88% of power at 0.5-4 Hz
+SN061,7,ECG,uV,256.0,ecg,ecg,agree,ok,177.4330052643621,False,0.06281020353199185,False,"beats every 0.91s, spike ratio 35"
+SN062,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,17.376176116236103,False,,False,86% of power at 0.5-4 Hz
+SN062,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,15.810010499142782,False,,False,84% of power at 0.5-4 Hz
+SN062,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,13.485207979468735,False,,False,84% of power at 0.5-4 Hz
+SN062,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,20.17701759795391,False,,False,88% of power at 0.5-4 Hz
+SN062,4,EMG chin,uV,256.0,emg,emg,agree,ok,5.040060652327888,False,,False,50% of the power above 4 Hz lies above 25 Hz
+SN062,5,EOG E1-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,72% of power at 0.1-0.6 Hz
+SN062,6,EOG E2-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,77% of power at 0.1-0.6 Hz
+SN062,7,ECG,uV,256.0,ecg,ecg,agree,ok,482.5441062027835,False,1.0,False,"beats every 1.29s, spike ratio 72"
+SN063,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,17.939862382693818,False,,False,81% of power at 0.5-4 Hz
+SN063,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,15.506107492957707,False,,False,68% of power at 0.5-4 Hz
+SN063,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,11.36594868794208,False,,False,68% of power at 0.5-4 Hz
+SN063,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,8.35714077724105,False,,False,81% of power at 0.5-4 Hz
+SN063,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,4.388373280988128,False,,False,59% of power at 0.5-4 Hz
+SN063,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,20.304007323888293,False,,False,87% of power at 0.5-4 Hz
+SN063,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,17.10415794501907,False,,False,79% of power at 0.5-4 Hz
+SN063,7,ECG,uV,256.0,ecg,ecg,agree,ok,474.7275806820778,False,1.0,False,"beats every 0.89s, spike ratio 30"
+SN065,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,15.61766154817196,False,,False,73% of power at 0.5-4 Hz
+SN065,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,15.771577536272659,False,,False,71% of power at 0.5-4 Hz
+SN065,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,9.146900287160578,False,,False,73% of power at 0.5-4 Hz
+SN065,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,15.28756485113019,False,,False,76% of power at 0.5-4 Hz
+SN065,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,10.311127574740873,False,,False,59% of power at 0.5-4 Hz
+SN065,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,9.746302648332982,False,,False,89% of power at 0.5-4 Hz
+SN065,6,EOG E2-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,72% of power at 0.1-0.6 Hz
+SN065,7,ECG,uV,256.0,ecg,ecg,agree,ok,240.20215152208718,False,1.0,False,"beats every 0.82s, spike ratio 26"
+SN066,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,23.054452216519028,False,,False,86% of power at 0.5-4 Hz
+SN066,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,21.65546771078283,False,,False,82% of power at 0.5-4 Hz
+SN066,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,12.661381198156574,False,,False,76% of power at 0.5-4 Hz
+SN066,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,21.1779459977839,False,,False,73% of power at 0.5-4 Hz
+SN066,4,EMG chin,uV,256.0,emg,emg,agree,ok,3.1718572328965333,False,,False,56% of power above 25 Hz
+SN066,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,11.605815388194424,False,,False,79% of power at 0.5-4 Hz
+SN066,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,8.470662816629527,False,,False,83% of power at 0.5-4 Hz
+SN066,7,ECG,uV,256.0,ecg,ecg,agree,ok,572.655344472418,False,0.9802767147483074,False,"beats every 1.21s, spike ratio 69"
+SN067,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,14.320111516790089,False,,False,84% of power at 0.5-4 Hz
+SN067,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,12.739632087487818,False,,False,83% of power at 0.5-4 Hz
+SN067,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,11.830500512814567,False,,False,82% of power at 0.5-4 Hz
+SN067,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,9.715150643094503,False,,False,61% of power at 0.5-4 Hz
+SN067,4,EMG chin,uV,256.0,emg,emg,agree,ok,14.30936118938483,False,,False,73% of the power above 4 Hz lies above 25 Hz
+SN067,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,8.376566074334868,False,,False,72% of power at 0.5-4 Hz
+SN067,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,6.657827443562826,False,,False,76% of power at 0.5-4 Hz
+SN067,7,ECG,uV,256.0,ecg,neuro,conflict,ok,168.13646276628725,False,,False,18% of power at 0.5-4 Hz
+SN068,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,16.01617563948245,False,,False,83% of power at 0.5-4 Hz
+SN068,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,16.20759471476657,False,,False,82% of power at 0.5-4 Hz
+SN068,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,12.648396092684912,False,,False,80% of power at 0.5-4 Hz
+SN068,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,15.959318333460054,False,,False,81% of power at 0.5-4 Hz
+SN068,4,EMG chin,uV,256.0,emg,emg,agree,ok,23.538572070739214,False,,False,65% of the power above 4 Hz lies above 25 Hz
+SN068,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,11.852300221091964,False,,False,75% of power at 0.5-4 Hz
+SN068,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,7.3460407778856425,False,,False,85% of power at 0.5-4 Hz
+SN068,7,ECG,uV,256.0,ecg,ecg,agree,ok,215.2254520485238,False,-1.0,False,"beats every 1.23s, spike ratio 121"
+SN069,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,19.457193115949742,False,,False,55% of power at 0.5-4 Hz
+SN069,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,18.995985817423637,False,,False,52% of power at 0.5-4 Hz
+SN069,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,16.813244040709098,False,,False,46% of power at 0.5-4 Hz
+SN069,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,22.197965258798604,False,,False,70% of power at 0.5-4 Hz
+SN069,4,EMG chin,uV,256.0,emg,emg,agree,ok,21.452608444880205,False,,False,59% of the power above 4 Hz lies above 25 Hz
+SN069,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,18.56839421096213,False,,False,77% of power at 0.5-4 Hz
+SN069,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,15.028816255231504,False,,False,85% of power at 0.5-4 Hz
+SN069,7,ECG,uV,256.0,ecg,ecg,agree,ok,251.7756923781177,False,1.0,False,"beats every 0.95s, spike ratio 29"
+SN070,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,33.15635717633135,False,,False,91% of power at 0.5-4 Hz
+SN070,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,31.073885496060136,False,,False,90% of power at 0.5-4 Hz
+SN070,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,25.99511849067481,False,,False,82% of power at 0.5-4 Hz
+SN070,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,34.054530299164284,False,,False,91% of power at 0.5-4 Hz
+SN070,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,20.67562093055791,False,,False,60% of power at 0.5-4 Hz
+SN070,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,28.580898565443476,False,,False,93% of power at 0.5-4 Hz
+SN070,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,34.58312315782729,False,,False,94% of power at 0.5-4 Hz
+SN070,7,ECG,uV,256.0,ecg,ecg,agree,ok,957.5467154955367,False,0.9898892666015954,False,"beats every 0.84s, spike ratio 35"
+SN071,0,EEG F4-M1,uV,256.0,eeg,emg,conflict,ok,24.722507196350875,False,,False,46% of power above 25 Hz
+SN071,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,9.056765523130398,False,,False,66% of power at 0.5-4 Hz
+SN071,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,8.152370878644831,False,,False,71% of power at 0.5-4 Hz
+SN071,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,12.214931864251987,False,,False,86% of power at 0.5-4 Hz
+SN071,4,EMG chin,uV,256.0,emg,resp,conflict,n/a,,False,,False,64% of power at 0.1-0.6 Hz
+SN071,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,12.095277209747788,False,,False,81% of power at 0.5-4 Hz
+SN071,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,9.935513407302679,False,,False,89% of power at 0.5-4 Hz
+SN071,7,ECG,uV,256.0,ecg,ecg,agree,ok,64.41748683909373,False,-1.0,False,"beats every 1.06s, spike ratio 46"
+SN072,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,28.8073081196014,False,,False,93% of power at 0.5-4 Hz
+SN072,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,39.879851314561385,False,,False,96% of power at 0.5-4 Hz
+SN072,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,35.32676489044495,False,,False,93% of power at 0.5-4 Hz
+SN072,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,36.15574159552659,False,,False,93% of power at 0.5-4 Hz
+SN072,4,EMG chin,uV,256.0,emg,emg,agree,ok,20.956361091546807,False,,False,54% of the power above 4 Hz lies above 25 Hz
+SN072,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,31.38484417282624,False,,False,92% of power at 0.5-4 Hz
+SN072,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,39.041035146062825,False,,False,95% of power at 0.5-4 Hz
+SN072,7,ECG,uV,256.0,ecg,ecg,agree,ok,893.2039368276485,False,0.4537557037557038,False,"beats every 0.91s, spike ratio 53"
+SN073,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,14.883141884515027,False,,False,79% of power at 0.5-4 Hz
+SN073,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,14.324828138156999,False,,False,76% of power at 0.5-4 Hz
+SN073,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,11.205890380649322,False,,False,85% of power at 0.5-4 Hz
+SN073,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,16.135084685452,False,,False,90% of power at 0.5-4 Hz
+SN073,4,EMG chin,uV,256.0,emg,emg,agree,ok,11.115449820194677,False,,False,60% of power above 25 Hz
+SN073,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,14.772682112698405,False,,False,92% of power at 0.5-4 Hz
+SN073,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,13.362411235665677,False,,False,95% of power at 0.5-4 Hz
+SN073,7,ECG,uV,256.0,ecg,ecg,agree,ok,139.49224078736546,False,-0.7379458555089207,False,"beats every 0.85s, spike ratio 16"
+SN074,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,20.39477252337344,False,,False,77% of power at 0.5-4 Hz
+SN074,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,19.13888076790714,False,,False,69% of power at 0.5-4 Hz
+SN074,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,18.74017852843101,False,,False,73% of power at 0.5-4 Hz
+SN074,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,35.86486425469268,False,,False,92% of power at 0.5-4 Hz
+SN074,4,EMG chin,uV,256.0,emg,emg,agree,ok,19.43938750860762,False,,False,63% of the power above 4 Hz lies above 25 Hz
+SN074,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,19.76790696188236,False,,False,90% of power at 0.5-4 Hz
+SN074,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,15.028012770872213,False,,False,82% of power at 0.5-4 Hz
+SN074,7,ECG,uV,256.0,ecg,ecg,agree,ok,88.00183108262772,False,-1.0,False,"beats every 1.12s, spike ratio 43"
+SN075,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,12.846655691432924,False,,False,76% of power at 0.5-4 Hz
+SN075,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,12.290962988031254,False,,False,59% of power at 0.5-4 Hz
+SN075,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,9.824016726058431,False,,False,52% of power at 0.5-4 Hz
+SN075,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,10.914280899589714,False,,False,58% of power at 0.5-4 Hz
+SN075,4,EMG chin,uV,256.0,emg,resp,conflict,n/a,,False,,False,62% of power at 0.1-0.6 Hz
+SN075,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,8.479310033982657,False,,False,69% of power at 0.5-4 Hz
+SN075,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,6.056364135150078,False,,False,73% of power at 0.5-4 Hz
+SN075,7,ECG,uV,256.0,ecg,ecg,agree,ok,485.60347905699234,False,1.0,False,"beats every 0.95s, spike ratio 20"
+SN076,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,13.703363210781543,False,,False,71% of power at 0.5-4 Hz
+SN076,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,12.78817808035473,False,,False,67% of power at 0.5-4 Hz
+SN076,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,9.000224113850042,False,,False,67% of power at 0.5-4 Hz
+SN076,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,13.562422929094891,False,,False,72% of power at 0.5-4 Hz
+SN076,4,EMG chin,uV,256.0,emg,resp,conflict,n/a,,False,,False,67% of power at 0.1-0.6 Hz
+SN076,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,8.755692456724166,False,,False,76% of power at 0.5-4 Hz
+SN076,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,6.720357774555656,False,,False,78% of power at 0.5-4 Hz
+SN076,7,ECG,uV,256.0,ecg,ecg,agree,ok,265.764065003433,False,-1.0,False,"beats every 0.77s, spike ratio 41"
+SN077,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,17.590053364103113,False,,False,77% of power at 0.5-4 Hz
+SN077,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,15.673844846985922,False,,False,74% of power at 0.5-4 Hz
+SN077,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,9.17339715359932,False,,False,72% of power at 0.5-4 Hz
+SN077,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,18.036966986844092,False,,False,75% of power at 0.5-4 Hz
+SN077,4,EMG chin,uV,256.0,emg,emg,agree,ok,12.729396685498521,False,,False,61% of the power above 4 Hz lies above 25 Hz
+SN077,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,10.1719302498208,False,,False,75% of power at 0.5-4 Hz
+SN077,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,7.767989104185494,False,,False,85% of power at 0.5-4 Hz
+SN077,7,ECG,uV,256.0,ecg,ecg,agree,ok,429.24275577935447,False,1.0,False,"beats every 1.01s, spike ratio 66"
+SN078,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,20.105041164125794,False,,False,85% of power at 0.5-4 Hz
+SN078,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,17.62652337530321,False,,False,79% of power at 0.5-4 Hz
+SN078,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,14.16413818799909,False,,False,75% of power at 0.5-4 Hz
+SN078,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,20.526895441740745,False,,False,83% of power at 0.5-4 Hz
+SN078,4,EMG chin,uV,256.0,emg,emg,agree,ok,8.750104665992648,False,,False,80% of the power above 4 Hz lies above 25 Hz
+SN078,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,17.147974950801526,False,,False,85% of power at 0.5-4 Hz
+SN078,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,14.047662476649462,False,,False,91% of power at 0.5-4 Hz
+SN078,7,ECG,uV,256.0,ecg,ecg,agree,ok,496.9572899977105,False,1.0,False,"beats every 1.03s, spike ratio 64"
+SN079,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,30.42094039317187,False,,False,91% of power at 0.5-4 Hz
+SN079,1,EEG C4-M1,uV,256.0,eeg,resp,conflict,n/a,,False,,False,82% of power at 0.1-0.6 Hz
+SN079,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,28.422239971102965,False,,False,94% of power at 0.5-4 Hz
+SN079,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,18.117157775268637,False,,False,84% of power at 0.5-4 Hz
+SN079,4,EMG chin,uV,256.0,emg,emg,agree,ok,69.00909504764573,False,,False,44% of power above 25 Hz
+SN079,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,21.160274780542956,False,,False,94% of power at 0.5-4 Hz
+SN079,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,19.942064678791418,False,,False,89% of power at 0.5-4 Hz
+SN079,7,ECG,uV,256.0,ecg,ecg,agree,ok,113.63698786907771,False,-0.9948815929045203,False,"beats every 0.79s, spike ratio 34"
+SN080,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,11.63386677057742,False,,False,72% of power at 0.5-4 Hz
+SN080,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,11.720086990484582,False,,False,66% of power at 0.5-4 Hz
+SN080,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,13.031704396995119,False,,False,81% of power at 0.5-4 Hz
+SN080,3,EEG C3-M2,uV,256.0,eeg,emg,conflict,ok,18.411163557062004,False,,False,35% of power above 25 Hz
+SN080,4,EMG chin,uV,256.0,emg,resp,conflict,n/a,,False,,False,74% of power at 0.1-0.6 Hz
+SN080,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,7.466752722644059,False,,False,59% of power at 0.5-4 Hz
+SN080,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,8.323764461850343,False,,False,66% of power at 0.5-4 Hz
+SN080,7,ECG,uV,256.0,ecg,ecg,agree,ok,239.50597390707247,False,1.0,False,"beats every 0.84s, spike ratio 32"
+SN081,0,EEG F4-M1,uV,256.0,eeg,resp,conflict,n/a,,False,,False,65% of power at 0.1-0.6 Hz
+SN081,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,13.476841580353819,False,,False,88% of power at 0.5-4 Hz
+SN081,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,10.394966755786374,False,,False,87% of power at 0.5-4 Hz
+SN081,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,15.847592617310891,False,,False,92% of power at 0.5-4 Hz
+SN081,4,EMG chin,uV,256.0,emg,emg,agree,ok,6.34804770667978,False,,False,77% of the power above 4 Hz lies above 25 Hz
+SN081,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,20.539064965107272,False,,False,96% of power at 0.5-4 Hz
+SN081,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,28.452569363348786,False,,False,99% of power at 0.5-4 Hz
+SN081,7,ECG,uV,256.0,ecg,ecg,agree,ok,1715.8434424353352,False,0.9970238095238095,False,"beats every 0.95s, spike ratio 77"
+SN082,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,17.608025763801134,False,,False,88% of power at 0.5-4 Hz
+SN082,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,15.491046937831893,False,,False,82% of power at 0.5-4 Hz
+SN082,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,17.239356283806323,False,,False,86% of power at 0.5-4 Hz
+SN082,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,16.935963229423933,False,,False,86% of power at 0.5-4 Hz
+SN082,4,EMG chin,uV,256.0,emg,emg,agree,ok,5.197755951694046,False,,False,37% of power above 25 Hz
+SN082,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,12.22644526219316,False,,False,87% of power at 0.5-4 Hz
+SN082,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,11.567455684037807,False,,False,89% of power at 0.5-4 Hz
+SN082,7,ECG,uV,256.0,ecg,ecg,agree,ok,1905.354268711374,False,1.0,False,"beats every 1.08s, spike ratio 123"
+SN083,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,15.901826048072227,False,,False,77% of power at 0.5-4 Hz
+SN083,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,14.429855662317038,False,,False,74% of power at 0.5-4 Hz
+SN083,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,10.049965119266624,False,,False,77% of power at 0.5-4 Hz
+SN083,3,EEG C3-M2,uV,256.0,eeg,resp,conflict,n/a,,False,,False,67% of power at 0.1-0.6 Hz
+SN083,4,EMG chin,uV,256.0,emg,emg,agree,ok,14.424136038549662,False,,False,70% of the power above 4 Hz lies above 25 Hz
+SN083,5,EOG E1-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,69% of power at 0.1-0.6 Hz
+SN083,6,EOG E2-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,74% of power at 0.1-0.6 Hz
+SN083,7,ECG,uV,256.0,ecg,ecg,agree,ok,1807.9772945754162,False,1.0,False,"beats every 0.99s, spike ratio 38"
+SN084,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,14.666873644914462,False,,False,84% of power at 0.5-4 Hz
+SN084,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,13.983179475840995,False,,False,76% of power at 0.5-4 Hz
+SN084,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,12.875308555796636,False,,False,79% of power at 0.5-4 Hz
+SN084,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,13.09524734816118,False,,False,63% of power at 0.5-4 Hz
+SN084,4,EMG chin,uV,256.0,emg,emg,agree,ok,12.224387911954071,False,,False,69% of the power above 4 Hz lies above 25 Hz
+SN084,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,14.028511294113386,False,,False,91% of power at 0.5-4 Hz
+SN084,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,15.630633433853664,False,,False,89% of power at 0.5-4 Hz
+SN084,7,ECG,uV,256.0,ecg,neuro,conflict,ok,186.13610867454423,False,,False,17% of power at 0.5-4 Hz
+SN085,0,EEG F4-M1,uV,256.0,eeg,resp,conflict,n/a,,False,,False,78% of power at 0.1-0.6 Hz
+SN085,1,EEG C4-M1,uV,256.0,eeg,resp,conflict,n/a,,False,,False,78% of power at 0.1-0.6 Hz
+SN085,2,EEG O2-M1,uV,256.0,eeg,resp,conflict,n/a,,False,,False,81% of power at 0.1-0.6 Hz
+SN085,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,12.442168475682015,False,,False,82% of power at 0.5-4 Hz
+SN085,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,3.7350561193187968,False,,False,58% of power at 0.5-4 Hz
+SN085,5,EOG E1-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,77% of power at 0.1-0.6 Hz
+SN085,6,EOG E2-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,79% of power at 0.1-0.6 Hz
+SN085,7,ECG,uV,256.0,ecg,ecg,agree,ok,515.6339665827416,False,1.0,False,"beats every 0.82s, spike ratio 35"
+SN086,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,15.678652819973555,False,,False,88% of power at 0.5-4 Hz
+SN086,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,15.410669881948365,False,,False,84% of power at 0.5-4 Hz
+SN086,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,18.72904819069594,False,,False,92% of power at 0.5-4 Hz
+SN086,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,14.718241734763351,False,,False,85% of power at 0.5-4 Hz
+SN086,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,50.63873082825943,False,,False,88% of power at 0.5-4 Hz
+SN086,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,13.564517582865768,False,,False,94% of power at 0.5-4 Hz
+SN086,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,21.24719291240332,False,,False,95% of power at 0.5-4 Hz
+SN086,7,ECG,uV,256.0,ecg,ecg,agree,ok,631.3239642938872,False,1.0,False,"beats every 0.86s, spike ratio 41"
+SN087,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,16.603504173431638,False,,False,81% of power at 0.5-4 Hz
+SN087,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,14.54361904191207,False,,False,75% of power at 0.5-4 Hz
+SN087,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,13.109171809098772,False,,False,56% of power at 0.5-4 Hz
+SN087,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,15.013876553176333,False,,False,74% of power at 0.5-4 Hz
+SN087,4,EMG chin,uV,256.0,emg,emg,agree,ok,10.31463455591392,False,,False,61% of power above 25 Hz
+SN087,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,12.113129491313625,False,,False,82% of power at 0.5-4 Hz
+SN087,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,17.6074876090586,False,,False,93% of power at 0.5-4 Hz
+SN087,7,ECG,uV,256.0,ecg,ecg,agree,ok,107.77788967727162,False,-1.0,False,"beats every 0.92s, spike ratio 36"
+SN088,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,22.34409922452616,False,,False,85% of power at 0.5-4 Hz
+SN088,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,17.021419550569206,False,,False,76% of power at 0.5-4 Hz
+SN088,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,16.4844926382332,False,,False,89% of power at 0.5-4 Hz
+SN088,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,16.100333760998442,False,,False,72% of power at 0.5-4 Hz
+SN088,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,9.224816242765586,False,,False,85% of power at 0.5-4 Hz
+SN088,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,17.763783661052543,False,,False,92% of power at 0.5-4 Hz
+SN088,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,14.378219731282218,False,,False,92% of power at 0.5-4 Hz
+SN088,7,ECG,uV,256.0,ecg,ecg,agree,ok,146.19363698786918,False,-1.0,False,"beats every 0.79s, spike ratio 31"
+SN089,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,22.49396540547548,False,,False,93% of power at 0.5-4 Hz
+SN089,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,22.958581671867247,False,,False,92% of power at 0.5-4 Hz
+SN089,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,19.229588440499022,False,,False,93% of power at 0.5-4 Hz
+SN089,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,14.64855847074049,False,,False,73% of power at 0.5-4 Hz
+SN089,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,19.893193744168016,False,,False,74% of power at 0.5-4 Hz
+SN089,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,20.060280109269208,False,,False,97% of power at 0.5-4 Hz
+SN089,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,21.702007015884092,False,,False,96% of power at 0.5-4 Hz
+SN089,7,ECG,uV,256.0,ecg,ecg,agree,ok,195.4135042343785,False,0.9818377681798505,False,"beats every 0.96s, spike ratio 42"
+SN090,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,20.879544515632357,False,,False,67% of power at 0.5-4 Hz
+SN090,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,17.997081897847963,False,,False,65% of power at 0.5-4 Hz
+SN090,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,14.227294108177377,False,,False,65% of power at 0.5-4 Hz
+SN090,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,16.66856104512513,False,,False,53% of power at 0.5-4 Hz
+SN090,4,EMG chin,uV,256.0,emg,emg,agree,ok,23.183581072034997,False,,False,57% of the power above 4 Hz lies above 25 Hz
+SN090,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,23.25358079622083,False,,False,87% of power at 0.5-4 Hz
+SN090,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,11.37132604429955,False,,False,84% of power at 0.5-4 Hz
+SN090,7,ECG,uV,256.0,ecg,ecg,agree,ok,233.90432593270685,False,-1.0,False,"beats every 0.85s, spike ratio 52"
+SN091,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,16.482899927879565,False,,False,75% of power at 0.5-4 Hz
+SN091,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,17.79354264226575,False,,False,77% of power at 0.5-4 Hz
+SN091,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,13.820360698966196,False,,False,74% of power at 0.5-4 Hz
+SN091,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,16.710750951816056,False,,False,57% of power at 0.5-4 Hz
+SN091,4,EMG chin,uV,256.0,emg,emg,agree,ok,9.338401769878542,False,,False,65% of the power above 4 Hz lies above 25 Hz
+SN091,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,12.821202912683653,False,,False,80% of power at 0.5-4 Hz
+SN091,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,13.046777323292032,False,,False,89% of power at 0.5-4 Hz
+SN091,7,ECG,uV,256.0,ecg,ecg,agree,ok,860.5366903181501,False,0.9972222222222222,False,"beats every 0.83s, spike ratio 24"
+SN092,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,15.689552711609942,False,,False,71% of power at 0.5-4 Hz
+SN092,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,16.100765218472638,False,,False,68% of power at 0.5-4 Hz
+SN092,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,12.0829999007277,False,,False,64% of power at 0.5-4 Hz
+SN092,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,16.07739697850918,False,,False,70% of power at 0.5-4 Hz
+SN092,4,EMG chin,uV,256.0,emg,emg,agree,ok,13.19764414226439,False,,False,61% of the power above 4 Hz lies above 25 Hz
+SN092,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,10.808512411772433,False,,False,75% of power at 0.5-4 Hz
+SN092,6,EOG E2-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,63% of power at 0.1-0.6 Hz
+SN092,7,ECG,uV,256.0,ecg,ecg,agree,ok,376.36218814373933,False,-1.0,False,"beats every 0.84s, spike ratio 38"
+SN093,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,17.51850589071742,False,,False,82% of power at 0.5-4 Hz
+SN093,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,17.603567539614602,False,,False,84% of power at 0.5-4 Hz
+SN093,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,10.692630343945693,False,,False,71% of power at 0.5-4 Hz
+SN093,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,38.224629235235696,False,,False,94% of power at 0.5-4 Hz
+SN093,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,31.47400754809204,False,,False,42% of power at 0.5-4 Hz
+SN093,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,35.916280123450896,False,,True,92% of power at 0.5-4 Hz; carries heartbeat artefact
+SN093,6,EOG E2-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,74% of power at 0.1-0.6 Hz
+SN093,7,ECG,uV,256.0,ecg,ecg,agree,ok,267.6680247196154,False,-0.9975,False,"beats every 0.86s, spike ratio 47"
+SN094,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,18.04059113437352,False,,False,85% of power at 0.5-4 Hz
+SN094,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,14.676912919850498,False,,False,86% of power at 0.5-4 Hz
+SN094,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,12.025337446668164,False,,False,85% of power at 0.5-4 Hz
+SN094,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,14.602013795970759,False,,False,82% of power at 0.5-4 Hz
+SN094,4,EMG chin,uV,256.0,emg,resp,conflict,n/a,,False,,False,65% of power at 0.1-0.6 Hz
+SN094,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,15.652134211925144,False,,False,90% of power at 0.5-4 Hz
+SN094,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,11.358660764878374,False,,False,88% of power at 0.5-4 Hz
+SN094,7,ECG,uV,256.0,ecg,ecg,agree,ok,277.9956969558249,False,0.8563746293820127,False,"beats every 0.94s, spike ratio 41"
+SN095,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,13.774382224221206,False,,False,56% of power at 0.5-4 Hz
+SN095,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,13.674171231104108,False,,False,62% of power at 0.5-4 Hz
+SN095,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,11.885509532560583,False,,False,57% of power at 0.5-4 Hz
+SN095,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,12.85377797818356,False,,False,58% of power at 0.5-4 Hz
+SN095,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,20.14804551747077,False,,False,69% of power at 0.5-4 Hz
+SN095,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,12.821533569737015,False,,False,76% of power at 0.5-4 Hz
+SN095,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,14.301308304695109,False,,False,91% of power at 0.5-4 Hz
+SN095,7,ECG,uV,256.0,ecg,ecg,agree,ok,737.4538796063155,False,0.9856648826677645,False,"beats every 0.86s, spike ratio 55"
+SN096,0,EEG F4-M1,uV,256.0,eeg,emg,conflict,ok,20.336709353245563,False,,False,62% of the power above 4 Hz lies above 25 Hz
+SN096,1,EEG C4-M1,uV,256.0,eeg,emg,conflict,ok,16.32983378540139,False,,False,44% of power above 25 Hz
+SN096,2,EEG O2-M1,uV,256.0,eeg,emg,conflict,ok,18.565055176725327,False,,False,60% of the power above 4 Hz lies above 25 Hz
+SN096,3,EEG C3-M2,uV,256.0,eeg,emg,conflict,ok,20.659798216262224,False,,False,53% of the power above 4 Hz lies above 25 Hz
+SN096,4,EMG chin,uV,256.0,emg,emg,agree,ok,65.19916406484751,False,,False,68% of the power above 4 Hz lies above 25 Hz
+SN096,5,EOG E1-M2,uV,256.0,eog,emg,conflict,ok,21.239713027855245,False,,False,64% of the power above 4 Hz lies above 25 Hz
+SN096,6,EOG E2-M2,uV,256.0,eog,emg,conflict,ok,25.22806153289531,False,,False,65% of the power above 4 Hz lies above 25 Hz
+SN096,7,ECG,uV,256.0,ecg,ecg,agree,ok,496.4987869077494,False,-0.9969135802469136,False,"beats every 0.91s, spike ratio 40"
+SN097,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,14.989110221293322,False,,False,83% of power at 0.5-4 Hz
+SN097,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,14.536614504317754,False,,False,83% of power at 0.5-4 Hz
+SN097,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,19.04939957235299,False,,False,89% of power at 0.5-4 Hz
+SN097,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,13.539687611896593,False,,False,89% of power at 0.5-4 Hz
+SN097,4,EMG chin,uV,256.0,emg,emg,agree,ok,48.17752670929483,False,,False,91% of power above 25 Hz
+SN097,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,15.279991317229271,False,,False,91% of power at 0.5-4 Hz
+SN097,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,14.823353652752886,False,,False,95% of power at 0.5-4 Hz
+SN097,7,ECG,uV,256.0,ecg,ecg,agree,ok,95.17967498283372,False,-0.993488922712667,False,"beats every 0.98s, spike ratio 34"
+SN098,0,EEG F4-M1,uV,256.0,eeg,emg,conflict,ok,50.49946796924288,False,,False,78% of power above 25 Hz
+SN098,1,EEG C4-M1,uV,256.0,eeg,emg,conflict,ok,52.10128209152202,False,,False,82% of power above 25 Hz
+SN098,2,EEG O2-M1,uV,256.0,eeg,emg,conflict,ok,54.88754758175366,False,,False,80% of power above 25 Hz
+SN098,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,17.132255776214407,False,,False,64% of power at 0.5-4 Hz
+SN098,4,EMG chin,uV,256.0,emg,emg,agree,ok,5.1000722858345355,False,,False,57% of power above 25 Hz
+SN098,5,EOG E1-M2,uV,256.0,eog,emg,conflict,ok,40.533093409861664,False,,False,55% of power above 25 Hz
+SN098,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,10.500809433584568,False,,False,45% of power at 0.5-4 Hz
+SN098,7,ECG,uV,256.0,ecg,flat,flat,n/a,,False,,False,no variation
+SN099,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,16.799555754851454,False,,False,81% of power at 0.5-4 Hz
+SN099,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,17.273212956156193,False,,False,80% of power at 0.5-4 Hz
+SN099,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,16.04201436440998,False,,False,61% of power at 0.5-4 Hz
+SN099,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,17.03466841384854,False,,False,79% of power at 0.5-4 Hz
+SN099,4,EMG chin,uV,256.0,emg,emg,agree,ok,3.6966663702317826,False,,False,53% of power above 25 Hz
+SN099,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,12.599240861992445,False,,False,91% of power at 0.5-4 Hz
+SN099,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,12.188019984444733,False,,False,93% of power at 0.5-4 Hz
+SN099,7,ECG,uV,256.0,ecg,ecg,agree,ok,246.940169375143,False,-0.9942114934847979,False,"beats every 0.82s, spike ratio 17"
+SN100,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,18.4535076788851,False,,False,84% of power at 0.5-4 Hz
+SN100,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,18.813068903762343,False,,False,78% of power at 0.5-4 Hz
+SN100,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,15.597297261345894,False,,False,73% of power at 0.5-4 Hz
+SN100,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,17.8447099372018,False,,False,78% of power at 0.5-4 Hz
+SN100,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,10.491161461892101,False,,False,92% of power at 0.5-4 Hz
+SN100,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,17.122084890875414,False,,False,92% of power at 0.5-4 Hz
+SN100,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,18.427229629851055,False,,False,95% of power at 0.5-4 Hz
+SN100,7,ECG,uV,256.0,ecg,ecg,agree,ok,273.1978942549782,False,1.0,False,"beats every 0.95s, spike ratio 37"
+SN101,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,20.962738188508887,False,,False,91% of power at 0.5-4 Hz
+SN101,1,EEG C4-M1,uV,256.0,eeg,resp,conflict,n/a,,False,,False,70% of power at 0.1-0.6 Hz
+SN101,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,15.677868596511553,False,,False,90% of power at 0.5-4 Hz
+SN101,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,18.757963296560504,False,,False,86% of power at 0.5-4 Hz
+SN101,4,EMG chin,uV,256.0,emg,emg,agree,ok,16.645013194416546,False,,False,89% of the power above 4 Hz lies above 25 Hz
+SN101,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,14.4220845510171,False,,False,91% of power at 0.5-4 Hz
+SN101,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,14.156346899257503,False,,False,94% of power at 0.5-4 Hz
+SN101,7,ECG,uV,256.0,ecg,ecg,agree,ok,243.27800411993584,False,-0.9904939615404551,False,"beats every 0.99s, spike ratio 53"
+SN102,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,35.06473921079071,False,,False,85% of power at 0.5-4 Hz
+SN102,1,EEG C4-M1,uV,256.0,eeg,emg,conflict,ok,77.00137710677012,False,,False,52% of the power above 4 Hz lies above 25 Hz
+SN102,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,31.933539280230036,False,,False,86% of power at 0.5-4 Hz
+SN102,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,13.832087037724968,False,,False,74% of power at 0.5-4 Hz
+SN102,4,EMG chin,uV,256.0,emg,emg,agree,ok,23.027862179151967,False,,False,36% of power above 25 Hz
+SN102,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,11.812341866473215,False,,False,79% of power at 0.5-4 Hz
+SN102,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,11.104062717459652,False,,False,79% of power at 0.5-4 Hz
+SN102,7,ECG,uV,256.0,ecg,ecg,agree,ok,329.5234607461653,False,0.9547804862382374,False,"beats every 0.98s, spike ratio 50"
+SN103,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,26.409978161609786,False,,False,90% of power at 0.5-4 Hz
+SN103,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,26.8887190878096,False,,False,88% of power at 0.5-4 Hz
+SN103,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,23.414017588967553,False,,False,89% of power at 0.5-4 Hz
+SN103,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,21.724995136821427,False,,False,86% of power at 0.5-4 Hz
+SN103,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,6.5842292728369625,False,,False,68% of power at 0.5-4 Hz
+SN103,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,13.990581875083022,False,,False,93% of power at 0.5-4 Hz
+SN103,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,13.517605050031769,False,,False,94% of power at 0.5-4 Hz
+SN103,7,ECG,uV,256.0,ecg,ecg,agree,ok,595.327077134353,False,1.0,False,"beats every 1.12s, spike ratio 55"
+SN104,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,11.292574508475186,False,,False,55% of power at 0.5-4 Hz
+SN104,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,10.935429209379185,False,,False,49% of power at 0.5-4 Hz
+SN104,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,9.06773677341401,False,,False,56% of power at 0.5-4 Hz
+SN104,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,10.454268847913184,False,,False,41% of power at 0.5-4 Hz
+SN104,4,EMG chin,uV,256.0,emg,emg,agree,ok,8.781450092954248,False,,False,65% of power above 25 Hz
+SN104,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,12.063685757408557,False,,False,85% of power at 0.5-4 Hz
+SN104,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,9.304875094770555,False,,False,80% of power at 0.5-4 Hz
+SN104,7,ECG,uV,256.0,ecg,ecg,agree,ok,414.92368963149454,False,1.0,False,"beats every 0.88s, spike ratio 40"
+SN105,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,22.5064275488446,False,,False,87% of power at 0.5-4 Hz
+SN105,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,21.291542134038195,False,,False,82% of power at 0.5-4 Hz
+SN105,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,25.1275423986905,False,,False,79% of power at 0.5-4 Hz
+SN105,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,26.571842118360976,False,,False,86% of power at 0.5-4 Hz
+SN105,4,EMG chin,uV,256.0,emg,emg,agree,ok,8.854950756601589,False,,False,70% of the power above 4 Hz lies above 25 Hz
+SN105,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,23.7010143712799,False,,False,94% of power at 0.5-4 Hz
+SN105,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,15.093168689966276,False,,False,91% of power at 0.5-4 Hz
+SN105,7,ECG,uV,256.0,ecg,ecg,agree,ok,1624.2863813229542,False,1.0,False,"beats every 0.73s, spike ratio 39"
+SN106,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,29.15795244720315,False,,False,86% of power at 0.5-4 Hz
+SN106,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,25.987758366840424,False,,False,85% of power at 0.5-4 Hz
+SN106,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,23.05895820576498,False,,False,86% of power at 0.5-4 Hz
+SN106,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,24.652178262376005,False,,False,85% of power at 0.5-4 Hz
+SN106,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,21.01419871572793,False,,False,95% of power at 0.5-4 Hz
+SN106,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,20.536412431346186,False,,False,86% of power at 0.5-4 Hz
+SN106,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,16.147770651058515,False,,False,84% of power at 0.5-4 Hz
+SN106,7,ECG,uV,256.0,ecg,ecg,agree,ok,359.0038910505828,False,0.2567766918679698,False,"beats every 0.84s, spike ratio 54"
+SN107,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,17.201156678394952,False,,False,85% of power at 0.5-4 Hz
+SN107,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,18.233804855769982,False,,False,84% of power at 0.5-4 Hz
+SN107,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,14.593204388531124,False,,False,80% of power at 0.5-4 Hz
+SN107,3,EEG C3-M2,uV,256.0,eeg,resp,conflict,n/a,,False,,False,77% of power at 0.1-0.6 Hz
+SN107,4,EMG chin,uV,256.0,emg,emg,agree,ok,13.602000247635424,False,,False,53% of the power above 4 Hz lies above 25 Hz
+SN107,5,EOG E1-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,83% of power at 0.1-0.6 Hz
+SN107,6,EOG E2-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,80% of power at 0.1-0.6 Hz
+SN107,7,ECG,uV,256.0,ecg,ecg,agree,ok,310.883039597161,False,-0.7075454208379681,False,"beats every 0.83s, spike ratio 33"
+SN108,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,11.31720688350898,False,,False,66% of power at 0.5-4 Hz
+SN108,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,11.685597071898414,False,,False,63% of power at 0.5-4 Hz
+SN108,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,9.048608189290768,False,,False,55% of power at 0.5-4 Hz
+SN108,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,12.531259233297442,False,,False,69% of power at 0.5-4 Hz
+SN108,4,EMG chin,uV,256.0,emg,resp,conflict,n/a,,False,,False,68% of power at 0.1-0.6 Hz
+SN108,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,9.397125149838695,False,,False,72% of power at 0.5-4 Hz
+SN108,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,8.20191472974841,False,,False,78% of power at 0.5-4 Hz
+SN108,7,ECG,uV,256.0,ecg,ecg,agree,ok,165.34676127260255,False,-1.0,False,"beats every 1.10s, spike ratio 42"
+SN109,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,10.660686450677616,False,,False,66% of power at 0.5-4 Hz
+SN109,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,10.291585029012893,False,,False,63% of power at 0.5-4 Hz
+SN109,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,9.814570184958633,False,,False,70% of power at 0.5-4 Hz
+SN109,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,14.493034676817377,False,,False,78% of power at 0.5-4 Hz
+SN109,4,EMG chin,uV,256.0,emg,emg,agree,ok,12.070323562805822,False,,False,59% of the power above 4 Hz lies above 25 Hz
+SN109,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,14.598406030476335,False,,False,89% of power at 0.5-4 Hz
+SN109,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,11.408569362460035,False,,False,89% of power at 0.5-4 Hz
+SN109,7,ECG,uV,256.0,ecg,ecg,agree,ok,462.6783245593957,False,-1.0,False,"beats every 0.88s, spike ratio 50"
+SN110,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,19.278634770969667,False,,False,84% of power at 0.5-4 Hz
+SN110,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,15.91903124506603,False,,False,76% of power at 0.5-4 Hz
+SN110,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,12.135323066466805,False,,False,78% of power at 0.5-4 Hz
+SN110,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,13.97551220753521,False,,False,82% of power at 0.5-4 Hz
+SN110,4,EMG chin,uV,256.0,emg,emg,agree,ok,10.81659749344125,False,,False,60% of the power above 4 Hz lies above 25 Hz
+SN110,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,13.797031576976533,False,,False,86% of power at 0.5-4 Hz
+SN110,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,8.14438797573545,False,,False,88% of power at 0.5-4 Hz
+SN110,7,ECG,uV,256.0,ecg,ecg,agree,ok,370.1383382925138,False,-0.9960159362549801,False,"beats every 1.28s, spike ratio 47"
+SN111,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,16.6563499279627,False,,False,84% of power at 0.5-4 Hz
+SN111,1,EEG C4-M1,uV,256.0,eeg,resp,conflict,n/a,,False,,False,68% of power at 0.1-0.6 Hz
+SN111,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,11.710946033294563,False,,False,86% of power at 0.5-4 Hz
+SN111,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,17.18143916291985,False,,False,83% of power at 0.5-4 Hz
+SN111,4,EMG chin,uV,256.0,emg,emg,agree,ok,14.987955688058005,False,,False,70% of the power above 4 Hz lies above 25 Hz
+SN111,5,EOG E1-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,66% of power at 0.1-0.6 Hz
+SN111,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,14.703198746967193,False,,False,95% of power at 0.5-4 Hz
+SN111,7,ECG,uV,256.0,ecg,neuro,conflict,ok,148.01683965516492,False,,False,53% of power at 0.5-4 Hz
+SN112,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,12.476793808651507,False,,False,63% of power at 0.5-4 Hz
+SN112,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,10.828286216610708,False,,False,52% of power at 0.5-4 Hz
+SN112,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,8.822141668563624,False,,False,39% of power at 0.5-4 Hz
+SN112,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,12.87157346428555,False,,False,72% of power at 0.5-4 Hz
+SN112,4,EMG chin,uV,256.0,emg,resp,conflict,n/a,,False,,False,67% of power at 0.1-0.6 Hz
+SN112,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,14.435444186531722,False,,False,81% of power at 0.5-4 Hz
+SN112,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,13.263137523648874,False,,False,85% of power at 0.5-4 Hz
+SN112,7,ECG,uV,256.0,ecg,ecg,agree,ok,155.09269855802256,False,-0.9666313184870979,False,"beats every 1.23s, spike ratio 39"
+SN113,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,21.553980345799268,False,,False,87% of power at 0.5-4 Hz
+SN113,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,19.863151309397384,False,,False,82% of power at 0.5-4 Hz
+SN113,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,25.20783617217257,False,,False,82% of power at 0.5-4 Hz
+SN113,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,20.7091587784315,False,,False,81% of power at 0.5-4 Hz
+SN113,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,16.05168400841229,False,,False,77% of power at 0.5-4 Hz
+SN113,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,17.54639742544079,False,,False,87% of power at 0.5-4 Hz
+SN113,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,16.169923203278422,False,,False,88% of power at 0.5-4 Hz
+SN113,7,ECG,uV,256.0,ecg,ecg,agree,ok,287.6634470130464,False,-0.988950276243094,False,"beats every 0.83s, spike ratio 32"
+SN114,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,10.168561184738742,False,,False,65% of power at 0.5-4 Hz
+SN114,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,9.413012318908272,False,,False,60% of power at 0.5-4 Hz
+SN114,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,7.068470631418908,False,,False,68% of power at 0.5-4 Hz
+SN114,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,10.764697363063565,False,,False,72% of power at 0.5-4 Hz
+SN114,4,EMG chin,uV,256.0,emg,emg,agree,ok,11.492522331553598,False,,False,59% of the power above 4 Hz lies above 25 Hz
+SN114,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,8.982845028411495,False,,False,70% of power at 0.5-4 Hz
+SN114,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,5.777894964460708,False,,False,79% of power at 0.5-4 Hz
+SN114,7,ECG,uV,256.0,ecg,ecg,agree,ok,1844.5623254749357,False,1.0,False,"beats every 0.61s, spike ratio 23"
+SN115,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,15.57519897790467,False,,False,78% of power at 0.5-4 Hz
+SN115,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,14.563171086073769,False,,False,76% of power at 0.5-4 Hz
+SN115,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,12.044881541995249,False,,False,77% of power at 0.5-4 Hz
+SN115,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,15.174984434572659,False,,False,82% of power at 0.5-4 Hz
+SN115,4,EMG chin,uV,256.0,emg,emg,agree,ok,10.366194587042717,False,,False,50% of power above 25 Hz
+SN115,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,20.654826690909243,False,,False,96% of power at 0.5-4 Hz
+SN115,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,21.68098325604872,False,,False,91% of power at 0.5-4 Hz
+SN115,7,ECG,uV,256.0,ecg,ecg,agree,ok,728.1508812085133,False,1.0,False,"beats every 1.10s, spike ratio 78"
+SN116,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,20.989942765856952,False,,False,80% of power at 0.5-4 Hz
+SN116,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,22.336063580333338,False,,False,78% of power at 0.5-4 Hz
+SN116,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,17.460219669730826,False,,False,82% of power at 0.5-4 Hz
+SN116,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,18.584662202670472,False,,False,78% of power at 0.5-4 Hz
+SN116,4,EMG chin,uV,256.0,emg,emg,agree,ok,18.154112809832444,False,,False,39% of power above 25 Hz
+SN116,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,16.4705430679685,False,,False,68% of power at 0.5-4 Hz
+SN116,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,22.773682417745118,False,,False,86% of power at 0.5-4 Hz
+SN116,7,ECG,uV,256.0,ecg,ecg,agree,ok,250.9692835889215,False,-0.986667626002806,False,"beats every 0.80s, spike ratio 40"
+SN117,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,16.549161239649088,False,,False,75% of power at 0.5-4 Hz
+SN117,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,15.461399318105244,False,,False,69% of power at 0.5-4 Hz
+SN117,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,14.795592916348767,False,,False,57% of power at 0.5-4 Hz
+SN117,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,16.39162412820261,False,,False,69% of power at 0.5-4 Hz
+SN117,4,EMG chin,uV,256.0,emg,emg,agree,ok,12.446709721328235,False,,False,64% of the power above 4 Hz lies above 25 Hz
+SN117,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,10.798303483262057,False,,False,69% of power at 0.5-4 Hz
+SN117,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,9.735651701247914,False,,False,76% of power at 0.5-4 Hz
+SN117,7,ECG,uV,256.0,ecg,ecg,agree,ok,176.33362325474928,False,-1.0,False,"beats every 1.06s, spike ratio 48"
+SN118,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,16.209095906098568,False,,False,69% of power at 0.5-4 Hz
+SN118,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,14.575768904156899,False,,False,66% of power at 0.5-4 Hz
+SN118,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,10.128100807228744,False,,False,60% of power at 0.5-4 Hz
+SN118,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,15.10301451654776,False,,False,69% of power at 0.5-4 Hz
+SN118,4,EMG chin,uV,256.0,emg,emg,agree,ok,7.2553665844286,False,,False,72% of power above 25 Hz
+SN118,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,18.722332782614973,False,,False,90% of power at 0.5-4 Hz
+SN118,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,12.8529366006077,False,,False,90% of power at 0.5-4 Hz
+SN118,7,ECG,uV,256.0,ecg,ecg,agree,ok,434.5547264820315,False,-0.0842758275084457,False,"beats every 0.91s, spike ratio 25"
+SN119,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,25.20181793175951,False,,False,88% of power at 0.5-4 Hz
+SN119,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,20.289064035619468,False,,False,60% of power at 0.5-4 Hz
+SN119,2,EEG O2-M1,uV,256.0,eeg,emg,conflict,ok,60.39751681367409,False,,False,52% of power above 25 Hz
+SN119,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,19.61144673536557,False,,False,63% of power at 0.5-4 Hz
+SN119,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,5.28061180455448,False,,False,75% of power at 0.5-4 Hz
+SN119,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,9.910924257140419,False,,False,80% of power at 0.5-4 Hz
+SN119,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,12.312571059357253,False,,False,70% of power at 0.5-4 Hz
+SN119,7,ECG,uV,256.0,ecg,ecg,agree,ok,397.382650492103,False,0.031406231765666925,False,"beats every 0.66s, spike ratio 35"
+SN120,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,12.997874847346313,False,,False,68% of power at 0.5-4 Hz
+SN120,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,11.782373161282282,False,,False,60% of power at 0.5-4 Hz
+SN120,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,11.338804091272763,False,,False,74% of power at 0.5-4 Hz
+SN120,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,13.864202221789197,False,,False,80% of power at 0.5-4 Hz
+SN120,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,16.49357144107168,False,,False,95% of power at 0.5-4 Hz
+SN120,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,11.030420162200928,False,,False,75% of power at 0.5-4 Hz
+SN120,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,7.181838722399892,False,,False,85% of power at 0.5-4 Hz
+SN120,7,ECG,uV,256.0,ecg,ecg,agree,ok,517.4643167772945,False,1.0,False,"beats every 0.82s, spike ratio 39"
+SN121,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,26.952146486243798,False,,False,87% of power at 0.5-4 Hz
+SN121,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,32.441341668071715,False,,False,77% of power at 0.5-4 Hz
+SN121,2,EEG O2-M1,uV,256.0,eeg,resp,conflict,n/a,,False,,False,60% of power at 0.1-0.6 Hz
+SN121,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,26.18192155951217,False,,False,64% of power at 0.5-4 Hz
+SN121,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,8.881975340743637,False,,False,59% of power at 0.5-4 Hz
+SN121,5,EOG E1-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,65% of power at 0.1-0.6 Hz
+SN121,6,EOG E2-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,64% of power at 0.1-0.6 Hz
+SN121,7,ECG,uV,256.0,ecg,ecg,agree,ok,985.7182879377381,False,1.0,False,"beats every 1.03s, spike ratio 68"
+SN122,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,21.06489316701596,False,,False,65% of power at 0.5-4 Hz
+SN122,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,20.536285536687874,False,,False,58% of power at 0.5-4 Hz
+SN122,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,19.818755564146407,False,,False,69% of power at 0.5-4 Hz
+SN122,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,20.64370494598557,False,,False,63% of power at 0.5-4 Hz
+SN122,4,EMG chin,uV,256.0,emg,emg,agree,ok,10.176817420514517,False,,False,45% of power above 25 Hz
+SN122,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,14.583069272813798,False,,False,81% of power at 0.5-4 Hz
+SN122,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,18.138677881071672,False,,False,80% of power at 0.5-4 Hz
+SN122,7,ECG,uV,256.0,ecg,ecg,agree,ok,1250.6316319523908,False,1.0,False,"beats every 0.84s, spike ratio 33"
+SN123,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,37.41990819112279,False,,False,95% of power at 0.5-4 Hz
+SN123,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,42.09147842405167,False,,False,95% of power at 0.5-4 Hz
+SN123,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,32.51811644590588,False,,False,96% of power at 0.5-4 Hz
+SN123,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,43.220299088767575,False,,False,96% of power at 0.5-4 Hz
+SN123,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,18.697264914577435,False,,False,63% of power at 0.5-4 Hz
+SN123,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,41.990205411370894,False,,False,97% of power at 0.5-4 Hz
+SN123,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,38.95861155914482,False,,False,97% of power at 0.5-4 Hz
+SN123,7,ECG,uV,256.0,ecg,ecg,agree,ok,1259.1996337834744,False,1.0,False,"beats every 0.80s, spike ratio 24"
+SN124,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,27.888929021871466,False,,False,92% of power at 0.5-4 Hz
+SN124,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,19.167131350817712,False,,False,72% of power at 0.5-4 Hz
+SN124,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,22.010739773524723,False,,False,89% of power at 0.5-4 Hz
+SN124,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,17.38130608548355,False,,False,87% of power at 0.5-4 Hz
+SN124,4,EMG chin,uV,256.0,emg,emg,agree,ok,20.201375277813682,False,,False,72% of the power above 4 Hz lies above 25 Hz
+SN124,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,27.348454574815197,False,,False,94% of power at 0.5-4 Hz
+SN124,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,20.179552315881665,False,,False,95% of power at 0.5-4 Hz
+SN124,7,ECG,uV,256.0,ecg,ecg,agree,ok,812.6352025635155,False,1.0,False,"beats every 0.90s, spike ratio 60"
+SN125,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,36.4989794227437,False,,False,88% of power at 0.5-4 Hz
+SN125,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,38.889292353603594,False,,False,91% of power at 0.5-4 Hz
+SN125,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,26.576442524945353,False,,False,90% of power at 0.5-4 Hz
+SN125,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,63.43456758963758,False,,False,95% of power at 0.5-4 Hz
+SN125,4,EMG chin,uV,256.0,emg,resp,conflict,n/a,,False,,False,68% of power at 0.1-0.6 Hz
+SN125,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,23.726903472591502,False,,False,92% of power at 0.5-4 Hz
+SN125,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,16.517111970848987,False,,False,93% of power at 0.5-4 Hz
+SN125,7,ECG,uV,256.0,ecg,neuro,conflict,ok,236.8072078285683,False,,False,22% of power at 0.5-4 Hz
+SN126,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,11.14579883784315,False,,False,65% of power at 0.5-4 Hz
+SN126,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,9.936908953120566,False,,False,65% of power at 0.5-4 Hz
+SN126,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,8.359556693339297,False,,False,64% of power at 0.5-4 Hz
+SN126,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,10.344018155860596,False,,False,72% of power at 0.5-4 Hz
+SN126,4,EMG chin,uV,256.0,emg,emg,agree,ok,23.316704596961237,False,,False,81% of the power above 4 Hz lies above 25 Hz
+SN126,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,13.905453239823437,False,,False,84% of power at 0.5-4 Hz
+SN126,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,10.387467412079229,False,,False,86% of power at 0.5-4 Hz
+SN126,7,ECG,uV,256.0,ecg,ecg,agree,ok,172.70807965209423,False,-1.0,False,"beats every 1.04s, spike ratio 44"
+SN127,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,8.543438071934387,False,,False,89% of power at 0.5-4 Hz
+SN127,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,8.760353196610788,False,,False,84% of power at 0.5-4 Hz
+SN127,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,15.378367039274512,False,,False,90% of power at 0.5-4 Hz
+SN127,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,17.450874107304305,False,,False,88% of power at 0.5-4 Hz
+SN127,4,EMG chin,uV,256.0,emg,emg,agree,ok,4.956828680792264,False,,False,37% of power above 25 Hz
+SN127,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,13.712256049065463,False,,False,87% of power at 0.5-4 Hz
+SN127,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,16.499821442571726,False,,False,90% of power at 0.5-4 Hz
+SN127,7,ECG,uV,256.0,ecg,ecg,agree,ok,490.0724193179211,False,0.9942056653855493,False,"beats every 0.94s, spike ratio 28"
+SN128,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,25.553363163843468,False,,False,84% of power at 0.5-4 Hz
+SN128,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,24.97812902358511,False,,False,84% of power at 0.5-4 Hz
+SN128,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,20.08134248778563,False,,False,84% of power at 0.5-4 Hz
+SN128,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,22.071657213920147,False,,False,89% of power at 0.5-4 Hz
+SN128,4,EMG chin,uV,256.0,emg,emg,agree,ok,19.69106313149291,False,,False,69% of the power above 4 Hz lies above 25 Hz
+SN128,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,21.15538650436822,False,,False,83% of power at 0.5-4 Hz
+SN128,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,7.749019705756409,False,,False,79% of power at 0.5-4 Hz
+SN128,7,ECG,uV,256.0,ecg,ecg,agree,ok,237.78512245365044,False,-0.992614998909963,False,"beats every 1.11s, spike ratio 61"
+SN129,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,16.24785361610402,False,,False,75% of power at 0.5-4 Hz
+SN129,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,14.152805026868172,False,,False,60% of power at 0.5-4 Hz
+SN129,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,13.284582971484717,False,,False,70% of power at 0.5-4 Hz
+SN129,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,14.164372765886105,False,,False,65% of power at 0.5-4 Hz
+SN129,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,31.94041105260689,False,,False,94% of power at 0.5-4 Hz
+SN129,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,15.775569755516091,False,,False,80% of power at 0.5-4 Hz
+SN129,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,11.057016627749832,False,,False,74% of power at 0.5-4 Hz
+SN129,7,ECG,uV,256.0,ecg,ecg,agree,ok,301.36104371709706,False,0.9441457922882072,False,"beats every 0.79s, spike ratio 27"
+SN130,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,13.410119089423393,False,,False,83% of power at 0.5-4 Hz
+SN130,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,13.689885763435974,False,,False,83% of power at 0.5-4 Hz
+SN130,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,10.545740143904059,False,,False,81% of power at 0.5-4 Hz
+SN130,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,14.412470602391995,False,,False,84% of power at 0.5-4 Hz
+SN130,4,EMG chin,uV,256.0,emg,resp,conflict,n/a,,False,,False,64% of power at 0.1-0.6 Hz
+SN130,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,12.530254339229277,False,,False,93% of power at 0.5-4 Hz
+SN130,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,10.993546574561037,False,,False,94% of power at 0.5-4 Hz
+SN130,7,ECG,uV,256.0,ecg,neuro,conflict,ok,71.04912245162532,False,,False,53% of power at 0.5-4 Hz
+SN131,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,18.066413257638445,False,,False,82% of power at 0.5-4 Hz
+SN131,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,17.23850702324128,False,,False,69% of power at 0.5-4 Hz
+SN131,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,15.196951803688995,False,,False,60% of power at 0.5-4 Hz
+SN131,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,16.759348357025182,False,,False,72% of power at 0.5-4 Hz
+SN131,4,EMG chin,uV,256.0,emg,emg,agree,ok,306.40502661930816,False,,False,99% of power above 25 Hz
+SN131,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,10.374660953784609,False,,False,84% of power at 0.5-4 Hz
+SN131,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,10.72064421517515,False,,False,77% of power at 0.5-4 Hz
+SN131,7,ECG,uV,256.0,ecg,ecg,agree,ok,142.2758525978482,False,-1.0,False,"beats every 0.96s, spike ratio 71"
+SN132,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,10.66172476676299,False,,False,78% of power at 0.5-4 Hz
+SN132,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,9.301817758728813,False,,False,74% of power at 0.5-4 Hz
+SN132,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,7.47855832024643,False,,False,86% of power at 0.5-4 Hz
+SN132,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,8.33698486534148,False,,False,82% of power at 0.5-4 Hz
+SN132,4,EMG chin,uV,256.0,emg,resp,conflict,n/a,,False,,False,74% of power at 0.1-0.6 Hz
+SN132,5,EOG E1-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,65% of power at 0.1-0.6 Hz
+SN132,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,10.822533859978439,False,,False,90% of power at 0.5-4 Hz
+SN132,7,ECG,uV,256.0,ecg,ecg,agree,ok,122.27969787136657,False,-0.9877295995182174,False,"beats every 0.91s, spike ratio 41"
+SN133,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,30.087938835156777,False,,False,67% of power at 0.5-4 Hz
+SN133,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,26.822498294310577,False,,False,53% of power at 0.5-4 Hz
+SN133,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,25.433246911023062,False,,False,45% of power at 0.5-4 Hz
+SN133,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,44.3652901159667,False,,False,74% of power at 0.5-4 Hz
+SN133,4,EMG chin,uV,256.0,emg,emg,agree,ok,44.72193762462392,False,,False,56% of the power above 4 Hz lies above 25 Hz
+SN133,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,41.034567009120735,False,,False,83% of power at 0.5-4 Hz
+SN133,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,44.657607125235614,False,,False,81% of power at 0.5-4 Hz
+SN133,7,ECG,uV,256.0,ecg,ecg,agree,ok,652.1587548638131,False,0.8893584863412449,False,"beats every 0.82s, spike ratio 21"
+SN134,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,16.383559802716178,False,,False,86% of power at 0.5-4 Hz
+SN134,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,19.466914194416894,False,,False,78% of power at 0.5-4 Hz
+SN134,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,18.623973268700556,False,,False,85% of power at 0.5-4 Hz
+SN134,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,16.76620302075871,False,,False,80% of power at 0.5-4 Hz
+SN134,4,EMG chin,uV,256.0,emg,resp,conflict,n/a,,False,,False,63% of power at 0.1-0.6 Hz
+SN134,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,15.338115866926799,False,,False,88% of power at 0.5-4 Hz
+SN134,6,EOG E2-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,60% of power at 0.1-0.6 Hz
+SN134,7,ECG,uV,256.0,ecg,neuro,conflict,ok,44.604984195962984,False,,False,46% of power at 0.5-4 Hz
+SN136,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,23.487319468141955,False,,False,95% of power at 0.5-4 Hz
+SN136,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,24.7785433029095,False,,False,96% of power at 0.5-4 Hz
+SN136,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,20.51606563623639,False,,False,97% of power at 0.5-4 Hz
+SN136,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,22.81997384604596,False,,False,93% of power at 0.5-4 Hz
+SN136,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,53.126565236823,False,,False,82% of power at 0.5-4 Hz
+SN136,5,EOG E1-M2,uV,256.0,eog,emg,conflict,ok,50.75255989705488,False,,False,62% of the power above 4 Hz lies above 25 Hz
+SN136,6,EOG E2-M2,uV,256.0,eog,emg,conflict,ok,65.31554746784816,False,,False,60% of the power above 4 Hz lies above 25 Hz
+SN136,7,ECG,uV,256.0,ecg,ecg,agree,ok,1313.1089036392755,False,1.0,False,"beats every 0.93s, spike ratio 46"
+SN137,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,11.978197105610498,False,,False,75% of power at 0.5-4 Hz
+SN137,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,11.388343967854558,False,,False,70% of power at 0.5-4 Hz
+SN137,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,6.245790325833077,False,,False,75% of power at 0.5-4 Hz
+SN137,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,11.431273572564322,False,,False,76% of power at 0.5-4 Hz
+SN137,4,EMG chin,uV,256.0,emg,emg,agree,ok,4.201003197687468,False,,False,39% of power above 25 Hz
+SN137,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,8.238218203985129,False,,False,81% of power at 0.5-4 Hz
+SN137,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,9.310293818422362,False,,False,82% of power at 0.5-4 Hz
+SN137,7,ECG,uV,256.0,ecg,ecg,agree,ok,1425.3941863126543,False,1.0,False,"beats every 0.88s, spike ratio 38"
+SN138,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,23.743922679098375,False,,False,79% of power at 0.5-4 Hz
+SN138,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,21.293937060324943,False,,False,69% of power at 0.5-4 Hz
+SN138,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,16.456287973851552,False,,False,67% of power at 0.5-4 Hz
+SN138,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,16.829318318875586,False,,False,66% of power at 0.5-4 Hz
+SN138,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,6.20730664456916,False,,False,67% of power at 0.5-4 Hz
+SN138,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,12.30169409113498,False,,False,83% of power at 0.5-4 Hz
+SN138,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,14.682315083241567,False,,False,85% of power at 0.5-4 Hz
+SN138,7,ECG,uV,256.0,ecg,ecg,agree,ok,330.51041428244463,False,1.0,False,"beats every 0.87s, spike ratio 33"
+SN139,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,22.490332649582214,False,,False,76% of power at 0.5-4 Hz
+SN139,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,20.22955942943081,False,,False,68% of power at 0.5-4 Hz
+SN139,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,14.970241108852953,False,,False,65% of power at 0.5-4 Hz
+SN139,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,23.770004137190632,False,,False,75% of power at 0.5-4 Hz
+SN139,4,EMG chin,uV,256.0,emg,emg,agree,ok,10.143912803848515,False,,False,54% of the power above 4 Hz lies above 25 Hz
+SN139,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,14.849947243313466,False,,False,71% of power at 0.5-4 Hz
+SN139,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,10.473552764211059,False,,False,75% of power at 0.5-4 Hz
+SN139,7,ECG,uV,256.0,ecg,ecg,agree,ok,287.81139848935595,False,-1.0,False,"beats every 0.72s, spike ratio 37"
+SN140,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,29.773871009813256,False,,False,92% of power at 0.5-4 Hz
+SN140,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,22.209175721826327,False,,False,86% of power at 0.5-4 Hz
+SN140,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,17.944799170598976,False,,False,85% of power at 0.5-4 Hz
+SN140,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,24.92332133505753,False,,False,90% of power at 0.5-4 Hz
+SN140,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,9.527852066008215,False,,False,60% of power at 0.5-4 Hz
+SN140,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,13.912976287761769,False,,False,86% of power at 0.5-4 Hz
+SN140,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,15.587244863852387,False,,False,78% of power at 0.5-4 Hz
+SN140,7,ECG,uV,256.0,ecg,neuro,conflict,ok,120.13846450308668,False,,False,14% of power at 0.5-4 Hz
+SN141,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,18.074420340945984,False,,False,85% of power at 0.5-4 Hz
+SN141,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,17.66211164138107,False,,False,85% of power at 0.5-4 Hz
+SN141,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,15.038465138506488,False,,False,81% of power at 0.5-4 Hz
+SN141,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,14.175620272344728,False,,False,80% of power at 0.5-4 Hz
+SN141,4,EMG chin,uV,256.0,emg,emg,agree,ok,8.563453530073469,False,,False,74% of the power above 4 Hz lies above 25 Hz
+SN141,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,16.995325057357576,False,,False,89% of power at 0.5-4 Hz
+SN141,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,10.946933726044778,False,,False,82% of power at 0.5-4 Hz
+SN141,7,ECG,uV,256.0,ecg,ecg,agree,ok,342.2663309681849,False,0.7438423645320198,False,"beats every 1.01s, spike ratio 73"
+SN142,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,15.530396517308704,False,,False,62% of power at 0.5-4 Hz
+SN142,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,15.282095117747382,False,,False,57% of power at 0.5-4 Hz
+SN142,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,11.769554780650672,False,,False,53% of power at 0.5-4 Hz
+SN142,3,EEG C3-M2,uV,256.0,eeg,emg,conflict,ok,26.06108696366623,False,,False,55% of power above 25 Hz
+SN142,4,EMG chin,uV,256.0,emg,emg,agree,ok,6.379746072331103,False,,False,50% of power above 25 Hz
+SN142,5,EOG E1-M2,uV,256.0,eog,emg,conflict,ok,22.46432013694178,False,,False,62% of power above 25 Hz
+SN142,6,EOG E2-M2,uV,256.0,eog,emg,conflict,ok,27.21790484052063,False,,False,58% of power above 25 Hz
+SN142,7,ECG,uV,256.0,ecg,ecg,agree,ok,813.773037308307,False,0.9969418960244648,False,"beats every 0.97s, spike ratio 49"
+SN143,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,14.630285512911714,False,,False,63% of power at 0.5-4 Hz
+SN143,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,12.396836073162023,False,,False,70% of power at 0.5-4 Hz
+SN143,2,EEG O2-M1,uV,256.0,eeg,emg,conflict,ok,26.7532261602233,False,,False,43% of power above 25 Hz
+SN143,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,9.839597673961707,False,,False,60% of power at 0.5-4 Hz
+SN143,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,12.608259331563268,False,,False,84% of power at 0.5-4 Hz
+SN143,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,21.336827844348313,False,,False,85% of power at 0.5-4 Hz
+SN143,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,28.524382653317506,False,,False,91% of power at 0.5-4 Hz
+SN143,7,ECG,uV,256.0,ecg,ecg,agree,ok,223.09983978026983,False,0.9970149253731344,False,"beats every 0.88s, spike ratio 31"
+SN144,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,29.532267195782566,False,,False,79% of power at 0.5-4 Hz
+SN144,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,30.12141016173547,False,,False,68% of power at 0.5-4 Hz
+SN144,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,18.89013555615355,False,,False,65% of power at 0.5-4 Hz
+SN144,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,30.223030593630543,False,,False,67% of power at 0.5-4 Hz
+SN144,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,5.303891198598728,False,,False,61% of power at 0.5-4 Hz
+SN144,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,16.462109049432193,False,,False,86% of power at 0.5-4 Hz
+SN144,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,17.054116957287352,False,,False,84% of power at 0.5-4 Hz
+SN144,7,ECG,uV,256.0,ecg,ecg,agree,ok,85.07209887846201,False,-0.9844263202568551,False,"beats every 0.86s, spike ratio 19"
+SN145,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,19.77865775511975,False,,False,92% of power at 0.5-4 Hz
+SN145,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,14.996987704217076,False,,False,85% of power at 0.5-4 Hz
+SN145,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,9.924205378574557,False,,False,83% of power at 0.5-4 Hz
+SN145,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,12.153117071190108,False,,False,63% of power at 0.5-4 Hz
+SN145,4,EMG chin,uV,256.0,emg,emg,agree,ok,7.14500779646421,False,,False,56% of the power above 4 Hz lies above 25 Hz
+SN145,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,9.00891129793288,False,,False,67% of power at 0.5-4 Hz
+SN145,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,7.692718872999115,False,,False,67% of power at 0.5-4 Hz
+SN145,7,ECG,uV,256.0,ecg,ecg,agree,ok,273.01478599221787,False,0.9905316973415133,False,"beats every 1.00s, spike ratio 57"
+SN146,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,21.376049572059898,False,,False,82% of power at 0.5-4 Hz
+SN146,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,19.021071064086218,False,,False,76% of power at 0.5-4 Hz
+SN146,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,16.593187073778353,False,,False,78% of power at 0.5-4 Hz
+SN146,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,14.558010745320942,False,,False,83% of power at 0.5-4 Hz
+SN146,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,25.338678668003404,False,,False,52% of power at 0.5-4 Hz
+SN146,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,17.10277057318446,False,,False,90% of power at 0.5-4 Hz
+SN146,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,26.21297561102321,False,,False,92% of power at 0.5-4 Hz
+SN146,7,ECG,uV,256.0,ecg,ecg,agree,ok,508.4209658960848,False,0.9614285714285714,False,"beats every 0.98s, spike ratio 54"
+SN147,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,10.90405967848511,False,,False,75% of power at 0.5-4 Hz
+SN147,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,12.055926139668678,False,,False,84% of power at 0.5-4 Hz
+SN147,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,11.937033526900542,False,,False,84% of power at 0.5-4 Hz
+SN147,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,11.983433213698628,False,,False,80% of power at 0.5-4 Hz
+SN147,4,EMG chin,uV,256.0,emg,emg,agree,ok,2.953335243596146,False,,False,43% of power above 25 Hz
+SN147,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,9.47620620229936,False,,False,85% of power at 0.5-4 Hz
+SN147,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,10.870447393077555,False,,False,82% of power at 0.5-4 Hz
+SN147,7,ECG,uV,256.0,ecg,ecg,agree,ok,988.4257267109141,False,1.0,False,"beats every 1.01s, spike ratio 78"
+SN148,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,24.462602203356496,False,,False,87% of power at 0.5-4 Hz
+SN148,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,20.986182975192598,False,,False,82% of power at 0.5-4 Hz
+SN148,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,19.115044792100505,False,,False,85% of power at 0.5-4 Hz
+SN148,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,18.81971624526141,False,,False,75% of power at 0.5-4 Hz
+SN148,4,EMG chin,uV,256.0,emg,emg,agree,ok,11.409553702972577,False,,False,69% of the power above 4 Hz lies above 25 Hz
+SN148,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,18.21190555469972,False,,False,92% of power at 0.5-4 Hz
+SN148,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,13.529402937453249,False,,False,88% of power at 0.5-4 Hz
+SN148,7,ECG,uV,256.0,ecg,ecg,agree,ok,809.5586175326162,False,-0.9836046947610012,False,"beats every 1.01s, spike ratio 34"
+SN149,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,14.847639016432456,False,,False,78% of power at 0.5-4 Hz
+SN149,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,15.933549703518473,False,,False,75% of power at 0.5-4 Hz
+SN149,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,10.671138967733501,False,,False,63% of power at 0.5-4 Hz
+SN149,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,15.978676231709875,False,,False,77% of power at 0.5-4 Hz
+SN149,4,EMG chin,uV,256.0,emg,emg,agree,ok,9.604293123942377,False,,False,39% of power above 25 Hz
+SN149,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,10.866692842396144,False,,False,89% of power at 0.5-4 Hz
+SN149,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,14.195039409616554,False,,False,91% of power at 0.5-4 Hz
+SN149,7,ECG,uV,256.0,ecg,ecg,agree,ok,1045.9532158388638,False,1.0,False,"beats every 0.75s, spike ratio 35"
+SN150,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,29.40460848184963,False,,False,93% of power at 0.5-4 Hz
+SN150,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,31.454196689872923,False,,False,92% of power at 0.5-4 Hz
+SN150,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,27.905954749268744,False,,False,93% of power at 0.5-4 Hz
+SN150,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,26.02569017395375,False,,False,88% of power at 0.5-4 Hz
+SN150,4,EMG chin,uV,256.0,emg,emg,agree,ok,3.5090851514448187,False,,False,57% of the power above 4 Hz lies above 25 Hz
+SN150,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,17.569630802126404,False,,False,91% of power at 0.5-4 Hz
+SN150,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,14.69931120859549,False,,False,93% of power at 0.5-4 Hz
+SN150,7,ECG,uV,256.0,ecg,ecg,agree,ok,408.8814831769281,False,0.9753113020370421,False,"beats every 0.86s, spike ratio 34"
+SN151,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,14.454507953557755,False,,False,67% of power at 0.5-4 Hz
+SN151,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,18.02657689606093,False,,False,89% of power at 0.5-4 Hz
+SN151,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,11.465064999218178,False,,False,58% of power at 0.5-4 Hz
+SN151,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,16.033500818529006,False,,False,73% of power at 0.5-4 Hz
+SN151,4,EMG chin,uV,256.0,emg,emg,agree,ok,10.728395447357219,False,,False,45% of power above 25 Hz
+SN151,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,12.047664849994817,False,,False,69% of power at 0.5-4 Hz
+SN151,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,9.176521925821891,False,,False,78% of power at 0.5-4 Hz
+SN151,7,ECG,uV,256.0,ecg,ecg,agree,ok,277.0431677729457,False,-1.0,False,"beats every 0.90s, spike ratio 68"
+SN152,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,25.21697958402509,False,,False,92% of power at 0.5-4 Hz
+SN152,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,28.83668624311579,False,,False,95% of power at 0.5-4 Hz
+SN152,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,22.446984384477496,False,,False,94% of power at 0.5-4 Hz
+SN152,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,33.818870203066055,False,,False,90% of power at 0.5-4 Hz
+SN152,4,EMG chin,uV,256.0,emg,neuro,conflict,ok,8.148490245637127,False,,False,95% of power at 0.5-4 Hz
+SN152,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,19.535980638690997,False,,False,96% of power at 0.5-4 Hz
+SN152,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,21.155526260416202,False,,False,96% of power at 0.5-4 Hz
+SN152,7,ECG,uV,256.0,ecg,ecg,agree,ok,391.3444724193152,False,0.6390977443609023,False,"beats every 0.71s, spike ratio 24"
+SN153,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,18.371945765979408,False,,False,76% of power at 0.5-4 Hz
+SN153,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,16.70367401403997,False,,False,67% of power at 0.5-4 Hz
+SN153,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,11.564543417710105,False,,False,63% of power at 0.5-4 Hz
+SN153,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,14.27479611525535,False,,False,66% of power at 0.5-4 Hz
+SN153,4,EMG chin,uV,256.0,emg,emg,agree,ok,8.767778509526364,False,,False,68% of the power above 4 Hz lies above 25 Hz
+SN153,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,11.108172670897858,False,,False,81% of power at 0.5-4 Hz
+SN153,6,EOG E2-M2,uV,256.0,eog,resp,conflict,n/a,,False,,False,73% of power at 0.1-0.6 Hz
+SN153,7,ECG,uV,256.0,ecg,ecg,agree,ok,611.7654383154037,False,1.0,False,"beats every 0.76s, spike ratio 28"
+SN154,0,EEG F4-M1,uV,256.0,eeg,neuro,agree,ok,14.455692440263551,False,,False,76% of power at 0.5-4 Hz
+SN154,1,EEG C4-M1,uV,256.0,eeg,neuro,agree,ok,11.798973004419189,False,,False,67% of power at 0.5-4 Hz
+SN154,2,EEG O2-M1,uV,256.0,eeg,neuro,agree,ok,16.601288915866565,False,,False,79% of power at 0.5-4 Hz
+SN154,3,EEG C3-M2,uV,256.0,eeg,neuro,agree,ok,15.403923603949458,False,,False,78% of power at 0.5-4 Hz
+SN154,4,EMG chin,uV,256.0,emg,emg,agree,ok,18.822215705980433,False,,False,69% of the power above 4 Hz lies above 25 Hz
+SN154,5,EOG E1-M2,uV,256.0,eog,neuro,agree,ok,15.950970101309284,False,,False,91% of power at 0.5-4 Hz
+SN154,6,EOG E2-M2,uV,256.0,eog,neuro,agree,ok,14.79919609245453,False,,False,88% of power at 0.5-4 Hz
+SN154,7,ECG,uV,256.0,ecg,ecg,agree,ok,358.67649347676615,False,0.6512365110396854,False,"beats every 1.00s, spike ratio 86"
