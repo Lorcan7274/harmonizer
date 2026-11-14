@@ -11,27 +11,24 @@ from harmonizer.edf import parse_header
 BASE = "https://physionet-open.s3.amazonaws.com/capslpdb/1.0.0/"
 
 
-def rng(url, a, b):
-    for attempt in range(5):
+def _fetch(req, timeout, tries=5):
+    """urlopen with exponential backoff. Returns (headers, body)."""
+    for attempt in range(tries):
         try:
-            req = urllib.request.Request(url, headers={"Range": f"bytes={a}-{b}"})
-            with urllib.request.urlopen(req, timeout=120) as r:
-                return r.read()
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.headers, r.read()
         except Exception:
-            if attempt == 4:
+            if attempt == tries - 1:
                 raise
             time.sleep(2 ** attempt)
+
+
+def rng(url, a, b):
+    return _fetch(urllib.request.Request(url, headers={"Range": f"bytes={a}-{b}"}), 120)[1]
 
 
 def size(url):
-    for attempt in range(5):
-        try:
-            with urllib.request.urlopen(urllib.request.Request(url, method="HEAD"), timeout=60) as r:
-                return int(r.headers["Content-Length"])
-        except Exception:
-            if attempt == 4:
-                raise
-            time.sleep(2 ** attempt)
+    return int(_fetch(urllib.request.Request(url, method="HEAD"), 60)[0]["Content-Length"])
 
 
 def fetch(name, out, nwin, wsec):
@@ -68,7 +65,7 @@ if __name__ == "__main__":
     nwin = int(sys.argv[2]) if len(sys.argv) > 2 else 8
     wsec = float(sys.argv[3]) if len(sys.argv) > 3 else 300
     os.makedirs(out, exist_ok=True)
-    names = urllib.request.urlopen("https://physionet.org/files/capslpdb/1.0.0/RECORDS", timeout=60).read().decode().split()
+    names = _fetch(urllib.request.Request(BASE + "RECORDS"), 60)[1].decode().split()
     t = time.time()
     with ThreadPoolExecutor(4) as ex:
         for name, st in ex.map(lambda n: fetch(n, out, nwin, wsec), names):

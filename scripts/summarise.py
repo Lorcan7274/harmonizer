@@ -3,12 +3,16 @@ import csv, collections, json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from harmonizer.inject import is_dev, eligible_swaps, swap_detected
 
+if len(sys.argv) < 2 or (len(sys.argv) > 2 and sys.argv[2] not in ("dev", "held", "all")):
+    sys.exit(__doc__.strip())
 prefix, part = sys.argv[1], (sys.argv[2] if len(sys.argv) > 2 else "all")
 R = [r for r in csv.DictReader(open(prefix + "_channels.csv"))
      if part == "all" or is_dev(r["id"]) == (part == "dev")]
 recs = collections.defaultdict(list)
 for r in R:
     recs[r["id"]].append(r)
+if not recs:
+    sys.exit(f"[{part}] no recordings in {prefix}_channels.csv")
 print(f"[{part}] {len(recs)} recordings, {len(R)} channels")
 print("agreement", dict(collections.Counter(r["agree"] for r in R)))
 c = collections.Counter((r["label_type"], r["signal_type"]) for r in R)

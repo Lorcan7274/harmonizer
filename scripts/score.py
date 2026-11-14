@@ -2,7 +2,7 @@
 
 Usage: score.py DRAFT_DIR ANSWER_KEY.csv [dev|held|all] [EDF_DIR]
 """
-import csv, json, os, sys
+import csv, json, os, re, sys
 from collections import Counter, defaultdict
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from harmonizer.canon import run_canonical
@@ -12,14 +12,14 @@ from harmonizer.inject import is_dev
 from harmonizer.layout import luna_labels
 from harmonizer.targets import TARGETS, REQUIRED_TYPES
 
-import re
-
 
 def mappable(label, t):
     """Bipolar scalp chains (F4-C4, C3-P3) have no canonical target, so they cannot make EEG required."""
     return t != "eeg" or bool(re.search(r"[am][12]|^[a-z]+\d*$", label.lower().replace(" ", "")))
 
 
+if len(sys.argv) < 3 or (len(sys.argv) > 3 and sys.argv[3] not in ("dev", "held", "all")):
+    sys.exit(__doc__.strip())
 draft, keyfile = sys.argv[1], sys.argv[2]
 part = sys.argv[3] if len(sys.argv) > 3 else "all"
 edf_dir = sys.argv[4] if len(sys.argv) > 4 else "data/cap/excerpts"
@@ -33,6 +33,7 @@ for lst in sorted(os.listdir(os.path.join(draft, "lists"))):
     lid = lst[:-4]
     for line in open(os.path.join(draft, "lists", lst)):
         rid, path = line.rstrip("\n").split("\t")
+        path = os.path.join(draft, path)
         if not os.path.exists(path):
             path = os.path.join(edf_dir, rid + ".edf")
         if part != "all" and is_dev(rid) != (part == "dev"):
@@ -56,6 +57,8 @@ for lst in sorted(os.listdir(os.path.join(draft, "lists"))):
         res.append(dict(id=rid, layout=lid, made=len(made), need=need, all_required_right=ok,
                         missing=[t for t in need if "right" not in got[t]]))
 n = len(res)
+if not n:
+    sys.exit(f"[{part}] no recordings in {draft}/lists")
 print(f"[{part}] {n} recordings through CANONICAL")
 print(f"all required signals right: {sum(r['all_required_right'] for r in res)}/{n} ({sum(r['all_required_right'] for r in res) / n:.1%})")
 print("canonical signals made:", sum(r["made"] for r in res), "verdicts", dict(verdicts))
