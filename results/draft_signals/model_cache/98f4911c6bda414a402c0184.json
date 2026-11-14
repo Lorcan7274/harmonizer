@@ -1,0 +1,144 @@
+{
+ "prompt": "Layout L36, 1 recording(s).\n\nCanonical targets (name: kind): C4_M1: eeg, C3_M2: eeg, F4_M1: eeg, F3_M2: eeg, O2_M1: eeg, O1_M2: eeg, LOC: eog, ROC: eog, EOG: eog, EMG: emg, ECG: ecg, LAT: emg_leg, RAT: emg_leg, thorax: effort, abdomen: effort, airflow: flow, nas_pres: flow, SpO2: spo2, HR: hr, pleth: pleth, pos: pos, snore: snore\n\nChannels:\n- label=FP2_F4 | original='FP2-F4' | units=['uV'] | rates_hz=[128.0] | transducer='EEG FP2-F4' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=F4_C4 | original='F4-C4' | units=['uV'] | rates_hz=[128.0] | transducer='EEG F4-C4' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=C4_P4 | original='C4-P4' | units=['uV'] | rates_hz=[128.0] | transducer='EEG C4-P4' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=P4_O2 | original='P4-O2' | units=['uV'] | rates_hz=[128.0] | transducer='EEG P4-O2' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=F8_T4 | original='F8-T4' | units=['uV'] | rates_hz=[128.0] | transducer='EEG F8-T4' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=T4_T6 | original='T4-T6' | units=['uV'] | rates_hz=[128.0] | transducer='EEG T4-T6' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=FP1_F3 | original='FP1-F3' | units=['uV'] | rates_hz=[128.0] | transducer='EEG FP1-F3' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=F3_C3 | original='F3-C3' | units=['uV'] | rates_hz=[128.0] | transducer='EEG F3-C3' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=C3_P3 | original='C3-P3' | units=['uV'] | rates_hz=[128.0] | transducer='EEG C3-P3' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=P3_O1 | original='P3-O1' | units=['uV'] | rates_hz=[128.0] | transducer='EEG P3-O1' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=F7_T3 | original='F7-T3' | units=['uV'] | rates_hz=[128.0] | transducer='EEG F7-T3' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=T3_T5 | original='T3-T5' | units=['uV'] | rates_hz=[128.0] | transducer='EEG T3-T5' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=C4_A1 | original='C4-A1' | units=['uV'] | rates_hz=[128.0] | transducer='EEG C4-A1' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=ROC_LOC | original='ROC-LOC' | units=['uV'] | rates_hz=[128.0] | transducer='EEG ROC-LOC' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'resp': 1}\n- label=EMG1_EMG2 | original='EMG1-EMG2' | units=['uV'] | rates_hz=[256.0] | transducer='EMG' | prefilter='LP:100.00Hz HP:10.00Hz NOTCH:50' | trace_types_seen={'emg': 1}\n- label=ECG1_ECG2 | original='ECG1-ECG2' | units=['uV'] | rates_hz=[128.0] | transducer='EEG ECG1-ECG2' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'ecg': 1}\n- label=DX1_DX2 | original='DX1-DX2' | units=['uV'] | rates_hz=[256.0] | transducer='EMG' | prefilter='LP:100.00Hz HP:10.00Hz NOTCH:50' | trace_types_seen={'emg': 1}\n- label=SX1_SX2 | original='SX1-SX2' | units=['uV'] | rates_hz=[256.0] | transducer='EMG' | prefilter='LP:100.00Hz HP:10.00Hz NOTCH:50' | trace_types_seen={'emg': 1}\n- label=SAO2 | original='SAO2' | units=['%'] | rates_hz=[16.0] | transducer='' | prefilter='' | trace_types_seen={'spo2': 1}\n- label=HR | original='HR' | units=['bpm'] | rates_hz=[16.0] | transducer='' | prefilter='' | trace_types_seen={'hr': 1}\n- label=Pleth | original='Pleth' | units=['V'] | rates_hz=[128.0] | transducer='' | prefilter='LP:5.00Hz HP:0.05Hz NOTCH:50' | trace_types_seen={'ecg': 1}\n- label=Ox_Status | original='Ox Status' | units=[''] | rates_hz=[16.0] | transducer='' | prefilter='' | trace_types_seen={'flat': 1}\n- label=MIC | original='MIC' | units=['uV'] | rates_hz=[128.0] | transducer='' | prefilter='LP:100.00Hz HP:10.00Hz NOTCH:50' | trace_types_seen={'flat': 1}\n\ntrace_types_seen counts recordings by what the signal looked like: neuro (EEG or EOG, not separable), ecg, emg, resp, pleth, spo2, hr, hr_or_spo2, discrete, flat, unknown.",
+ "model": "claude-opus-5-5",
+ "channels": [
+  {
+   "label": "FP2_F4",
+   "reason": "Bipolar EEG chain derivation FP2-F4 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "F4_C4",
+   "reason": "Bipolar EEG chain derivation F4-C4 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "C4_P4",
+   "reason": "Bipolar EEG chain derivation C4-P4 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "P4_O2",
+   "reason": "Bipolar EEG chain derivation P4-O2 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "F8_T4",
+   "reason": "Bipolar temporal chain F8-T4 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "T4_T6",
+   "reason": "Bipolar temporal chain T4-T6 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "FP1_F3",
+   "reason": "Bipolar EEG chain derivation FP1-F3 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "F3_C3",
+   "reason": "Bipolar EEG chain derivation F3-C3 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "C3_P3",
+   "reason": "Bipolar EEG chain derivation C3-P3 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "P3_O1",
+   "reason": "Bipolar EEG chain derivation P3-O1 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "F7_T3",
+   "reason": "Bipolar temporal chain F7-T3 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "T3_T5",
+   "reason": "Bipolar temporal chain T3-T5 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "C4_A1",
+   "reason": "C4 referenced to contralateral A1 ear/mastoid with a neuro trace is the C4-M1 derivation.",
+   "target": "C4_M1",
+   "ref": ""
+  },
+  {
+   "label": "ROC_LOC",
+   "reason": "Bipolar ROC-LOC eye derivation; the slow resp-like trace is consistent with slow eye movements, so mapped to the single EOG.",
+   "target": "EOG",
+   "ref": ""
+  },
+  {
+   "label": "EMG1_EMG2",
+   "reason": "Bipolar chin EMG at 256 Hz with 10-100 Hz filter and EMG-like trace.",
+   "target": "EMG",
+   "ref": ""
+  },
+  {
+   "label": "ECG1_ECG2",
+   "reason": "Bipolar ECG lead with ECG-like trace.",
+   "target": "ECG",
+   "ref": ""
+  },
+  {
+   "label": "DX1_DX2",
+   "reason": "EMG transducer labelled DX (Italian destra = right), presumably right leg EMG with EMG trace.",
+   "target": "RAT",
+   "ref": ""
+  },
+  {
+   "label": "SX1_SX2",
+   "reason": "EMG transducer labelled SX (Italian sinistra = left), presumably left leg EMG with EMG trace.",
+   "target": "LAT",
+   "ref": ""
+  },
+  {
+   "label": "SAO2",
+   "reason": "Oxygen saturation in % with SpO2-like trace.",
+   "target": "SpO2",
+   "ref": ""
+  },
+  {
+   "label": "HR",
+   "reason": "Heart rate in bpm with HR-like trace.",
+   "target": "HR",
+   "ref": ""
+  },
+  {
+   "label": "Pleth",
+   "reason": "Oximeter plethysmogram with 5 Hz low-pass; pulsatile waveform resembling ECG is expected for pleth.",
+   "target": "pleth",
+   "ref": ""
+  },
+  {
+   "label": "Ox_Status",
+   "reason": "Oximeter status flag channel, flat, no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "MIC",
+   "reason": "Snore microphone by label but the trace was flat, so it is not mapped.",
+   "target": "none",
+   "ref": ""
+  }
+ ]
+}

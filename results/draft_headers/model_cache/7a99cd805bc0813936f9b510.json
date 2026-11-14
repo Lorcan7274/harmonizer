@@ -1,0 +1,114 @@
+{
+ "prompt": "Layout L09, 2 recording(s).\n\nCanonical targets (name: kind): C4_M1: eeg, C3_M2: eeg, F4_M1: eeg, F3_M2: eeg, O2_M1: eeg, O1_M2: eeg, LOC: eog, ROC: eog, EOG: eog, EMG: emg, ECG: ecg, LAT: emg_leg, RAT: emg_leg, thorax: effort, abdomen: effort, airflow: flow, nas_pres: flow, SpO2: spo2, HR: hr, pleth: pleth, pos: pos, snore: snore\n\nChannels:\n- label=Fp2_F4 | original='Fp2-F4' | units=['uV'] | rates_hz=[256.0] | transducer='EEG Fp2-F4' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=F4_C4 | original='F4-C4' | units=['uV'] | rates_hz=[256.0] | transducer='EEG F4-C4' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=C4_P4 | original='C4-P4' | units=['uV'] | rates_hz=[256.0] | transducer='EEG C4-P4' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=P4_O2 | original='P4-O2' | units=['uV'] | rates_hz=[256.0] | transducer='EEG P4-O2' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=C4_A1 | original='C4-A1' | units=['uV'] | rates_hz=[256.0] | transducer='EEG C4-A1' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=ROC_LOC | original='ROC-LOC' | units=['mV'] | rates_hz=[128.0] | transducer='EOG' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=EMG1_EMG2 | original='EMG1-EMG2' | units=['mV', 'uV'] | rates_hz=[128.0] | transducer='EMG' | prefilter='LP:80.00Hz HP:10.00Hz NOTCH:50'\n- label=ECG1_ECG2 | original='ECG1-ECG2' | units=['mV', 'uV'] | rates_hz=[128.0] | transducer='ECG' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=MIC | original='MIC' | units=['mV'] | rates_hz=[256.0] | transducer='Sound' | prefilter='LP:0.00Hz HP:0.00Hz NOTCH:50'\n- label=Flusso | original='Flusso' | units=['V', 'mV'] | rates_hz=[8.0] | transducer='Pressione' | prefilter=''\n- label=TORACE | original='TORACE' | units=['mV'] | rates_hz=[64.0] | transducer='HP' | prefilter='LP:3.00Hz HP:0.05Hz NOTCH:50'\n- label=ADDDOME | original='ADDDOME' | units=['mV'] | rates_hz=[64.0] | transducer='HP' | prefilter='LP:3.00Hz HP:0.05Hz NOTCH:50'\n- label=SAO2 | original='SAO2' | units=['%'] | rates_hz=[1.0] | transducer='Oximeter' | prefilter=''\n- label=SX1_SX2 | original='SX1-SX2' | units=['mV'] | rates_hz=[256.0] | transducer='EEG SX1-SX2' | prefilter='LP:80.00Hz HP:10.00Hz NOTCH:50'\n- label=DX1_DX2 | original='DX1-DX2' | units=['mV', 'uV'] | rates_hz=[256.0] | transducer='EEG DX1-DX2' | prefilter='LP:30.00Hz HP:10.00Hz NOTCH:50'\n- label=Position | original='Position' | units=[''] | rates_hz=[64.0] | transducer='DC' | prefilter=''\n- label=HR | original='HR' | units=['BPM'] | rates_hz=[1.0] | transducer='Oximeter' | prefilter=''\n- label=PLETH | original='PLETH' | units=['V'] | rates_hz=[128.0] | transducer='Pwave' | prefilter=''",
+ "model": "claude-opus-5-5",
+ "channels": [
+  {
+   "label": "Fp2_F4",
+   "reason": "Bipolar Fp2-F4 EEG derivation has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "F4_C4",
+   "reason": "Bipolar F4-C4 EEG derivation has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "C4_P4",
+   "reason": "Bipolar C4-P4 EEG derivation has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "P4_O2",
+   "reason": "Bipolar P4-O2 EEG derivation has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "C4_A1",
+   "reason": "C4 referenced to the contralateral ear/mastoid A1 is the C4-M1 derivation.",
+   "target": "C4_M1",
+   "ref": ""
+  },
+  {
+   "label": "ROC_LOC",
+   "reason": "Bipolar right-minus-left eye EOG fits the generic EOG target, not a single side.",
+   "target": "EOG",
+   "ref": ""
+  },
+  {
+   "label": "EMG1_EMG2",
+   "reason": "Bipolar EMG with a 10-80 Hz filter and no leg label is the chin EMG.",
+   "target": "EMG",
+   "ref": ""
+  },
+  {
+   "label": "ECG1_ECG2",
+   "reason": "Bipolar ECG lead.",
+   "target": "ECG",
+   "ref": ""
+  },
+  {
+   "label": "MIC",
+   "reason": "Microphone with a Sound transducer is the snore channel.",
+   "target": "snore",
+   "ref": ""
+  },
+  {
+   "label": "Flusso",
+   "reason": "Italian 'flusso' (flow) with a pressure transducer is nasal pressure.",
+   "target": "nas_pres",
+   "ref": ""
+  },
+  {
+   "label": "TORACE",
+   "reason": "Italian 'torace' is the thoracic effort belt.",
+   "target": "thorax",
+   "ref": ""
+  },
+  {
+   "label": "ADDDOME",
+   "reason": "Italian 'addome' (misspelled) is the abdominal effort belt.",
+   "target": "abdomen",
+   "ref": ""
+  },
+  {
+   "label": "SAO2",
+   "reason": "Oximeter saturation in % is SpO2.",
+   "target": "SpO2",
+   "ref": ""
+  },
+  {
+   "label": "SX1_SX2",
+   "reason": "Italian 'sx' (left) bipolar pair with a 10-80 Hz EMG filter is the left leg EMG.",
+   "target": "LAT",
+   "ref": ""
+  },
+  {
+   "label": "DX1_DX2",
+   "reason": "Italian 'dx' (right) bipolar pair with a 10 Hz high-pass EMG filter is the right leg EMG.",
+   "target": "RAT",
+   "ref": ""
+  },
+  {
+   "label": "Position",
+   "reason": "DC body position channel.",
+   "target": "pos",
+   "ref": ""
+  },
+  {
+   "label": "HR",
+   "reason": "Heart rate in BPM from the oximeter.",
+   "target": "HR",
+   "ref": ""
+  },
+  {
+   "label": "PLETH",
+   "reason": "Oximeter pulse waveform is the plethysmogram.",
+   "target": "pleth",
+   "ref": ""
+  }
+ ]
+}

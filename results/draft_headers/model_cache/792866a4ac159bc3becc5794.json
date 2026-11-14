@@ -1,0 +1,90 @@
+{
+ "prompt": "Layout L19, 1 recording(s).\n\nCanonical targets (name: kind): C4_M1: eeg, C3_M2: eeg, F4_M1: eeg, F3_M2: eeg, O2_M1: eeg, O1_M2: eeg, LOC: eog, ROC: eog, EOG: eog, EMG: emg, ECG: ecg, LAT: emg_leg, RAT: emg_leg, thorax: effort, abdomen: effort, airflow: flow, nas_pres: flow, SpO2: spo2, HR: hr, pleth: pleth, pos: pos, snore: snore\n\nChannels:\n- label=C3_A2 | original='C3-A2' | units=['mV'] | rates_hz=[100.0] | transducer='EEG-C3-A2' | prefilter=''\n- label=C4_P4 | original='C4-P4' | units=['mV'] | rates_hz=[100.0] | transducer='EEG-C4-P4' | prefilter=''\n- label=EKG | original='EKG' | units=['mV'] | rates_hz=[200.0] | transducer='EKG' | prefilter=''\n- label=EOG_L | original='EOG-L' | units=['mV'] | rates_hz=[100.0] | transducer='EOG-Left-A2' | prefilter=''\n- label=EOG_R | original='EOG-R' | units=['mV'] | rates_hz=[100.0] | transducer='EOG-Right-A1' | prefilter=''\n- label=F4_C4 | original='F4-C4' | units=['mV'] | rates_hz=[100.0] | transducer='EEG-F4-C4' | prefilter=''\n- label=Fp2_F4 | original='Fp2-F4' | units=['mV'] | rates_hz=[100.0] | transducer='EEG-Fp2-F4' | prefilter=''\n- label=P4_O2 | original='P4-O2' | units=['mV'] | rates_hz=[100.0] | transducer='EEG-P4-O2' | prefilter=''\n- label=Tib_dx | original='Tib dx' | units=['mV'] | rates_hz=[200.0] | transducer='EMG.Tibialis-Leg.Right' | prefilter=''\n- label=Tib_sx | original='Tib sx' | units=['mV'] | rates_hz=[200.0] | transducer='EMG.Tibialis-Leg.Left' | prefilter=''\n- label=abdomen | original='abdomen' | units=['mV'] | rates_hz=[10.0] | transducer='Resp.Movement-Piezo.Abdomen' | prefilter=''\n- label=flow | original='flow' | units=['mBar'] | rates_hz=[20.0] | transducer='Resp.Pressure-Cannula.Nasal' | prefilter=''\n- label=milo | original='milo' | units=['mV'] | rates_hz=[200.0] | transducer='EMG.Submental-Chin' | prefilter=''\n- label=thorax | original='thorax' | units=['mV'] | rates_hz=[10.0] | transducer='Resp.Movement-Piezo.Thorax' | prefilter=''",
+ "model": "claude-opus-5-5",
+ "channels": [
+  {
+   "label": "C3_A2",
+   "reason": "C3 referenced to contralateral mastoid A2 is the C3-M2 derivation.",
+   "target": "C3_M2",
+   "ref": ""
+  },
+  {
+   "label": "C4_P4",
+   "reason": "Bipolar C4-P4 chain has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "EKG",
+   "reason": "EKG channel is the electrocardiogram.",
+   "target": "ECG",
+   "ref": ""
+  },
+  {
+   "label": "EOG_L",
+   "reason": "Left EOG referenced to A2 per transducer is the left eye channel.",
+   "target": "LOC",
+   "ref": ""
+  },
+  {
+   "label": "EOG_R",
+   "reason": "Right EOG referenced to A1 per transducer is the right eye channel.",
+   "target": "ROC",
+   "ref": ""
+  },
+  {
+   "label": "F4_C4",
+   "reason": "Bipolar F4-C4 chain has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "Fp2_F4",
+   "reason": "Bipolar Fp2-F4 chain has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "P4_O2",
+   "reason": "Bipolar P4-O2 chain has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "Tib_dx",
+   "reason": "Tibialis EMG, dx (right) leg per label and transducer.",
+   "target": "RAT",
+   "ref": ""
+  },
+  {
+   "label": "Tib_sx",
+   "reason": "Tibialis EMG, sx (left) leg per label and transducer.",
+   "target": "LAT",
+   "ref": ""
+  },
+  {
+   "label": "abdomen",
+   "reason": "Piezo abdominal respiratory effort belt.",
+   "target": "abdomen",
+   "ref": ""
+  },
+  {
+   "label": "flow",
+   "reason": "Transducer is a nasal pressure cannula in mBar, so nasal pressure.",
+   "target": "nas_pres",
+   "ref": ""
+  },
+  {
+   "label": "milo",
+   "reason": "Milo (mylohyoid) submental chin EMG.",
+   "target": "EMG",
+   "ref": ""
+  },
+  {
+   "label": "thorax",
+   "reason": "Piezo thoracic respiratory effort belt.",
+   "target": "thorax",
+   "ref": ""
+  }
+ ]
+}

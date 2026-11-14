@@ -1,0 +1,72 @@
+{
+ "prompt": "Layout L13, 2 recording(s).\n\nCanonical targets (name: kind): C4_M1: eeg, C3_M2: eeg, F4_M1: eeg, F3_M2: eeg, O2_M1: eeg, O1_M2: eeg, LOC: eog, ROC: eog, EOG: eog, EMG: emg, ECG: ecg, LAT: emg_leg, RAT: emg_leg, thorax: effort, abdomen: effort, airflow: flow, nas_pres: flow, SpO2: spo2, HR: hr, pleth: pleth, pos: pos, snore: snore\n\nChannels:\n- label=LOC | original='LOC' | units=[''] | rates_hz=[200.0] | transducer='' | prefilter='' | trace_types_seen={'neuro': 2}\n- label=ROC | original='ROC' | units=[''] | rates_hz=[200.0] | transducer='' | prefilter='' | trace_types_seen={'neuro': 2}\n- label=CHIN1 | original='CHIN1' | units=[''] | rates_hz=[200.0] | transducer='' | prefilter='' | trace_types_seen={'emg': 2}\n- label=CHIN2 | original='CHIN2' | units=[''] | rates_hz=[200.0] | transducer='' | prefilter='' | trace_types_seen={'emg': 2}\n- label=F3A2 | original='F3A2' | units=[''] | rates_hz=[200.0] | transducer='' | prefilter='' | trace_types_seen={'neuro': 2}\n- label=F4A1 | original='F4A1' | units=[''] | rates_hz=[200.0] | transducer='' | prefilter='' | trace_types_seen={'neuro': 2}\n- label=C3A2 | original='C3A2' | units=[''] | rates_hz=[200.0] | transducer='' | prefilter='' | trace_types_seen={'neuro': 2}\n- label=C4A1 | original='C4A1' | units=[''] | rates_hz=[200.0] | transducer='' | prefilter='' | trace_types_seen={'neuro': 2}\n- label=O1A2 | original='O1A2' | units=[''] | rates_hz=[200.0] | transducer='' | prefilter='' | trace_types_seen={'neuro': 2}\n- label=O2A1 | original='O2A1' | units=[''] | rates_hz=[200.0] | transducer='' | prefilter='' | trace_types_seen={'neuro': 2}\n- label=ECG | original='ECG' | units=[''] | rates_hz=[100.0, 200.0] | transducer='' | prefilter='' | trace_types_seen={'ecg': 2}\n\ntrace_types_seen counts recordings by what the signal looked like: neuro (EEG or EOG, not separable), ecg, emg, resp, pleth, spo2, hr, hr_or_spo2, discrete, flat, unknown.",
+ "model": "claude-opus-5-5",
+ "channels": [
+  {
+   "label": "LOC",
+   "reason": "Left outer canthus eye channel with neuro-type trace.",
+   "target": "LOC",
+   "ref": ""
+  },
+  {
+   "label": "ROC",
+   "reason": "Right outer canthus eye channel with neuro-type trace.",
+   "target": "ROC",
+   "ref": ""
+  },
+  {
+   "label": "CHIN1",
+   "reason": "Chin EMG electrode with EMG-type trace; chosen as the chin EMG channel.",
+   "target": "EMG",
+   "ref": ""
+  },
+  {
+   "label": "CHIN2",
+   "reason": "Second chin EMG electrode; the EMG target is already taken by CHIN1.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "F3A2",
+   "reason": "F3 referenced to contralateral mastoid A2, with neuro trace.",
+   "target": "F3_M2",
+   "ref": ""
+  },
+  {
+   "label": "F4A1",
+   "reason": "F4 referenced to contralateral mastoid A1, with neuro trace.",
+   "target": "F4_M1",
+   "ref": ""
+  },
+  {
+   "label": "C3A2",
+   "reason": "C3 referenced to contralateral mastoid A2, with neuro trace.",
+   "target": "C3_M2",
+   "ref": ""
+  },
+  {
+   "label": "C4A1",
+   "reason": "C4 referenced to contralateral mastoid A1, with neuro trace.",
+   "target": "C4_M1",
+   "ref": ""
+  },
+  {
+   "label": "O1A2",
+   "reason": "O1 referenced to contralateral mastoid A2, with neuro trace.",
+   "target": "O1_M2",
+   "ref": ""
+  },
+  {
+   "label": "O2A1",
+   "reason": "O2 referenced to contralateral mastoid A1, with neuro trace.",
+   "target": "O2_M1",
+   "ref": ""
+  },
+  {
+   "label": "ECG",
+   "reason": "ECG label, and the trace looks like ECG in both recordings.",
+   "target": "ECG",
+   "ref": ""
+  }
+ ]
+}

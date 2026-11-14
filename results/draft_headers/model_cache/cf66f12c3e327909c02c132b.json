@@ -1,0 +1,108 @@
+{
+ "prompt": "Layout L41, 1 recording(s).\n\nCanonical targets (name: kind): C4_M1: eeg, C3_M2: eeg, F4_M1: eeg, F3_M2: eeg, O2_M1: eeg, O1_M2: eeg, LOC: eog, ROC: eog, EOG: eog, EMG: emg, ECG: ecg, LAT: emg_leg, RAT: emg_leg, thorax: effort, abdomen: effort, airflow: flow, nas_pres: flow, SpO2: spo2, HR: hr, pleth: pleth, pos: pos, snore: snore\n\nChannels:\n- label=EOG_dx | original='EOG dx' | units=['mV'] | rates_hz=[100.0] | transducer='EOG-Right-A1' | prefilter=''\n- label=Fp2_F4 | original='Fp2-F4' | units=['uV'] | rates_hz=[100.0] | transducer='EEG-Fp2-F4' | prefilter=''\n- label=F4_C4 | original='F4-C4' | units=['uV'] | rates_hz=[100.0] | transducer='EEG-F4-C4' | prefilter=''\n- label=C4_P4 | original='C4-P4' | units=['uV'] | rates_hz=[100.0] | transducer='EEG-C4-P4' | prefilter=''\n- label=P4_O2 | original='P4-O2' | units=['uV'] | rates_hz=[100.0] | transducer='EEG-P4-O2' | prefilter=''\n- label=C4_A1 | original='C4-A1' | units=['uV'] | rates_hz=[100.0] | transducer='EEG-C4-A1' | prefilter=''\n- label=milo | original='milo' | units=['mV'] | rates_hz=[200.0] | transducer='EMG.Submental-Chin' | prefilter=''\n- label=EOG_sin | original='EOG sin' | units=['mV'] | rates_hz=[100.0] | transducer='EOG-Left-A2' | prefilter=''\n- label=tib_dx | original='tib dx' | units=['mV'] | rates_hz=[200.0] | transducer='EMG.Tibialis-Leg.Right' | prefilter=''\n- label=tib_sin | original='tib sin' | units=['mV'] | rates_hz=[200.0] | transducer='EMG.Tibialis-Leg.Left' | prefilter=''\n- label=cannula | original='cannula' | units=['mBar'] | rates_hz=[20.0] | transducer='Resp.Pressure-Cannula.Nasal' | prefilter=''\n- label=toracico | original='toracico' | units=['uV'] | rates_hz=[10.0] | transducer='Resp.Movement-Piezo.Thorax' | prefilter=''\n- label=ekg | original='ekg' | units=['mV'] | rates_hz=[200.0] | transducer='EKG' | prefilter=''\n- label=deltoide | original='deltoide' | units=['uV'] | rates_hz=[200.0] | transducer='EMG.Peripheral-Arm' | prefilter=''\n- label=Heart_Rate_Varia | original='Heart Rate Varia' | units=['bpm/s'] | rates_hz=[1.0] | transducer='HeartRate.Variability-EKG' | prefilter=''\n- label=Flattening | original='Flattening' | units=['m'] | rates_hz=[50.0] | transducer='Resp.Flattening-Cannula.Nasal' | prefilter=''\n- label=Flow | original='Flow' | units=['mL/s'] | rates_hz=[20.0] | transducer='Resp.Flow-Cannula.Nasal' | prefilter=''",
+ "model": "claude-opus-5-5",
+ "channels": [
+  {
+   "label": "EOG_dx",
+   "reason": "Right EOG ('dx'), with the transducer showing it is referenced to A1, so it maps to ROC.",
+   "target": "ROC",
+   "ref": ""
+  },
+  {
+   "label": "Fp2_F4",
+   "reason": "Bipolar Fp2-F4 chain derivation with no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "F4_C4",
+   "reason": "Bipolar F4-C4 chain derivation with no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "C4_P4",
+   "reason": "Bipolar C4-P4 chain derivation with no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "P4_O2",
+   "reason": "Bipolar P4-O2 chain derivation with no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "C4_A1",
+   "reason": "C4 referenced to the contralateral ear/mastoid A1, so it maps to C4_M1.",
+   "target": "C4_M1",
+   "ref": ""
+  },
+  {
+   "label": "milo",
+   "reason": "Italian 'milo' (mylohyoid) with transducer EMG.Submental-Chin is chin EMG.",
+   "target": "EMG",
+   "ref": ""
+  },
+  {
+   "label": "EOG_sin",
+   "reason": "Left EOG ('sin'), with the transducer showing it is referenced to A2, so it maps to LOC.",
+   "target": "LOC",
+   "ref": ""
+  },
+  {
+   "label": "tib_dx",
+   "reason": "Right tibialis EMG ('dx', transducer Leg.Right), so it maps to RAT.",
+   "target": "RAT",
+   "ref": ""
+  },
+  {
+   "label": "tib_sin",
+   "reason": "Left tibialis EMG ('sin', transducer Leg.Left), so it maps to LAT.",
+   "target": "LAT",
+   "ref": ""
+  },
+  {
+   "label": "cannula",
+   "reason": "Nasal cannula pressure recorded in mBar maps to nas_pres.",
+   "target": "nas_pres",
+   "ref": ""
+  },
+  {
+   "label": "toracico",
+   "reason": "Italian 'toracico' with a thoracic piezo effort transducer maps to thorax.",
+   "target": "thorax",
+   "ref": ""
+  },
+  {
+   "label": "ekg",
+   "reason": "EKG channel recorded in mV maps to ECG.",
+   "target": "ECG",
+   "ref": ""
+  },
+  {
+   "label": "deltoide",
+   "reason": "Deltoid (arm) EMG has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "Heart_Rate_Varia",
+   "reason": "Heart rate variability (bpm/s) is a derived measure, not heart rate itself.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "Flattening",
+   "reason": "Derived cannula flow-flattening index with no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "Flow",
+   "reason": "Flow derived from the nasal cannula duplicates the pressure signal already mapped to nas_pres and is not a thermal airflow sensor.",
+   "target": "none",
+   "ref": ""
+  }
+ ]
+}

@@ -343,17 +343,15 @@
 {
 "id": "brux1",
 "layout": "L08",
-"made": 5,
+"made": 6,
 "need": [
 "eeg",
 "eog",
 "emg",
 "ecg"
 ],
-"all_required_right": false,
-"missing": [
-"eeg"
-]
+"all_required_right": true,
+"missing": []
 },
 {
 "id": "ins1",
@@ -382,7 +380,7 @@
 {
 "id": "rbd16",
 "layout": "L10",
-"made": 12,
+"made": 13,
 "need": [
 "eeg",
 "emg",
@@ -394,7 +392,7 @@
 {
 "id": "rbd3",
 "layout": "L10",
-"made": 12,
+"made": 13,
 "need": [
 "eeg",
 "eog",
@@ -458,7 +456,7 @@
 {
 "id": "nfle31",
 "layout": "L18",
-"made": 12,
+"made": 14,
 "need": [
 "eeg",
 "emg",
@@ -483,7 +481,7 @@
 {
 "id": "sdb2",
 "layout": "L21",
-"made": 11,
+"made": 10,
 "need": [
 "eeg",
 "eog"
@@ -494,25 +492,20 @@
 {
 "id": "sdb3",
 "layout": "L25",
-"made": 0,
+"made": 13,
 "need": [
 "eeg",
 "eog",
 "emg",
 "ecg"
 ],
-"all_required_right": false,
-"missing": [
-"eeg",
-"eog",
-"emg",
-"ecg"
-]
+"all_required_right": true,
+"missing": []
 },
 {
 "id": "n9",
 "layout": "L35",
-"made": 7,
+"made": 8,
 "need": [
 "eeg",
 "eog",
@@ -524,7 +517,7 @@
 {
 "id": "nfle32",
 "layout": "L38",
-"made": 7,
+"made": 8,
 "need": [
 "eeg",
 "emg"
@@ -535,7 +528,7 @@
 {
 "id": "n4",
 "layout": "L41",
-"made": 9,
+"made": 10,
 "need": [
 "eeg",
 "eog",

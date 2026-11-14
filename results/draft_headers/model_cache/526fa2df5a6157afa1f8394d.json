@@ -1,0 +1,138 @@
+{
+ "prompt": "Layout L37, 1 recording(s).\n\nCanonical targets (name: kind): C4_M1: eeg, C3_M2: eeg, F4_M1: eeg, F3_M2: eeg, O2_M1: eeg, O1_M2: eeg, LOC: eog, ROC: eog, EOG: eog, EMG: emg, ECG: ecg, LAT: emg_leg, RAT: emg_leg, thorax: effort, abdomen: effort, airflow: flow, nas_pres: flow, SpO2: spo2, HR: hr, pleth: pleth, pos: pos, snore: snore\n\nChannels:\n- label=FP2_F4 | original='FP2-F4' | units=['uV'] | rates_hz=[128.0] | transducer='Group17' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=F4_C4 | original='F4-C4' | units=['uV'] | rates_hz=[128.0] | transducer='Group18' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=C4_P4 | original='C4-P4' | units=['uV'] | rates_hz=[128.0] | transducer='Group6' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=P4_O2 | original='P4-O2' | units=['uV'] | rates_hz=[128.0] | transducer='Group19' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=F8_T4 | original='F8-T4' | units=['uV'] | rates_hz=[256.0] | transducer='Group23' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=T4 | original='T4' | units=['uV'] | rates_hz=[256.0] | transducer='Group24' | prefilter=''\n- label=FP1_F3 | original='FP1-F3' | units=['uV'] | rates_hz=[128.0] | transducer='Group20' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=F3_C3 | original='F3-C3' | units=['uV'] | rates_hz=[128.0] | transducer='Group21' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=C3_P3 | original='C3-P3' | units=['uV'] | rates_hz=[128.0] | transducer='Group5' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=P3_O1 | original='P3-O1' | units=['uV'] | rates_hz=[128.0] | transducer='Group22' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=F7_T3 | original='F7-T3' | units=['uV'] | rates_hz=[256.0] | transducer='Group26' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=T3_T5 | original='T3-T5' | units=['uV'] | rates_hz=[256.0] | transducer='Group28' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=C4_A1 | original='C4-A1' | units=['uV'] | rates_hz=[128.0] | transducer='Group6' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=ROC_LOC | original='ROC-LOC' | units=['uV'] | rates_hz=[128.0] | transducer='Group11' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=EMG1_EMG2 | original='EMG1-EMG2' | units=['uV'] | rates_hz=[256.0] | transducer='Group15' | prefilter='LP:100.00Hz HP:10.00Hz NOTCH:50'\n- label=ECG1_ECG2 | original='ECG1-ECG2' | units=['uV'] | rates_hz=[128.0] | transducer='Group7' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50'\n- label=DX1_DX2 | original='DX1-DX2' | units=['uV'] | rates_hz=[256.0] | transducer='Group2' | prefilter='LP:100.00Hz HP:10.00Hz NOTCH:50'\n- label=SX1_SX2 | original='SX1-SX2' | units=['uV'] | rates_hz=[256.0] | transducer='Group29' | prefilter='LP:100.00Hz HP:10.00Hz NOTCH:50'\n- label=SAO2 | original='SAO2' | units=['%'] | rates_hz=[1.0] | transducer='Group35' | prefilter=''\n- label=HR | original='HR' | units=['BPM'] | rates_hz=[1.0] | transducer='Group34' | prefilter=''\n- label=Pleth | original='Pleth' | units=['uV'] | rates_hz=[128.0] | transducer='Group60' | prefilter='LP:5.00Hz HP:0.05Hz NOTCH:50'\n- label=Ox_Status | original='Ox Status' | units=[''] | rates_hz=[1.0] | transducer='Group33' | prefilter=''",
+ "model": "claude-opus-5-5",
+ "channels": [
+  {
+   "label": "FP2_F4",
+   "reason": "Bipolar EEG chain FP2-F4 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "F4_C4",
+   "reason": "Bipolar EEG chain F4-C4 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "C4_P4",
+   "reason": "Bipolar EEG chain C4-P4 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "P4_O2",
+   "reason": "Bipolar EEG chain P4-O2 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "F8_T4",
+   "reason": "Bipolar EEG chain F8-T4 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "T4",
+   "reason": "Temporal electrode T4 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "FP1_F3",
+   "reason": "Bipolar EEG chain FP1-F3 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "F3_C3",
+   "reason": "Bipolar EEG chain F3-C3 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "C3_P3",
+   "reason": "Bipolar EEG chain C3-P3 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "P3_O1",
+   "reason": "Bipolar EEG chain P3-O1 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "F7_T3",
+   "reason": "Bipolar EEG chain F7-T3 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "T3_T5",
+   "reason": "Bipolar EEG chain T3-T5 has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "C4_A1",
+   "reason": "Right central EEG referenced to mastoid (A1), the closest match to C4_M1.",
+   "target": "C4_M1",
+   "ref": ""
+  },
+  {
+   "label": "ROC_LOC",
+   "reason": "Bipolar ROC-LOC derivation is a single combined EOG channel.",
+   "target": "EOG",
+   "ref": ""
+  },
+  {
+   "label": "EMG1_EMG2",
+   "reason": "Bipolar chin EMG with 10-100 Hz filtering.",
+   "target": "EMG",
+   "ref": ""
+  },
+  {
+   "label": "ECG1_ECG2",
+   "reason": "Bipolar ECG lead.",
+   "target": "ECG",
+   "ref": ""
+  },
+  {
+   "label": "DX1_DX2",
+   "reason": "Italian dx (right) bipolar EMG at 10-100 Hz, right leg EMG.",
+   "target": "RAT",
+   "ref": ""
+  },
+  {
+   "label": "SX1_SX2",
+   "reason": "Italian sx (left) bipolar EMG at 10-100 Hz, left leg EMG.",
+   "target": "LAT",
+   "ref": ""
+  },
+  {
+   "label": "SAO2",
+   "reason": "Oxygen saturation in %.",
+   "target": "SpO2",
+   "ref": ""
+  },
+  {
+   "label": "HR",
+   "reason": "Heart rate in BPM.",
+   "target": "HR",
+   "ref": ""
+  },
+  {
+   "label": "Pleth",
+   "reason": "Oximeter plethysmogram waveform.",
+   "target": "pleth",
+   "ref": ""
+  },
+  {
+   "label": "Ox_Status",
+   "reason": "Oximeter status flag has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  }
+ ]
+}

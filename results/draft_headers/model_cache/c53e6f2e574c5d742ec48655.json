@@ -1,0 +1,72 @@
+{
+ "prompt": "Layout L33, 1 recording(s).\n\nCanonical targets (name: kind): C4_M1: eeg, C3_M2: eeg, F4_M1: eeg, F3_M2: eeg, O2_M1: eeg, O1_M2: eeg, LOC: eog, ROC: eog, EOG: eog, EMG: emg, ECG: ecg, LAT: emg_leg, RAT: emg_leg, thorax: effort, abdomen: effort, airflow: flow, nas_pres: flow, SpO2: spo2, HR: hr, pleth: pleth, pos: pos, snore: snore\n\nChannels:\n- label=EOG_L | original='EOG-L' | units=[''] | rates_hz=[200.0] | transducer='EOG-Left' | prefilter=''\n- label=EOG_R | original='EOG-R' | units=[''] | rates_hz=[200.0] | transducer='EOG-Right' | prefilter=''\n- label=CHIN1 | original='CHIN1' | units=[''] | rates_hz=[200.0] | transducer='CHIN1' | prefilter=''\n- label=CHIN2 | original='CHIN2' | units=[''] | rates_hz=[200.0] | transducer='CHIN2' | prefilter=''\n- label=F3A2 | original='F3A2' | units=[''] | rates_hz=[200.0] | transducer='EEG-F3-A2' | prefilter=''\n- label=F4A1 | original='F4A1' | units=[''] | rates_hz=[200.0] | transducer='EEG-F4-A1' | prefilter=''\n- label=C3A2 | original='C3A2' | units=[''] | rates_hz=[200.0] | transducer='EEG-C3-A2' | prefilter=''\n- label=C4A1 | original='C4A1' | units=[''] | rates_hz=[200.0] | transducer='EEG-C4-A1' | prefilter=''\n- label=O1A2 | original='O1A2' | units=[''] | rates_hz=[200.0] | transducer='EEG-O1-A2' | prefilter=''\n- label=O2A1 | original='O2A1' | units=[''] | rates_hz=[200.0] | transducer='EEG-O2-A1' | prefilter=''\n- label=EKG | original='EKG' | units=[''] | rates_hz=[200.0] | transducer='EKG' | prefilter=''",
+ "model": "claude-opus-5-5",
+ "channels": [
+  {
+   "label": "EOG_L",
+   "reason": "Left EOG electrode per label and transducer 'EOG-Left'.",
+   "target": "LOC",
+   "ref": ""
+  },
+  {
+   "label": "EOG_R",
+   "reason": "Right EOG electrode per label and transducer 'EOG-Right'.",
+   "target": "ROC",
+   "ref": ""
+  },
+  {
+   "label": "CHIN1",
+   "reason": "Chin EMG electrode; first chin lead chosen as the EMG channel.",
+   "target": "EMG",
+   "ref": ""
+  },
+  {
+   "label": "CHIN2",
+   "reason": "Second chin EMG electrode; EMG target already taken by CHIN1.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "F3A2",
+   "reason": "F3 referenced to A2 (M2) per label and transducer.",
+   "target": "F3_M2",
+   "ref": ""
+  },
+  {
+   "label": "F4A1",
+   "reason": "F4 referenced to A1 (M1) per label and transducer.",
+   "target": "F4_M1",
+   "ref": ""
+  },
+  {
+   "label": "C3A2",
+   "reason": "C3 referenced to A2 (M2) per label and transducer.",
+   "target": "C3_M2",
+   "ref": ""
+  },
+  {
+   "label": "C4A1",
+   "reason": "C4 referenced to A1 (M1) per label and transducer.",
+   "target": "C4_M1",
+   "ref": ""
+  },
+  {
+   "label": "O1A2",
+   "reason": "O1 referenced to A2 (M2) per label and transducer.",
+   "target": "O1_M2",
+   "ref": ""
+  },
+  {
+   "label": "O2A1",
+   "reason": "O2 referenced to A1 (M1) per label and transducer.",
+   "target": "O2_M1",
+   "ref": ""
+  },
+  {
+   "label": "EKG",
+   "reason": "EKG label and transducer indicate the ECG channel.",
+   "target": "ECG",
+   "ref": ""
+  }
+ ]
+}

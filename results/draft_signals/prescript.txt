@@ -63,6 +63,7 @@
 % ins7: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
 % nfle31: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
 % n1: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
+% sdb3: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
 % rbd6: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
 % plm5: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2
 % rbd14: ECG beats point down in ECG1_ECG2 (unverified heuristic).   FLIP sig=ECG1_ECG2

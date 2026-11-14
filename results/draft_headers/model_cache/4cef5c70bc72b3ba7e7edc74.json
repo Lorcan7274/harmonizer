@@ -1,0 +1,54 @@
+{
+ "prompt": "Layout L14, 2 recording(s).\n\nCanonical targets (name: kind): C4_M1: eeg, C3_M2: eeg, F4_M1: eeg, F3_M2: eeg, O2_M1: eeg, O1_M2: eeg, LOC: eog, ROC: eog, EOG: eog, EMG: emg, ECG: ecg, LAT: emg_leg, RAT: emg_leg, thorax: effort, abdomen: effort, airflow: flow, nas_pres: flow, SpO2: spo2, HR: hr, pleth: pleth, pos: pos, snore: snore\n\nChannels:\n- label=LOC_A1 | original='LOC-A1' | units=['uV'] | rates_hz=[128.0] | transducer='' | prefilter=''\n- label=ROC_A2 | original='ROC-A2' | units=['uV'] | rates_hz=[128.0] | transducer='' | prefilter=''\n- label=EMG_EMG | original='EMG-EMG' | units=['uV'] | rates_hz=[128.0] | transducer='' | prefilter=''\n- label=C3_A2 | original='C3-A2' | units=['uV'] | rates_hz=[128.0] | transducer='' | prefilter=''\n- label=O2_A1 | original='O2-A1' | units=['uV'] | rates_hz=[128.0] | transducer='' | prefilter=''\n- label=ECG | original='ECG' | units=['uV'] | rates_hz=[128.0] | transducer='' | prefilter=''\n- label=TAG | original='TAG' | units=['uV'] | rates_hz=[128.0] | transducer='' | prefilter=''\n- label=THE | original='THE' | units=['uV'] | rates_hz=[128.0] | transducer='' | prefilter=''",
+ "model": "claude-opus-5-5",
+ "channels": [
+  {
+   "label": "LOC_A1",
+   "reason": "Left outer canthus EOG referenced to A1 (mastoid) matches the left EOG channel.",
+   "target": "LOC",
+   "ref": ""
+  },
+  {
+   "label": "ROC_A2",
+   "reason": "Right outer canthus EOG referenced to A2 (mastoid) matches the right EOG channel.",
+   "target": "ROC",
+   "ref": ""
+  },
+  {
+   "label": "EMG_EMG",
+   "reason": "Bipolar EMG derivation, taken as the chin EMG since it is the only EMG channel.",
+   "target": "EMG",
+   "ref": ""
+  },
+  {
+   "label": "C3_A2",
+   "reason": "C3 referenced to the contralateral A2 mastoid is equivalent to C3-M2.",
+   "target": "C3_M2",
+   "ref": ""
+  },
+  {
+   "label": "O2_A1",
+   "reason": "O2 referenced to the contralateral A1 mastoid is equivalent to O2-M1.",
+   "target": "O2_M1",
+   "ref": ""
+  },
+  {
+   "label": "ECG",
+   "reason": "Label ECG is the electrocardiogram channel.",
+   "target": "ECG",
+   "ref": ""
+  },
+  {
+   "label": "TAG",
+   "reason": "TAG appears to be an event or annotation marker channel with no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "THE",
+   "reason": "THE is ambiguous: it could mean thermistor or thorax, and units of uV give no clarification, so it is not mapped.",
+   "target": "none",
+   "ref": ""
+  }
+ ]
+}

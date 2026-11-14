@@ -523,6 +523,9 @@ L07,ins2,PLETH,pleth,high,pleth,92% of power at pulse rate
 L07,ins6,PLETH,pleth,high,pleth,87% of power at pulse rate
 L07,narco5,PLETH,pleth,flag,ecg,"beats every 0.89s, spike ratio 22"
 L07,plm7,PLETH,pleth,high,pleth,93% of power at pulse rate
+L08,brux1,C4_A1,C4_M1,high,neuro,70% of power at 0.5-4 Hz
+L08,brux2,C4_A1,C4_M1,high,neuro,81% of power at 0.5-4 Hz
+L08,n10,C4_A1,C4_M1,high,neuro,85% of power at 0.5-4 Hz
 L08,brux1,ROC_LOC,EOG,high,neuro,87% of power at 0.5-4 Hz
 L08,brux2,ROC_LOC,EOG,high,neuro,87% of power at 0.5-4 Hz
 L08,n10,ROC_LOC,EOG,high,neuro,78% of power at 0.5-4 Hz
@@ -582,6 +585,8 @@ L10,rbd16,TORACE,thorax,high,resp,74% of power at 0.1-0.6 Hz
 L10,rbd3,TORACE,thorax,high,resp,91% of power at 0.1-0.6 Hz
 L10,rbd16,ADDOME,abdomen,high,resp,83% of power at 0.1-0.6 Hz
 L10,rbd3,ADDOME,abdomen,high,resp,83% of power at 0.1-0.6 Hz
+L10,rbd16,Position,pos,medium,flat,no variation
+L10,rbd3,Position,pos,medium,flat,no variation
 L10,rbd16,SAO2,SpO2,high,spo2,"median 92, capped at 100"
 L10,rbd3,SAO2,SpO2,high,spo2,"median 95, capped at 100"
 L10,rbd16,MIC,snore,high,emg,96% of power above 25 Hz
@@ -692,6 +697,7 @@ L16,nfle25,TIB_Dx,RAT,flag,neuro,65% of power at 0.5-4 Hz
 L16,nfle25,MIC,snore,high,emg,55% of power above 25 Hz
 L16,nfle25,C3,C3_M2,high,neuro,56% of power at 0.5-4 Hz
 L16,nfle25,C4,C4_M1,high,neuro,59% of power at 0.5-4 Hz
+L16,nfle25,O1,O1_M2,flag,emg,46% of power above 25 Hz
 L16,nfle25,O2,O2_M1,high,neuro,70% of power at 0.5-4 Hz
 L16,nfle25,ROC,ROC,high,neuro,70% of power at 0.5-4 Hz
 L16,nfle25,LOC,LOC,high,neuro,76% of power at 0.5-4 Hz
@@ -709,19 +715,25 @@ L17,nfle33,DX1,RAT,flag,ecg,"beats every 0.83s, spike ratio 31"
 L17,nfle33,MIC,snore,flag,neuro,15% of power at 0.5-4 Hz
 L17,nfle33,C3,C3_M2,high,neuro,84% of power at 0.5-4 Hz
 L17,nfle33,C4,C4_M1,high,neuro,85% of power at 0.5-4 Hz
+L17,nfle33,ECG1,ECG,flag,neuro,75% of power at 0.5-4 Hz
 L17,nfle33,ROC,ROC,high,neuro,87% of power at 0.5-4 Hz
+L17,nfle33,LOC,LOC,flag,resp,60% of power at 0.1-0.6 Hz
 L17,nfle33,O1,O1_M2,high,neuro,83% of power at 0.5-4 Hz
 L17,nfle33,O2,O2_M1,high,neuro,82% of power at 0.5-4 Hz
 L17,nfle33,EMG1,EMG,flag,neuro,82% of power at 0.5-4 Hz
 L17,nfle33,F4,F4_M1,high,neuro,83% of power at 0.5-4 Hz
 L17,nfle33,F3,F3_M2,high,neuro,81% of power at 0.5-4 Hz
 L17,nfle33,SX1,LAT,flag,ecg,"beats every 0.83s, spike ratio 31"
+L17,nfle33,TORACE,thorax,flag,neuro,19% of power at 0.5-4 Hz
+L17,nfle33,ADDOME,abdomen,flag,neuro,19% of power at 0.5-4 Hz
 L17,nfle33,HR,HR,high,hr,median 72
 L17,nfle33,SAO2,SpO2,high,spo2,"median 96, capped at 100"
 L17,nfle33,PLETH,pleth,high,pleth,95% of power at pulse rate
 L18,nfle31,C4_A1,C4_M1,high,neuro,73% of power at 0.5-4 Hz
+L18,nfle31,ROC_LOC,EOG,flag,resp,65% of power at 0.1-0.6 Hz
 L18,nfle31,EMG1_EMG2,EMG,high,emg,74% of power above 25 Hz
 L18,nfle31,ECG1_ECG2,ECG,high,ecg,"beats every 0.95s, spike ratio 38"
+L18,nfle31,DX1_DX2,RAT,flag,neuro,0% of power at 0.5-4 Hz
 L18,nfle31,SX1_SX2,LAT,high,emg,82% of power above 25 Hz
 L18,nfle31,MIC,snore,high,emg,98% of power above 25 Hz
 L18,nfle31,Canula,nas_pres,high,resp,86% of power at 0.1-0.6 Hz
@@ -758,7 +770,6 @@ L20,plm1,ADDDOME,abdomen,high,resp,91% of power at 0.1-0.6 Hz
 L21,sdb2,C4_A1,C4_M1,high,neuro,73% of power at 0.5-4 Hz
 L21,sdb2,ROC_LOC,EOG,high,neuro,79% of power at 0.5-4 Hz
 L21,sdb2,EMG1_EMG2,EMG,flag,neuro,2% of power at 0.5-4 Hz
-L21,sdb2,ECG1_ECG2,ECG,flag,neuro,66% of power at 0.5-4 Hz
 L21,sdb2,Flusso,nas_pres,high,resp,75% of power at 0.1-0.6 Hz
 L21,sdb2,TORACE,thorax,high,resp,87% of power at 0.1-0.6 Hz
 L21,sdb2,ADDDOME,abdomen,high,resp,95% of power at 0.1-0.6 Hz
@@ -802,7 +813,20 @@ L24,plm10,ADDOME,abdomen,high,resp,92% of power at 0.1-0.6 Hz
 L24,plm10,SAO2,SpO2,high,spo2,"median 98, capped at 100"
 L24,plm10,HR,HR,high,hr,median 68
 L24,plm10,PLETH,pleth,high,pleth,98% of power at pulse rate
-L26,rbd6,ROC_LOC,EOG,high,neuro,89% of power at 0.5-4 Hz
+L25,sdb3,ROC_LOC,EOG,high,neuro,92% of power at 0.5-4 Hz
+L25,sdb3,C4_A1,C4_M1,high,neuro,74% of power at 0.5-4 Hz
+L25,sdb3,EMG1_EMG2,EMG,high,emg,89% of power above 25 Hz
+L25,sdb3,ECG1_ECG2,ECG,high,ecg,"beats every 0.97s, spike ratio 47"
+L25,sdb3,TERMISTORE,airflow,high,resp,84% of power at 0.1-0.6 Hz
+L25,sdb3,TORACE,thorax,high,resp,79% of power at 0.1-0.6 Hz
+L25,sdb3,ADDOME,abdomen,high,resp,88% of power at 0.1-0.6 Hz
+L25,sdb3,Dx1_DX2,RAT,high,emg,79% of power above 25 Hz
+L25,sdb3,SX1_SX2,LAT,high,emg,83% of power above 25 Hz
+L25,sdb3,Posizione,pos,medium,flat,no variation
+L25,sdb3,HR,HR,high,hr,median 61
+L25,sdb3,SpO2,SpO2,high,spo2,"median 91, capped at 100"
+L25,sdb3,Sound,snore,high,emg,61% of power above 25 Hz
+L26,rbd6,LOC_ROC,EOG,high,neuro,89% of power at 0.5-4 Hz
 L26,rbd6,C4_A1,C4_M1,high,neuro,68% of power at 0.5-4 Hz
 L26,rbd6,EMG1_EMG2,EMG,high,emg,84% of power above 25 Hz
 L26,rbd6,ECG1_ECG2,ECG,high,ecg,"beats every 0.94s, spike ratio 34"
@@ -896,8 +920,10 @@ L35,n9,EMG,EMG,flag,neuro,1% of power at 0.5-4 Hz
 L35,n9,C3_A2,C3_M2,high,neuro,67% of power at 0.5-4 Hz
 L35,n9,O2_A1,O2_M1,high,neuro,72% of power at 0.5-4 Hz
 L35,n9,ECG,ECG,high,ecg,"beats every 1.18s, spike ratio 59"
+L35,n9,TAG,LAT,high,emg,83% of power above 25 Hz
 L35,n9,THE,airflow,high,resp,94% of power at 0.1-0.6 Hz
 L36,nfle6,C4_A1,C4_M1,high,neuro,68% of power at 0.5-4 Hz
+L36,nfle6,ROC_LOC,EOG,flag,resp,69% of power at 0.1-0.6 Hz
 L36,nfle6,EMG1_EMG2,EMG,high,emg,84% of power above 25 Hz
 L36,nfle6,ECG1_ECG2,ECG,high,ecg,"beats every 1.16s, spike ratio 40"
 L36,nfle6,DX1_DX2,RAT,high,emg,69% of power above 25 Hz
@@ -915,6 +941,7 @@ L37,nfle20,SAO2,SpO2,high,spo2,"median 98, capped at 100"
 L37,nfle20,HR,HR,high,hr,median 63
 L37,nfle20,Pleth,pleth,high,pleth,96% of power at pulse rate; carries heartbeat artefact
 L38,nfle32,C4_A1,C4_M1,high,neuro,67% of power at 0.5-4 Hz
+L38,nfle32,ROC_LOC,EOG,flag,resp,66% of power at 0.1-0.6 Hz
 L38,nfle32,EMG1_EMG2,EMG,high,emg,82% of power above 25 Hz
 L38,nfle32,DX1_DX2,RAT,high,emg,62% of power above 25 Hz
 L38,nfle32,SX1_SX2,LAT,high,emg,64% of power above 25 Hz
@@ -929,6 +956,7 @@ L39,plm3,DX1_DX2,RAT,high,emg,86% of power above 25 Hz
 L39,plm3,SX1_SX2,LAT,high,emg,56% of power above 25 Hz
 L39,plm3,SAO2,SpO2,high,spo2,"median 98, capped at 100"
 L39,plm3,HR,HR,high,hr,median 64
+L39,plm3,PLETH,pleth,flag,neuro,99% of power at 0.5-4 Hz
 L40,nfle8,C4_A1,C4_M1,high,neuro,84% of power at 0.5-4 Hz
 L40,nfle8,ROC_LOC,EOG,high,neuro,93% of power at 0.5-4 Hz
 L40,nfle8,EMG1_EMG2,EMG,high,emg,76% of power above 25 Hz
@@ -947,6 +975,7 @@ L41,n4,tib_sin,LAT,high,emg,56% of power above 25 Hz
 L41,n4,cannula,nas_pres,high,resp,88% of power at 0.1-0.6 Hz
 L41,n4,toracico,thorax,flag,unknown,
 L41,n4,ekg,ECG,high,ecg,"beats every 0.96s, spike ratio 39"
+L41,n4,Flow,airflow,high,resp,92% of power at 0.1-0.6 Hz
 L42,rbd4,ROC_LOC,EOG,high,neuro,89% of power at 0.5-4 Hz
 L42,rbd4,C4_A1,C4_M1,high,neuro,82% of power at 0.5-4 Hz
 L42,rbd4,EMG1_EMG2,EMG,high,emg,80% of power above 25 Hz
@@ -995,7 +1024,6 @@ L46,narco1,PLETH,pleth,high,pleth,91% of power at pulse rate
 L47,narco3,ROC_LOC,EOG,high,neuro,94% of power at 0.5-4 Hz
 L47,narco3,C4_A1,C4_M1,high,neuro,65% of power at 0.5-4 Hz
 L47,narco3,EMG1_EMG2,EMG,high,emg,37% of power above 25 Hz
-L47,narco3,ECG1_ECG2,ECG,flag,neuro,85% of power at 0.5-4 Hz
 L48,narco2,ROC_LOC,EOG,high,neuro,90% of power at 0.5-4 Hz
 L48,narco2,C4_A1,C4_M1,high,neuro,85% of power at 0.5-4 Hz
 L48,narco2,EMG1_EMG2,EMG,high,emg,82% of power above 25 Hz
