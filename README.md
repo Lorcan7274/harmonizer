@@ -18,7 +18,17 @@ python3 scripts/draft.py data/cap/excerpts results/cap results/draft_signals mod
 
 Each draft directory holds `rules.sigs` (one group per layout, reason and evidence as a comment on every rule), `lists/Lnn.lst`, `prescript.txt` (suggestions, all commented out), `run.sh`, `confidence.csv` and `mapping.json`. Model responses are cached in `model_cache/`.
 
-Baseline reader on CAP: 50 layouts, 497 rules, all accepted by CANONICAL, 1,041 canonical signals made across 108 recordings; 932 high confidence, 14 medium, 95 flagged. The scorer reports 106 of 108 recordings with every required signal right and no confident-and-wrong mapping, but that number is circular: the baseline uses the same label reader that built the answer key, so it cannot come out wrong. It only becomes a result once a reader settles the unsettled rows or a different reader (the model) is scored.
+Results on CAP (share of recordings where every required signal comes out right through real CANONICAL):
+
+| Reader | Dev (63) | Held-out (45) | Confident and wrong |
+| --- | --- | --- | --- |
+| Baseline label reader, no model | 62 | 45 | 0 |
+| Model, headers only | 62 | 45 | 0 |
+| Model with signal evidence | 63 | 45 | 0 |
+
+Test A holds: adding signal evidence does no worse than headers alone on either half. These scores are weak evidence because the answer key comes from the same checks, so "confident and wrong" cannot be large until a reader settles the unsettled rows. The held-out half was seen once before the completeness and reason-first fixes, so it is not fully untouched.
+
+What the signal evidence changed: it mapped `TAG` to left leg EMG (French, tibial antérieur gauche), `THE` and `Flow` to airflow, and the Italian `DX1-DX2`/`SX1-SX2` leg leads in `narco1`; it moved chin EMG from `CHIN` to `CHIN.1` in `n12` because the first chin trace looked like brain activity. It also dropped four ECG leads (`sdb2`, `nfle32`, `narco2`, `narco3`) whose traces failed the heartbeat check. At least `nfle32` and `sdb2` look like noisy but real ECG just under the threshold, so the model trusts the checks more than it should.
 
 ## Layout
 
