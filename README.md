@@ -4,7 +4,21 @@ Channel auditor for sleep recordings: checks what each channel is against what t
 
 ## Status
 
-Built so far: EDF reader, layout grouping, per-channel signal checks, label-swap injector, a harness that runs Luna's real `CANONICAL` through `lunapi`, and a first full pass over the CAP Sleep Database. Not built yet: the model stage, the rule-file writer, the EEG polarity check (needs staging), scoring stages 1 to 3.
+Built: EDF reader, layout grouping, per-channel signal checks, label-swap injector, evidence-based confidence, a rule drafter that writes the three output files, and a scorer that runs the drafted rules through Luna's real `CANONICAL` via `lunapi`. The model reader is written but has not been run: no API key was available where this was built. Not built: the EEG polarity check (needs staging) and stage 1 against the NSRR rule file.
+
+## Draft and score
+
+```
+python3 scripts/draft.py data/cap/excerpts results/cap results/draft_baseline baseline
+python3 scripts/score.py results/draft_baseline results/cap_answer_key.csv all
+export ANTHROPIC_API_KEY=...   # then the two model readers
+python3 scripts/draft.py data/cap/excerpts results/cap results/draft_headers model-headers
+python3 scripts/draft.py data/cap/excerpts results/cap results/draft_signals model-signals
+```
+
+Each draft directory holds `rules.sigs` (one group per layout, reason and evidence as a comment on every rule), `lists/Lnn.lst`, `prescript.txt` (suggestions, all commented out), `run.sh`, `confidence.csv` and `mapping.json`. Model responses are cached in `model_cache/`.
+
+Baseline reader on CAP: 50 layouts, 497 rules, all accepted by CANONICAL, 1,041 canonical signals made across 108 recordings; 932 high confidence, 14 medium, 95 flagged. The scorer reports 106 of 108 recordings with every required signal right and no confident-and-wrong mapping, but that number is circular: the baseline uses the same label reader that built the answer key, so it cannot come out wrong. It only becomes a result once a reader settles the unsettled rows or a different reader (the model) is scored.
 
 ## Layout
 
@@ -15,6 +29,12 @@ Built so far: EDF reader, layout grouping, per-channel signal checks, label-swap
 | `harmonizer/checks.py` | Signal features, type from trace, unit check, duplicate pairs |
 | `harmonizer/inject.py` | Label-swap faults and the fixed dev/held-out split |
 | `harmonizer/canon.py` | Run real CANONICAL on one EDF |
+| `harmonizer/mapping.py` | Baseline label reader and mapping validation |
+| `harmonizer/model.py` | Claude label reader, cached |
+| `harmonizer/evidence.py` | Confidence from label/trace agreement |
+| `harmonizer/emit.py` | Rule file, sample lists, pre-script |
+| `scripts/draft.py` | Draft rules for a cohort |
+| `scripts/score.py` | Score a draft through CANONICAL against the answer key |
 | `scripts/fetch_cap.py` | Fetch CAP excerpts by HTTP range request |
 | `scripts/audit_cohort.py` | Run the checks on a directory of EDFs |
 | `scripts/retype.py` | Re-type from cached features after a rule change |
@@ -24,7 +44,7 @@ Built so far: EDF reader, layout grouping, per-channel signal checks, label-swap
 ## Reproduce
 
 ```
-pip install lunapi numpy scipy
+pip install lunapi numpy scipy anthropic
 python3 scripts/fetch_cap.py data/cap/excerpts 8 300   # 3 GB, about 1 minute
 python3 scripts/audit_cohort.py data/cap/excerpts results/cap   # about 3.5 minutes on 4 cores
 python3 scripts/summarise.py results/cap held

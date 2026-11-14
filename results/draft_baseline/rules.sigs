@@ -1,0 +1,4964 @@
+% Drafted CANONICAL rules. One group per header layout; run each layout's sample list with its group.
+
+% L01 (22 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 22 high
+C4_M1
+ group:
+  L01
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (22 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 flag, 21 high
+EOG
+ group:
+  L01
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (22 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 3 flag, 19 high
+EMG
+ group:
+  L01
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (22 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 2 flag, 20 high
+ECG
+ group:
+  L01
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (22 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 2 flag, 20 high
+RAT
+ group:
+  L01
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (22 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 7 flag, 15 high
+LAT
+ group:
+  L01
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (22 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 flag, 21 high
+SpO2
+ group:
+  L01
+ req:
+  sig = SAO2
+
+% L01 (22 recordings): HR -> HR. label reads as hr. Evidence: 1 flag, 21 high
+HR
+ group:
+  L01
+ req:
+  sig = HR
+
+% L01 (22 recordings): PLETH -> pleth. label reads as pleth. Evidence: 2 flag, 20 high
+pleth
+ group:
+  L01
+ req:
+  sig = PLETH
+
+% L02 (10 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 10 high
+C4_M1
+ group:
+  L02
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L02 (10 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 4 flag, 6 high
+EOG
+ group:
+  L02
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L02 (10 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 10 high
+EMG
+ group:
+  L02
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L02 (10 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 10 high
+ECG
+ group:
+  L02
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L02 (10 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 2 flag, 8 high
+RAT
+ group:
+  L02
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L02 (10 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 10 high
+LAT
+ group:
+  L02
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L02 (10 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 10 high
+SpO2
+ group:
+  L02
+ req:
+  sig = SAO2
+
+% L02 (10 recordings): HR -> HR. label reads as hr. Evidence: 10 high
+HR
+ group:
+  L02
+ req:
+  sig = HR
+
+% L02 (10 recordings): PLETH -> pleth. label reads as pleth. Evidence: 10 high
+pleth
+ group:
+  L02
+ req:
+  sig = PLETH
+
+% L02 (10 recordings): MIC -> snore. label reads as snore. Evidence: 10 high
+snore
+ group:
+  L02
+ req:
+  sig = MIC
+
+% L03 (5 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 5 high
+EOG
+ group:
+  L03
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L03 (5 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 5 high
+C4_M1
+ group:
+  L03
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L03 (5 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 5 high
+EMG
+ group:
+  L03
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L03 (5 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 flag, 4 high
+ECG
+ group:
+  L03
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L03 (5 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 5 high
+RAT
+ group:
+  L03
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L03 (5 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 5 high
+LAT
+ group:
+  L03
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L03 (5 recordings): TORACE -> thorax. effort belt label. Evidence: 5 high
+thorax
+ group:
+  L03
+ req:
+  sig = TORACE
+
+% L03 (5 recordings): ADDOME -> abdomen. effort belt label. Evidence: 5 high
+abdomen
+ group:
+  L03
+ req:
+  sig = ADDOME
+
+% L03 (5 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 5 high
+SpO2
+ group:
+  L03
+ req:
+  sig = SAO2
+
+% L03 (5 recordings): HR -> HR. label reads as hr. Evidence: 5 high
+HR
+ group:
+  L03
+ req:
+  sig = HR
+
+% L03 (5 recordings): PLETH -> pleth. label reads as pleth. Evidence: 5 high
+pleth
+ group:
+  L03
+ req:
+  sig = PLETH
+
+% L04 (5 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 flag, 4 high
+C4_M1
+ group:
+  L04
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L04 (5 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 flag, 4 high
+EOG
+ group:
+  L04
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L04 (5 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 5 high
+EMG
+ group:
+  L04
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L04 (5 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 5 high
+ECG
+ group:
+  L04
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L04 (5 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 3 flag, 2 high
+RAT
+ group:
+  L04
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L04 (5 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag, 4 high
+LAT
+ group:
+  L04
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L04 (5 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 5 high
+SpO2
+ group:
+  L04
+ req:
+  sig = SAO2
+
+% L04 (5 recordings): HR -> HR. label reads as hr. Evidence: 5 high
+HR
+ group:
+  L04
+ req:
+  sig = HR
+
+% L04 (5 recordings): Pleth -> pleth. label reads as pleth. Evidence: 1 flag, 4 high
+pleth
+ group:
+  L04
+ req:
+  sig = Pleth
+
+% L05 (5 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 5 high
+EOG
+ group:
+  L05
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L05 (5 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 5 high
+C4_M1
+ group:
+  L05
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L05 (5 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 flag, 4 high
+EMG
+ group:
+  L05
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L05 (5 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 5 high
+ECG
+ group:
+  L05
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L05 (5 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 5 high
+RAT
+ group:
+  L05
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L05 (5 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 5 high
+LAT
+ group:
+  L05
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L05 (5 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 5 high
+SpO2
+ group:
+  L05
+ req:
+  sig = SAO2
+
+% L05 (5 recordings): HR -> HR. label reads as hr. Evidence: 5 high
+HR
+ group:
+  L05
+ req:
+  sig = HR
+
+% L05 (5 recordings): PLETH -> pleth. label reads as pleth. Evidence: 5 high
+pleth
+ group:
+  L05
+ req:
+  sig = PLETH
+
+% L06 (5 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 5 high
+C4_M1
+ group:
+  L06
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L06 (5 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 5 high
+EOG
+ group:
+  L06
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L06 (5 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 5 high
+EMG
+ group:
+  L06
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L06 (5 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 5 high
+ECG
+ group:
+  L06
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L06 (5 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 5 high
+RAT
+ group:
+  L06
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L06 (5 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 5 high
+LAT
+ group:
+  L06
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L06 (5 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 5 high
+SpO2
+ group:
+  L06
+ req:
+  sig = SAO2
+
+% L06 (5 recordings): HR -> HR. label reads as hr. Evidence: 5 high
+HR
+ group:
+  L06
+ req:
+  sig = HR
+
+% L06 (5 recordings): PLETH -> pleth. label reads as pleth. Evidence: 5 high
+pleth
+ group:
+  L06
+ req:
+  sig = PLETH
+
+% L07 (4 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 4 high
+C4_M1
+ group:
+  L07
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L07 (4 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 flag, 3 high
+EOG
+ group:
+  L07
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L07 (4 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 4 high
+EMG
+ group:
+  L07
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L07 (4 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 4 high
+ECG
+ group:
+  L07
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L07 (4 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag, 3 high
+RAT
+ group:
+  L07
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L07 (4 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag, 3 high
+LAT
+ group:
+  L07
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L07 (4 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 4 high
+SpO2
+ group:
+  L07
+ req:
+  sig = SAO2
+
+% L07 (4 recordings): HR -> HR. label reads as hr. Evidence: 4 high
+HR
+ group:
+  L07
+ req:
+  sig = HR
+
+% L07 (4 recordings): PLETH -> pleth. label reads as pleth. Evidence: 1 flag, 3 high
+pleth
+ group:
+  L07
+ req:
+  sig = PLETH
+
+% L08 (3 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 3 high
+C4_M1
+ group:
+  L08
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L08 (3 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 3 high
+EOG
+ group:
+  L08
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L08 (3 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 3 high
+EMG
+ group:
+  L08
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L08 (3 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 3 high
+ECG
+ group:
+  L08
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L08 (3 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 3 high
+RAT
+ group:
+  L08
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L08 (3 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 3 high
+LAT
+ group:
+  L08
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L09 (2 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 2 high
+C4_M1
+ group:
+  L09
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L09 (2 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 2 high
+EOG
+ group:
+  L09
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L09 (2 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 flag, 1 high
+EMG
+ group:
+  L09
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L09 (2 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 flag, 1 high
+ECG
+ group:
+  L09
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L09 (2 recordings): MIC -> snore. label reads as snore. Evidence: 2 high
+snore
+ group:
+  L09
+ req:
+  sig = MIC
+
+% L09 (2 recordings): Flusso -> airflow. label reads as flow. Evidence: 1 high, 1 medium
+airflow
+ group:
+  L09
+ req:
+  sig = Flusso
+
+% L09 (2 recordings): TORACE -> thorax. effort belt label. Evidence: 2 high
+thorax
+ group:
+  L09
+ req:
+  sig = TORACE
+
+% L09 (2 recordings): ADDDOME -> abdomen. effort belt label. Evidence: 1 flag, 1 high
+abdomen
+ group:
+  L09
+ req:
+  sig = ADDDOME
+
+% L09 (2 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 2 high
+SpO2
+ group:
+  L09
+ req:
+  sig = SAO2
+
+% L09 (2 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 2 high
+LAT
+ group:
+  L09
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L09 (2 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag, 1 high
+RAT
+ group:
+  L09
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L09 (2 recordings): Position -> pos. label reads as pos. Evidence: 2 medium
+pos
+ group:
+  L09
+ req:
+  sig = Position
+
+% L09 (2 recordings): HR -> HR. label reads as hr. Evidence: 2 high
+HR
+ group:
+  L09
+ req:
+  sig = HR
+
+% L09 (2 recordings): PLETH -> pleth. label reads as pleth. Evidence: 1 flag, 1 high
+pleth
+ group:
+  L09
+ req:
+  sig = PLETH
+
+% L10 (2 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 flag, 1 high
+EOG
+ group:
+  L10
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L10 (2 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 2 high
+C4_M1
+ group:
+  L10
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L10 (2 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 2 high
+EMG
+ group:
+  L10
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L10 (2 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 2 high
+ECG
+ group:
+  L10
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L10 (2 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag, 1 high
+RAT
+ group:
+  L10
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L10 (2 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 2 high
+LAT
+ group:
+  L10
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L10 (2 recordings): TORACE -> thorax. effort belt label. Evidence: 2 high
+thorax
+ group:
+  L10
+ req:
+  sig = TORACE
+
+% L10 (2 recordings): ADDOME -> abdomen. effort belt label. Evidence: 2 high
+abdomen
+ group:
+  L10
+ req:
+  sig = ADDOME
+
+% L10 (2 recordings): Position -> pos. label reads as pos. Evidence: 2 medium
+pos
+ group:
+  L10
+ req:
+  sig = Position
+
+% L10 (2 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 2 high
+SpO2
+ group:
+  L10
+ req:
+  sig = SAO2
+
+% L10 (2 recordings): MIC -> snore. label reads as snore. Evidence: 2 high
+snore
+ group:
+  L10
+ req:
+  sig = MIC
+
+% L10 (2 recordings): HR -> HR. label reads as hr. Evidence: 1 flag, 1 high
+HR
+ group:
+  L10
+ req:
+  sig = HR
+
+% L10 (2 recordings): PLETH -> pleth. label reads as pleth. Evidence: 2 high
+pleth
+ group:
+  L10
+ req:
+  sig = PLETH
+
+% L11 (2 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 2 high
+EOG
+ group:
+  L11
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L11 (2 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 2 high
+C4_M1
+ group:
+  L11
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L11 (2 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 2 high
+EMG
+ group:
+  L11
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L11 (2 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 2 high
+ECG
+ group:
+  L11
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L11 (2 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 2 high
+RAT
+ group:
+  L11
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L11 (2 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 2 high
+LAT
+ group:
+  L11
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L11 (2 recordings): TORACE -> thorax. effort belt label. Evidence: 2 high
+thorax
+ group:
+  L11
+ req:
+  sig = TORACE
+
+% L11 (2 recordings): ADDOME -> abdomen. effort belt label. Evidence: 2 high
+abdomen
+ group:
+  L11
+ req:
+  sig = ADDOME
+
+% L11 (2 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 2 high
+SpO2
+ group:
+  L11
+ req:
+  sig = SAO2
+
+% L11 (2 recordings): MIC -> snore. label reads as snore. Evidence: 2 high
+snore
+ group:
+  L11
+ req:
+  sig = MIC
+
+% L11 (2 recordings): HR -> HR. label reads as hr. Evidence: 1 flag, 1 high
+HR
+ group:
+  L11
+ req:
+  sig = HR
+
+% L11 (2 recordings): PLETH -> pleth. label reads as pleth. Evidence: 2 high
+pleth
+ group:
+  L11
+ req:
+  sig = PLETH
+
+% L12 (2 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 flag, 1 high
+EOG
+ group:
+  L12
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L12 (2 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 2 high
+C4_M1
+ group:
+  L12
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L12 (2 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 2 high
+EMG
+ group:
+  L12
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L12 (2 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 2 high
+ECG
+ group:
+  L12
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L12 (2 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 2 high
+RAT
+ group:
+  L12
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L12 (2 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 2 high
+LAT
+ group:
+  L12
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L12 (2 recordings): TORACE -> thorax. effort belt label. Evidence: 2 high
+thorax
+ group:
+  L12
+ req:
+  sig = TORACE
+
+% L12 (2 recordings): ADDOME -> abdomen. effort belt label. Evidence: 2 high
+abdomen
+ group:
+  L12
+ req:
+  sig = ADDOME
+
+% L12 (2 recordings): Position -> pos. label reads as pos. Evidence: 1 high, 1 medium
+pos
+ group:
+  L12
+ req:
+  sig = Position
+
+% L12 (2 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 2 high
+SpO2
+ group:
+  L12
+ req:
+  sig = SAO2
+
+% L12 (2 recordings): HR -> HR. label reads as hr. Evidence: 2 high
+HR
+ group:
+  L12
+ req:
+  sig = HR
+
+% L12 (2 recordings): PLETH -> pleth. label reads as pleth. Evidence: 2 high
+pleth
+ group:
+  L12
+ req:
+  sig = PLETH
+
+% L13 (2 recordings): LOC -> LOC. left eye label. Evidence: 2 high
+LOC
+ group:
+  L13
+ req:
+  sig = LOC
+
+% L13 (2 recordings): ROC -> ROC. right eye label. Evidence: 2 high
+ROC
+ group:
+  L13
+ req:
+  sig = ROC
+
+% L13 (2 recordings): CHIN1 / CHIN2 -> EMG. first of a numbered pair, referenced to the second. Evidence: 2 high
+EMG
+ group:
+  L13
+ req:
+  sig = CHIN1
+  ref = CHIN2
+
+% L13 (2 recordings): F3A2 -> F3_M2. label names electrode and contralateral mastoid. Evidence: 2 high
+F3_M2
+ group:
+  L13
+ req:
+  sig = F3A2
+
+% L13 (2 recordings): F4A1 -> F4_M1. label names electrode and contralateral mastoid. Evidence: 2 high
+F4_M1
+ group:
+  L13
+ req:
+  sig = F4A1
+
+% L13 (2 recordings): C3A2 -> C3_M2. label names electrode and contralateral mastoid. Evidence: 2 high
+C3_M2
+ group:
+  L13
+ req:
+  sig = C3A2
+
+% L13 (2 recordings): C4A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 2 high
+C4_M1
+ group:
+  L13
+ req:
+  sig = C4A1
+
+% L13 (2 recordings): O1A2 -> O1_M2. label names electrode and contralateral mastoid. Evidence: 2 high
+O1_M2
+ group:
+  L13
+ req:
+  sig = O1A2
+
+% L13 (2 recordings): O2A1 -> O2_M1. label names electrode and contralateral mastoid. Evidence: 2 high
+O2_M1
+ group:
+  L13
+ req:
+  sig = O2A1
+
+% L13 (2 recordings): ECG -> ECG. label reads as ecg. Evidence: 2 high
+ECG
+ group:
+  L13
+ req:
+  sig = ECG
+
+% L14 (2 recordings): LOC_A1 -> LOC. left eye label. Evidence: 2 high
+LOC
+ group:
+  L14
+ req:
+  sig = LOC_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L14 (2 recordings): ROC_A2 -> ROC. right eye label. Evidence: 2 high
+ROC
+ group:
+  L14
+ req:
+  sig = ROC_A2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L14 (2 recordings): EMG_EMG -> EMG. label reads as emg. Evidence: 2 high
+EMG
+ group:
+  L14
+ req:
+  sig = EMG_EMG
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L14 (2 recordings): C3_A2 -> C3_M2. label names electrode and contralateral mastoid. Evidence: 2 high
+C3_M2
+ group:
+  L14
+ req:
+  sig = C3_A2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L14 (2 recordings): O2_A1 -> O2_M1. label names electrode and contralateral mastoid. Evidence: 2 high
+O2_M1
+ group:
+  L14
+ req:
+  sig = O2_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L14 (2 recordings): ECG -> ECG. label reads as ecg. Evidence: 2 high
+ECG
+ group:
+  L14
+ req:
+  sig = ECG
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L15 (2 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 2 high
+C4_M1
+ group:
+  L15
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L15 (2 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 2 high
+EOG
+ group:
+  L15
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L15 (2 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 2 high
+EMG
+ group:
+  L15
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L15 (2 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 2 high
+ECG
+ group:
+  L15
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L15 (2 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 2 high
+SpO2
+ group:
+  L15
+ req:
+  sig = SAO2
+
+% L15 (2 recordings): HR -> HR. label reads as hr. Evidence: 2 high
+HR
+ group:
+  L15
+ req:
+  sig = HR
+
+% L15 (2 recordings): PLETH -> pleth. label reads as pleth. Evidence: 2 high
+pleth
+ group:
+  L15
+ req:
+  sig = PLETH
+
+% L16 (1 recordings): Position -> pos. label reads as pos. Evidence: 1 medium
+pos
+ group:
+  L16
+ req:
+  sig = Position
+
+% L16 (1 recordings): TIB_Sx -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
+LAT
+ group:
+  L16
+ req:
+  sig = TIB_Sx
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L16 (1 recordings): TIB_Dx -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
+RAT
+ group:
+  L16
+ req:
+  sig = TIB_Dx
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L16 (1 recordings): MIC -> snore. label reads as snore. Evidence: 1 high
+snore
+ group:
+  L16
+ req:
+  sig = MIC
+
+% L16 (1 recordings): C3 / A2 -> C3_M2. unreferenced electrode with the mastoid recorded separately. Evidence: 1 high
+C3_M2
+ group:
+  L16
+ req:
+  sig = C3
+  ref = A2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L16 (1 recordings): C4 / A1 -> C4_M1. unreferenced electrode with the mastoid recorded separately. Evidence: 1 high
+C4_M1
+ group:
+  L16
+ req:
+  sig = C4
+  ref = A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L16 (1 recordings): O1 / A2 -> O1_M2. unreferenced electrode with the mastoid recorded separately. Evidence: 1 flag
+O1_M2
+ group:
+  L16
+ req:
+  sig = O1
+  ref = A2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L16 (1 recordings): O2 / A1 -> O2_M1. unreferenced electrode with the mastoid recorded separately. Evidence: 1 high
+O2_M1
+ group:
+  L16
+ req:
+  sig = O2
+  ref = A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L16 (1 recordings): ROC -> ROC. right eye label. Evidence: 1 high
+ROC
+ group:
+  L16
+ req:
+  sig = ROC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L16 (1 recordings): LOC -> LOC. left eye label. Evidence: 1 high
+LOC
+ group:
+  L16
+ req:
+  sig = LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L16 (1 recordings): ECG1 / ECG2 -> ECG. first of a numbered pair, referenced to the second. Evidence: 1 high
+ECG
+ group:
+  L16
+ req:
+  sig = ECG1
+  ref = ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L16 (1 recordings): EMG1 / EMG2 -> EMG. first of a numbered pair, referenced to the second. Evidence: 1 flag
+EMG
+ group:
+  L16
+ req:
+  sig = EMG1
+  ref = EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L16 (1 recordings): F4 / A1 -> F4_M1. unreferenced electrode with the mastoid recorded separately. Evidence: 1 high
+F4_M1
+ group:
+  L16
+ req:
+  sig = F4
+  ref = A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L16 (1 recordings): F3 / A2 -> F3_M2. unreferenced electrode with the mastoid recorded separately. Evidence: 1 high
+F3_M2
+ group:
+  L16
+ req:
+  sig = F3
+  ref = A2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L16 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 flag
+thorax
+ group:
+  L16
+ req:
+  sig = TORACE
+
+% L16 (1 recordings): ADDDOME -> abdomen. effort belt label. Evidence: 1 flag
+abdomen
+ group:
+  L16
+ req:
+  sig = ADDDOME
+
+% L16 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L16
+ req:
+  sig = HR
+
+% L16 (1 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L16
+ req:
+  sig = SAO2
+
+% L16 (1 recordings): PLETH -> pleth. label reads as pleth. Evidence: 1 high
+pleth
+ group:
+  L16
+ req:
+  sig = PLETH
+
+% L17 (1 recordings): Position -> pos. label reads as pos. Evidence: 1 medium
+pos
+ group:
+  L17
+ req:
+  sig = Position
+
+% L17 (1 recordings): DX1 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
+RAT
+ group:
+  L17
+ req:
+  sig = DX1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L17 (1 recordings): MIC -> snore. label reads as snore. Evidence: 1 flag
+snore
+ group:
+  L17
+ req:
+  sig = MIC
+
+% L17 (1 recordings): C3 / A2 -> C3_M2. unreferenced electrode with the mastoid recorded separately. Evidence: 1 high
+C3_M2
+ group:
+  L17
+ req:
+  sig = C3
+  ref = A2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L17 (1 recordings): C4 / A1 -> C4_M1. unreferenced electrode with the mastoid recorded separately. Evidence: 1 high
+C4_M1
+ group:
+  L17
+ req:
+  sig = C4
+  ref = A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L17 (1 recordings): ECG1 / ECG2 -> ECG. first of a numbered pair, referenced to the second. Evidence: 1 flag
+ECG
+ group:
+  L17
+ req:
+  sig = ECG1
+  ref = ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L17 (1 recordings): ROC -> ROC. right eye label. Evidence: 1 high
+ROC
+ group:
+  L17
+ req:
+  sig = ROC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L17 (1 recordings): LOC -> LOC. left eye label. Evidence: 1 flag
+LOC
+ group:
+  L17
+ req:
+  sig = LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L17 (1 recordings): O1 / A2 -> O1_M2. unreferenced electrode with the mastoid recorded separately. Evidence: 1 high
+O1_M2
+ group:
+  L17
+ req:
+  sig = O1
+  ref = A2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L17 (1 recordings): O2 / A1 -> O2_M1. unreferenced electrode with the mastoid recorded separately. Evidence: 1 high
+O2_M1
+ group:
+  L17
+ req:
+  sig = O2
+  ref = A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L17 (1 recordings): EMG1 / EMG2 -> EMG. first of a numbered pair, referenced to the second. Evidence: 1 flag
+EMG
+ group:
+  L17
+ req:
+  sig = EMG1
+  ref = EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L17 (1 recordings): F4 / A1 -> F4_M1. unreferenced electrode with the mastoid recorded separately. Evidence: 1 high
+F4_M1
+ group:
+  L17
+ req:
+  sig = F4
+  ref = A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L17 (1 recordings): F3 / A2 -> F3_M2. unreferenced electrode with the mastoid recorded separately. Evidence: 1 high
+F3_M2
+ group:
+  L17
+ req:
+  sig = F3
+  ref = A2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L17 (1 recordings): SX1 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
+LAT
+ group:
+  L17
+ req:
+  sig = SX1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L17 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 flag
+thorax
+ group:
+  L17
+ req:
+  sig = TORACE
+
+% L17 (1 recordings): ADDOME -> abdomen. effort belt label. Evidence: 1 flag
+abdomen
+ group:
+  L17
+ req:
+  sig = ADDOME
+
+% L17 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L17
+ req:
+  sig = HR
+
+% L17 (1 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L17
+ req:
+  sig = SAO2
+
+% L17 (1 recordings): PLETH -> pleth. label reads as pleth. Evidence: 1 high
+pleth
+ group:
+  L17
+ req:
+  sig = PLETH
+
+% L18 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L18
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L18 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 flag
+EOG
+ group:
+  L18
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L18 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L18
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L18 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L18
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L18 (1 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
+RAT
+ group:
+  L18
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L18 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L18
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L18 (1 recordings): MIC -> snore. label reads as snore. Evidence: 1 high
+snore
+ group:
+  L18
+ req:
+  sig = MIC
+
+% L18 (1 recordings): Canula -> airflow. label reads as flow. Evidence: 1 high
+airflow
+ group:
+  L18
+ req:
+  sig = Canula
+
+% L18 (1 recordings): Torace -> thorax. effort belt label. Evidence: 1 high
+thorax
+ group:
+  L18
+ req:
+  sig = Torace
+
+% L18 (1 recordings): Abdo -> abdomen. effort belt label. Evidence: 1 high
+abdomen
+ group:
+  L18
+ req:
+  sig = Abdo
+
+% L18 (1 recordings): Position -> pos. label reads as pos. Evidence: 1 medium
+pos
+ group:
+  L18
+ req:
+  sig = Position
+
+% L18 (1 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L18
+ req:
+  sig = SAO2
+
+% L18 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L18
+ req:
+  sig = HR
+
+% L18 (1 recordings): Pleth -> pleth. label reads as pleth. Evidence: 1 high
+pleth
+ group:
+  L18
+ req:
+  sig = Pleth
+
+% L19 (1 recordings): C3_A2 -> C3_M2. label names electrode and contralateral mastoid. Evidence: 1 high
+C3_M2
+ group:
+  L19
+ req:
+  sig = C3_A2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L19 (1 recordings): EKG -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L19
+ req:
+  sig = EKG
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L19 (1 recordings): EOG_L -> LOC. left eye label. Evidence: 1 high
+LOC
+ group:
+  L19
+ req:
+  sig = EOG_L
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L19 (1 recordings): EOG_R -> ROC. right eye label. Evidence: 1 high
+ROC
+ group:
+  L19
+ req:
+  sig = EOG_R
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L19 (1 recordings): Tib_dx -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L19
+ req:
+  sig = Tib_dx
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L19 (1 recordings): Tib_sx -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L19
+ req:
+  sig = Tib_sx
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L19 (1 recordings): abdomen -> abdomen. effort belt label. Evidence: 1 flag
+abdomen
+ group:
+  L19
+ req:
+  sig = abdomen
+
+% L19 (1 recordings): flow -> airflow. label reads as flow. Evidence: 1 high
+airflow
+ group:
+  L19
+ req:
+  sig = flow
+
+% L19 (1 recordings): milo -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L19
+ req:
+  sig = milo
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L19 (1 recordings): thorax -> thorax. effort belt label. Evidence: 1 flag
+thorax
+ group:
+  L19
+ req:
+  sig = thorax
+
+% L20 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L20
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L20 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L20
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L20 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L20
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L20 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L20
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L20 (1 recordings): Flusso -> airflow. label reads as flow. Evidence: 1 high
+airflow
+ group:
+  L20
+ req:
+  sig = Flusso
+
+% L20 (1 recordings): TIB_Sx -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
+LAT
+ group:
+  L20
+ req:
+  sig = TIB_Sx
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L20 (1 recordings): TIB_Dx -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
+RAT
+ group:
+  L20
+ req:
+  sig = TIB_Dx
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L20 (1 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L20
+ req:
+  sig = SAO2
+
+% L20 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L20
+ req:
+  sig = HR
+
+% L20 (1 recordings): PLETH -> pleth. label reads as pleth. Evidence: 1 high
+pleth
+ group:
+  L20
+ req:
+  sig = PLETH
+
+% L20 (1 recordings): MIC -> snore. label reads as snore. Evidence: 1 high
+snore
+ group:
+  L20
+ req:
+  sig = MIC
+
+% L20 (1 recordings): Position -> pos. label reads as pos. Evidence: 1 medium
+pos
+ group:
+  L20
+ req:
+  sig = Position
+
+% L20 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 high
+thorax
+ group:
+  L20
+ req:
+  sig = TORACE
+
+% L20 (1 recordings): ADDDOME -> abdomen. effort belt label. Evidence: 1 high
+abdomen
+ group:
+  L20
+ req:
+  sig = ADDDOME
+
+% L21 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L21
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L21 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L21
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L21 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 flag
+EMG
+ group:
+  L21
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L21 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 flag
+ECG
+ group:
+  L21
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L21 (1 recordings): Flusso -> airflow. label reads as flow. Evidence: 1 high
+airflow
+ group:
+  L21
+ req:
+  sig = Flusso
+
+% L21 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 high
+thorax
+ group:
+  L21
+ req:
+  sig = TORACE
+
+% L21 (1 recordings): ADDDOME -> abdomen. effort belt label. Evidence: 1 high
+abdomen
+ group:
+  L21
+ req:
+  sig = ADDDOME
+
+% L21 (1 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L21
+ req:
+  sig = SAO2
+
+% L21 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L21
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L21 (1 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L21
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L21 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L21
+ req:
+  sig = HR
+
+% L21 (1 recordings): PLETH -> pleth. label reads as pleth. Evidence: 1 flag
+pleth
+ group:
+  L21
+ req:
+  sig = PLETH
+
+% L22 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L22
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L22 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 flag
+EOG
+ group:
+  L22
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L22 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L22
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L22 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 flag
+ECG
+ group:
+  L22
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L22 (1 recordings): TIB_Sx -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
+LAT
+ group:
+  L22
+ req:
+  sig = TIB_Sx
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L22 (1 recordings): TIB_Dx -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
+RAT
+ group:
+  L22
+ req:
+  sig = TIB_Dx
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L22 (1 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L22
+ req:
+  sig = SAO2
+
+% L22 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L22
+ req:
+  sig = HR
+
+% L22 (1 recordings): PLETH -> pleth. label reads as pleth. Evidence: 1 flag
+pleth
+ group:
+  L22
+ req:
+  sig = PLETH
+
+% L22 (1 recordings): MIC -> snore. label reads as snore. Evidence: 1 high
+snore
+ group:
+  L22
+ req:
+  sig = MIC
+
+% L22 (1 recordings): Flusso -> airflow. label reads as flow. Evidence: 1 high
+airflow
+ group:
+  L22
+ req:
+  sig = Flusso
+
+% L22 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 high
+thorax
+ group:
+  L22
+ req:
+  sig = TORACE
+
+% L22 (1 recordings): ADDDOME -> abdomen. effort belt label. Evidence: 1 high
+abdomen
+ group:
+  L22
+ req:
+  sig = ADDDOME
+
+% L23 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L23
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L23 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L23
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L23 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L23
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L23 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L23
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L23 (1 recordings): TERMISTORE -> airflow. label reads as flow. Evidence: 1 high
+airflow
+ group:
+  L23
+ req:
+  sig = TERMISTORE
+
+% L23 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 high
+thorax
+ group:
+  L23
+ req:
+  sig = TORACE
+
+% L23 (1 recordings): ADDOME -> abdomen. effort belt label. Evidence: 1 high
+abdomen
+ group:
+  L23
+ req:
+  sig = ADDOME
+
+% L23 (1 recordings): Dx1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L23
+ req:
+  sig = Dx1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L23 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L23
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L23 (1 recordings): Posizione -> pos. label reads as pos. Evidence: 1 medium
+pos
+ group:
+  L23
+ req:
+  sig = Posizione
+
+% L23 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L23
+ req:
+  sig = HR
+
+% L23 (1 recordings): SpO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L23
+ req:
+  sig = SpO2
+
+% L24 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L24
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L24 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L24
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L24 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L24
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L24 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L24
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L24 (1 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L24
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L24 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L24
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L24 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 high
+thorax
+ group:
+  L24
+ req:
+  sig = TORACE
+
+% L24 (1 recordings): ADDOME -> abdomen. effort belt label. Evidence: 1 high
+abdomen
+ group:
+  L24
+ req:
+  sig = ADDOME
+
+% L24 (1 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L24
+ req:
+  sig = SAO2
+
+% L24 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L24
+ req:
+  sig = HR
+
+% L24 (1 recordings): PLETH -> pleth. label reads as pleth. Evidence: 1 high
+pleth
+ group:
+  L24
+ req:
+  sig = PLETH
+
+% L25 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L25
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L25 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L25
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L25 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L25
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L25 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L25
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L25 (1 recordings): TERMISTORE -> airflow. label reads as flow. Evidence: 1 high
+airflow
+ group:
+  L25
+ req:
+  sig = TERMISTORE
+
+% L25 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 high
+thorax
+ group:
+  L25
+ req:
+  sig = TORACE
+
+% L25 (1 recordings): ADDOME -> abdomen. effort belt label. Evidence: 1 high
+abdomen
+ group:
+  L25
+ req:
+  sig = ADDOME
+
+% L25 (1 recordings): Dx1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L25
+ req:
+  sig = Dx1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L25 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L25
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L25 (1 recordings): Posizione -> pos. label reads as pos. Evidence: 1 medium
+pos
+ group:
+  L25
+ req:
+  sig = Posizione
+
+% L25 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L25
+ req:
+  sig = HR
+
+% L25 (1 recordings): SpO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L25
+ req:
+  sig = SpO2
+
+% L25 (1 recordings): Sound -> snore. label reads as snore. Evidence: 1 high
+snore
+ group:
+  L25
+ req:
+  sig = Sound
+
+% L26 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L26
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L26 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L26
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L26 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L26
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L26 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L26
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L26 (1 recordings): TERMISTORE -> airflow. label reads as flow. Evidence: 1 high
+airflow
+ group:
+  L26
+ req:
+  sig = TERMISTORE
+
+% L26 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 high
+thorax
+ group:
+  L26
+ req:
+  sig = TORACE
+
+% L26 (1 recordings): ADDOME -> abdomen. effort belt label. Evidence: 1 high
+abdomen
+ group:
+  L26
+ req:
+  sig = ADDOME
+
+% L26 (1 recordings): Dx1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L26
+ req:
+  sig = Dx1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L26 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L26
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L26 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L26
+ req:
+  sig = HR
+
+% L26 (1 recordings): SpO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L26
+ req:
+  sig = SpO2
+
+% L27 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L27
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L27 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L27
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L27 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L27
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L27 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L27
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L27 (1 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L27
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L27 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L27
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L27 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 high
+thorax
+ group:
+  L27
+ req:
+  sig = TORACE
+
+% L27 (1 recordings): ADDOME -> abdomen. effort belt label. Evidence: 1 high
+abdomen
+ group:
+  L27
+ req:
+  sig = ADDOME
+
+% L27 (1 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L27
+ req:
+  sig = SAO2
+
+% L27 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L27
+ req:
+  sig = HR
+
+% L27 (1 recordings): PLETH -> pleth. label reads as pleth. Evidence: 1 high
+pleth
+ group:
+  L27
+ req:
+  sig = PLETH
+
+% L28 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L28
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L28 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L28
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L28 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L28
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L28 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L28
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L28 (1 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L28
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L28 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L28
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L28 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 high
+thorax
+ group:
+  L28
+ req:
+  sig = TORACE
+
+% L28 (1 recordings): ADDOME -> abdomen. effort belt label. Evidence: 1 high
+abdomen
+ group:
+  L28
+ req:
+  sig = ADDOME
+
+% L28 (1 recordings): Position -> pos. label reads as pos. Evidence: 1 medium
+pos
+ group:
+  L28
+ req:
+  sig = Position
+
+% L28 (1 recordings): MIC -> snore. label reads as snore. Evidence: 1 high
+snore
+ group:
+  L28
+ req:
+  sig = MIC
+
+% L29 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L29
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L29 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L29
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L29 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L29
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L29 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L29
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L29 (1 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L29
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L29 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L29
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L29 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 high
+thorax
+ group:
+  L29
+ req:
+  sig = TORACE
+
+% L29 (1 recordings): ADDOME -> abdomen. effort belt label. Evidence: 1 high
+abdomen
+ group:
+  L29
+ req:
+  sig = ADDOME
+
+% L29 (1 recordings): MIC -> snore. label reads as snore. Evidence: 1 high
+snore
+ group:
+  L29
+ req:
+  sig = MIC
+
+% L30 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L30
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L30 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L30
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L30 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L30
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L30 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L30
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L30 (1 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L30
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L30 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L30
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L30 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 high
+thorax
+ group:
+  L30
+ req:
+  sig = TORACE
+
+% L30 (1 recordings): ADDOME -> abdomen. effort belt label. Evidence: 1 high
+abdomen
+ group:
+  L30
+ req:
+  sig = ADDOME
+
+% L31 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L31
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L31 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L31
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L31 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L31
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L31 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L31
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L31 (1 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L31
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L31 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L31
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L31 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 high
+thorax
+ group:
+  L31
+ req:
+  sig = TORACE
+
+% L31 (1 recordings): ADDOME -> abdomen. effort belt label. Evidence: 1 high
+abdomen
+ group:
+  L31
+ req:
+  sig = ADDOME
+
+% L31 (1 recordings): Position -> pos. label reads as pos. Evidence: 1 high
+pos
+ group:
+  L31
+ req:
+  sig = Position
+
+% L31 (1 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L31
+ req:
+  sig = SAO2
+
+% L31 (1 recordings): MIC -> snore. label reads as snore. Evidence: 1 high
+snore
+ group:
+  L31
+ req:
+  sig = MIC
+
+% L31 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L31
+ req:
+  sig = HR
+
+% L31 (1 recordings): PLETH -> pleth. label reads as pleth. Evidence: 1 high
+pleth
+ group:
+  L31
+ req:
+  sig = PLETH
+
+% L32 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L32
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L32 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L32
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L32 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L32
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L32 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L32
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L32 (1 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L32
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L32 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L32
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L32 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 high
+thorax
+ group:
+  L32
+ req:
+  sig = TORACE
+
+% L32 (1 recordings): ADDOME -> abdomen. effort belt label. Evidence: 1 high
+abdomen
+ group:
+  L32
+ req:
+  sig = ADDOME
+
+% L33 (1 recordings): EOG_L -> LOC. left eye label. Evidence: 1 high
+LOC
+ group:
+  L33
+ req:
+  sig = EOG_L
+
+% L33 (1 recordings): EOG_R -> ROC. right eye label. Evidence: 1 high
+ROC
+ group:
+  L33
+ req:
+  sig = EOG_R
+
+% L33 (1 recordings): CHIN1 / CHIN2 -> EMG. first of a numbered pair, referenced to the second. Evidence: 1 high
+EMG
+ group:
+  L33
+ req:
+  sig = CHIN1
+  ref = CHIN2
+
+% L33 (1 recordings): F3A2 -> F3_M2. label names electrode and contralateral mastoid. Evidence: 1 high
+F3_M2
+ group:
+  L33
+ req:
+  sig = F3A2
+
+% L33 (1 recordings): F4A1 -> F4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+F4_M1
+ group:
+  L33
+ req:
+  sig = F4A1
+
+% L33 (1 recordings): C3A2 -> C3_M2. label names electrode and contralateral mastoid. Evidence: 1 high
+C3_M2
+ group:
+  L33
+ req:
+  sig = C3A2
+
+% L33 (1 recordings): C4A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L33
+ req:
+  sig = C4A1
+
+% L33 (1 recordings): O1A2 -> O1_M2. label names electrode and contralateral mastoid. Evidence: 1 high
+O1_M2
+ group:
+  L33
+ req:
+  sig = O1A2
+
+% L33 (1 recordings): O2A1 -> O2_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+O2_M1
+ group:
+  L33
+ req:
+  sig = O2A1
+
+% L33 (1 recordings): EKG -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L33
+ req:
+  sig = EKG
+
+% L34 (1 recordings): LOC___A2 -> LOC. left eye label. Evidence: 1 high
+LOC
+ group:
+  L34
+ req:
+  sig = LOC___A2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L34 (1 recordings): ROC___A1 -> ROC. right eye label. Evidence: 1 high
+ROC
+ group:
+  L34
+ req:
+  sig = ROC___A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L34 (1 recordings): CHIN -> EMG. label reads as emg. Evidence: 1 flag
+EMG
+ group:
+  L34
+ req:
+  sig = CHIN
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L34 (1 recordings): C3_A2 -> C3_M2. label names electrode and contralateral mastoid. Evidence: 1 high
+C3_M2
+ group:
+  L34
+ req:
+  sig = C3_A2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L34 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L34
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L34 (1 recordings): O1_A2 -> O1_M2. label names electrode and contralateral mastoid. Evidence: 1 high
+O1_M2
+ group:
+  L34
+ req:
+  sig = O1_A2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L34 (1 recordings): O2_A1 -> O2_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+O2_M1
+ group:
+  L34
+ req:
+  sig = O2_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L34 (1 recordings): EKG -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L34
+ req:
+  sig = EKG
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L35 (1 recordings): LOC_A1 -> LOC. left eye label. Evidence: 1 high
+LOC
+ group:
+  L35
+ req:
+  sig = LOC_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L35 (1 recordings): ROC_A2 -> ROC. right eye label. Evidence: 1 high
+ROC
+ group:
+  L35
+ req:
+  sig = ROC_A2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L35 (1 recordings): EMG -> EMG. label reads as emg. Evidence: 1 flag
+EMG
+ group:
+  L35
+ req:
+  sig = EMG
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L35 (1 recordings): C3_A2 -> C3_M2. label names electrode and contralateral mastoid. Evidence: 1 high
+C3_M2
+ group:
+  L35
+ req:
+  sig = C3_A2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L35 (1 recordings): O2_A1 -> O2_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+O2_M1
+ group:
+  L35
+ req:
+  sig = O2_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L35 (1 recordings): ECG -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L35
+ req:
+  sig = ECG
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L36 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L36
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L36 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 flag
+EOG
+ group:
+  L36
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L36 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L36
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L36 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L36
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L36 (1 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L36
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L36 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L36
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L36 (1 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L36
+ req:
+  sig = SAO2
+
+% L36 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L36
+ req:
+  sig = HR
+
+% L36 (1 recordings): Pleth -> pleth. label reads as pleth. Evidence: 1 flag
+pleth
+ group:
+  L36
+ req:
+  sig = Pleth
+
+% L36 (1 recordings): MIC -> snore. label reads as snore. Evidence: 1 medium
+snore
+ group:
+  L36
+ req:
+  sig = MIC
+
+% L37 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L37
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L37 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L37
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L37 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L37
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L37 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L37
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L37 (1 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
+RAT
+ group:
+  L37
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L37 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
+LAT
+ group:
+  L37
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L37 (1 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L37
+ req:
+  sig = SAO2
+
+% L37 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L37
+ req:
+  sig = HR
+
+% L37 (1 recordings): Pleth -> pleth. label reads as pleth. Evidence: 1 high
+pleth
+ group:
+  L37
+ req:
+  sig = Pleth
+
+% L38 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L38
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L38 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 flag
+EOG
+ group:
+  L38
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L38 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L38
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L38 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 flag
+ECG
+ group:
+  L38
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L38 (1 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L38
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L38 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L38
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L38 (1 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L38
+ req:
+  sig = SAO2
+
+% L38 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L38
+ req:
+  sig = HR
+
+% L38 (1 recordings): PLETH -> pleth. label reads as pleth. Evidence: 1 high
+pleth
+ group:
+  L38
+ req:
+  sig = PLETH
+
+% L39 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L39
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L39 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L39
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L39 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L39
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L39 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L39
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L39 (1 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L39
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L39 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L39
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L39 (1 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L39
+ req:
+  sig = SAO2
+
+% L39 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L39
+ req:
+  sig = HR
+
+% L39 (1 recordings): PLETH -> pleth. label reads as pleth. Evidence: 1 flag
+pleth
+ group:
+  L39
+ req:
+  sig = PLETH
+
+% L40 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L40
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L40 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L40
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L40 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L40
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L40 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L40
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L40 (1 recordings): TIB_Sx -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
+LAT
+ group:
+  L40
+ req:
+  sig = TIB_Sx
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L40 (1 recordings): TIB_Dx -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
+RAT
+ group:
+  L40
+ req:
+  sig = TIB_Dx
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L40 (1 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L40
+ req:
+  sig = SAO2
+
+% L40 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L40
+ req:
+  sig = HR
+
+% L40 (1 recordings): PLETH -> pleth. label reads as pleth. Evidence: 1 high
+pleth
+ group:
+  L40
+ req:
+  sig = PLETH
+
+% L41 (1 recordings): EOG_dx -> ROC. right eye label. Evidence: 1 high
+ROC
+ group:
+  L41
+ req:
+  sig = EOG_dx
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L41 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L41
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L41 (1 recordings): milo -> EMG. label reads as emg. Evidence: 1 flag
+EMG
+ group:
+  L41
+ req:
+  sig = milo
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L41 (1 recordings): EOG_sin -> LOC. left eye label. Evidence: 1 high
+LOC
+ group:
+  L41
+ req:
+  sig = EOG_sin
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L41 (1 recordings): tib_dx -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
+RAT
+ group:
+  L41
+ req:
+  sig = tib_dx
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L41 (1 recordings): tib_sin -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L41
+ req:
+  sig = tib_sin
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L41 (1 recordings): cannula -> airflow. label reads as flow. Evidence: 1 high
+airflow
+ group:
+  L41
+ req:
+  sig = cannula
+
+% L41 (1 recordings): toracico -> thorax. effort belt label. Evidence: 1 flag
+thorax
+ group:
+  L41
+ req:
+  sig = toracico
+
+% L41 (1 recordings): ekg -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L41
+ req:
+  sig = ekg
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L42 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L42
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L42 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L42
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L42 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L42
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L42 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L42
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L42 (1 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L42
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L42 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L42
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L42 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 high
+thorax
+ group:
+  L42
+ req:
+  sig = TORACE
+
+% L42 (1 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L42
+ req:
+  sig = SAO2
+
+% L42 (1 recordings): MIC -> snore. label reads as snore. Evidence: 1 high
+snore
+ group:
+  L42
+ req:
+  sig = MIC
+
+% L42 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L42
+ req:
+  sig = HR
+
+% L42 (1 recordings): PLETH -> pleth. label reads as pleth. Evidence: 1 high
+pleth
+ group:
+  L42
+ req:
+  sig = PLETH
+
+% L43 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L43
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L43 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L43
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L43 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L43
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L43 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L43
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L43 (1 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L43
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L43 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L43
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L43 (1 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L43
+ req:
+  sig = SAO2
+
+% L43 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L43
+ req:
+  sig = HR
+
+% L43 (1 recordings): PLETH -> pleth. label reads as pleth. Evidence: 1 high
+pleth
+ group:
+  L43
+ req:
+  sig = PLETH
+
+% L44 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L44
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L44 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L44
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L44 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L44
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L44 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L44
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L44 (1 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L44
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L44 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L44
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L45 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L45
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L45 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L45
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L45 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L45
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L45 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L45
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L45 (1 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L45
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L45 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L45
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L45 (1 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L45
+ req:
+  sig = SAO2
+
+% L45 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L45
+ req:
+  sig = HR
+
+% L45 (1 recordings): PLETH -> pleth. label reads as pleth. Evidence: 1 high
+pleth
+ group:
+  L45
+ req:
+  sig = PLETH
+
+% L45 (1 recordings): MIC -> snore. label reads as snore. Evidence: 1 high
+snore
+ group:
+  L45
+ req:
+  sig = MIC
+
+% L46 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 flag
+EOG
+ group:
+  L46
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L46 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L46
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L46 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L46
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L46 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L46
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L46 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 high
+thorax
+ group:
+  L46
+ req:
+  sig = TORACE
+
+% L46 (1 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+RAT
+ group:
+  L46
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L46 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 high
+LAT
+ group:
+  L46
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L46 (1 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L46
+ req:
+  sig = SAO2
+
+% L46 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L46
+ req:
+  sig = HR
+
+% L46 (1 recordings): PLETH -> pleth. label reads as pleth. Evidence: 1 high
+pleth
+ group:
+  L46
+ req:
+  sig = PLETH
+
+% L47 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L47
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L47 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L47
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L47 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L47
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L47 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 flag
+ECG
+ group:
+  L47
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L47 (1 recordings): DX1_DX2 -> RAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
+RAT
+ group:
+  L47
+ req:
+  sig = DX1_DX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L47 (1 recordings): SX1_SX2 -> LAT. leg label; dx is right, sx/sin is left. Evidence: 1 flag
+LAT
+ group:
+  L47
+ req:
+  sig = SX1_SX2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L48 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L48
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L48 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L48
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L48 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L48
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L48 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 flag
+ECG
+ group:
+  L48
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L48 (1 recordings): TORACE -> thorax. effort belt label. Evidence: 1 high
+thorax
+ group:
+  L48
+ req:
+  sig = TORACE
+
+% L48 (1 recordings): SAO2 -> SpO2. label reads as spo2. Evidence: 1 high
+SpO2
+ group:
+  L48
+ req:
+  sig = SAO2
+
+% L48 (1 recordings): HR -> HR. label reads as hr. Evidence: 1 high
+HR
+ group:
+  L48
+ req:
+  sig = HR
+
+% L48 (1 recordings): PLETH -> pleth. label reads as pleth. Evidence: 1 high
+pleth
+ group:
+  L48
+ req:
+  sig = PLETH
+
+% L49 (1 recordings): ROC_LOC -> EOG. bipolar eye channel. Evidence: 1 high
+EOG
+ group:
+  L49
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L49 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L49
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L49 (1 recordings): EMG1_EMG2 -> EMG. label reads as emg. Evidence: 1 high
+EMG
+ group:
+  L49
+ req:
+  sig = EMG1_EMG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L49 (1 recordings): ECG1_ECG2 -> ECG. label reads as ecg. Evidence: 1 high
+ECG
+ group:
+  L49
+ req:
+  sig = ECG1_ECG2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L50 (1 recordings): C4_A1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 1 high
+C4_M1
+ group:
+  L50
+ req:
+  sig = C4_A1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+

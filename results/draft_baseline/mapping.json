@@ -1,0 +1,5596 @@
+{
+ "reader": "baseline",
+ "layouts": {
+  "L01": [
+   "n11",
+   "nfle1",
+   "nfle12",
+   "nfle15",
+   "nfle16",
+   "nfle17",
+   "nfle2",
+   "nfle21",
+   "nfle27",
+   "nfle28",
+   "nfle29",
+   "nfle3",
+   "nfle34",
+   "nfle35",
+   "nfle36",
+   "nfle38",
+   "nfle39",
+   "nfle40",
+   "nfle5",
+   "nfle7",
+   "plm9",
+   "rbd18"
+  ],
+  "L02": [
+   "n3",
+   "n5",
+   "nfle13",
+   "nfle14",
+   "nfle18",
+   "nfle22",
+   "nfle24",
+   "nfle30",
+   "nfle37",
+   "nfle4"
+  ],
+  "L03": [
+   "ins8",
+   "rbd10",
+   "rbd11",
+   "rbd5",
+   "rbd8"
+  ],
+  "L04": [
+   "nfle10",
+   "nfle11",
+   "nfle19",
+   "nfle23",
+   "nfle26"
+  ],
+  "L05": [
+   "rbd19",
+   "rbd2",
+   "rbd21",
+   "rbd22",
+   "rbd9"
+  ],
+  "L06": [
+   "narco4",
+   "nfle9",
+   "plm2",
+   "plm6",
+   "rbd17"
+  ],
+  "L07": [
+   "ins2",
+   "ins6",
+   "narco5",
+   "plm7"
+  ],
+  "L08": [
+   "brux1",
+   "brux2",
+   "n10"
+  ],
+  "L09": [
+   "ins1",
+   "sdb4"
+  ],
+  "L10": [
+   "rbd16",
+   "rbd3"
+  ],
+  "L11": [
+   "rbd12",
+   "rbd13"
+  ],
+  "L12": [
+   "ins9",
+   "rbd7"
+  ],
+  "L13": [
+   "n13",
+   "n14"
+  ],
+  "L14": [
+   "n6",
+   "n7"
+  ],
+  "L15": [
+   "ins5",
+   "ins7"
+  ],
+  "L16": [
+   "nfle25"
+  ],
+  "L17": [
+   "nfle33"
+  ],
+  "L18": [
+   "nfle31"
+  ],
+  "L19": [
+   "n8"
+  ],
+  "L20": [
+   "plm1"
+  ],
+  "L21": [
+   "sdb2"
+  ],
+  "L22": [
+   "sdb1"
+  ],
+  "L23": [
+   "n1"
+  ],
+  "L24": [
+   "plm10"
+  ],
+  "L25": [
+   "sdb3"
+  ],
+  "L26": [
+   "rbd6"
+  ],
+  "L27": [
+   "plm5"
+  ],
+  "L28": [
+   "rbd14"
+  ],
+  "L29": [
+   "rbd1"
+  ],
+  "L30": [
+   "ins3"
+  ],
+  "L31": [
+   "plm8"
+  ],
+  "L32": [
+   "plm4"
+  ],
+  "L33": [
+   "n15"
+  ],
+  "L34": [
+   "n12"
+  ],
+  "L35": [
+   "n9"
+  ],
+  "L36": [
+   "nfle6"
+  ],
+  "L37": [
+   "nfle20"
+  ],
+  "L38": [
+   "nfle32"
+  ],
+  "L39": [
+   "plm3"
+  ],
+  "L40": [
+   "nfle8"
+  ],
+  "L41": [
+   "n4"
+  ],
+  "L42": [
+   "rbd4"
+  ],
+  "L43": [
+   "rbd20"
+  ],
+  "L44": [
+   "rbd15"
+  ],
+  "L45": [
+   "n2"
+  ],
+  "L46": [
+   "narco1"
+  ],
+  "L47": [
+   "narco3"
+  ],
+  "L48": [
+   "narco2"
+  ],
+  "L49": [
+   "ins4"
+  ],
+  "L50": [
+   "n16"
+  ]
+ },
+ "mappings": {
+  "L01": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T4_T6",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T3_T5",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L02": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T4_T6",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T3_T5",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "label reads as snore"
+   }
+  ],
+  "L03": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L04": [
+   {
+    "label": "FP2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T4_T6",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T3_T5",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "Pleth",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "Ox_Status",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L05": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L06": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L07": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L08": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T4_T6",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T3_T5",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   }
+  ],
+  "L09": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "label reads as snore"
+   },
+   {
+    "label": "Flusso",
+    "target": "airflow",
+    "ref": null,
+    "reason": "label reads as flow"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "Position",
+    "target": "pos",
+    "ref": null,
+    "reason": "label reads as pos"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   }
+  ],
+  "L10": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "Position",
+    "target": "pos",
+    "ref": null,
+    "reason": "label reads as pos"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "label reads as snore"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L11": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "label reads as snore"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L12": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "Position",
+    "target": "pos",
+    "ref": null,
+    "reason": "label reads as pos"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L13": [
+   {
+    "label": "LOC",
+    "target": "LOC",
+    "ref": null,
+    "reason": "left eye label"
+   },
+   {
+    "label": "ROC",
+    "target": "ROC",
+    "ref": null,
+    "reason": "right eye label"
+   },
+   {
+    "label": "CHIN1",
+    "target": "EMG",
+    "ref": "CHIN2",
+    "reason": "first of a numbered pair, referenced to the second"
+   },
+   {
+    "label": "CHIN2",
+    "target": null,
+    "ref": null,
+    "reason": "used as reference for its pair"
+   },
+   {
+    "label": "F3A2",
+    "target": "F3_M2",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "F4A1",
+    "target": "F4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "C3A2",
+    "target": "C3_M2",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "C4A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "O1A2",
+    "target": "O1_M2",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "O2A1",
+    "target": "O2_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ECG",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   }
+  ],
+  "L14": [
+   {
+    "label": "LOC_A1",
+    "target": "LOC",
+    "ref": null,
+    "reason": "left eye label"
+   },
+   {
+    "label": "ROC_A2",
+    "target": "ROC",
+    "ref": null,
+    "reason": "right eye label"
+   },
+   {
+    "label": "EMG_EMG",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "C3_A2",
+    "target": "C3_M2",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "O2_A1",
+    "target": "O2_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ECG",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "TAG",
+    "target": null,
+    "ref": null,
+    "reason": "label not understood"
+   },
+   {
+    "label": "THE",
+    "target": null,
+    "ref": null,
+    "reason": "label not understood"
+   }
+  ],
+  "L15": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L16": [
+   {
+    "label": "Position",
+    "target": "pos",
+    "ref": null,
+    "reason": "label reads as pos"
+   },
+   {
+    "label": "TIB_Sx",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "TIB_Dx",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "label reads as snore"
+   },
+   {
+    "label": "C3",
+    "target": "C3_M2",
+    "ref": "A2",
+    "reason": "unreferenced electrode with the mastoid recorded separately"
+   },
+   {
+    "label": "C4",
+    "target": "C4_M1",
+    "ref": "A1",
+    "reason": "unreferenced electrode with the mastoid recorded separately"
+   },
+   {
+    "label": "O1",
+    "target": "O1_M2",
+    "ref": "A2",
+    "reason": "unreferenced electrode with the mastoid recorded separately"
+   },
+   {
+    "label": "O2",
+    "target": "O2_M1",
+    "ref": "A1",
+    "reason": "unreferenced electrode with the mastoid recorded separately"
+   },
+   {
+    "label": "A1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "A2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "ROC",
+    "target": "ROC",
+    "ref": null,
+    "reason": "right eye label"
+   },
+   {
+    "label": "LOC",
+    "target": "LOC",
+    "ref": null,
+    "reason": "left eye label"
+   },
+   {
+    "label": "ECG1",
+    "target": "ECG",
+    "ref": "ECG2",
+    "reason": "first of a numbered pair, referenced to the second"
+   },
+   {
+    "label": "ECG2",
+    "target": null,
+    "ref": null,
+    "reason": "used as reference for its pair"
+   },
+   {
+    "label": "EMG1",
+    "target": "EMG",
+    "ref": "EMG2",
+    "reason": "first of a numbered pair, referenced to the second"
+   },
+   {
+    "label": "EMG2",
+    "target": null,
+    "ref": null,
+    "reason": "used as reference for its pair"
+   },
+   {
+    "label": "Fp2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4",
+    "target": "F4_M1",
+    "ref": "A1",
+    "reason": "unreferenced electrode with the mastoid recorded separately"
+   },
+   {
+    "label": "P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3",
+    "target": "F3_M2",
+    "ref": "A2",
+    "reason": "unreferenced electrode with the mastoid recorded separately"
+   },
+   {
+    "label": "P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F8",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T6",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T5",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   }
+  ],
+  "L17": [
+   {
+    "label": "Position",
+    "target": "pos",
+    "ref": null,
+    "reason": "label reads as pos"
+   },
+   {
+    "label": "DX1",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "DX2",
+    "target": null,
+    "ref": null,
+    "reason": "second candidate for an already mapped target (leg label; dx is right, sx/sin is left)"
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "label reads as snore"
+   },
+   {
+    "label": "C3",
+    "target": "C3_M2",
+    "ref": "A2",
+    "reason": "unreferenced electrode with the mastoid recorded separately"
+   },
+   {
+    "label": "C4",
+    "target": "C4_M1",
+    "ref": "A1",
+    "reason": "unreferenced electrode with the mastoid recorded separately"
+   },
+   {
+    "label": "ECG1",
+    "target": "ECG",
+    "ref": "ECG2",
+    "reason": "first of a numbered pair, referenced to the second"
+   },
+   {
+    "label": "ECG2",
+    "target": null,
+    "ref": null,
+    "reason": "used as reference for its pair"
+   },
+   {
+    "label": "A1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "A2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "ROC",
+    "target": "ROC",
+    "ref": null,
+    "reason": "right eye label"
+   },
+   {
+    "label": "LOC",
+    "target": "LOC",
+    "ref": null,
+    "reason": "left eye label"
+   },
+   {
+    "label": "O1",
+    "target": "O1_M2",
+    "ref": "A2",
+    "reason": "unreferenced electrode with the mastoid recorded separately"
+   },
+   {
+    "label": "O2",
+    "target": "O2_M1",
+    "ref": "A1",
+    "reason": "unreferenced electrode with the mastoid recorded separately"
+   },
+   {
+    "label": "EMG1",
+    "target": "EMG",
+    "ref": "EMG2",
+    "reason": "first of a numbered pair, referenced to the second"
+   },
+   {
+    "label": "EMG2",
+    "target": null,
+    "ref": null,
+    "reason": "used as reference for its pair"
+   },
+   {
+    "label": "Fp2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4",
+    "target": "F4_M1",
+    "ref": "A1",
+    "reason": "unreferenced electrode with the mastoid recorded separately"
+   },
+   {
+    "label": "P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3",
+    "target": "F3_M2",
+    "ref": "A2",
+    "reason": "unreferenced electrode with the mastoid recorded separately"
+   },
+   {
+    "label": "P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F8",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T6",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T5",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "SX1",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX2",
+    "target": null,
+    "ref": null,
+    "reason": "second candidate for an already mapped target (leg label; dx is right, sx/sin is left)"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   }
+  ],
+  "L18": [
+   {
+    "label": "FP2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T4_T6",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T3_T5",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "label reads as snore"
+   },
+   {
+    "label": "Canula",
+    "target": "airflow",
+    "ref": null,
+    "reason": "label reads as flow"
+   },
+   {
+    "label": "Torace",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "Abdo",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "Position",
+    "target": "pos",
+    "ref": null,
+    "reason": "label reads as pos"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "Pleth",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "Ox_Status",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L19": [
+   {
+    "label": "C3_A2",
+    "target": "C3_M2",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "EKG",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "EOG_L",
+    "target": "LOC",
+    "ref": null,
+    "reason": "left eye label"
+   },
+   {
+    "label": "EOG_R",
+    "target": "ROC",
+    "ref": null,
+    "reason": "right eye label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "Tib_dx",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "Tib_sx",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "abdomen",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "flow",
+    "target": "airflow",
+    "ref": null,
+    "reason": "label reads as flow"
+   },
+   {
+    "label": "milo",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "thorax",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   }
+  ],
+  "L20": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "Flusso",
+    "target": "airflow",
+    "ref": null,
+    "reason": "label reads as flow"
+   },
+   {
+    "label": "TIB_Sx",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "TIB_Dx",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "label reads as snore"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "Position",
+    "target": "pos",
+    "ref": null,
+    "reason": "label reads as pos"
+   },
+   {
+    "label": "Flusso.1",
+    "target": null,
+    "ref": null,
+    "reason": "second candidate for an already mapped target (label reads as flow)"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   }
+  ],
+  "L21": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "Flusso",
+    "target": "airflow",
+    "ref": null,
+    "reason": "label reads as flow"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   }
+  ],
+  "L22": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "TIB_Sx",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "TIB_Dx",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "label reads as snore"
+   },
+   {
+    "label": "Flusso",
+    "target": "airflow",
+    "ref": null,
+    "reason": "label reads as flow"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   }
+  ],
+  "L23": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "LOC_ROC",
+    "target": null,
+    "ref": null,
+    "reason": "second candidate for an already mapped target (bipolar eye channel)"
+   },
+   {
+    "label": "F2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "TERMISTORE",
+    "target": "airflow",
+    "ref": null,
+    "reason": "label reads as flow"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "Dx1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "Posizione",
+    "target": "pos",
+    "ref": null,
+    "reason": "label reads as pos"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "SpO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   }
+  ],
+  "L24": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L25": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "LOC_ROC",
+    "target": null,
+    "ref": null,
+    "reason": "second candidate for an already mapped target (bipolar eye channel)"
+   },
+   {
+    "label": "F2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "TERMISTORE",
+    "target": "airflow",
+    "ref": null,
+    "reason": "label reads as flow"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "Dx1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "Posizione",
+    "target": "pos",
+    "ref": null,
+    "reason": "label reads as pos"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "SpO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "Sound",
+    "target": "snore",
+    "ref": null,
+    "reason": "label reads as snore"
+   }
+  ],
+  "L26": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "LOC_ROC",
+    "target": null,
+    "ref": null,
+    "reason": "second candidate for an already mapped target (bipolar eye channel)"
+   },
+   {
+    "label": "F2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "TERMISTORE",
+    "target": "airflow",
+    "ref": null,
+    "reason": "label reads as flow"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "Dx1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "SpO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   }
+  ],
+  "L27": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L28": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "Position",
+    "target": "pos",
+    "ref": null,
+    "reason": "label reads as pos"
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "label reads as snore"
+   }
+  ],
+  "L29": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "label reads as snore"
+   }
+  ],
+  "L30": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L31": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "Position",
+    "target": "pos",
+    "ref": null,
+    "reason": "label reads as pos"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "label reads as snore"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L32": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ADDOME",
+    "target": "abdomen",
+    "ref": null,
+    "reason": "effort belt label"
+   }
+  ],
+  "L33": [
+   {
+    "label": "EOG_L",
+    "target": "LOC",
+    "ref": null,
+    "reason": "left eye label"
+   },
+   {
+    "label": "EOG_R",
+    "target": "ROC",
+    "ref": null,
+    "reason": "right eye label"
+   },
+   {
+    "label": "CHIN1",
+    "target": "EMG",
+    "ref": "CHIN2",
+    "reason": "first of a numbered pair, referenced to the second"
+   },
+   {
+    "label": "CHIN2",
+    "target": null,
+    "ref": null,
+    "reason": "used as reference for its pair"
+   },
+   {
+    "label": "F3A2",
+    "target": "F3_M2",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "F4A1",
+    "target": "F4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "C3A2",
+    "target": "C3_M2",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "C4A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "O1A2",
+    "target": "O1_M2",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "O2A1",
+    "target": "O2_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EKG",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   }
+  ],
+  "L34": [
+   {
+    "label": "LOC___A2",
+    "target": "LOC",
+    "ref": null,
+    "reason": "left eye label"
+   },
+   {
+    "label": "ROC___A1",
+    "target": "ROC",
+    "ref": null,
+    "reason": "right eye label"
+   },
+   {
+    "label": "CHIN",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "CHIN.1",
+    "target": null,
+    "ref": null,
+    "reason": "second candidate for an already mapped target (label reads as emg)"
+   },
+   {
+    "label": "C3_A2",
+    "target": "C3_M2",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "O1_A2",
+    "target": "O1_M2",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "O2_A1",
+    "target": "O2_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EKG",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   }
+  ],
+  "L35": [
+   {
+    "label": "LOC_A1",
+    "target": "LOC",
+    "ref": null,
+    "reason": "left eye label"
+   },
+   {
+    "label": "ROC_A2",
+    "target": "ROC",
+    "ref": null,
+    "reason": "right eye label"
+   },
+   {
+    "label": "EMG",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "C3_A2",
+    "target": "C3_M2",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "O2_A1",
+    "target": "O2_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ECG",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "TAG",
+    "target": null,
+    "ref": null,
+    "reason": "label not understood"
+   },
+   {
+    "label": "THE",
+    "target": null,
+    "ref": null,
+    "reason": "label not understood"
+   }
+  ],
+  "L36": [
+   {
+    "label": "FP2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T4_T6",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T3_T5",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "Pleth",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "Ox_Status",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "label reads as snore"
+   }
+  ],
+  "L37": [
+   {
+    "label": "FP2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T3_T5",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "Pleth",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "Ox_Status",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L38": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T4_T6",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L39": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "T4_T6",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T3_T5",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L40": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T4_T6",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "FP1_F3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F3_C3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C3_P3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P3_O1",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "T3_T5",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "TIB_Sx",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "TIB_Dx",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L41": [
+   {
+    "label": "EOG_dx",
+    "target": "ROC",
+    "ref": null,
+    "reason": "right eye label"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "milo",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "EOG_sin",
+    "target": "LOC",
+    "ref": null,
+    "reason": "left eye label"
+   },
+   {
+    "label": "tib_dx",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "tib_sin",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "cannula",
+    "target": "airflow",
+    "ref": null,
+    "reason": "label reads as flow"
+   },
+   {
+    "label": "toracico",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "ekg",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "deltoide",
+    "target": null,
+    "ref": null,
+    "reason": "second candidate for an already mapped target (label reads as emg)"
+   },
+   {
+    "label": "Heart_Rate_Varia",
+    "target": null,
+    "ref": null,
+    "reason": "label not understood"
+   },
+   {
+    "label": "Flattening",
+    "target": null,
+    "ref": null,
+    "reason": "label not understood"
+   },
+   {
+    "label": "Flow",
+    "target": null,
+    "ref": null,
+    "reason": "second candidate for an already mapped target (label reads as flow)"
+   }
+  ],
+  "L42": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "label reads as snore"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L43": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L44": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "F8_T4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F7_T3",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L45": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "MIC",
+    "target": "snore",
+    "ref": null,
+    "reason": "label reads as snore"
+   }
+  ],
+  "L46": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L47": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "DX1_DX2",
+    "target": "RAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   },
+   {
+    "label": "SX1_SX2",
+    "target": "LAT",
+    "ref": null,
+    "reason": "leg label; dx is right, sx/sin is left"
+   }
+  ],
+  "L48": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   },
+   {
+    "label": "TORACE",
+    "target": "thorax",
+    "ref": null,
+    "reason": "effort belt label"
+   },
+   {
+    "label": "SAO2",
+    "target": "SpO2",
+    "ref": null,
+    "reason": "label reads as spo2"
+   },
+   {
+    "label": "HR",
+    "target": "HR",
+    "ref": null,
+    "reason": "label reads as hr"
+   },
+   {
+    "label": "PLETH",
+    "target": "pleth",
+    "ref": null,
+    "reason": "label reads as pleth"
+   },
+   {
+    "label": "STAT",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   }
+  ],
+  "L49": [
+   {
+    "label": "ROC_LOC",
+    "target": "EOG",
+    "ref": null,
+    "reason": "bipolar eye channel"
+   },
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   },
+   {
+    "label": "EMG1_EMG2",
+    "target": "EMG",
+    "ref": null,
+    "reason": "label reads as emg"
+   },
+   {
+    "label": "ECG1_ECG2",
+    "target": "ECG",
+    "ref": null,
+    "reason": "label reads as ecg"
+   }
+  ],
+  "L50": [
+   {
+    "label": "Fp2_F4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "F4_C4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_P4",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "P4_O2",
+    "target": null,
+    "ref": null,
+    "reason": "no canonical target for this label"
+   },
+   {
+    "label": "C4_A1",
+    "target": "C4_M1",
+    "ref": null,
+    "reason": "label names electrode and contralateral mastoid"
+   }
+  ]
+ },
+ "problems": []
+}
