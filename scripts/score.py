@@ -2,21 +2,15 @@
 
 Usage: score.py DRAFT_DIR ANSWER_KEY.csv [dev|held|all] [EDF_DIR]
 """
-import csv, json, os, re, sys
+import csv, json, os, sys
 from collections import Counter, defaultdict
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from harmonizer.canon import run_canonical
-from harmonizer.checks import COMPATIBLE
 from harmonizer.edf import read_header
 from harmonizer.inject import is_dev
 from harmonizer.layout import luna_labels
+from harmonizer.scoring import needed, verdict
 from harmonizer.targets import TARGETS, REQUIRED_TYPES
-
-
-def mappable(label, t):
-    """Bipolar scalp chains (F4-C4, C3-P3) have no canonical target, so they cannot make EEG required."""
-    return t != "eeg" or bool(re.search(r"[am][12]|^[a-z]+\d*$", label.lower().replace(" ", "")))
-
 
 if len(sys.argv) < 3 or (len(sys.argv) > 3 and sys.argv[3] not in ("dev", "held", "all")):
     sys.exit(__doc__.strip())
@@ -42,17 +36,12 @@ for lst in sorted(os.listdir(os.path.join(draft, "lists"))):
         idx = {l.upper(): i for i, l in enumerate(luna_labels(read_header(path)))}
         got = defaultdict(list)
         for target, (sig, _) in made.items():
-            k = key[rid][idx[str(sig).upper()]]
-            if k["status"] != "settled":
-                v = k["status"]
-            else:
-                v = "right" if k["trace_type"] in COMPATIBLE[TARGETS[target]] else "wrong"
+            v = verdict(key[rid][idx[str(sig).upper()]], target)
             verdicts[v] += 1
             got[TARGETS[target]].append(v)
             if v == "wrong" and conf.get((rid, target)) == "high":
                 conf_wrong.append((rid, target, sig))
-        need = [t for t in REQUIRED_TYPES
-                if any(k["status"] == "settled" and k["label_type"] == t and mappable(k["label"], t) for k in key[rid])]
+        need = needed(key[rid])
         ok = all("right" in got[t] for t in need) and not any("wrong" in got[t] for t in REQUIRED_TYPES)
         res.append(dict(id=rid, layout=lid, made=len(made), need=need, all_required_right=ok,
                         missing=[t for t in need if "right" not in got[t]]))

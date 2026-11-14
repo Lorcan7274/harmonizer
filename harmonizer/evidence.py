@@ -8,7 +8,7 @@ def confidence(target, row):
     """row is one audit row for the source channel in one recording."""
     want = COMPATIBLE.get(TARGETS[target], set())
     st = row["signal_type"]
-    if st == "flat" or not want:
+    if st == "flat" or not want or row.get("agree") == "unchecked":
         return "medium"
     return "high" if st in want else "flag"
 

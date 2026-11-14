@@ -1,0 +1,98 @@
+% Drafted CANONICAL rules. One group per header layout; run each layout's sample list with its group.
+
+% L01 (151 recordings): EEG_F4_M1 -> F4_M1. label names electrode and contralateral mastoid. Evidence: 7 flag, 144 high
+F4_M1
+ group:
+  L01
+ req:
+  sig = EEG_F4_M1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (151 recordings): EEG_C4_M1 -> C4_M1. label names electrode and contralateral mastoid. Evidence: 10 flag, 141 high
+C4_M1
+ group:
+  L01
+ req:
+  sig = EEG_C4_M1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (151 recordings): EEG_O2_M1 -> O2_M1. label names electrode and contralateral mastoid. Evidence: 11 flag, 140 high
+O2_M1
+ group:
+  L01
+ req:
+  sig = EEG_O2_M1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (151 recordings): EEG_C3_M2 -> C3_M2. label names electrode and contralateral mastoid. Evidence: 10 flag, 141 high
+C3_M2
+ group:
+  L01
+ req:
+  sig = EEG_C3_M2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (151 recordings): EMG_chin -> EMG. label reads as emg. Evidence: 55 flag, 96 high
+EMG
+ group:
+  L01
+ req:
+  sig = EMG_chin
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (151 recordings): EOG_E1_M2 -> LOC. left eye label. Evidence: 16 flag, 135 high
+LOC
+ group:
+  L01
+ req:
+  sig = EOG_E1_M2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (151 recordings): EOG_E2_M2 -> ROC. right eye label. Evidence: 19 flag, 132 high
+ROC
+ group:
+  L01
+ req:
+  sig = EOG_E2_M2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (151 recordings): ECG -> ECG. label reads as ecg. Evidence: 11 flag, 139 high, 1 medium
+ECG
+ group:
+  L01
+ req:
+  sig = ECG
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+

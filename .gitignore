@@ -2,3 +2,6 @@ data/
 __pycache__/
 *.pyc
 .pytest_cache/
+*.egg-info/
+results/exports/*/bids/
+results/exports/*/mne/

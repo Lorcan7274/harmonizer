@@ -1,0 +1,57 @@
+% Drafted CANONICAL rules. One group per header layout; run each layout's sample list with its group.
+
+% L01 (153 recordings): EOG_horizontal -> EOG. bipolar eye channel. Evidence: 1 flag, 152 high
+EOG
+ group:
+  L01
+ req:
+  sig = EOG_horizontal
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (153 recordings): Resp_oro_nasal -> airflow. label reads as flow. Evidence: 153 medium
+airflow
+ group:
+  L01
+ req:
+  sig = Resp_oro_nasal
+
+% L01 (153 recordings): EMG_submental -> EMG. label reads as emg. Evidence: 153 medium
+EMG
+ group:
+  L01
+ req:
+  sig = EMG_submental
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L02 (44 recordings): EOG_horizontal -> EOG. bipolar eye channel. Evidence: 2 flag, 42 high
+EOG
+ group:
+  L02
+ req:
+  sig = EOG_horizontal
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L02 (44 recordings): EMG_submental -> EMG. label reads as emg. Evidence: 12 flag, 32 high
+EMG
+ group:
+  L02
+ req:
+  sig = EMG_submental
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+

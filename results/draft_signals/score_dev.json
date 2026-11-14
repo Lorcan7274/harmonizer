@@ -5,6 +5,7 @@
 "made": 9,
 "need": [
 "eeg",
+"eog",
 "emg",
 "ecg"
 ],
@@ -159,6 +160,7 @@
 "made": 10,
 "need": [
 "eeg",
+"eog",
 "emg",
 "ecg"
 ],
@@ -171,6 +173,7 @@
 "made": 10,
 "need": [
 "eeg",
+"eog",
 "emg",
 "ecg"
 ],
@@ -365,6 +368,7 @@
 "made": 9,
 "need": [
 "eeg",
+"eog",
 "emg",
 "ecg"
 ],
@@ -517,6 +521,7 @@
 "made": 13,
 "need": [
 "eeg",
+"eog",
 "emg"
 ],
 "all_required_right": true,
@@ -671,6 +676,7 @@
 "made": 9,
 "need": [
 "eeg",
+"eog",
 "emg",
 "ecg"
 ],
@@ -748,11 +754,14 @@
 "made": 9,
 "need": [
 "eeg",
+"eog",
 "emg",
 "ecg"
 ],
-"all_required_right": true,
-"missing": []
+"all_required_right": false,
+"missing": [
+"eog"
+]
 },
 {
 "id": "narco3",

@@ -4,8 +4,8 @@ import pytest
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
-from harmonizer.checks import audit, channel_features, label_type, pairs, signal_type, unit_scale
-from harmonizer.edf import FIELDS, read_header, read_signals, rewrite_labels
+from harmonizer.checks import audit, channel_features, classify, label_type, pairs, signal_type, unit_scale
+from harmonizer.edf import FIELDS, read_header, read_signals, read_window, rewrite_labels
 from harmonizer.emit import rule_text
 from harmonizer.layout import luna_labels, sanitize
 from harmonizer.mapping import baseline, leg_side, validate
@@ -41,6 +41,7 @@ def test_edf_round_trip_and_label_rewrite(tmp_path):
     rewrite_labels(src, dst, [1, 0])
     assert [c["label"] for c in read_header(dst)["ch"]] == ["ECG", "C4-A1"]
     assert np.array_equal(read_signals(dst)[1][0], xs[0])
+    assert np.array_equal(read_window(src, 1, 2)[1][0], xs[0][100:300])
 
 
 def test_audit_and_pairs_share_one_read(tmp_path):
@@ -64,6 +65,7 @@ def test_luna_labels():
 @pytest.mark.parametrize("label,kind", [
     ("SAO2", "spo2"), ("TIB Dx", "emg_leg"), ("DX1-DX2", "emg_leg"), ("ROC-LOC", "eog"), ("C4-A1", "eeg"),
     ("TORACE", "effort"), ("Flusso", "flow"), ("milo", "emg"), ("EKG", "ecg"), ("CO2", "unknown"),
+    ("E1-M2", "eog"), ("EOG E2-M2", "eog"), ("EEG F4-M1", "eeg"), ("Temp rectal", "temp"), ("TERMISTORE", "flow"), ("Leg1", "emg_leg"),
 ])
 def test_label_type(label, kind):
     assert label_type(label) == kind
@@ -102,6 +104,14 @@ def test_baseline_never_guesses_a_side():
     assert got == {"Leg_R": ("RAT", None), "Leg_L": ("LAT", None), "LEG": (None, None), "EOG": (None, None)}
 
 
+def test_baseline_reads_aasm_headers():
+    hmc = by_label(baseline(["EEG_F4_M1", "EEG_C4_M1", "EEG_O2_M1", "EEG_C3_M2", "EMG_chin", "EOG_E1_M2", "EOG_E2_M2", "ECG"]))
+    assert [v[0] for v in hmc.values()] == ["F4_M1", "C4_M1", "O2_M1", "C3_M2", "EMG", "LOC", "ROC", "ECG"]
+    sedf = by_label(baseline(["EEG_Fpz_Cz", "EEG_Pz_Oz", "EOG_horizontal", "Resp_oro_nasal", "EMG_submental", "Temp_rectal"]))
+    assert [v[0] for v in sedf.values()] == [None, None, "EOG", "airflow", "EMG", None]
+    assert by_label(baseline(["EEG_C3", "EEG_A2"]))["EEG_C3"] == ("C3_M2", "EEG_A2")
+
+
 def test_validate_drops_unsafe_entries():
     clean, probs = validate([
         dict(label="C4_A1", target="C4_M1", ref=""),
@@ -136,6 +146,28 @@ def test_signal_type_on_synthetic_traces():
     assert kind(np.zeros(2560), 256) == "flat"
 
 
+def band_noise(rng, n, sr, lo, hi):
+    from scipy import signal as sg
+    x = sg.sosfiltfilt(sg.butter(4, [lo, hi], btype="band", fs=sr, output="sos"), rng.normal(0, 1, n))
+    return x / x.std()
+
+
+def test_drift_is_not_breathing_and_muscle_survives_drift():
+    rng = np.random.default_rng(2)
+    n = 600 * 256
+    f = channel_features(200 * band_noise(rng, n, 256, 0.1, 0.6) + 40 * band_noise(rng, n, 256, 1, 20), 256)
+    assert f["resp_frac"] > 0.6 and f["resp_peak"] < 4.5 and signal_type(f)[0] == "neuro"
+    f = channel_features(60 * band_noise(rng, n, 256, 0.7, 3) + rng.normal(0, 30, n), 256)
+    assert f["hf_frac"] < 0.35 and f["hf_share4"] > 0.5 and signal_type(f)[0] == "emg"
+
+
+def test_slow_channels_are_left_unchecked_not_flagged():
+    rng = np.random.default_rng(3)
+    chs = [dict(label=l, unit="uV", sr=1.0, cal_inverted=False) for l in ("EMG submental", "Resp oro-nasal", "Temp rectal", "Event marker")]
+    feats = [channel_features(rng.normal(m, 1, 2400), 1.0) for m in (3, 60, 37, 900)]
+    assert [r["agree"] for r in classify(chs, feats)] == ["unchecked", "unchecked", "unchecked", "label_unread"]
+
+
 def test_answer_key_keeps_reader_rulings(tmp_path):
     prefix = str(tmp_path / "cap")
     cols = ["id", "idx", "label", "unit", "sr", "label_type", "signal_type", "agree", "reason"]
@@ -145,13 +177,14 @@ def test_answer_key_keeps_reader_rulings(tmp_path):
         w.writerow(dict(id="n1", idx=0, label="F8-T4", unit="uV", sr=512, label_type="eeg", signal_type="emg",
                         agree="conflict", reason="70% of power above 25 Hz"))
     script = os.path.join(ROOT, "scripts", "answer_key.py")
-    subprocess.run([sys.executable, script, prefix], check=True, capture_output=True)
-    rows = list(csv.DictReader(open(prefix + "_answer_key.csv")))
-    rows[0]["reader_ruling"] = "emg"
-    with open(prefix + "_answer_key.csv", "w", newline="") as fh:
-        w = csv.DictWriter(fh, list(rows[0]))
-        w.writeheader()
-        w.writerows(rows)
+    rulings = str(tmp_path / "rulings.csv")
+    with open(rulings, "w") as fh:
+        fh.write("id,idx,label,ruling\nn1,0,F8-T4,emg\nn9,3,GONE,eeg\n")
+    out = subprocess.run([sys.executable, script, prefix, rulings], check=True, capture_output=True, text=True).stdout
+    assert "1 reader rulings in the key" in out and "dropped" in out
     subprocess.run([sys.executable, script, prefix], check=True, capture_output=True)
     (row,) = csv.DictReader(open(prefix + "_answer_key.csv"))
     assert row["status"] == "unsettled" and row["reader_ruling"] == "emg"
+    with open(rulings, "w") as fh:
+        fh.write("id,idx,ruling\nn1,0,brain\n")
+    assert subprocess.run([sys.executable, script, prefix, rulings], capture_output=True).returncode != 0

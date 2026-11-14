@@ -24,6 +24,8 @@ def leg_side(s):
 
 def baseline(labels):
     low = {l: l.lower() for l in labels}
+    # AASM-style headers put the signal type first (EEG F4-M1), so electrodes are matched without it
+    core = {l: re.sub(r"^(eeg|eog)_+", "", s) for l, s in low.items()}
     out, used = [], set()
 
     def find(pat):
@@ -43,19 +45,20 @@ def baseline(labels):
 
     for l in labels:
         s, t = low[l], label_type(l)
-        hit = next((e for e in _EEG if re.search(e[1], s)), None)
-        bare = next((e for e in _EEG if s == e[2].lower()), None)
+        hit = next((e for e in _EEG if re.search(e[1], core[l])), None)
+        bare = next((e for e in _EEG if core[l] == e[2].lower()), None)
+        mastoid = next((x for x in labels if bare and re.search(bare[3], core[x])), None)
         pair = partner(s) if t in _PAIRED else None
         if hit:
             add(l, hit[0], "label names electrode and contralateral mastoid")
-        elif bare and find(bare[3]):
-            add(l, bare[0], "unreferenced electrode with the mastoid recorded separately", ref=find(bare[3]))
+        elif mastoid:
+            add(l, bare[0], "unreferenced electrode with the mastoid recorded separately", ref=mastoid)
         elif t == "eog":
-            if re.search(r"roc.*loc|loc.*roc", s):
+            if re.search(r"roc.*loc|loc.*roc|e1.*e2|e2.*e1|horiz", s):
                 add(l, "EOG", "bipolar eye channel")
-            elif re.search(r"roc|eog.?r|eog.?dx", s):
+            elif re.search(r"roc|eog.?r|eog.?dx|(^|_)e2(_|$)", s):
                 add(l, "ROC", "right eye label")
-            elif re.search(r"loc|eog.?l|eog.?sin", s):
+            elif re.search(r"loc|eog.?l|eog.?sin|(^|_)e1(_|$)", s):
                 add(l, "LOC", "left eye label")
             else:
                 add(l, None, "eye label without a side")

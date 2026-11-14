@@ -12,7 +12,7 @@ C4_M1
  set:
   unit = uV
 
-% L01 (22 recordings): ROC_LOC -> EOG. Bipolar right-minus-left EOG derivation maps to the generic EOG channel. Evidence: 1 flag, 21 high
+% L01 (22 recordings): ROC_LOC -> EOG. Bipolar right-minus-left EOG derivation maps to the generic EOG channel. Evidence: 22 high
 EOG
  group:
   L01
@@ -105,7 +105,7 @@ C4_M1
  set:
   unit = uV
 
-% L02 (10 recordings): ROC_LOC -> EOG. Bipolar right-minus-left outer canthus EOG is a single combined EOG channel. Evidence: 4 flag, 6 high
+% L02 (10 recordings): ROC_LOC -> EOG. Bipolar right-minus-left outer canthus EOG is a single combined EOG channel. Evidence: 1 flag, 9 high
 EOG
  group:
   L02
@@ -300,7 +300,7 @@ pleth
  req:
   sig = PLETH
 
-% L04 (5 recordings): C4_A1 -> C4_M1. C4 referenced to contralateral mastoid A1 (M1) matches C4_M1. Evidence: 1 flag, 4 high
+% L04 (5 recordings): C4_A1 -> C4_M1. C4 referenced to contralateral mastoid A1 (M1) matches C4_M1. Evidence: 5 high
 C4_M1
  group:
   L04
@@ -312,7 +312,7 @@ C4_M1
  set:
   unit = uV
 
-% L04 (5 recordings): ROC_LOC -> EOG. Bipolar right-minus-left eye derivation maps to the generic EOG. Evidence: 1 flag, 4 high
+% L04 (5 recordings): ROC_LOC -> EOG. Bipolar right-minus-left eye derivation maps to the generic EOG. Evidence: 5 high
 EOG
  group:
   L04
@@ -417,7 +417,7 @@ C4_M1
  set:
   unit = uV
 
-% L05 (5 recordings): EMG1_EMG2 -> EMG. Bipolar EMG1-EMG2 with a 10-100 Hz filter is the chin EMG. Evidence: 1 flag, 4 high
+% L05 (5 recordings): EMG1_EMG2 -> EMG. Bipolar EMG1-EMG2 with a 10-100 Hz filter is the chin EMG. Evidence: 5 high
 EMG
  group:
   L05
@@ -591,7 +591,7 @@ C4_M1
  set:
   unit = uV
 
-% L07 (4 recordings): ROC_LOC -> EOG. Single bipolar ROC-LOC eye derivation maps to the generic EOG target. Evidence: 1 flag, 3 high
+% L07 (4 recordings): ROC_LOC -> EOG. Single bipolar ROC-LOC eye derivation maps to the generic EOG target. Evidence: 4 high
 EOG
  group:
   L07
@@ -951,7 +951,7 @@ thorax
  req:
   sig = TORACE
 
-% L10 (2 recordings): ADDOME -> abdomen. ADDOME is Italian for abdomen, a respiratory effort belt at 64 Hz. Evidence: 2 high
+% L10 (2 recordings): ADDOME -> abdomen. ADDOME is Italian for abdomen, a respiratory effort belt at 64 Hz. Evidence: 1 flag, 1 high
 abdomen
  group:
   L10
@@ -1065,14 +1065,14 @@ LAT
  set:
   unit = uV
 
-% L11 (2 recordings): TORACE -> thorax. TORACE is Italian for thorax respiratory effort. Evidence: 2 high
+% L11 (2 recordings): TORACE -> thorax. TORACE is Italian for thorax respiratory effort. Evidence: 1 flag, 1 high
 thorax
  group:
   L11
  req:
   sig = TORACE
 
-% L11 (2 recordings): ADDOME -> abdomen. ADDOME is Italian for abdomen respiratory effort. Evidence: 2 high
+% L11 (2 recordings): ADDOME -> abdomen. ADDOME is Italian for abdomen respiratory effort. Evidence: 1 flag, 1 high
 abdomen
  group:
   L11
@@ -1107,7 +1107,7 @@ pleth
  req:
   sig = PLETH
 
-% L12 (2 recordings): ROC_LOC -> EOG. Bipolar ROC-LOC derivation with EOG transducer is a single combined eye channel. Evidence: 1 flag, 1 high
+% L12 (2 recordings): ROC_LOC -> EOG. Bipolar ROC-LOC derivation with EOG transducer is a single combined eye channel. Evidence: 2 high
 EOG
  group:
   L12
@@ -1846,7 +1846,7 @@ C4_M1
  set:
   unit = uV
 
-% L18 (1 recordings): ROC_LOC -> EOG. Bipolar right-minus-left outer canthus derivation is a combined EOG channel. Evidence: 1 flag
+% L18 (1 recordings): ROC_LOC -> EOG. Bipolar right-minus-left outer canthus derivation is a combined EOG channel. Evidence: 1 high
 EOG
  group:
   L18
@@ -2321,7 +2321,7 @@ C4_M1
  set:
   unit = uV
 
-% L22 (1 recordings): ROC_LOC -> EOG. Bipolar right-left eye derivation is a single combined EOG channel. Evidence: 1 flag
+% L22 (1 recordings): ROC_LOC -> EOG. Bipolar right-left eye derivation is a single combined EOG channel. Evidence: 1 high
 EOG
  group:
   L22
@@ -2706,7 +2706,7 @@ airflow
  req:
   sig = TERMISTORE
 
-% L25 (1 recordings): TORACE -> thorax. Torace is Italian for thorax, the respiratory effort belt. Evidence: 1 high
+% L25 (1 recordings): TORACE -> thorax. Torace is Italian for thorax, the respiratory effort belt. Evidence: 1 flag
 thorax
  group:
   L25
@@ -2958,7 +2958,7 @@ thorax
  req:
   sig = TORACE
 
-% L27 (1 recordings): ADDOME -> abdomen. Italian 'addome' is the abdominal effort belt. Evidence: 1 high
+% L27 (1 recordings): ADDOME -> abdomen. Italian 'addome' is the abdominal effort belt. Evidence: 1 flag
 abdomen
  group:
   L27
@@ -3729,7 +3729,7 @@ C4_M1
  set:
   unit = uV
 
-% L36 (1 recordings): ROC_LOC -> EOG. Bipolar ROC-LOC eye derivation maps to the single EOG channel. Evidence: 1 flag
+% L36 (1 recordings): ROC_LOC -> EOG. Bipolar ROC-LOC eye derivation maps to the single EOG channel. Evidence: 1 high
 EOG
  group:
   L36
@@ -4213,7 +4213,7 @@ C4_M1
  set:
   unit = uV
 
-% L41 (1 recordings): milo -> EMG. Italian 'milo' (mylohyoid) with transducer EMG.Submental-Chin is chin EMG. Evidence: 1 flag
+% L41 (1 recordings): milo -> EMG. Italian 'milo' (mylohyoid) with transducer EMG.Submental-Chin is chin EMG. Evidence: 1 high
 EMG
  group:
   L41
@@ -4237,7 +4237,7 @@ LOC
  set:
   unit = uV
 
-% L41 (1 recordings): tib_dx -> RAT. Right tibialis EMG ('dx', transducer Leg.Right), so it maps to RAT. Evidence: 1 flag
+% L41 (1 recordings): tib_dx -> RAT. Right tibialis EMG ('dx', transducer Leg.Right), so it maps to RAT. Evidence: 1 high
 RAT
  group:
   L41
@@ -4659,7 +4659,7 @@ snore
  req:
   sig = MIC
 
-% L46 (1 recordings): ROC_LOC -> EOG. Bipolar right-minus-left EOG derivation, so it maps to the single EOG target rather than LOC or ROC. Evidence: 1 flag
+% L46 (1 recordings): ROC_LOC -> EOG. Bipolar right-minus-left EOG derivation, so it maps to the single EOG target rather than LOC or ROC. Evidence: 1 high
 EOG
  group:
   L46

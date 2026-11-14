@@ -118,7 +118,7 @@ ins6,12,PLETH,mV,128.0,pleth,pleth,agree,n/a,,False,,False,87% of power at pulse
 ins6,13,STAT,,1.0,stat,discrete,agree,n/a,,False,,False,100% of samples in 5 levels
 ins7,0,Fp2-F4,uV,512.0,eeg,neuro,agree,ok,4.903971394512197,False,,False,65% of power at 0.5-4 Hz
 ins7,1,F4-C4,uV,512.0,eeg,neuro,agree,ok,2.9201641520498347,False,,False,69% of power at 0.5-4 Hz
-ins7,2,C4-P4,uV,512.0,eeg,resp,conflict,n/a,,False,,False,62% of power at 0.1-0.6 Hz
+ins7,2,C4-P4,uV,512.0,eeg,neuro,agree,ok,6.2151092847200555,False,,False,81% of power at 0.5-4 Hz
 ins7,3,P4-O2,uV,512.0,eeg,neuro,agree,ok,6.729270324165354,False,,False,77% of power at 0.5-4 Hz
 ins7,4,C4-A1,uV,512.0,eeg,neuro,agree,ok,14.35529984994271,False,,False,63% of power at 0.5-4 Hz
 ins7,5,ROC-LOC,uV,128.0,eog,neuro,agree,ok,16.77688977840125,False,,False,89% of power at 0.5-4 Hz
@@ -150,14 +150,14 @@ ins8,18,SAO2,%,1.0,spo2,spo2,agree,n/a,,False,,False,"median 93, capped at 100"
 ins8,19,HR,BPM,1.0,hr,hr,agree,n/a,,False,,False,median 62
 ins8,20,PLETH,mV,128.0,pleth,pleth,agree,n/a,,False,,False,92% of power at pulse rate
 ins8,21,STAT,,1.0,stat,flat,flat,n/a,,False,,False,no variation
-ins9,0,ROC-LOC,uV,128.0,eog,resp,conflict,n/a,,False,,False,62% of power at 0.1-0.6 Hz
+ins9,0,ROC-LOC,uV,128.0,eog,neuro,agree,ok,10.74990405889299,False,,False,90% of power at 0.5-4 Hz
 ins9,1,Fp2-F4,uV,512.0,eeg,neuro,agree,ok,3.3278090963972735,False,,False,76% of power at 0.5-4 Hz
 ins9,2,F4-C4,uV,512.0,eeg,neuro,agree,ok,3.155279696081694,False,,False,81% of power at 0.5-4 Hz
 ins9,3,C4-P4,uV,512.0,eeg,neuro,agree,ok,3.720959282681042,False,,False,76% of power at 0.5-4 Hz
 ins9,4,P4-O2,uV,512.0,eeg,neuro,agree,ok,2.5328904027009758,False,,False,80% of power at 0.5-4 Hz
-ins9,5,FP1-F3,uV,512.0,eeg,resp,conflict,n/a,,False,,False,65% of power at 0.1-0.6 Hz
+ins9,5,FP1-F3,uV,512.0,eeg,neuro,agree,ok,6.1752221843126005,False,,False,87% of power at 0.5-4 Hz
 ins9,6,F3-C3,uV,512.0,eeg,neuro,agree,ok,3.0847696818723174,False,,False,78% of power at 0.5-4 Hz
-ins9,7,C3-P3,uV,512.0,eeg,resp,conflict,n/a,,False,,False,64% of power at 0.1-0.6 Hz
+ins9,7,C3-P3,uV,512.0,eeg,neuro,agree,ok,2.3330969192319784,False,,False,85% of power at 0.5-4 Hz
 ins9,8,P3-O1,uV,512.0,eeg,neuro,agree,ok,1.5461307665934272,False,,False,75% of power at 0.5-4 Hz
 ins9,9,C4-A1,uV,512.0,eeg,neuro,agree,ok,9.888257050340739,False,,False,55% of power at 0.5-4 Hz
 ins9,10,EMG1-EMG2,uV,512.0,emg,emg,agree,ok,6.673551996698862,False,,False,71% of power above 25 Hz
@@ -213,19 +213,19 @@ n10,15,ECG1-ECG2,mV,512.0,ecg,ecg,agree,ok,139.79003265480517,False,-1.0,False,"
 n10,16,DX1-DX2,uV,128.0,emg_leg,emg,agree,ok,3.4863537053796954,False,,False,66% of power above 25 Hz
 n10,17,SX1-SX2,uV,128.0,emg_leg,emg,agree,ok,1.44142233707879,False,,False,61% of power above 25 Hz
 n11,0,Fp2-F4,uV,512.0,eeg,neuro,agree,ok,6.3936231932362375,False,,False,79% of power at 0.5-4 Hz
-n11,1,F4-C4,uV,512.0,eeg,resp,conflict,n/a,,False,,False,61% of power at 0.1-0.6 Hz
-n11,2,C4-P4,uV,512.0,eeg,resp,conflict,n/a,,False,,False,67% of power at 0.1-0.6 Hz
+n11,1,F4-C4,uV,512.0,eeg,neuro,agree,ok,6.018361522987668,False,,False,90% of power at 0.5-4 Hz
+n11,2,C4-P4,uV,512.0,eeg,neuro,agree,ok,5.039269744441693,False,,False,90% of power at 0.5-4 Hz
 n11,3,P4-O2,uV,512.0,eeg,neuro,agree,ok,4.577793878332358,False,,False,71% of power at 0.5-4 Hz
 n11,4,F8-T4,uV,512.0,eeg,neuro,agree,ok,9.337463326656959,False,,False,89% of power at 0.5-4 Hz
 n11,5,T4-T6,uV,512.0,eeg,neuro,agree,ok,6.900074421888409,False,,False,87% of power at 0.5-4 Hz
-n11,6,FP1-F3,uV,512.0,eeg,resp,conflict,n/a,,False,,False,75% of power at 0.1-0.6 Hz
-n11,7,F3-C3,uV,512.0,eeg,resp,conflict,n/a,,False,,False,75% of power at 0.1-0.6 Hz
-n11,8,C3-P3,uV,512.0,eeg,resp,conflict,n/a,,False,,False,66% of power at 0.1-0.6 Hz
-n11,9,P3-O1,uV,512.0,eeg,resp,conflict,n/a,,False,,False,64% of power at 0.1-0.6 Hz
-n11,10,F7-T3,uV,512.0,eeg,resp,conflict,n/a,,False,,False,74% of power at 0.1-0.6 Hz
+n11,6,FP1-F3,uV,512.0,eeg,neuro,agree,ok,9.233114734610327,False,,False,95% of power at 0.5-4 Hz
+n11,7,F3-C3,uV,512.0,eeg,neuro,agree,ok,7.5558199913091375,False,,False,94% of power at 0.5-4 Hz
+n11,8,C3-P3,uV,512.0,eeg,neuro,agree,ok,8.31372330903738,False,,False,94% of power at 0.5-4 Hz
+n11,9,P3-O1,uV,512.0,eeg,neuro,agree,ok,7.839207935002676,False,,False,93% of power at 0.5-4 Hz
+n11,10,F7-T3,uV,512.0,eeg,neuro,agree,ok,8.369656546893621,False,,False,92% of power at 0.5-4 Hz
 n11,11,T3-T5,uV,512.0,eeg,neuro,agree,ok,7.919393158022043,False,,False,84% of power at 0.5-4 Hz
 n11,12,C4-A1,uV,512.0,eeg,neuro,agree,ok,13.920720927672697,False,,False,84% of power at 0.5-4 Hz
-n11,13,ROC-LOC,mV,128.0,eog,resp,conflict,n/a,,False,,False,66% of power at 0.1-0.6 Hz
+n11,13,ROC-LOC,mV,128.0,eog,neuro,agree,ok,11.318339825435888,False,,False,91% of power at 0.5-4 Hz
 n11,14,EMG1-EMG2,uV,512.0,emg,emg,agree,ok,5.163677649228251,False,,False,60% of power above 25 Hz
 n11,15,ECG1-ECG2,mV,512.0,ecg,ecg,agree,ok,77.71553697317438,True,-0.9773810408330061,False,"beats every 0.97s, spike ratio 27"
 n11,16,DX1-DX2,uV,128.0,emg_leg,emg,agree,ok,5.761352656531805,False,,False,44% of power above 25 Hz
@@ -325,18 +325,18 @@ n4,2,F4-C4,uV,100.0,eeg,neuro,agree,ok,8.559144874765497,False,,False,75% of pow
 n4,3,C4-P4,uV,100.0,eeg,neuro,agree,ok,9.395429215097357,False,,False,67% of power at 0.5-4 Hz
 n4,4,P4-O2,uV,100.0,eeg,neuro,agree,ok,8.445318253701684,False,,False,78% of power at 0.5-4 Hz
 n4,5,C4-A1,uV,100.0,eeg,neuro,agree,ok,18.353283972781433,False,,False,69% of power at 0.5-4 Hz
-n4,6,milo,mV,200.0,emg,neuro,conflict,ok,7.245464827091765,False,,False,67% of power at 0.5-4 Hz
+n4,6,milo,mV,200.0,emg,emg,agree,ok,16.567472110128886,False,,False,72% of the power above 4 Hz lies above 25 Hz
 n4,7,EOG sin,mV,100.0,eog,neuro,agree,ok,13.890412596413656,False,,False,81% of power at 0.5-4 Hz
-n4,8,tib dx,mV,200.0,emg_leg,neuro,conflict,ok,21.818817854776437,False,,False,63% of power at 0.5-4 Hz
+n4,8,tib dx,mV,200.0,emg_leg,emg,agree,ok,33.97980203151714,False,,False,69% of the power above 4 Hz lies above 25 Hz
 n4,9,tib sin,mV,200.0,emg_leg,emg,agree,ok,6.5357701133796215,False,,False,56% of power above 25 Hz
 n4,10,cannula,mBar,20.0,flow,resp,agree,n/a,,False,,False,88% of power at 0.1-0.6 Hz
 n4,11,toracico,uV,10.0,effort,unknown,conflict,n/a,,False,,False,
 n4,12,ekg,mV,200.0,ecg,ecg,agree,ok,198.3608919034394,False,1.0,False,"beats every 0.96s, spike ratio 39"
-n4,13,deltoide,uV,200.0,emg,neuro,conflict,ok,9.631904837498057,False,,False,56% of power at 0.5-4 Hz
+n4,13,deltoide,uV,200.0,emg,emg,agree,ok,15.270992967551535,False,,False,71% of the power above 4 Hz lies above 25 Hz
 n4,14,Heart Rate Varia,bpm/s,1.0,hr,slow_other,conflict,n/a,,False,,False,median 0.0596
 n4,15,Flattening,m,50.0,unknown,resp,label_unread,n/a,,False,,False,82% of power at 0.1-0.6 Hz
 n4,16,Flow,mL/s,20.0,flow,resp,agree,n/a,,False,,False,92% of power at 0.1-0.6 Hz
-n5,0,Fp2-F4,uV,512.0,eeg,resp,conflict,n/a,,False,,False,80% of power at 0.1-0.6 Hz
+n5,0,Fp2-F4,uV,512.0,eeg,neuro,agree,ok,8.637296310518522,False,,False,94% of power at 0.5-4 Hz
 n5,1,F4-C4,uV,512.0,eeg,neuro,agree,ok,5.480455097149957,False,,False,84% of power at 0.5-4 Hz
 n5,2,C4-P4,uV,512.0,eeg,neuro,agree,ok,7.138536427150864,False,,False,88% of power at 0.5-4 Hz
 n5,3,P4-O2,uV,512.0,eeg,neuro,agree,ok,9.146292216065223,False,,False,88% of power at 0.5-4 Hz
@@ -397,7 +397,7 @@ n9,4,O2-A1,uV,128.0,eeg,neuro,agree,ok,9.137343692627558,False,,False,72% of pow
 n9,5,ECG,uV,128.0,ecg,ecg,agree,ok,29.256236544444544,False,-0.9453924914675769,False,"beats every 1.18s, spike ratio 59"
 n9,6,TAG,uV,128.0,unknown,emg,label_unread,ok,2.4303847896012876,False,,False,83% of power above 25 Hz
 n9,7,THE,uV,128.0,unknown,resp,label_unread,n/a,,False,,False,94% of power at 0.1-0.6 Hz
-narco1,0,ROC-LOC,mV,128.0,eog,resp,conflict,n/a,,False,,False,64% of power at 0.1-0.6 Hz
+narco1,0,ROC-LOC,mV,128.0,eog,neuro,agree,ok,13.947840024421893,False,,False,90% of power at 0.5-4 Hz
 narco1,1,Fp2-F4,uV,512.0,eeg,neuro,agree,ok,7.898850453260621,False,,False,76% of power at 0.5-4 Hz
 narco1,2,F4-C4,uV,512.0,eeg,neuro,agree,ok,6.667243306382236,False,,False,69% of power at 0.5-4 Hz
 narco1,3,C4-P4,uV,512.0,eeg,neuro,agree,ok,6.586577601148061,False,,False,76% of power at 0.5-4 Hz
@@ -568,7 +568,7 @@ nfle13,9,P3-O1,uV,512.0,eeg,neuro,agree,ok,5.69503080529695,False,,False,64% of 
 nfle13,10,F7-T3,uV,512.0,eeg,neuro,agree,ok,7.998251869656583,False,,False,63% of power at 0.5-4 Hz
 nfle13,11,T3-T5,uV,512.0,eeg,neuro,agree,ok,8.750836540052935,False,,False,66% of power at 0.5-4 Hz
 nfle13,12,C4-A1,uV,512.0,eeg,neuro,agree,ok,21.09936833083171,False,,False,69% of power at 0.5-4 Hz
-nfle13,13,ROC-LOC,mV,128.0,eog,resp,conflict,n/a,,False,,False,72% of power at 0.1-0.6 Hz
+nfle13,13,ROC-LOC,mV,128.0,eog,neuro,agree,ok,11.694015552178621,False,,False,91% of power at 0.5-4 Hz
 nfle13,14,EMG1-EMG2,uV,512.0,emg,emg,agree,ok,4.616446029555018,False,,False,83% of power above 25 Hz
 nfle13,15,ECG1-ECG2,mV,512.0,ecg,ecg,agree,ok,66.8816187017429,False,-1.0,False,"beats every 1.07s, spike ratio 52"
 nfle13,16,DX1-DX2,uV,128.0,emg_leg,emg,agree,ok,3.2047245391035784,False,,False,58% of power above 25 Hz
@@ -591,7 +591,7 @@ nfle14,9,P3-O1,uV,512.0,eeg,neuro,agree,ok,6.214794151489364,False,,False,79% of
 nfle14,10,F7-T3,uV,512.0,eeg,neuro,agree,ok,6.530976333008407,False,,False,77% of power at 0.5-4 Hz
 nfle14,11,T3-T5,uV,512.0,eeg,neuro,agree,ok,7.023080198108338,False,,False,80% of power at 0.5-4 Hz
 nfle14,12,C4-A1,uV,512.0,eeg,neuro,agree,ok,15.390570475128563,False,,False,78% of power at 0.5-4 Hz
-nfle14,13,ROC-LOC,uV,128.0,eog,resp,conflict,n/a,,False,,False,64% of power at 0.1-0.6 Hz
+nfle14,13,ROC-LOC,uV,128.0,eog,neuro,agree,ok,11.11064240243257,False,,False,92% of power at 0.5-4 Hz
 nfle14,14,EMG1-EMG2,uV,512.0,emg,emg,agree,ok,3.669185316610294,False,,False,84% of power above 25 Hz
 nfle14,15,ECG1-ECG2,mV,512.0,ecg,ecg,agree,ok,201.483352153081,False,-0.1858087172071886,False,"beats every 1.10s, spike ratio 37"
 nfle14,16,DX1-DX2,uV,128.0,emg_leg,emg,agree,ok,5.707092966299383,False,,False,45% of power above 25 Hz
@@ -836,7 +836,7 @@ nfle24,9,P3-O1,uV,512.0,eeg,neuro,agree,ok,6.704526215229372,False,,False,74% of
 nfle24,10,F7-T3,uV,512.0,eeg,neuro,agree,ok,7.379996803555558,False,,False,80% of power at 0.5-4 Hz
 nfle24,11,T3-T5,uV,512.0,eeg,neuro,agree,ok,8.793796770169923,False,,False,69% of power at 0.5-4 Hz
 nfle24,12,C4-A1,uV,512.0,eeg,neuro,agree,ok,16.348025955120377,False,,False,74% of power at 0.5-4 Hz
-nfle24,13,ROC-LOC,uV,128.0,eog,resp,conflict,n/a,,False,,False,72% of power at 0.1-0.6 Hz
+nfle24,13,ROC-LOC,uV,128.0,eog,neuro,agree,ok,11.682017912813038,False,,False,94% of power at 0.5-4 Hz
 nfle24,14,EMG1-EMG2,uV,512.0,emg,emg,agree,ok,1.9110852915012984,False,,False,67% of power above 25 Hz
 nfle24,15,ECG1-ECG2,mV,512.0,ecg,ecg,agree,ok,117.35923337504224,False,-0.9923654112333358,False,"beats every 1.18s, spike ratio 107"
 nfle24,16,DX1-DX2,uV,128.0,emg_leg,emg,agree,ok,0.911681845562242,False,,False,48% of power above 25 Hz
@@ -892,8 +892,8 @@ nfle26,8,C3-P3,uV,128.0,eeg,neuro,agree,ok,3.487390899722787,False,,False,65% of
 nfle26,9,P3-O1,uV,128.0,eeg,neuro,agree,ok,3.1178451278899546,False,,False,68% of power at 0.5-4 Hz
 nfle26,10,F7-T3,uV,128.0,eeg,neuro,agree,ok,4.761896643542901,False,,False,68% of power at 0.5-4 Hz
 nfle26,11,T3-T5,uV,128.0,eeg,neuro,agree,ok,3.4949191427391995,False,,False,69% of power at 0.5-4 Hz
-nfle26,12,C4-A1,uV,128.0,eeg,resp,conflict,n/a,,False,,False,85% of power at 0.1-0.6 Hz
-nfle26,13,ROC-LOC,uV,128.0,eog,resp,conflict,n/a,,False,,False,65% of power at 0.1-0.6 Hz
+nfle26,12,C4-A1,uV,128.0,eeg,neuro,agree,ok,12.855923153374416,False,,False,90% of power at 0.5-4 Hz
+nfle26,13,ROC-LOC,uV,128.0,eog,neuro,agree,ok,13.466351743225134,False,,False,97% of power at 0.5-4 Hz
 nfle26,14,EMG1-EMG2,uV,256.0,emg,emg,agree,ok,1.1825669955689977,False,,False,79% of power above 25 Hz
 nfle26,15,ECG1-ECG2,uV,128.0,ecg,ecg,agree,ok,149.84176394293166,False,-0.862398210058017,False,"beats every 1.04s, spike ratio 44"
 nfle26,16,DX1-DX2,uV,256.0,emg_leg,emg,agree,ok,4.097551215440982,False,,False,45% of power above 25 Hz
@@ -1026,7 +1026,7 @@ nfle31,9,P3-O1,uV,128.0,eeg,neuro,agree,ok,4.6449524511676845,False,,False,66% o
 nfle31,10,F7-T3,uV,128.0,eeg,neuro,agree,ok,6.920929758707427,False,,False,72% of power at 0.5-4 Hz
 nfle31,11,T3-T5,uV,128.0,eeg,neuro,agree,ok,5.526254210729399,False,,False,68% of power at 0.5-4 Hz
 nfle31,12,C4-A1,uV,128.0,eeg,neuro,agree,ok,15.058583848170649,False,,False,73% of power at 0.5-4 Hz
-nfle31,13,ROC-LOC,uV,128.0,eog,resp,conflict,n/a,,False,,False,65% of power at 0.1-0.6 Hz
+nfle31,13,ROC-LOC,uV,128.0,eog,neuro,agree,ok,14.910386720716843,False,,False,95% of power at 0.5-4 Hz
 nfle31,14,EMG1-EMG2,uV,256.0,emg,emg,agree,ok,3.634968248070871,False,,False,74% of power above 25 Hz
 nfle31,15,ECG1-ECG2,uV,128.0,ecg,ecg,agree,ok,76.14255741206989,False,-0.9942092384017163,False,"beats every 0.95s, spike ratio 38"
 nfle31,16,DX1-DX2,uV,256.0,emg_leg,neuro,conflict,ok,3.0768193139101236,False,,False,0% of power at 0.5-4 Hz
@@ -1080,7 +1080,7 @@ nfle33,15,EMG2,mV,512.0,emg,neuro,conflict,ok,19.137301508403418,False,,False,87
 nfle33,16,Fp2,mV,512.0,eeg,resp,conflict,n/a,,False,,False,77% of power at 0.1-0.6 Hz
 nfle33,17,F4,mV,512.0,eeg,neuro,agree,ok,6.865574456833027,False,,False,83% of power at 0.5-4 Hz
 nfle33,18,P4,mV,512.0,eeg,neuro,agree,ok,14.11001024703109,False,,False,85% of power at 0.5-4 Hz
-nfle33,19,FP1,mV,512.0,eeg,resp,conflict,n/a,,False,,False,69% of power at 0.1-0.6 Hz
+nfle33,19,FP1,mV,512.0,eeg,neuro,agree,ok,4.448800242752377,False,,False,89% of power at 0.5-4 Hz
 nfle33,20,F3,mV,512.0,eeg,neuro,agree,ok,6.0345304495280425,False,,False,81% of power at 0.5-4 Hz
 nfle33,21,P3,mV,512.0,eeg,neuro,agree,ok,13.96567845279138,False,,False,84% of power at 0.5-4 Hz
 nfle33,22,F8,mV,512.0,eeg,neuro,agree,ok,13.35080558454959,False,,False,84% of power at 0.5-4 Hz
@@ -1310,7 +1310,7 @@ nfle6,9,P3-O1,uV,128.0,eeg,neuro,agree,ok,8.559467104642586,False,,False,62% of 
 nfle6,10,F7-T3,uV,128.0,eeg,neuro,agree,ok,8.39669398665615,False,,False,64% of power at 0.5-4 Hz
 nfle6,11,T3-T5,uV,128.0,eeg,neuro,agree,ok,8.246370713507453,False,,False,63% of power at 0.5-4 Hz
 nfle6,12,C4-A1,uV,128.0,eeg,neuro,agree,ok,24.292481383061613,False,,False,68% of power at 0.5-4 Hz
-nfle6,13,ROC-LOC,uV,128.0,eog,resp,conflict,n/a,,False,,False,69% of power at 0.1-0.6 Hz
+nfle6,13,ROC-LOC,uV,128.0,eog,neuro,agree,ok,11.758395627659155,False,,False,87% of power at 0.5-4 Hz
 nfle6,14,EMG1-EMG2,uV,256.0,emg,emg,agree,ok,4.920343626878922,False,,False,84% of power above 25 Hz
 nfle6,15,ECG1-ECG2,uV,128.0,ecg,ecg,agree,ok,115.08369573510339,False,0.9743323899459186,False,"beats every 1.16s, spike ratio 40"
 nfle6,16,DX1-DX2,uV,256.0,emg_leg,emg,agree,ok,5.1408252732222115,False,,False,69% of power above 25 Hz
@@ -1489,7 +1489,7 @@ plm5,9,SX1-SX2,uV,128.0,emg_leg,emg,agree,ok,6.0889422466661545,False,,False,72%
 plm5,10,F8-T4,uV,512.0,eeg,emg,conflict,ok,0.20259279191096297,False,,False,75% of power above 25 Hz
 plm5,11,F7-T3,uV,512.0,eeg,emg,conflict,ok,0.2002819639346896,False,,False,74% of power above 25 Hz
 plm5,12,TORACE,mV,64.0,effort,resp,agree,n/a,,False,,False,89% of power at 0.1-0.6 Hz
-plm5,13,ADDOME,mV,64.0,effort,resp,agree,n/a,,False,,False,81% of power at 0.1-0.6 Hz
+plm5,13,ADDOME,mV,64.0,effort,neuro,conflict,ok,280.41860169931175,False,,False,100% of power at 0.5-4 Hz
 plm5,14,SAO2,%,1.0,spo2,spo2,agree,n/a,,False,,False,"median 96, capped at 100"
 plm5,15,HR,BPM,1.0,hr,hr,agree,n/a,,False,,False,median 58
 plm5,16,PLETH,mV,128.0,pleth,pleth,agree,n/a,,False,,False,90% of power at pulse rate
@@ -1517,7 +1517,7 @@ plm7,1,F4-C4,uV,512.0,eeg,neuro,agree,ok,4.958053505066481,False,,False,75% of p
 plm7,2,C4-P4,uV,512.0,eeg,neuro,agree,ok,4.635246116940868,False,,False,62% of power at 0.5-4 Hz
 plm7,3,P4-O2,uV,512.0,eeg,neuro,agree,ok,3.571577670761698,False,,False,58% of power at 0.5-4 Hz
 plm7,4,C4-A1,uV,512.0,eeg,neuro,agree,ok,13.266661591451044,False,,False,60% of power at 0.5-4 Hz
-plm7,5,ROC-LOC,uV,128.0,eog,resp,conflict,n/a,,False,,False,61% of power at 0.1-0.6 Hz
+plm7,5,ROC-LOC,uV,128.0,eog,neuro,agree,ok,11.878552865362394,False,,False,84% of power at 0.5-4 Hz
 plm7,6,EMG1-EMG2,uV,512.0,emg,emg,agree,ok,4.223480774703299,False,,False,51% of power above 25 Hz
 plm7,7,ECG1-ECG2,mV,512.0,ecg,ecg,agree,ok,122.8980376598407,False,0.9917957930982858,False,"beats every 0.85s, spike ratio 33"
 plm7,8,DX1-DX2,uV,512.0,emg_leg,emg,agree,ok,2.363427622089354,False,,False,80% of power above 25 Hz
@@ -1664,8 +1664,8 @@ rbd13,12,DX1-DX2,uV,512.0,emg_leg,emg,agree,ok,34.32627648525686,False,,False,82
 rbd13,13,SX1-SX2,uV,512.0,emg_leg,emg,agree,ok,13.91257334934957,False,,False,81% of power above 25 Hz
 rbd13,14,F8-T4,uV,512.0,eeg,emg,conflict,ok,4.246299494073187,False,,False,68% of power above 25 Hz
 rbd13,15,F7-T3,uV,512.0,eeg,emg,conflict,ok,11.396071875599153,False,,False,57% of power above 25 Hz
-rbd13,16,TORACE,mV,64.0,effort,resp,agree,n/a,,False,,False,65% of power at 0.1-0.6 Hz
-rbd13,17,ADDOME,mV,64.0,effort,resp,agree,n/a,,False,,False,79% of power at 0.1-0.6 Hz
+rbd13,16,TORACE,mV,64.0,effort,neuro,conflict,ok,277.32144063523515,False,,False,100% of power at 0.5-4 Hz
+rbd13,17,ADDOME,mV,64.0,effort,neuro,conflict,ok,403.98083959816535,False,,False,100% of power at 0.5-4 Hz
 rbd13,18,SAO2,%,1.0,spo2,spo2,agree,n/a,,False,,False,"median 94, capped at 100"
 rbd13,19,HR,BPM,1.0,hr,spo2,conflict,n/a,,False,,False,"median 88, capped at 100"
 rbd13,20,PLETH,mV,128.0,pleth,pleth,agree,n/a,,False,,False,85% of power at pulse rate
@@ -1700,7 +1700,7 @@ rbd15,9,SX1-SX2,uV,128.0,emg_leg,emg,agree,ok,16.421659759500884,False,,False,75
 rbd15,10,F8-T4,uV,512.0,eeg,emg,conflict,ok,4.891642150029484,False,,False,82% of power above 25 Hz
 rbd15,11,F7-T3,uV,512.0,eeg,emg,conflict,ok,13.042230110080592,False,,False,81% of power above 25 Hz
 rbd16,0,ROC-LOC,uV,128.0,eog,resp,conflict,n/a,,False,,False,64% of power at 0.1-0.6 Hz
-rbd16,1,Fp2-F4,uV,512.0,eeg,resp,conflict,n/a,,False,,False,68% of power at 0.1-0.6 Hz
+rbd16,1,Fp2-F4,uV,512.0,eeg,neuro,agree,ok,9.95726456298368,False,,False,89% of power at 0.5-4 Hz
 rbd16,2,F4-C4,uV,512.0,eeg,neuro,agree,ok,4.048857050968721,False,,False,52% of power at 0.5-4 Hz
 rbd16,3,C4-P4,uV,512.0,eeg,neuro,agree,ok,4.263701889376323,False,,False,59% of power at 0.5-4 Hz
 rbd16,4,P4-O2,uV,512.0,eeg,neuro,agree,ok,4.433811264999521,False,,False,53% of power at 0.5-4 Hz
@@ -1741,7 +1741,7 @@ rbd17,14,SAO2,%,1.0,spo2,spo2,agree,n/a,,False,,False,"median 98, capped at 100"
 rbd17,15,HR,BPM,1.0,hr,hr,agree,n/a,,False,,False,median 66
 rbd17,16,PLETH,mV,128.0,pleth,pleth,agree,n/a,,False,,False,96% of power at pulse rate
 rbd17,17,STAT,,1.0,stat,flat,flat,n/a,,False,,False,no variation
-rbd18,0,Fp2-F4,uV,512.0,eeg,resp,conflict,n/a,,False,,False,71% of power at 0.1-0.6 Hz
+rbd18,0,Fp2-F4,uV,512.0,eeg,neuro,agree,ok,8.501642675797644,False,,False,89% of power at 0.5-4 Hz
 rbd18,1,F4-C4,uV,512.0,eeg,neuro,agree,ok,5.042490895732709,False,,False,78% of power at 0.5-4 Hz
 rbd18,2,C4-P4,uV,512.0,eeg,neuro,agree,ok,4.80484095908753,False,,False,73% of power at 0.5-4 Hz
 rbd18,3,P4-O2,uV,512.0,eeg,neuro,agree,ok,4.27919178460229,False,,False,72% of power at 0.5-4 Hz
@@ -1829,12 +1829,12 @@ rbd21,6,F3-C3,uV,512.0,eeg,neuro,agree,ok,4.754021947183361,False,,False,77% of 
 rbd21,7,C3-P3,uV,512.0,eeg,neuro,agree,ok,5.104592900933348,False,,False,70% of power at 0.5-4 Hz
 rbd21,8,P3-O1,uV,512.0,eeg,neuro,agree,ok,3.40919557532907,False,,False,70% of power at 0.5-4 Hz
 rbd21,9,C4-A1,uV,512.0,eeg,neuro,agree,ok,13.82580743024696,False,,False,75% of power at 0.5-4 Hz
-rbd21,10,EMG1-EMG2,uV,512.0,emg,resp,conflict,n/a,,False,,False,70% of power at 0.1-0.6 Hz
+rbd21,10,EMG1-EMG2,uV,512.0,emg,emg,agree,ok,18.158894056234125,False,,False,82% of the power above 4 Hz lies above 25 Hz
 rbd21,11,ECG1-ECG2,mV,512.0,ecg,ecg,agree,ok,77.32259149900439,False,-1.0,False,"beats every 0.85s, spike ratio 36"
 rbd21,12,DX1-DX2,uV,512.0,emg_leg,emg,agree,ok,3.899631103044748,False,,False,48% of power above 25 Hz
 rbd21,13,SX1-SX2,uV,512.0,emg_leg,emg,agree,ok,3.459842570323935,False,,False,56% of power above 25 Hz
 rbd21,14,F8-T4,mV,512.0,eeg,emg,conflict,ok,3.6947890552067153,False,,False,42% of power above 25 Hz
-rbd21,15,F7-T3,uV,512.0,eeg,resp,conflict,n/a,,False,,True,85% of power at 0.1-0.6 Hz; carries heartbeat artefact
+rbd21,15,F7-T3,uV,512.0,eeg,neuro,agree,ok,12.519893896431316,False,,True,89% of power at 0.5-4 Hz; carries heartbeat artefact
 rbd21,16,SAO2,%,1.0,spo2,spo2,agree,n/a,,False,,False,"median 97, capped at 100"
 rbd21,17,HR,BPM,1.0,hr,hr,agree,n/a,,False,,False,median 70
 rbd21,18,PLETH,mV,128.0,pleth,pleth,agree,n/a,,False,,False,96% of power at pulse rate
@@ -1876,7 +1876,7 @@ rbd3,13,SX1-SX2,uV,512.0,emg_leg,emg,agree,ok,5.283952826966552,False,,False,77%
 rbd3,14,F8-T4,uV,512.0,eeg,emg,conflict,ok,3.4223315756784904,False,,False,84% of power above 25 Hz
 rbd3,15,F7-T3,uV,512.0,eeg,emg,conflict,ok,3.8391448636061387,False,,False,43% of power above 25 Hz
 rbd3,16,TORACE,mV,64.0,effort,resp,agree,n/a,,False,,False,91% of power at 0.1-0.6 Hz
-rbd3,17,ADDOME,mV,64.0,effort,resp,agree,n/a,,False,,False,83% of power at 0.1-0.6 Hz
+rbd3,17,ADDOME,mV,64.0,effort,neuro,conflict,ok,296.55100303720155,False,,False,100% of power at 0.5-4 Hz
 rbd3,18,Position,,64.0,pos,flat,flat,n/a,,False,,False,no variation
 rbd3,19,SAO2,%,1.0,spo2,spo2,agree,n/a,,False,,False,"median 95, capped at 100"
 rbd3,20,MIC,uV,128.0,snore,emg,agree,ok,2.1437057739716527,False,,False,60% of power above 25 Hz
@@ -2009,7 +2009,7 @@ sdb1,1,F4-C4,uV,256.0,eeg,neuro,agree,ok,3.894936100746203,False,,False,83% of p
 sdb1,2,C4-P4,uV,256.0,eeg,neuro,agree,ok,3.1457319135967277,False,,False,79% of power at 0.5-4 Hz
 sdb1,3,P4-O2,uV,256.0,eeg,neuro,agree,ok,5.562649013509621,False,,False,90% of power at 0.5-4 Hz
 sdb1,4,C4-A1,uV,256.0,eeg,neuro,agree,ok,9.04344578740388,False,,False,62% of power at 0.5-4 Hz
-sdb1,5,ROC-LOC,uV,256.0,eog,resp,conflict,n/a,,False,,False,75% of power at 0.1-0.6 Hz
+sdb1,5,ROC-LOC,uV,256.0,eog,neuro,agree,ok,19.941305289386406,False,,False,97% of power at 0.5-4 Hz
 sdb1,6,EMG1-EMG2,uV,128.0,emg,emg,agree,ok,5.836931921895156,False,,False,71% of power above 25 Hz
 sdb1,7,ECG1-ECG2,uV,128.0,ecg,neuro,conflict,ok,33.580595985871554,False,,False,26% of power at 0.5-4 Hz
 sdb1,8,TIB Sx,mV,128.0,emg_leg,neuro,conflict,ok,479.2740241471411,False,,False,61% of power at 0.5-4 Hz
@@ -2047,7 +2047,7 @@ sdb3,6,C4-A1,uV,512.0,eeg,neuro,agree,ok,15.257395724004496,False,,False,74% of 
 sdb3,7,EMG1-EMG2,uV,256.0,emg,emg,agree,ok,7.066568808945831,False,,False,89% of power above 25 Hz
 sdb3,8,ECG1-ECG2,uV,512.0,ecg,ecg,agree,ok,137.97885002746793,True,-1.0,False,"beats every 0.97s, spike ratio 47"
 sdb3,9,TERMISTORE,uV,64.0,flow,resp,agree,n/a,,False,,False,84% of power at 0.1-0.6 Hz
-sdb3,10,TORACE,mV,64.0,effort,resp,agree,n/a,,False,,False,79% of power at 0.1-0.6 Hz
+sdb3,10,TORACE,mV,64.0,effort,neuro,conflict,ok,377.50563179928906,False,,False,100% of power at 0.5-4 Hz
 sdb3,11,ADDOME,mV,64.0,effort,resp,agree,n/a,,False,,False,88% of power at 0.1-0.6 Hz
 sdb3,12,Dx1-DX2,uV,256.0,emg_leg,emg,agree,ok,13.723965338745,False,,False,79% of power above 25 Hz
 sdb3,13,SX1-SX2,uV,256.0,emg_leg,emg,agree,ok,24.925126994307455,False,,False,83% of power above 25 Hz

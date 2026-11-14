@@ -44,10 +44,7 @@ def read_header(path):
     return parse_header(b)
 
 
-def read_signals(path, physical=True):
-    """Return (header, list of 1-D arrays), one per channel, whole file."""
-    h = read_header(path)
-    raw = np.fromfile(path, dtype="<i2", offset=h["hdr_bytes"])
+def _split(h, raw, physical):
     per = h["rec_bytes"] // 2
     raw = raw[: (len(raw) // per) * per].reshape(-1, per)
     out, o = [], 0
@@ -55,7 +52,22 @@ def read_signals(path, physical=True):
         x = raw[:, o:o + c["nsamp"]].reshape(-1)
         o += c["nsamp"]
         out.append(x * c["gain"] + c["offset"] if physical else x)
-    return h, out
+    return out
+
+
+def read_signals(path, physical=True):
+    """Return (header, list of 1-D arrays), one per channel, whole file."""
+    h = read_header(path)
+    return h, _split(h, np.fromfile(path, dtype="<i2", offset=h["hdr_bytes"]), physical)
+
+
+def read_window(path, start_sec, dur_sec, physical=True):
+    """Like read_signals, but only the data records covering dur_sec from start_sec."""
+    h = read_header(path)
+    first = int(start_sec // h["rec_dur"])
+    n = max(1, int(np.ceil(dur_sec / h["rec_dur"])))
+    raw = np.fromfile(path, dtype="<i2", offset=h["hdr_bytes"] + first * h["rec_bytes"], count=n * h["rec_bytes"] // 2)
+    return h, _split(h, raw, physical)
 
 
 def rewrite_labels(src, dst, perm):
