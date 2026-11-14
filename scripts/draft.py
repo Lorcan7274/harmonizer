@@ -29,6 +29,7 @@ for lid, (_, paths) in layouts.items():
     first = heads[rid(paths[0])]
     order = labs[rid(paths[0])]
     ev = layout_evidence(labs, audit)
+    print(lid, flush=True)
     if reader == "baseline":
         raw = baseline(order)
     else:
@@ -41,7 +42,7 @@ for lid, (_, paths) in layouts.items():
                               rates=sorted({heads[r]["ch"][idx[r]]["sr"] for r in heads}),
                               trans=first["ch"][i]["trans"], prefilt=first["ch"][i]["prefilt"]))
         raw = ask(layout_prompt(lid, len(paths), chans, ev if reader == "model-signals" else None),
-                  os.path.join(out_dir, "model_cache"))
+                  os.path.join(out_dir, "model_cache"), order)
         raw = [dict(c, target=None if c["target"] == "none" else c["target"]) for c in raw]
     mappings[lid], probs = validate(raw, order)
     problems += [f"{lid}: {p}" for p in probs]

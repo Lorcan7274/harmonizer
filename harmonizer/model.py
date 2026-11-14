@@ -14,15 +14,17 @@ For each channel choose the canonical target it should become, or "none". Rules:
 - If a channel is an unreferenced electrode and its reference is recorded separately in this layout, put the reference channel's Luna label in "ref". Otherwise "ref" is "".
 - Left/right and electrode position come only from the label. Never guess them.
 - When signal evidence is given, it shows what the trace looked like in each recording. If it contradicts the label, say so in the reason and prefer "none" over a mapping the trace does not support.
-- "reason" is one short sentence a sleep technologist could check."""
+- "reason" is one short sentence a sleep technologist could check, and the target must follow from it.
+- Return exactly one entry for every channel listed, in the order given."""
 
 SCHEMA = {
     "type": "object",
     "properties": {"channels": {"type": "array", "items": {
         "type": "object",
-        "properties": {"label": {"type": "string"}, "target": {"type": "string", "enum": list(TARGETS) + ["none"]},
-                       "ref": {"type": "string"}, "reason": {"type": "string"}},
-        "required": ["label", "target", "ref", "reason"], "additionalProperties": False}}},
+        # reason comes before target so the choice is made after the reasoning is written
+        "properties": {"label": {"type": "string"}, "reason": {"type": "string"},
+                       "target": {"type": "string", "enum": list(TARGETS) + ["none"]}, "ref": {"type": "string"}},
+        "required": ["label", "reason", "target", "ref"], "additionalProperties": False}}},
     "required": ["channels"], "additionalProperties": False,
 }
 
@@ -43,20 +45,27 @@ def layout_prompt(layout_id, n_rec, channels, evidence=None):
     return "\n".join(lines)
 
 
-def ask(prompt, cache_dir):
+def ask(prompt, cache_dir, labels, attempts=3):
+    """Returns one entry per label. Incomplete answers are retried and never cached."""
     os.makedirs(cache_dir, exist_ok=True)
-    path = os.path.join(cache_dir, hashlib.sha256((MODEL + SYSTEM + prompt).encode()).hexdigest()[:24] + ".json")
+    path = os.path.join(cache_dir, hashlib.sha256((MODEL + SYSTEM + json.dumps(SCHEMA) + prompt).encode()).hexdigest()[:24] + ".json")
     if os.path.exists(path):
         return json.load(open(path))["channels"]
     client = anthropic.Anthropic()
-    resp = client.beta.messages.create(
-        model=MODEL, max_tokens=16000, system=SYSTEM,
-        betas=["server-side-fallback-2026-07-01"], fallbacks="default",
-        output_config={"effort": "medium", "format": {"type": "json_schema", "schema": SCHEMA}},
-        messages=[{"role": "user", "content": prompt}],
-    )
-    if resp.stop_reason != "end_turn":
-        raise RuntimeError(f"model stopped with {resp.stop_reason}")
-    data = json.loads(next(b.text for b in resp.content if b.type == "text"))
-    json.dump(dict(prompt=prompt, model=resp.model, channels=data["channels"]), open(path, "w"), indent=1)
-    return data["channels"]
+    want = sorted(labels)
+    for attempt in range(attempts):
+        resp = client.beta.messages.create(
+            model=MODEL, max_tokens=16000, system=SYSTEM,
+            betas=["server-side-fallback-2026-07-01"], fallbacks="default",
+            output_config={"effort": "medium", "format": {"type": "json_schema", "schema": SCHEMA}},
+            messages=[{"role": "user", "content": prompt}],
+        )
+        if resp.stop_reason != "end_turn":
+            raise RuntimeError(f"model stopped with {resp.stop_reason}")
+        chans = json.loads(next(b.text for b in resp.content if b.type == "text"))["channels"]
+        got = sorted(c["label"] for c in chans)
+        if got == want:
+            json.dump(dict(prompt=prompt, model=resp.model, channels=chans), open(path, "w"), indent=1)
+            return chans
+        print(f"  incomplete answer (attempt {attempt + 1}): missing {sorted(set(want) - set(got))}, extra {sorted(set(got) - set(want))}")
+    raise RuntimeError("model did not return exactly one entry per channel")

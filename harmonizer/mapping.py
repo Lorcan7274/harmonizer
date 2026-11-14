@@ -63,6 +63,9 @@ def baseline(labels):
 def validate(mapping, labels):
     """Drop anything the emitter could not write safely. Returns (clean mapping, problems)."""
     known, probs, seen, clean = set(labels), [], set(), []
+    missing = known - {x.get("label") for x in mapping}
+    if missing:
+        probs.append(f"no answer for {sorted(missing)}")
     for m in mapping:
         m = dict(label=m.get("label"), target=m.get("target") or None, ref=m.get("ref") or None, reason=m.get("reason", ""))
         if m["label"] not in known:
