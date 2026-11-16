@@ -7,7 +7,7 @@ DATASET is one of: cap, hmc, sleep-edf.
 import json, os, sys, time, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from harmonizer.edf import parse_header
+from harmonizer.edf import parse_header, window_starts
 
 HOST = "https://physionet-open.s3.amazonaws.com/"
 DATASETS = {  # name: (path under HOST, keeps a RECORDS entry)
@@ -47,8 +47,7 @@ def fetch(base, name, out, nwin, wsec):
     hb = hb[: h["hdr_bytes"]]
     nrec_real = (size(url) - h["hdr_bytes"]) // h["rec_bytes"]
     wrec = max(1, int(round(wsec / h["rec_dur"])))
-    starts = [int(nrec_real * (0.08 + 0.84 * (i + 0.5) / nwin)) for i in range(nwin)]
-    starts = [min(s, max(0, nrec_real - wrec)) for s in starts]
+    starts = window_starts(nrec_real, wrec, nwin)
     chunks = []
     for s in starts:
         a = h["hdr_bytes"] + s * h["rec_bytes"]

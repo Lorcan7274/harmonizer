@@ -2,7 +2,7 @@
 import json, os
 from collections import Counter, defaultdict
 import numpy as np
-from .edf import read_header, read_window
+from .edf import edf_paths, n_records, read_header, read_window, rec_id
 from .export import resolve, staging_pick
 
 QUEUE = ("check", "unread")
@@ -19,7 +19,7 @@ def _envelope(x, cols):
 def previews(path, wanted, cols=160, fracs=(0.2, 0.5, 0.8)):
     """Three short samples of each wanted channel index, as min/max columns scaled to -100..100 with the span they cover."""
     h = read_header(path)
-    total = h["nrec"] * h["rec_dur"]
+    total = n_records(path, h) * h["rec_dur"]
     wins = [read_window(path, max(0.0, min(f * total, total - 120)), 120)[1] for f in fracs]
     out = {}
     for i in wanted:
@@ -44,13 +44,14 @@ def build(audit_rows, mapping, edf_dir, name, max_previews=600):
     rows = [r for rs in resolved.values() for r in rs]
     picks = [staging_pick(rs) for rs in resolved.values()]
     groups, budget = defaultdict(list), max_previews
+    paths = {rec_id(p): p for p in edf_paths(edf_dir)}
     for rid, rs in resolved.items():
         flagged = [r for r in rs if r["status"] in QUEUE]
         if not flagged:
             continue
         peers = {r["idx"]: next((p for p in rs if p["status"] == "ok" and p["label_type"] == r["label_type"]), None) for r in flagged}
-        path = os.path.join(edf_dir, rid + ".edf")
-        shown = flagged[:budget] if os.path.exists(path) else []
+        path = paths.get(rid)
+        shown = flagged[:budget] if path else []
         budget -= len(shown)
         tr = previews(path, {r["idx"] for r in shown} | {p["idx"] for i, p in peers.items() if p}) if shown else {}
         for r in flagged:

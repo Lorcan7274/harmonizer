@@ -104,16 +104,20 @@ def window_features(x, sr):
     return f
 
 
-def channel_features(x, sr, win_sec=300):
-    n = int(win_sec * sr)
-    wins = [x[i:i + n] for i in range(0, len(x) - n + 1, n)] or [x]
-    fs = [window_features(w.astype(float), sr) for w in wins]
+def combine_windows(fs):
+    """Median of each feature over a channel's windows."""
     out = {}
     for k in sorted(set().union(*fs)):
         vals = [f[k] for f in fs if k in f and not np.isnan(f[k])]
         out[k] = float(np.median(vals)) if vals else np.nan
     out["flat_windows"] = float(np.mean([f["std"] == 0 for f in fs]))
     return out
+
+
+def channel_features(x, sr, win_sec=300):
+    n = int(win_sec * sr)
+    wins = [x[i:i + n] for i in range(0, len(x) - n + 1, n)] or [x]
+    return combine_windows([window_features(w.astype(float), sr) for w in wins])
 
 
 RESP_PEAK_MIN = 4.5
@@ -231,19 +235,70 @@ def audit(h, xs):
     return classify(h["ch"], feats)
 
 
+class PairStats:
+    """Running correlation between same-rate channels, fed one block of the recording at a time."""
+
+    def __init__(self, chs):
+        self.chs, self.groups, self.acc = chs, {}, {}
+        for i, c in enumerate(chs):
+            if c["sr"] >= 50:
+                self.groups.setdefault(c["sr"], []).append(i)
+
+    def add(self, xs):
+        for sr, idx in self.groups.items():
+            if len(idx) < 2:
+                continue
+            m = np.vstack([xs[i] for i in idx]).astype(float)
+            if sr not in self.acc:
+                # a fixed shift keeps the sums small; correlation does not depend on it
+                self.acc[sr] = dict(shift=m.mean(axis=1, keepdims=True), n=0, s=np.zeros(len(idx)), ss=np.zeros((len(idx),) * 2))
+            a = self.acc[sr]
+            m = m - a["shift"]
+            a["n"] += m.shape[1]
+            a["s"] += m.sum(axis=1)
+            a["ss"] += m @ m.T
+
+    def pairs(self, thr=0.95):
+        out = []
+        for sr, idx in self.groups.items():
+            a = self.acc.get(sr)
+            if not a:
+                continue
+            cov = a["ss"] - np.outer(a["s"], a["s"]) / a["n"]
+            var = np.diag(cov)
+            for i in range(len(idx)):
+                for j in range(i + 1, len(idx)):
+                    if var[i] > 0 and var[j] > 0 and abs(cov[i, j]) >= thr * np.sqrt(var[i] * var[j]):
+                        out.append((idx[i], idx[j], round(float(cov[i, j] / np.sqrt(var[i] * var[j])), 6)))
+        return [(self.chs[i]["label"], self.chs[j]["label"], r) for i, j, r in sorted(out)]
+
+
 def pairs(h, xs, thr=0.95):
     """Same-rate channel pairs whose traces are near-identical or near-inverted."""
-    out = []
-    by_sr = {}
-    for i, c in enumerate(h["ch"]):
-        if c["sr"] >= 50 and np.std(xs[i]) > 0:
-            by_sr.setdefault(c["sr"], []).append(i)
-    for sr, idx in by_sr.items():
-        if len(idx) < 2:
-            continue
-        r = np.corrcoef(np.vstack([xs[i] for i in idx]))
-        for a in range(len(idx)):
-            for b in range(a + 1, len(idx)):
-                if abs(r[a, b]) >= thr:
-                    out.append((h["ch"][idx[a]]["label"], h["ch"][idx[b]]["label"], float(r[a, b])))
-    return out
+    acc = PairStats(h["ch"])
+    acc.add(xs)
+    return acc.pairs(thr)
+
+
+def audit_file(path, win_sec=300, max_windows=8):
+    """Audit one EDF a window at a time, so memory stays flat however long the recording is.
+
+    A recording longer than max_windows windows is sampled at that many windows spread over the night,
+    the sampling the checks were validated on; max_windows=0 reads every window. Returns (header, rows, pairs).
+    """
+    from .edf import read_blocks, read_header
+    h = read_header(path)
+    if not h["ch"]:
+        raise ValueError("no signal channels (an annotation-only EDF+ file?)")
+    for c in h["ch"]:
+        c["cal_inverted"] = (c["pmax"] < c["pmin"]) != (c["dmax"] < c["dmin"])
+    wins, acc = [], PairStats(h["ch"])
+    for xs in read_blocks(path, h, win_sec, max_windows):
+        acc.add(xs)
+        wins.append((len(xs[0]) if xs else 0, [window_features(x.astype(float), c["sr"]) for c, x in zip(h["ch"], xs)]))
+    if not wins:
+        raise ValueError("no data records")
+    # a short last window is dropped, as channel_features does, unless it is all there is
+    whole = [f for n, f in wins if n == wins[0][0]]
+    feats = [combine_windows([f[i] for f in whole]) for i in range(len(h["ch"]))]
+    return h, classify(h["ch"], feats), acc.pairs()
