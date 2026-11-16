@@ -1,6 +1,14 @@
 # harmonizer
 
-Sleep labs label their recording channels in different ways, and sometimes the labels are wrong. harmonizer takes a folder of sleep recordings (EDF files), works out from the signal what each channel really is, compares that with its label, and maps the channels to standard names. It then writes the files other sleep tools need, plus a review page listing every channel a person should look at. It never changes your recordings.
+Channel audit and harmonisation for polysomnography recordings (EDF, EDF+).
+
+Given a folder of recordings, harmonizer:
+
+1. Classifies every channel from its signal (EEG/EOG, EMG, ECG, respiration, pulse wave, SpO2, heart rate, flat) and compares the result with the header label.
+2. Maps channels to canonical names (NSRR conventions where they exist, e.g. `C4_M1`, `LOC`, `EMG`).
+3. Writes channel tables for MNE, BIDS and automatic sleep stagers, Luna `CANONICAL` rules, and an HTML page for reviewing channels whose signal and label disagree.
+
+Input files are never modified.
 
 ## How to use
 
