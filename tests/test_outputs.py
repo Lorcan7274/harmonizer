@@ -3,6 +3,7 @@ import numpy as np
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
+from harmonizer import pipeline
 from harmonizer.cli import main
 from harmonizer.emit import _list_path
 from harmonizer.export import channels_tsv, mne_names, mne_spec, resolve, staging_pick
@@ -82,3 +83,32 @@ def test_run_writes_rules_exports_and_review_page(tmp_path, capsys):
     item = next(g for g in data["groups"] if g["label"] == "Mystery")["items"][0]
     assert len(item["trace"]["strips"]) == 3 and max(map(abs, item["trace"]["strips"][0])) <= 100
     assert json.loads((out / "exports" / "mne" / "a.json").read_text())["types"]["EOG E1-M2"] == "eog"
+
+
+def test_one_unreadable_file_does_not_stop_a_cohort(tmp_path, capsys):
+    rng = np.random.default_rng(7)
+    edf = tmp_path / "edf"
+    edf.mkdir()
+    write_edf(edf / "good.edf", [chan("EEG C4-M1", rng.normal(0, 300, 6000), 100)], nrec=60)
+    (edf / "broken.edf").write_bytes(b"\x00" * 400)
+    out = tmp_path / "out"
+    main(["run", str(edf), str(out), "--jobs", "1"])
+    assert "skipped broken: ValueError: not an EDF file" in capsys.readouterr().err
+    assert (out / "audit_errors.csv").read_text().splitlines()[1].startswith("broken,")
+    assert json.loads((out / "mapping.json").read_text())["layouts"] == {"L01": ["good"]}
+
+
+def test_model_prompts_hold_header_text_and_counts_only(tmp_path):
+    rng = np.random.default_rng(8)
+    edf = tmp_path / "edf"
+    edf.mkdir()
+    for name in ("patient_jane_doe_1987", "patient_john_roe_1990"):
+        write_edf(edf / f"{name}.edf", [chan("EEG C4-M1", rng.normal(0, 300, 6000), 100), chan("EMG chin", rng.normal(0, 300, 6000), 100)], nrec=60)
+    prefix = str(tmp_path / "audit")
+    pipeline.audit_cohort(str(edf), prefix, jobs=1)
+    (lid, prompt), = pipeline.layout_prompts(str(edf), prefix, "model-signals")
+    assert lid == "L01" and "2 recording(s)" in prompt and "EEG C4-M1" in prompt and "trace_types_seen" in prompt
+    assert "patient" not in prompt and "jane" not in prompt and "1987" not in prompt and str(tmp_path) not in prompt
+    assert "01.01.01" not in prompt and "X" * 3 not in prompt
+    (_, headers_only), = pipeline.layout_prompts(str(edf), prefix, "model-headers")
+    assert "trace_types_seen" not in headers_only

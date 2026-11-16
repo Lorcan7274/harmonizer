@@ -4,8 +4,9 @@ import pytest
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
-from harmonizer.checks import audit, channel_features, classify, label_type, pairs, signal_type, unit_scale
-from harmonizer.edf import FIELDS, read_header, read_signals, read_window, rewrite_labels
+from harmonizer.checks import audit, audit_file, channel_features, classify, label_type, pairs, signal_type, unit_scale
+from harmonizer.edf import FIELDS, edf_paths, read_blocks, read_header, read_signals, read_window, rewrite_labels, window_starts
+from harmonizer.inject import write_swap
 from harmonizer.emit import rule_text
 from harmonizer.layout import luna_labels, sanitize
 from harmonizer.mapping import baseline, leg_side, validate
@@ -57,9 +58,70 @@ def test_audit_and_pairs_share_one_read(tmp_path):
 
 
 def test_luna_labels():
-    assert sanitize("LOC / A2") == "LOC___A2"
     h = {"ch": [{"label": l} for l in ("C4-A1", "CHIN", "chin", "EMG-")]}
     assert luna_labels(h) == ["C4_A1", "CHIN", "chin.1", "EMG"]
+
+
+@pytest.mark.parametrize("label,luna", [
+    ("LOC / A2", "LOC___A2"), ("EOG(L)", "EOG_L"), ("(L)EOG", "L_EOG"), ("Tib. Ant.", "Tib._Ant."), ("Fc5.", "Fc5."),
+    ("col:on", "col:on"), ("br[1]", "br[1]"), ("a,b", "a_b"), ("two__", "two"), ("_y", "y"), ("caf\u00e9", "caf?"),
+])
+def test_sanitize_matches_what_luna_was_measured_to_do(label, luna):
+    assert sanitize(label) == luna
+
+
+def test_edfplus_annotation_channel_is_skipped(tmp_path):
+    a, b = np.arange(-200, 200), np.arange(200, -200, -1)
+    src, dst = tmp_path / "a.edf", tmp_path / "b.edf"
+    write_edf(src, [chan("C4-A1", a, 100), chan("EDF Annotations", np.zeros(120, int), 30, unit=""), chan("ECG", b, 100)])
+    h, xs = read_signals(src)
+    assert h["nsig"] == 3 and [c["label"] for c in h["ch"]] == ["C4-A1", "ECG"]
+    assert np.allclose(xs[0], a * 0.1) and np.allclose(xs[1], b * 0.1)
+    assert np.allclose(read_window(src, 2, 1)[1][1], b[200:300] * 0.1)
+    write_swap(src, dst, 0, 1)
+    assert [c["label"] for c in read_header(dst)["ch"]] == ["ECG", "C4-A1"]
+
+
+def test_unreadable_files_give_a_reason(tmp_path):
+    for name, content, why in (("bdf.edf", b"\xffBIOSEMI" + b" " * 300, "BDF"), ("junk.edf", b"\x00" * 300, "not an EDF"),
+                               ("short.edf", b" " * 252 + b"9   ", "truncated")):
+        (tmp_path / name).write_bytes(content)
+        with pytest.raises(ValueError, match=why):
+            read_header(tmp_path / name)
+    write_edf(tmp_path / "scores.edf", [chan("EDF Annotations", np.zeros(120, int), 30, unit="")], rec_dur=0)
+    with pytest.raises(ValueError, match="no duration"):
+        read_header(tmp_path / "scores.edf")
+    write_edf(tmp_path / "UPPER.EDF", [chan("C4-A1", np.arange(400), 100)])
+    assert [os.path.basename(p) for p in edf_paths(tmp_path)] == ["UPPER.EDF", "bdf.edf", "junk.edf", "scores.edf", "short.edf"]
+
+
+def test_long_recordings_are_sampled_not_loaded(tmp_path):
+    rng = np.random.default_rng(5)
+    x = rng.integers(-900, 900, 40 * 50)
+    write_edf(tmp_path / "long.edf", [chan("C4-A1", x, 50), chan("C3-A2", -x, 50), chan("SpO2", np.full(40, 97), 1)], nrec=40)
+    h = read_header(tmp_path / "long.edf")
+    assert window_starts(40, 2, 4) == [7, 15, 24, 32]
+    blocks = list(read_blocks(tmp_path / "long.edf", h, 2, max_blocks=4))
+    assert [len(b[0]) for b in blocks] == [100] * 4 and np.allclose(blocks[1][0], x[750:850] * 0.1)
+    assert len(list(read_blocks(tmp_path / "long.edf", h, 2))) == 20
+    assert len(list(read_blocks(tmp_path / "long.edf", h, 3))) == 14 and len(list(read_blocks(tmp_path / "long.edf", h, 3))[-1][0]) == 50
+
+
+def test_streamed_audit_equals_the_in_memory_audit(tmp_path):
+    rng = np.random.default_rng(6)
+    n = 900 * 64
+    path = tmp_path / "a.edf"
+    eeg = np.convolve(rng.normal(0, 200, n), np.ones(8) / 8, "same")
+    write_edf(path, [chan("C4-A1", eeg, 64), chan("C3-A2", 0.5 * eeg + rng.normal(0, 3, n), 64), chan("EMG chin", rng.normal(0, 200, n), 64),
+                     chan("Flat", np.zeros(n), 64)], nrec=900)
+    h, xs = read_signals(path)
+    whole = audit(h, xs)
+    h2, rows, pr = audit_file(path, max_windows=0)
+    assert [r["feat"] for r in rows] == [r["feat"] for r in whole]
+    assert [(r["signal_type"], r["agree"]) for r in rows] == [(r["signal_type"], r["agree"]) for r in whole]
+    (la, lb, r), = pr
+    assert (la, lb) == ("C4-A1", "C3-A2") and abs(r - np.corrcoef(xs[0], xs[1])[0, 1]) < 1e-6
+    assert pairs(h, xs) == pr
 
 
 @pytest.mark.parametrize("label,kind", [

@@ -19,6 +19,8 @@ harmonizer run path/to/edfs out/ --name "My cohort"
 
 Only `numpy` and `scipy` are required. `pip install -e ".[model]"` adds the Claude label readers (`--reader model-headers` or `model-signals`, needs `ANTHROPIC_API_KEY`); `".[score]"` adds `lunapi` for scoring through real CANONICAL.
 
+**Whole nights and messy folders.** The audit reads eight 5-minute windows spread over each recording, the sampling it was validated on, so memory stays flat however long the recording is: a 9.6-hour, 496 MB recording takes about 7 seconds and 170 MB. `--windows 0` reads every window instead (about 96 seconds for that recording, same verdicts). EDF and EDF+ files are read, with any letter case in the extension; EDF+ annotation channels are left out, as Luna and MNE leave them out. A file that cannot be read (BDF, an annotation-only scoring file, a damaged header) is skipped and listed with the reason in `audit_errors.csv`, and the run carries on.
+
 ```python
 import json, mne, yasa, csv
 raw = mne.io.read_raw_edf("SN001.edf", preload=True)
@@ -36,6 +38,16 @@ harmonizer rule out/audit rulings.csv
 ```
 
 A ruling settles the channel in the answer key and outranks the trace check when a draft is scored. Rulings are one of `eeg`, `eog`, `emg`, `emg_leg`, `ecg`, `resp`, `other`, `unusable`.
+
+## What the Claude readers send
+
+The default reader uses no model, and nothing leaves your machine. With `--reader model-headers` or `model-signals`, one request is sent per header layout, not per recording. It holds the layout number and how many recordings share it; each channel's label, unit, sampling rate, and the transducer and prefilter text from the EDF header; and, for `model-signals` only, how many recordings showed each trace type. No signal samples, file names, recording or patient identifiers, dates or paths are sent, and a test holds the code to that.
+
+The transducer and prefilter fields are free text written by the recording system. To see every request word for word without sending anything:
+
+```
+harmonizer prompts path/to/edfs out/audit
+```
 
 ## Results on three cohorts
 
@@ -81,6 +93,8 @@ Before it was taught AASM-style headers (`EEG F4-M1`, `EOG E1-M2`), the baseline
 
 **End to end.** On all 456 recordings MNE accepted every exported channel name and type, and every BIDS table uses valid types and statuses. YASA's stager ran on one recording from each cohort using the exported picks with no per-cohort channel configuration.
 
+**The reader itself.** On a plain EDF and on a real EDF+ file with an annotation channel, the reader gives the same channel names and sample values as MNE. Its Luna-style labels equal Luna's own on those files and on 52 labels built to exercise punctuation; before this was measured, labels with a period (`Abd.`, `Tib.`) were cleaned differently from Luna and their rules would not have matched. One full-night recording from each cohort (48 to 496 MB) gives the same channel verdicts as its excerpt.
+
 ## How it works
 
 1. `audit`: read every EDF, compute per-channel features in 5-minute windows, type the trace (brain or eye, muscle, heartbeat, breathing, pulse wave, saturation, heart rate, fixed levels, flat) and compare with the type the label reads as.
@@ -106,7 +120,7 @@ Before it was taught AASM-style headers (`EEG F4-M1`, `EOG E1-M2`), the baseline
 | `harmonizer/canon.py` | Run real CANONICAL on one EDF |
 | `harmonizer/targets.py` | Canonical targets and which types a recording must get right |
 | `scripts/` | `fetch_physionet.py`, `audit_cohort.py`, `retype.py`, `summarise.py`, `answer_key.py`, `draft.py`, `score.py` |
-| `tests/` | Unit tests on synthetic EDFs, no data needed: `python3 -m pytest tests` |
+| `tests/` | Unit tests on synthetic EDFs, no data needed: `python3 -m pytest tests`. GitHub runs them on every push |
 | `results/` | Audits, drafts, scores, `reports/COHORT.html` and `exports/COHORT/` for the three cohorts |
 
 ## Reproduce
@@ -143,9 +157,14 @@ Each excerpt is eight 5-minute windows spread over the recording, stored as a va
 - Quiet leg EMG reads as `neuro`; some pulse-wave channels read as ECG; 7 to 10% of ECG leads fail the heartbeat test.
 - At 1 Hz nothing separates airflow from temperature or a marker, so those channels are unchecked, not confirmed.
 - The ECG polarity sign is not trustworthy yet: most CAP ECG leads come out negative, which is more likely the heuristic or the lead placement than inverted leads.
-- EDF+ annotation channels are read as signals, and a file with zero-length records is not handled.
+- BDF and vendor formats are not read. Gaps in a discontinuous EDF+ recording are ignored: its records are treated as consecutive.
+- Whole-night behaviour was measured on one full recording per cohort, not on whole cohorts.
 - Not built: an EEG polarity check (needs staging and recordings of known polarity to verify against).
 
 ## Blocked
 
 - Checking drafted rules against the NSRR rule file (`nsrr/common/resources/canonical/harm.txt`) is still not done: its GitLab host returned 503 on every attempt on 2026-11-14. `rules/smoke.sigs` only proves the harness runs.
+
+## Licence and citation
+
+MIT licence (`LICENSE`): anyone may use, change and redistribute harmonizer, provided the copyright notice stays with it. If it contributes to published work, please cite it. `CITATION.cff` holds the reference, and GitHub shows it under "Cite this repository".
