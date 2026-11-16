@@ -165,17 +165,17 @@
 [
 "EEG Fpz-Cz",
 "EEG Pz-Oz",
-0.9783162685025261
+0.978316
 ],
 [
 "EEG Fpz-Cz",
 "EMG submental",
-0.9949332735277373
+0.994933
 ],
 [
 "EEG Pz-Oz",
 "EMG submental",
-0.9782791800970067
+0.978279
 ]
 ],
 "ST7071J0-PSG": [],
@@ -198,12 +198,12 @@
 [
 "EEG Fpz-Cz",
 "EMG submental",
-0.9601736152523063
+0.960174
 ],
 [
 "EEG Pz-Oz",
 "EMG submental",
-0.98255322646883
+0.982553
 ]
 ],
 "ST7152J0-PSG": [],
@@ -218,32 +218,32 @@
 [
 "EEG Fpz-Cz",
 "EEG Pz-Oz",
-0.9983677730031407
+0.998368
 ],
 [
 "EEG Fpz-Cz",
 "EOG horizontal",
-0.9918541701309271
+0.991854
 ],
 [
 "EEG Fpz-Cz",
 "EMG submental",
-0.9993585406474487
+0.999359
 ],
 [
 "EEG Pz-Oz",
 "EOG horizontal",
-0.9921857231603778
+0.992186
 ],
 [
 "EEG Pz-Oz",
 "EMG submental",
-0.9995201307993131
+0.99952
 ],
 [
 "EOG horizontal",
 "EMG submental",
-0.9926891030695859
+0.992689
 ]
 ],
 "ST7201J0-PSG": [],

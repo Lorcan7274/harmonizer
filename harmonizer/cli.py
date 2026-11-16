@@ -13,9 +13,10 @@ def _mapping(draft_dir):
 def _run(a):
     os.makedirs(a.out_dir, exist_ok=True)
     prefix = os.path.join(a.out_dir, "audit")
-    s = pipeline.audit_cohort(a.edf_dir, prefix, a.jobs)
+    s = pipeline.audit_cohort(a.edf_dir, prefix, a.jobs, a.windows)
+    _skipped(s)
     if not s["files"]:
-        sys.exit(f"no .edf files in {a.edf_dir}")
+        sys.exit(f"no readable .edf files in {a.edf_dir}")
     print(f"audited {s['files']} recordings in {s['wall']:.0f}s")
     n, _, _ = pipeline.answer_key(prefix)
     d = pipeline.draft(a.edf_dir, prefix, a.out_dir, a.reader, log=lambda lid: None)
@@ -28,9 +29,22 @@ def _run(a):
     print(f"open {os.path.join(a.out_dir, 'report.html')}")
 
 
+def _skipped(s):
+    for rid, err in s["skipped"]:
+        print(f"skipped {rid}: {err}", file=sys.stderr)
+
+
 def _audit(a):
-    s = pipeline.audit_cohort(a.edf_dir, a.prefix, a.jobs)
+    s = pipeline.audit_cohort(a.edf_dir, a.prefix, a.jobs, a.windows)
+    _skipped(s)
     print(f"{s['files']} files, wall {s['wall']:.0f}s, cpu {s['cpu']:.0f}s")
+
+
+def _prompts(a):
+    from .model import SYSTEM
+    print(f"=== instructions sent with every request ===\n{SYSTEM}")
+    for lid, prompt in pipeline.layout_prompts(a.edf_dir, a.prefix, a.reader):
+        print(f"\n=== {lid} ===\n{prompt}")
 
 
 def _draft(a):
@@ -69,9 +83,12 @@ def main(argv=None):
     prefix = (["prefix"], dict(help="audit prefix, as given to `audit` (OUT_DIR/audit after `run`)"))
     reader = (["--reader"], dict(choices=pipeline.READERS, default="baseline", help="who reads the labels; the model readers need ANTHROPIC_API_KEY"))
     jobs = (["--jobs"], dict(type=int, default=4, help="parallel workers"))
+    windows = (["--windows"], dict(type=int, default=8, help="5-minute windows read per recording, spread over the night; 0 reads everything"))
     name = (["--name"], dict(help="cohort name shown on the review page"))
-    cmd("run", _run, "audit, draft rules, export channel tables and write the review page", edf, (["out_dir"], {}), reader, jobs, name)
-    cmd("audit", _audit, "run the signal checks", edf, prefix, jobs)
+    cmd("run", _run, "audit, draft rules, export channel tables and write the review page", edf, (["out_dir"], {}), reader, jobs, windows, name)
+    cmd("audit", _audit, "run the signal checks", edf, prefix, jobs, windows)
+    cmd("prompts", _prompts, "print exactly what a Claude reader would send, without sending it", edf, prefix,
+        (["--reader"], dict(choices=pipeline.READERS[1:], default="model-signals")))
     cmd("draft", _draft, "draft CANONICAL rules from an audit", edf, prefix, (["out_dir"], {}), reader)
     cmd("export", _export, "write BIDS channels.tsv, MNE channel types and stager picks", prefix, (["draft_dir"], {}), (["out_dir"], dict(nargs="?")))
     cmd("report", _report, "write the review page", edf, prefix, (["draft_dir"], {}), name, (["--out"], {}))

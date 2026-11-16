@@ -8,3 +8,5 @@ if __name__ == "__main__":
         sys.exit(__doc__.strip())
     s = audit_cohort(sys.argv[1], sys.argv[2])
     print(f"{s['files']} files, wall {s['wall']:.0f}s, cpu {s['cpu']:.0f}s")
+    for rid, err in s["skipped"]:
+        print(f"skipped {rid}: {err}")

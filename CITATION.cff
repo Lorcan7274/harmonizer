@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use harmonizer in your work, please cite it using the metadata below."
+title: "harmonizer: signal-checked channel harmonisation for sleep recordings"
+type: software
+authors:
+  - family-names: Purcell
+    given-names: Lorcan
+version: 0.3.0
+date-released: 2026-11-16
+license: MIT
+repository-code: "https://github.com/Lorcan7274/harmonizer"
+abstract: >-
+  Checks what each channel of a sleep recording (EDF) really is against what its header claims,
+  maps channels to standard names, and writes Luna CANONICAL rules, MNE channel types,
+  BIDS channels.tsv, stager channel picks and a review page for the channels that need a reader.
+keywords:
+  - sleep
+  - polysomnography
+  - EDF
+  - harmonisation
+  - Luna

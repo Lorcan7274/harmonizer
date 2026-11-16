@@ -4,9 +4,13 @@ from collections import defaultdict
 from .edf import read_header
 
 
+_TO_UNDERSCORE = set("-+ /\\*<>=&^!@#$%(),")
+
+
 def sanitize(label):
-    """Luna's label sanitisation: each non-alphanumeric becomes an underscore, trailing ones dropped."""
-    return re.sub(r"[^A-Za-z0-9]", "_", label).rstrip("_")
+    """Luna's label sanitisation, as measured on lunapi 1.7: these characters become underscores and outer
+    underscores are dropped. Periods, colons, quotes and brackets are kept; a non-ASCII character becomes ?."""
+    return "".join("_" if ch in _TO_UNDERSCORE else "?" if ord(ch) > 127 else ch for ch in label).strip("_")
 
 
 def luna_labels(h):

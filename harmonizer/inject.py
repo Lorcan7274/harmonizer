@@ -25,6 +25,9 @@ def swap_detected(a, b):
 
 
 def write_swap(src, dst, i, j):
-    perm = list(range(read_header(src)["nsig"]))
-    perm[i], perm[j] = j, i
+    """Swap the labels of channels i and j, counted as the audit counts them (EDF+ annotation channels left out)."""
+    h = read_header(src)
+    perm = list(range(h["nsig"]))
+    a, b = h["ch"][i]["index"], h["ch"][j]["index"]
+    perm[a], perm[b] = b, a
     rewrite_labels(src, dst, perm)
