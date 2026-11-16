@@ -1,9 +1,9 @@
 """The cohort-level steps behind the scripts and the command line: audit a directory of EDFs, then draft rules for it."""
-import csv, glob, json, os, time
+import csv, json, os, time
 from collections import Counter, defaultdict
 from concurrent.futures import ProcessPoolExecutor
-from .checks import audit, pairs, unit_scale
-from .edf import read_header, read_signals
+from .checks import audit_file, unit_scale
+from .edf import edf_paths, read_header, rec_id
 from .emit import write_outputs
 from .evidence import confidence, layout_evidence
 from .layout import group, numbered, luna_labels
@@ -16,14 +16,6 @@ AUDIT_COLS = ["id", "idx", "label", "unit", "sr", "label_type", "signal_type", "
               "amp_uv", "cal_inverted", "ecg_pol", "ecg_artefact", "reason"]
 
 
-def rec_id(path):
-    return os.path.basename(path)[:-4]
-
-
-def edf_paths(edf_dir):
-    return sorted(glob.glob(os.path.join(edf_dir, "*.edf")))
-
-
 def read_audit(prefix):
     """Audit rows per recording id, in channel order."""
     rows = defaultdict(list)
@@ -33,23 +25,33 @@ def read_audit(prefix):
     return rows
 
 
-def _audit_one(path):
+def _audit_one(job):
+    path, max_windows = job
     t = time.time()
-    h, xs = read_signals(path)
-    return rec_id(path), audit(h, xs), pairs(h, xs), time.time() - t
+    try:
+        _, rows, pr = audit_file(path, max_windows=max_windows)
+        return rec_id(path), rows, pr, time.time() - t, ""
+    except Exception as e:
+        return rec_id(path), [], [], time.time() - t, f"{type(e).__name__}: {e}"
 
 
-def audit_cohort(edf_dir, prefix, jobs=4):
-    """Run the signal checks on every EDF in edf_dir; writes PREFIX_channels.csv, _features.json and _pairs.json."""
+def audit_cohort(edf_dir, prefix, jobs=4, max_windows=8):
+    """Run the signal checks on every EDF in edf_dir; writes PREFIX_channels.csv, _features.json and _pairs.json.
+
+    A file that cannot be read is skipped and listed in PREFIX_errors.csv instead of stopping the run.
+    """
     files = edf_paths(edf_dir)
     os.makedirs(os.path.dirname(os.path.abspath(prefix)), exist_ok=True)
     t0 = time.time()
-    feats, allpairs, secs = {}, {}, 0
+    feats, allpairs, errors, secs = {}, {}, [], 0
     with ProcessPoolExecutor(jobs) as ex, open(prefix + "_channels.csv", "w", newline="") as fh:
         w = csv.DictWriter(fh, AUDIT_COLS, extrasaction="ignore")
         w.writeheader()
-        for rid, rows, pr, dt in ex.map(_audit_one, files):
+        for rid, rows, pr, dt, err in ex.map(_audit_one, [(f, max_windows) for f in files]):
             secs += dt
+            if err:
+                errors.append((rid, err))
+                continue
             for r in rows:
                 w.writerow(dict(r, id=rid))
             feats[rid] = [dict(label=r["label"], **r["feat"]) for r in rows]
@@ -58,7 +60,12 @@ def audit_cohort(edf_dir, prefix, jobs=4):
         json.dump(feats, fh)
     with open(prefix + "_pairs.json", "w") as fh:
         json.dump(allpairs, fh, indent=0)
-    return dict(files=len(files), wall=time.time() - t0, cpu=secs)
+    if errors:
+        with open(prefix + "_errors.csv", "w", newline="") as fh:
+            csv.writer(fh).writerows([("id", "error")] + errors)
+    elif os.path.exists(prefix + "_errors.csv"):
+        os.remove(prefix + "_errors.csv")
+    return dict(files=len(files) - len(errors), skipped=errors, wall=time.time() - t0, cpu=secs)
 
 
 KEY_STATUS = {"agree": "settled", "flat": "flat", "conflict": "unsettled", "label_unread": "unsettled", "unchecked": "unchecked"}
@@ -95,34 +102,52 @@ def answer_key(prefix, rulings_csv=None):
     return dict(n), kept, sorted(rulings)
 
 
+def _layouts(edf_dir, audit_rows):
+    return numbered(group([p for p in edf_paths(edf_dir) if rec_id(p) in audit_rows]))
+
+
+def _layout_headers(paths):
+    heads = {rec_id(p): read_header(p) for p in paths}
+    labs = {r: luna_labels(h) for r, h in heads.items()}
+    pos = {r: {x.upper(): i for i, x in enumerate(ls)} for r, ls in labs.items()}
+    return heads, labs, pos
+
+
+def _prompt(lid, paths, heads, labs, pos, audit_rows, reader):
+    from .model import layout_prompt
+    first, chans = heads[rec_id(paths[0])], []
+    for i, lab in enumerate(labs[rec_id(paths[0])]):
+        idx = {r: pos[r][lab.upper()] for r in heads}
+        chans.append(dict(label=lab, original=first["ch"][i]["label"],
+                          units=sorted({heads[r]["ch"][idx[r]]["unit"] for r in heads}),
+                          rates=sorted({heads[r]["ch"][idx[r]]["sr"] for r in heads}),
+                          trans=first["ch"][i]["trans"], prefilt=first["ch"][i]["prefilt"]))
+    return layout_prompt(lid, len(paths), chans, layout_evidence(labs, audit_rows) if reader == "model-signals" else None)
+
+
+def layout_prompts(edf_dir, prefix, reader="model-signals"):
+    """(layout id, prompt) for every layout: word for word what that model reader would send, without sending it."""
+    audit_rows = read_audit(prefix)
+    for lid, (_, paths) in _layouts(edf_dir, audit_rows).items():
+        yield lid, _prompt(lid, paths, *_layout_headers(paths), audit_rows, reader)
+
+
 def draft(edf_dir, prefix, out_dir, reader="baseline", log=print):
     """Draft CANONICAL rules for a cohort from its audit; writes the rule file, lists, pre-script and mapping.json."""
     if reader not in READERS:
         raise ValueError(f"reader must be one of {READERS}")
     audit_rows = read_audit(prefix)
-    layouts = numbered(group(edf_paths(edf_dir)))
+    layouts = _layouts(edf_dir, audit_rows)
     mappings, notes, units_ok, problems, conf_rows, pre = {}, {}, {}, [], [], []
     for lid, (_, paths) in layouts.items():
-        heads = {rec_id(p): read_header(p) for p in paths}
-        labs = {r: luna_labels(h) for r, h in heads.items()}
-        pos = {r: {x.upper(): i for i, x in enumerate(ls)} for r, ls in labs.items()}
-        first = heads[rec_id(paths[0])]
+        heads, labs, pos = _layout_headers(paths)
         order = labs[rec_id(paths[0])]
-        ev = layout_evidence(labs, audit_rows)
         log(lid)
         if reader == "baseline":
             raw = baseline(order)
         else:
-            from .model import ask, layout_prompt
-            chans = []
-            for i, lab in enumerate(order):
-                idx = {r: pos[r][lab.upper()] for r in heads}
-                chans.append(dict(label=lab, original=first["ch"][i]["label"],
-                                  units=sorted({heads[r]["ch"][idx[r]]["unit"] for r in heads}),
-                                  rates=sorted({heads[r]["ch"][idx[r]]["sr"] for r in heads}),
-                                  trans=first["ch"][i]["trans"], prefilt=first["ch"][i]["prefilt"]))
-            raw = ask(layout_prompt(lid, len(paths), chans, ev if reader == "model-signals" else None),
-                      os.path.join(out_dir, "model_cache"), order)
+            from .model import ask
+            raw = ask(_prompt(lid, paths, heads, labs, pos, audit_rows, reader), os.path.join(out_dir, "model_cache"), order)
             raw = [dict(c, target=None if c["target"] == "none" else c["target"]) for c in raw]
         mappings[lid], probs = validate(raw, order)
         problems += [f"{lid}: {p}" for p in probs]

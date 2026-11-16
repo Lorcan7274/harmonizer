@@ -1,6 +1,5 @@
 """Ask Claude to read one layout's labels and propose canonical targets. Responses are cached on disk."""
 import hashlib, json, os
-import anthropic
 from .targets import TARGETS
 
 MODEL = "claude-opus-5-5"
@@ -51,6 +50,7 @@ def ask(prompt, cache_dir, labels, attempts=3):
     path = os.path.join(cache_dir, hashlib.sha256((MODEL + SYSTEM + json.dumps(SCHEMA) + prompt).encode()).hexdigest()[:24] + ".json")
     if os.path.exists(path):
         return json.load(open(path))["channels"]
+    import anthropic
     client = anthropic.Anthropic()
     want = sorted(labels)
     for attempt in range(attempts):
