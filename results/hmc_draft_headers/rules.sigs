@@ -1,0 +1,98 @@
+% Drafted CANONICAL rules. One group per header layout; run each layout's sample list with its group.
+
+% L01 (151 recordings): EEG_F4_M1 -> F4_M1. Label F4-M1 is the right frontal EEG referenced to the left mastoid. Evidence: 7 flag, 144 high
+F4_M1
+ group:
+  L01
+ req:
+  sig = EEG_F4_M1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (151 recordings): EEG_C4_M1 -> C4_M1. Label C4-M1 is the right central EEG referenced to the left mastoid. Evidence: 10 flag, 141 high
+C4_M1
+ group:
+  L01
+ req:
+  sig = EEG_C4_M1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (151 recordings): EEG_O2_M1 -> O2_M1. Label O2-M1 is the right occipital EEG referenced to the left mastoid. Evidence: 11 flag, 140 high
+O2_M1
+ group:
+  L01
+ req:
+  sig = EEG_O2_M1
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (151 recordings): EEG_C3_M2 -> C3_M2. Label C3-M2 is the left central EEG referenced to the right mastoid. Evidence: 10 flag, 141 high
+C3_M2
+ group:
+  L01
+ req:
+  sig = EEG_C3_M2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (151 recordings): EMG_chin -> EMG. Label says chin EMG. Evidence: 55 flag, 96 high
+EMG
+ group:
+  L01
+ req:
+  sig = EMG_chin
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (151 recordings): EOG_E1_M2 -> LOC. E1 is the left eye electrode, here referenced to M2. Evidence: 16 flag, 135 high
+LOC
+ group:
+  L01
+ req:
+  sig = EOG_E1_M2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (151 recordings): EOG_E2_M2 -> ROC. E2 is the right eye electrode, here referenced to M2. Evidence: 19 flag, 132 high
+ROC
+ group:
+  L01
+ req:
+  sig = EOG_E2_M2
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L01 (151 recordings): ECG -> ECG. Label says ECG. Evidence: 11 flag, 139 high, 1 medium
+ECG
+ group:
+  L01
+ req:
+  sig = ECG
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+

@@ -1,0 +1,54 @@
+{
+ "prompt": "Layout L01, 151 recording(s).\n\nCanonical targets (name: kind): C4_M1: eeg, C3_M2: eeg, F4_M1: eeg, F3_M2: eeg, O2_M1: eeg, O1_M2: eeg, LOC: eog, ROC: eog, EOG: eog, EMG: emg, ECG: ecg, LAT: emg_leg, RAT: emg_leg, thorax: effort, abdomen: effort, airflow: flow, nas_pres: flow, SpO2: spo2, HR: hr, pleth: pleth, pos: pos, snore: snore\n\nChannels:\n- label=EEG_F4_M1 | original='EEG F4-M1' | units=['uV'] | rates_hz=[256.0] | transducer='AgAgCl electrodes' | prefilter='HP:0.2Hz LP:35.0Hz'\n- label=EEG_C4_M1 | original='EEG C4-M1' | units=['uV'] | rates_hz=[256.0] | transducer='AgAgCl electrodes' | prefilter='HP:0.2Hz LP:35.0Hz'\n- label=EEG_O2_M1 | original='EEG O2-M1' | units=['uV'] | rates_hz=[256.0] | transducer='AgAgCl electrodes' | prefilter='HP:0.2Hz LP:35.0Hz'\n- label=EEG_C3_M2 | original='EEG C3-M2' | units=['uV'] | rates_hz=[256.0] | transducer='AgAgCl electrodes' | prefilter='HP:0.2Hz LP:35.0Hz'\n- label=EMG_chin | original='EMG chin' | units=['uV'] | rates_hz=[256.0] | transducer='AgAgCl electrodes' | prefilter='HP:1.0Hz LP:150.0Hz'\n- label=EOG_E1_M2 | original='EOG E1-M2' | units=['uV'] | rates_hz=[256.0] | transducer='AgAgCl electrodes' | prefilter='HP:0.2Hz LP:35.0Hz'\n- label=EOG_E2_M2 | original='EOG E2-M2' | units=['uV'] | rates_hz=[256.0] | transducer='AgAgCl electrodes' | prefilter='HP:0.2Hz LP:35.0Hz'\n- label=ECG | original='ECG' | units=['uV'] | rates_hz=[256.0] | transducer='AgAgCl electrodes' | prefilter='HP:1.0Hz LP:150.0Hz'",
+ "model": "claude-opus-5-5",
+ "channels": [
+  {
+   "label": "EEG_F4_M1",
+   "reason": "Label F4-M1 is the right frontal EEG referenced to the left mastoid.",
+   "target": "F4_M1",
+   "ref": ""
+  },
+  {
+   "label": "EEG_C4_M1",
+   "reason": "Label C4-M1 is the right central EEG referenced to the left mastoid.",
+   "target": "C4_M1",
+   "ref": ""
+  },
+  {
+   "label": "EEG_O2_M1",
+   "reason": "Label O2-M1 is the right occipital EEG referenced to the left mastoid.",
+   "target": "O2_M1",
+   "ref": ""
+  },
+  {
+   "label": "EEG_C3_M2",
+   "reason": "Label C3-M2 is the left central EEG referenced to the right mastoid.",
+   "target": "C3_M2",
+   "ref": ""
+  },
+  {
+   "label": "EMG_chin",
+   "reason": "Label says chin EMG.",
+   "target": "EMG",
+   "ref": ""
+  },
+  {
+   "label": "EOG_E1_M2",
+   "reason": "E1 is the left eye electrode, here referenced to M2.",
+   "target": "LOC",
+   "ref": ""
+  },
+  {
+   "label": "EOG_E2_M2",
+   "reason": "E2 is the right eye electrode, here referenced to M2.",
+   "target": "ROC",
+   "ref": ""
+  },
+  {
+   "label": "ECG",
+   "reason": "Label says ECG.",
+   "target": "ECG",
+   "ref": ""
+  }
+ ]
+}

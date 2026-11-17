@@ -1,6 +1,6 @@
 % Drafted CANONICAL rules. One group per header layout; run each layout's sample list with its group.
 
-% L01 (22 recordings): C4_A1 -> C4_M1. C4 referenced to left mastoid A1 (M1) and traces are neuro, matching C4_M1. Evidence: 22 high
+% L01 (22 recordings): C4_A1 -> C4_M1. C4 referenced to contralateral left ear/mastoid A1, neuro trace in all recordings, equivalent to C4-M1. Evidence: 22 high
 C4_M1
  group:
   L01
@@ -12,7 +12,7 @@ C4_M1
  set:
   unit = uV
 
-% L01 (22 recordings): ROC_LOC -> EOG. Bipolar ROC-LOC eye derivation with neuro traces maps to the single EOG channel. Evidence: 1 flag, 21 high
+% L01 (22 recordings): ROC_LOC -> EOG. Bipolar right-minus-left eye EOG derivation, neuro trace; maps to the generic EOG channel. Evidence: 22 high
 EOG
  group:
   L01
@@ -24,7 +24,7 @@ EOG
  set:
   unit = uV
 
-% L01 (22 recordings): EMG1_EMG2 -> EMG. Bipolar EMG1-EMG2 with 10-100 Hz filter and mostly EMG traces is chin EMG. Evidence: 3 flag, 19 high
+% L01 (22 recordings): EMG1_EMG2 -> EMG. Bipolar chin EMG with 10-100 Hz filter, EMG-like trace in most recordings. Evidence: 3 flag, 19 high
 EMG
  group:
   L01
@@ -36,7 +36,7 @@ EMG
  set:
   unit = uV
 
-% L01 (22 recordings): ECG1_ECG2 -> ECG. ECG1-ECG2 lead with ECG traces in most recordings. Evidence: 2 flag, 20 high
+% L01 (22 recordings): ECG1_ECG2 -> ECG. Bipolar ECG lead, ECG trace in most recordings. Evidence: 2 flag, 20 high
 ECG
  group:
   L01
@@ -48,7 +48,7 @@ ECG
  set:
   unit = uV
 
-% L01 (22 recordings): DX1_DX2 -> RAT. DX (Italian destra, right) EMG pair with EMG traces is the right leg EMG. Evidence: 2 flag, 20 high
+% L01 (22 recordings): DX1_DX2 -> RAT. DX (Italian destra, right) EMG pair with 10-100 Hz filter, EMG trace in most recordings: right leg/tibialis. Evidence: 2 flag, 20 high
 RAT
  group:
   L01
@@ -60,7 +60,7 @@ RAT
  set:
   unit = uV
 
-% L01 (22 recordings): SX1_SX2 -> LAT. SX (Italian sinistra, left) EMG pair with mostly EMG traces is the left leg EMG. Evidence: 7 flag, 15 high
+% L01 (22 recordings): SX1_SX2 -> LAT. SX (Italian sinistra, left) EMG pair with 10-100 Hz filter, mostly EMG trace: left leg/tibialis. Evidence: 7 flag, 15 high
 LAT
  group:
   L01
@@ -72,28 +72,28 @@ LAT
  set:
   unit = uV
 
-% L01 (22 recordings): SAO2 -> SpO2. Oximeter SaO2 in % with SpO2 traces. Evidence: 1 flag, 21 high
+% L01 (22 recordings): SAO2 -> SpO2. Oximeter saturation in %, SpO2 trace in 21 of 22 recordings. Evidence: 1 flag, 21 high
 SpO2
  group:
   L01
  req:
   sig = SAO2
 
-% L01 (22 recordings): HR -> HR. Oximeter heart rate in BPM with HR traces. Evidence: 1 flag, 21 high
+% L01 (22 recordings): HR -> HR. Oximeter heart rate in BPM, HR trace in 21 of 22 recordings. Evidence: 1 flag, 21 high
 HR
  group:
   L01
  req:
   sig = HR
 
-% L01 (22 recordings): PLETH -> pleth. Oximeter pulse wave with pleth traces in most recordings. Evidence: 2 flag, 20 high
+% L01 (22 recordings): PLETH -> pleth. Oximeter pulse wave, pleth trace in most recordings. Evidence: 2 flag, 20 high
 pleth
  group:
   L01
  req:
   sig = PLETH
 
-% L02 (10 recordings): C4_A1 -> C4_M1. C4 referenced to left mastoid A1 with neuro traces is the right central EEG derivation. Evidence: 10 high
+% L02 (10 recordings): C4_A1 -> C4_M1. C4 referenced to contralateral A1 is the standard central derivation equivalent to C4-M1, neuro traces throughout. Evidence: 10 high
 C4_M1
  group:
   L02
@@ -105,7 +105,7 @@ C4_M1
  set:
   unit = uV
 
-% L02 (10 recordings): ROC_LOC -> EOG. Bipolar ROC-LOC eye derivation is a single combined EOG; 4 of 10 traces looked respiratory so check those recordings. Evidence: 4 flag, 6 high
+% L02 (10 recordings): ROC_LOC -> EOG. Bipolar ROC-LOC eye-movement derivation (EOG transducer) maps to the single EOG channel. Evidence: 1 flag, 9 high
 EOG
  group:
   L02
@@ -117,7 +117,7 @@ EOG
  set:
   unit = uV
 
-% L02 (10 recordings): EMG1_EMG2 -> EMG. Bipolar chin EMG with 10-100 Hz filter and EMG traces in all recordings. Evidence: 10 high
+% L02 (10 recordings): EMG1_EMG2 -> EMG. Bipolar EMG1-EMG2 with 10-100 Hz filter and EMG traces is the chin EMG. Evidence: 10 high
 EMG
  group:
   L02
@@ -129,7 +129,7 @@ EMG
  set:
   unit = uV
 
-% L02 (10 recordings): ECG1_ECG2 -> ECG. Bipolar ECG lead with ECG traces in all recordings. Evidence: 10 high
+% L02 (10 recordings): ECG1_ECG2 -> ECG. Bipolar ECG1-ECG2 lead with ECG traces in all recordings. Evidence: 10 high
 ECG
  group:
   L02
@@ -141,7 +141,7 @@ ECG
  set:
   unit = uV
 
-% L02 (10 recordings): DX1_DX2 -> RAT. Italian dx (right) EMG pair with EMG filter and mostly EMG traces is the right leg EMG. Evidence: 2 flag, 8 high
+% L02 (10 recordings): DX1_DX2 -> RAT. Italian 'dx' (right) EMG pair with leg-EMG filtering and mostly EMG traces is the right tibialis. Evidence: 2 flag, 8 high
 RAT
  group:
   L02
@@ -153,7 +153,7 @@ RAT
  set:
   unit = uV
 
-% L02 (10 recordings): SX1_SX2 -> LAT. Italian sx (left) EMG pair with EMG traces is the left leg EMG. Evidence: 10 high
+% L02 (10 recordings): SX1_SX2 -> LAT. Italian 'sx' (left) EMG pair with EMG traces is the left tibialis. Evidence: 10 high
 LAT
  group:
   L02
@@ -179,14 +179,14 @@ HR
  req:
   sig = HR
 
-% L02 (10 recordings): PLETH -> pleth. Pulse wave plethysmogram with pleth traces. Evidence: 10 high
+% L02 (10 recordings): PLETH -> pleth. Oximeter pulse waveform with pleth traces. Evidence: 10 high
 pleth
  group:
   L02
  req:
   sig = PLETH
 
-% L02 (10 recordings): MIC -> snore. Sound microphone with 10-80 Hz filter is the snore channel. Evidence: 10 high
+% L02 (10 recordings): MIC -> snore. Sound microphone channel with 10-80 Hz band is the snore signal. Evidence: 10 high
 snore
  group:
   L02
@@ -300,7 +300,7 @@ pleth
  req:
   sig = PLETH
 
-% L04 (5 recordings): C4_A1 -> C4_M1. C4 referenced to contralateral mastoid A1 (M1), neuro trace in most recordings. Evidence: 1 flag, 4 high
+% L04 (5 recordings): C4_A1 -> C4_M1. C4 referenced to contralateral ear A1 with neuro trace is the standard central EEG. Evidence: 5 high
 C4_M1
  group:
   L04
@@ -312,7 +312,7 @@ C4_M1
  set:
   unit = uV
 
-% L04 (5 recordings): ROC_LOC -> EOG. Bipolar right-left eye derivation is a combined EOG channel. Evidence: 1 flag, 4 high
+% L04 (5 recordings): ROC_LOC -> EOG. Bipolar right-minus-left eye derivation with neuro trace is a single EOG channel. Evidence: 5 high
 EOG
  group:
   L04
@@ -324,7 +324,7 @@ EOG
  set:
   unit = uV
 
-% L04 (5 recordings): EMG1_EMG2 -> EMG. Bipolar chin EMG pair with 10-100 Hz filtering and EMG traces. Evidence: 5 high
+% L04 (5 recordings): EMG1_EMG2 -> EMG. Bipolar chin EMG at 256 Hz, 10-100 Hz filter, EMG trace in all recordings. Evidence: 5 high
 EMG
  group:
   L04
@@ -336,7 +336,7 @@ EMG
  set:
   unit = uV
 
-% L04 (5 recordings): ECG1_ECG2 -> ECG. Bipolar ECG lead with ECG traces in all recordings. Evidence: 5 high
+% L04 (5 recordings): ECG1_ECG2 -> ECG. Bipolar ECG lead with ECG trace in all recordings. Evidence: 5 high
 ECG
  group:
   L04
@@ -348,7 +348,7 @@ ECG
  set:
   unit = uV
 
-% L04 (5 recordings): DX1_DX2 -> RAT. Italian dx (right) EMG pair with 10-100 Hz EMG filter, consistent with right leg EMG. Evidence: 3 flag, 2 high
+% L04 (5 recordings): DX1_DX2 -> RAT. Italian dx (right) bipolar EMG at 256 Hz with 10-100 Hz filter is right leg EMG; low-activity traces look neuro-like. Evidence: 3 flag, 2 high
 RAT
  group:
   L04
@@ -360,7 +360,7 @@ RAT
  set:
   unit = uV
 
-% L04 (5 recordings): SX1_SX2 -> LAT. Italian sx (left) EMG pair with EMG filtering and mostly EMG traces, left leg EMG. Evidence: 1 flag, 4 high
+% L04 (5 recordings): SX1_SX2 -> LAT. Italian sx (left) bipolar EMG at 256 Hz with mostly EMG traces is left leg EMG. Evidence: 1 flag, 4 high
 LAT
  group:
   L04
@@ -372,28 +372,28 @@ LAT
  set:
   unit = uV
 
-% L04 (5 recordings): SAO2 -> SpO2. Oxygen saturation in % with SpO2 traces. Evidence: 5 high
+% L04 (5 recordings): SAO2 -> SpO2. Oxygen saturation in % at 1 Hz with SpO2 trace. Evidence: 5 high
 SpO2
  group:
   L04
  req:
   sig = SAO2
 
-% L04 (5 recordings): HR -> HR. Heart rate in BPM with HR traces. Evidence: 5 high
+% L04 (5 recordings): HR -> HR. Heart rate in BPM at 1 Hz with HR trace. Evidence: 5 high
 HR
  group:
   L04
  req:
   sig = HR
 
-% L04 (5 recordings): Pleth -> pleth. Plethysmogram waveform with pleth traces in most recordings. Evidence: 1 flag, 4 high
+% L04 (5 recordings): Pleth -> pleth. Plethysmogram labeled Pleth with mostly pleth-like traces. Evidence: 1 flag, 4 high
 pleth
  group:
   L04
  req:
   sig = Pleth
 
-% L05 (5 recordings): ROC_LOC -> EOG. Bipolar right-minus-left EOG derivation with an EOG transducer and a neuro-type trace, so it maps to the combined EOG. Evidence: 5 high
+% L05 (5 recordings): ROC_LOC -> EOG. Bipolar ROC-LOC derivation combines both eyes, so it fits the generic EOG target. Evidence: 5 high
 EOG
  group:
   L05
@@ -405,7 +405,7 @@ EOG
  set:
   unit = uV
 
-% L05 (5 recordings): C4_A1 -> C4_M1. C4 is referenced to the contralateral mastoid/ear A1, and the trace is neuro-type, so it maps to C4_M1. Evidence: 5 high
+% L05 (5 recordings): C4_A1 -> C4_M1. C4 referenced to the left mastoid A1 is the standard C4-M1 derivation, and the trace looks neural. Evidence: 5 high
 C4_M1
  group:
   L05
@@ -417,7 +417,7 @@ C4_M1
  set:
   unit = uV
 
-% L05 (5 recordings): EMG1_EMG2 -> EMG. Bipolar EMG pair with a 10-100 Hz filter and EMG-type traces in most recordings, so it is the chin EMG. Evidence: 1 flag, 4 high
+% L05 (5 recordings): EMG1_EMG2 -> EMG. The bipolar chin EMG pair has a 10-100 Hz filter and an EMG-like trace. Evidence: 5 high
 EMG
  group:
   L05
@@ -429,7 +429,7 @@ EMG
  set:
   unit = uV
 
-% L05 (5 recordings): ECG1_ECG2 -> ECG. Bipolar ECG lead in mV with ECG-type traces in all recordings. Evidence: 5 high
+% L05 (5 recordings): ECG1_ECG2 -> ECG. The bipolar ECG lead is in mV and the trace looks like ECG. Evidence: 5 high
 ECG
  group:
   L05
@@ -441,7 +441,7 @@ ECG
  set:
   unit = uV
 
-% L05 (5 recordings): DX1_DX2 -> RAT. DX (Italian destra, right) bipolar pair with an EMG filter and EMG traces, so it is the right leg EMG. Evidence: 5 high
+% L05 (5 recordings): DX1_DX2 -> RAT. DX (Italian destra, right) is a bipolar EMG pair with an EMG trace, consistent with the right leg (tibialis). Evidence: 5 high
 RAT
  group:
   L05
@@ -453,7 +453,7 @@ RAT
  set:
   unit = uV
 
-% L05 (5 recordings): SX1_SX2 -> LAT. SX (Italian sinistra, left) bipolar pair with an EMG filter and EMG traces, so it is the left leg EMG. Evidence: 5 high
+% L05 (5 recordings): SX1_SX2 -> LAT. SX (Italian sinistra, left) is a bipolar EMG pair with an EMG trace, consistent with the left leg (tibialis). Evidence: 5 high
 LAT
  group:
   L05
@@ -465,21 +465,21 @@ LAT
  set:
   unit = uV
 
-% L05 (5 recordings): SAO2 -> SpO2. Oximeter saturation in % with SpO2-type traces. Evidence: 5 high
+% L05 (5 recordings): SAO2 -> SpO2. Oximeter saturation in % with an SpO2 trace. Evidence: 5 high
 SpO2
  group:
   L05
  req:
   sig = SAO2
 
-% L05 (5 recordings): HR -> HR. Oximeter heart rate in BPM with HR-type traces. Evidence: 5 high
+% L05 (5 recordings): HR -> HR. Oximeter heart rate in BPM with an HR trace. Evidence: 5 high
 HR
  group:
   L05
  req:
   sig = HR
 
-% L05 (5 recordings): PLETH -> pleth. Pulse waveform from the oximeter with pleth-type traces. Evidence: 5 high
+% L05 (5 recordings): PLETH -> pleth. Pulse-wave plethysmogram with a pleth trace. Evidence: 5 high
 pleth
  group:
   L05
@@ -579,7 +579,7 @@ pleth
  req:
   sig = PLETH
 
-% L07 (4 recordings): C4_A1 -> C4_M1. C4 referenced to the contralateral mastoid A1 (M1), with neuro traces, matches C4_M1. Evidence: 4 high
+% L07 (4 recordings): C4_A1 -> C4_M1. C4 referenced to the contralateral left mastoid (A1) is the standard C4-M1 derivation, with an EEG-like trace. Evidence: 4 high
 C4_M1
  group:
   L07
@@ -591,7 +591,7 @@ C4_M1
  set:
   unit = uV
 
-% L07 (4 recordings): ROC_LOC -> EOG. Bipolar ROC-LOC derivation is a single combined EOG channel with mostly neuro traces. Evidence: 1 flag, 3 high
+% L07 (4 recordings): ROC_LOC -> EOG. Bipolar right-minus-left eye derivation is a single combined EOG channel. Evidence: 4 high
 EOG
  group:
   L07
@@ -603,7 +603,7 @@ EOG
  set:
   unit = uV
 
-% L07 (4 recordings): EMG1_EMG2 -> EMG. Bipolar chin EMG with a 10-100 Hz filter and EMG traces in all recordings. Evidence: 4 high
+% L07 (4 recordings): EMG1_EMG2 -> EMG. Bipolar EMG at 10-100 Hz with EMG-like traces is the chin EMG. Evidence: 4 high
 EMG
  group:
   L07
@@ -615,7 +615,7 @@ EMG
  set:
   unit = uV
 
-% L07 (4 recordings): ECG1_ECG2 -> ECG. Bipolar ECG lead in mV with ECG traces in all recordings. Evidence: 4 high
+% L07 (4 recordings): ECG1_ECG2 -> ECG. Bipolar ECG in mV with ECG traces in all recordings. Evidence: 4 high
 ECG
  group:
   L07
@@ -627,7 +627,7 @@ ECG
  set:
   unit = uV
 
-% L07 (4 recordings): DX1_DX2 -> RAT. Italian dx (right) bipolar EMG with a 10 Hz high-pass filter and mostly EMG traces fits the right leg (anterior tibialis). Evidence: 1 flag, 3 high
+% L07 (4 recordings): DX1_DX2 -> RAT. Italian 'dx' (right) bipolar EMG at 10-100 Hz, EMG-like in most recordings, is the right leg EMG. Evidence: 1 flag, 3 high
 RAT
  group:
   L07
@@ -639,7 +639,7 @@ RAT
  set:
   unit = uV
 
-% L07 (4 recordings): SX1_SX2 -> LAT. Italian sx (left) bipolar EMG with a 10 Hz high-pass filter and mostly EMG traces fits the left leg (anterior tibialis). Evidence: 1 flag, 3 high
+% L07 (4 recordings): SX1_SX2 -> LAT. Italian 'sx' (left) bipolar EMG with a 10 Hz high-pass, EMG-like in most recordings, is the left leg EMG. Evidence: 1 flag, 3 high
 LAT
  group:
   L07
@@ -665,7 +665,7 @@ HR
  req:
   sig = HR
 
-% L07 (4 recordings): PLETH -> pleth. Oximeter pulse wave with mostly pleth traces. Evidence: 1 flag, 3 high
+% L07 (4 recordings): PLETH -> pleth. Oximeter pulse waveform, pleth-like in 3 of 4 recordings. Evidence: 1 flag, 3 high
 pleth
  group:
   L07
@@ -872,7 +872,7 @@ pleth
  req:
   sig = PLETH
 
-% L10 (2 recordings): ROC_LOC -> EOG. Bipolar ROC-LOC eye channel with an EOG transducer; it does not separate into LOC/ROC, so it maps to the generic EOG target. Evidence: 1 flag, 1 high
+% L10 (2 recordings): ROC_LOC -> EOG. Bipolar ROC-LOC eye derivation with EOG transducer; maps to generic EOG (trace mixed, one resp-like recording). Evidence: 1 flag, 1 high
 EOG
  group:
   L10
@@ -884,7 +884,7 @@ EOG
  set:
   unit = uV
 
-% L10 (2 recordings): C4_A1 -> C4_M1. C4 referenced to the contralateral ear A1, equivalent to C4-M1, with a neuro trace. Evidence: 2 high
+% L10 (2 recordings): C4_A1 -> C4_M1. C4 referenced to contralateral mastoid A1, neuro trace, equals C4-M1. Evidence: 2 high
 C4_M1
  group:
   L10
@@ -896,7 +896,7 @@ C4_M1
  set:
   unit = uV
 
-% L10 (2 recordings): EMG1_EMG2 -> EMG. Bipolar EMG pair with a 10-100 Hz filter and an EMG trace is the chin EMG. Evidence: 2 high
+% L10 (2 recordings): EMG1_EMG2 -> EMG. Bipolar chin EMG with 10-100 Hz filter and EMG-like trace. Evidence: 2 high
 EMG
  group:
   L10
@@ -908,7 +908,7 @@ EMG
  set:
   unit = uV
 
-% L10 (2 recordings): ECG1_ECG2 -> ECG. Bipolar ECG lead with an ECG trace. Evidence: 2 high
+% L10 (2 recordings): ECG1_ECG2 -> ECG. Bipolar ECG lead with ECG trace in both recordings. Evidence: 2 high
 ECG
  group:
   L10
@@ -920,7 +920,7 @@ ECG
  set:
   unit = uV
 
-% L10 (2 recordings): DX1_DX2 -> RAT. DX (Italian destra, right) EMG pair with an EMG filter is the right leg EMG. Evidence: 1 flag, 1 high
+% L10 (2 recordings): DX1_DX2 -> RAT. DX (Italian destra, right) EMG pair, i.e. right leg tibialis EMG. Evidence: 1 flag, 1 high
 RAT
  group:
   L10
@@ -932,7 +932,7 @@ RAT
  set:
   unit = uV
 
-% L10 (2 recordings): SX1_SX2 -> LAT. SX (Italian sinistra, left) EMG pair with an EMG trace is the left leg EMG. Evidence: 2 high
+% L10 (2 recordings): SX1_SX2 -> LAT. SX (Italian sinistra, left) EMG pair, i.e. left leg tibialis EMG. Evidence: 2 high
 LAT
  group:
   L10
@@ -944,35 +944,35 @@ LAT
  set:
   unit = uV
 
-% L10 (2 recordings): TORACE -> thorax. TORACE (Italian for thorax) with a respiratory trace is thoracic effort. Evidence: 2 high
+% L10 (2 recordings): TORACE -> thorax. Italian torace = thoracic effort belt, resp trace. Evidence: 2 high
 thorax
  group:
   L10
  req:
   sig = TORACE
 
-% L10 (2 recordings): ADDOME -> abdomen. ADDOME (Italian for abdomen) with a respiratory trace is abdominal effort. Evidence: 2 high
+% L10 (2 recordings): ADDOME -> abdomen. Italian addome = abdominal effort belt; resp in one recording. Evidence: 1 flag, 1 high
 abdomen
  group:
   L10
  req:
   sig = ADDOME
 
-% L10 (2 recordings): Position -> pos. Body position channel by label; it was flat in both recordings, consistent with an unchanging position. Evidence: 2 medium
+% L10 (2 recordings): Position -> pos. Body position channel (flat trace consistent with unchanged position). Evidence: 2 medium
 pos
  group:
   L10
  req:
   sig = Position
 
-% L10 (2 recordings): SAO2 -> SpO2. Oximeter saturation in % with an SpO2 trace. Evidence: 2 high
+% L10 (2 recordings): SAO2 -> SpO2. Oximeter oxygen saturation in %, spo2 trace. Evidence: 2 high
 SpO2
  group:
   L10
  req:
   sig = SAO2
 
-% L10 (2 recordings): MIC -> snore. Microphone sound channel with a 10-80 Hz filter is the snore channel. Evidence: 2 high
+% L10 (2 recordings): MIC -> snore. Sound microphone channel for snoring. Evidence: 2 high
 snore
  group:
   L10
@@ -986,14 +986,14 @@ HR
  req:
   sig = HR
 
-% L10 (2 recordings): PLETH -> pleth. Pulse wave transducer with a pleth trace. Evidence: 2 high
+% L10 (2 recordings): PLETH -> pleth. Oximeter pulse wave, pleth trace. Evidence: 2 high
 pleth
  group:
   L10
  req:
   sig = PLETH
 
-% L11 (2 recordings): ROC_LOC -> EOG. Bipolar right-minus-left eye EOG derivation with EOG transducer, so it maps to the single EOG channel. Evidence: 2 high
+% L11 (2 recordings): ROC_LOC -> EOG. Bipolar ROC-LOC eye derivation with an EOG transducer, so it maps to the generic EOG channel. Evidence: 2 high
 EOG
  group:
   L11
@@ -1005,7 +1005,7 @@ EOG
  set:
   unit = uV
 
-% L11 (2 recordings): C4_A1 -> C4_M1. C4 referenced to contralateral left ear/mastoid A1, with neuro trace, matches C4_M1. Evidence: 2 high
+% L11 (2 recordings): C4_A1 -> C4_M1. C4 referenced to the contralateral mastoid/ear A1, and the trace looks like EEG, so it maps to C4_M1. Evidence: 2 high
 C4_M1
  group:
   L11
@@ -1017,7 +1017,7 @@ C4_M1
  set:
   unit = uV
 
-% L11 (2 recordings): EMG1_EMG2 -> EMG. Bipolar EMG pair with 10-100 Hz filter and EMG-like trace is the chin EMG. Evidence: 2 high
+% L11 (2 recordings): EMG1_EMG2 -> EMG. Bipolar EMG with a 10-100 Hz filter and an EMG-like trace; taken as chin EMG. Evidence: 2 high
 EMG
  group:
   L11
@@ -1029,7 +1029,7 @@ EMG
  set:
   unit = uV
 
-% L11 (2 recordings): ECG1_ECG2 -> ECG. Bipolar ECG lead in mV with ECG-like trace. Evidence: 2 high
+% L11 (2 recordings): ECG1_ECG2 -> ECG. Bipolar ECG lead in mV with an ECG-like trace. Evidence: 2 high
 ECG
  group:
   L11
@@ -1041,7 +1041,7 @@ ECG
  set:
   unit = uV
 
-% L11 (2 recordings): DX1_DX2 -> RAT. Italian 'dx' (right) EMG pair with EMG trace is the right leg EMG. Evidence: 2 high
+% L11 (2 recordings): DX1_DX2 -> RAT. DX (Italian destra, right) EMG pair with an EMG trace is the right leg/tibialis channel. Evidence: 2 high
 RAT
  group:
   L11
@@ -1053,7 +1053,7 @@ RAT
  set:
   unit = uV
 
-% L11 (2 recordings): SX1_SX2 -> LAT. Italian 'sx' (left) EMG pair with EMG trace is the left leg EMG. Evidence: 2 high
+% L11 (2 recordings): SX1_SX2 -> LAT. SX (Italian sinistra, left) EMG pair with an EMG trace is the left leg/tibialis channel. Evidence: 2 high
 LAT
  group:
   L11
@@ -1065,49 +1065,49 @@ LAT
  set:
   unit = uV
 
-% L11 (2 recordings): TORACE -> thorax. Italian 'torace' is thoracic effort with respiratory trace. Evidence: 2 high
+% L11 (2 recordings): TORACE -> thorax. Italian torace (thorax) effort belt with a 0.05-3 Hz filter; it looked respiratory in one recording. Evidence: 1 flag, 1 high
 thorax
  group:
   L11
  req:
   sig = TORACE
 
-% L11 (2 recordings): ADDOME -> abdomen. Italian 'addome' is abdominal effort with respiratory trace. Evidence: 2 high
+% L11 (2 recordings): ADDOME -> abdomen. Italian addome (abdomen) effort belt with a 0.05-3 Hz filter; it looked respiratory in one recording. Evidence: 1 flag, 1 high
 abdomen
  group:
   L11
  req:
   sig = ADDOME
 
-% L11 (2 recordings): SAO2 -> SpO2. Oximeter saturation in % with SpO2 trace. Evidence: 2 high
+% L11 (2 recordings): SAO2 -> SpO2. Oximeter saturation in %, and the trace looks like SpO2. Evidence: 2 high
 SpO2
  group:
   L11
  req:
   sig = SAO2
 
-% L11 (2 recordings): MIC -> snore. Sound transducer microphone is the snore channel. Evidence: 2 high
+% L11 (2 recordings): MIC -> snore. Sound microphone channel filtered 10-80 Hz, used as the snore sensor. Evidence: 2 high
 snore
  group:
   L11
  req:
   sig = MIC
 
-% L11 (2 recordings): HR -> HR. Oximeter heart rate in BPM; one trace looked SpO2-like but units and label support HR. Evidence: 1 flag, 1 high
+% L11 (2 recordings): HR -> HR. Oximeter heart rate in BPM; it looked like HR in one recording, and the units support HR. Evidence: 1 flag, 1 high
 HR
  group:
   L11
  req:
   sig = HR
 
-% L11 (2 recordings): PLETH -> pleth. Pulse-wave transducer with plethysmogram trace. Evidence: 2 high
+% L11 (2 recordings): PLETH -> pleth. Pulse wave plethysmogram with a pleth-like trace. Evidence: 2 high
 pleth
  group:
   L11
  req:
   sig = PLETH
 
-% L12 (2 recordings): ROC_LOC -> EOG. Bipolar right-left eye derivation with an EOG transducer; one recording's trace looked respiratory, but it is kept as the single EOG. Evidence: 1 flag, 1 high
+% L12 (2 recordings): ROC_LOC -> EOG. Single bipolar ROC-LOC eye derivation with EOG transducer and a neuro trace, so it maps to the generic EOG. Evidence: 2 high
 EOG
  group:
   L12
@@ -1119,7 +1119,7 @@ EOG
  set:
   unit = uV
 
-% L12 (2 recordings): C4_A1 -> C4_M1. Right central EEG referenced to the contralateral mastoid/ear (A1), and the trace looks neural. Evidence: 2 high
+% L12 (2 recordings): C4_A1 -> C4_M1. C4 referenced to the contralateral mastoid/ear A1 with a neuro trace is the C4-M1 derivation. Evidence: 2 high
 C4_M1
  group:
   L12
@@ -1131,7 +1131,7 @@ C4_M1
  set:
   unit = uV
 
-% L12 (2 recordings): EMG1_EMG2 -> EMG. Bipolar EMG with a 10-100 Hz filter and an EMG-like trace; taken as the chin EMG. Evidence: 2 high
+% L12 (2 recordings): EMG1_EMG2 -> EMG. Bipolar EMG1-EMG2 with 10-100 Hz filter and EMG trace is the chin EMG. Evidence: 2 high
 EMG
  group:
   L12
@@ -1143,7 +1143,7 @@ EMG
  set:
   unit = uV
 
-% L12 (2 recordings): ECG1_ECG2 -> ECG. Bipolar ECG lead in mV with an ECG trace. Evidence: 2 high
+% L12 (2 recordings): ECG1_ECG2 -> ECG. Bipolar ECG lead in mV with ECG trace. Evidence: 2 high
 ECG
  group:
   L12
@@ -1155,7 +1155,7 @@ ECG
  set:
   unit = uV
 
-% L12 (2 recordings): DX1_DX2 -> RAT. Italian dx (right) bipolar EMG with a 10-100 Hz filter and an EMG trace, consistent with right leg EMG. Evidence: 2 high
+% L12 (2 recordings): DX1_DX2 -> RAT. Italian dx = right; bipolar EMG-filtered channel with EMG trace is the right leg (tibialis) EMG. Evidence: 2 high
 RAT
  group:
   L12
@@ -1167,7 +1167,7 @@ RAT
  set:
   unit = uV
 
-% L12 (2 recordings): SX1_SX2 -> LAT. Italian sx (left) bipolar EMG with a 10-100 Hz filter and an EMG trace, consistent with left leg EMG. Evidence: 2 high
+% L12 (2 recordings): SX1_SX2 -> LAT. Italian sx = left; bipolar EMG-filtered channel with EMG trace is the left leg (tibialis) EMG. Evidence: 2 high
 LAT
  group:
   L12
@@ -1179,42 +1179,42 @@ LAT
  set:
   unit = uV
 
-% L12 (2 recordings): TORACE -> thorax. Italian torace means thoracic effort, and the trace looks respiratory. Evidence: 2 high
+% L12 (2 recordings): TORACE -> thorax. Italian torace = thorax; respiratory effort trace. Evidence: 2 high
 thorax
  group:
   L12
  req:
   sig = TORACE
 
-% L12 (2 recordings): ADDOME -> abdomen. Italian addome means abdominal effort, and the trace looks respiratory. Evidence: 2 high
+% L12 (2 recordings): ADDOME -> abdomen. Italian addome = abdomen; respiratory effort trace. Evidence: 2 high
 abdomen
  group:
   L12
  req:
   sig = ADDOME
 
-% L12 (2 recordings): Position -> pos. Body position channel with a discrete DC signal. Evidence: 1 high, 1 medium
+% L12 (2 recordings): Position -> pos. Body position DC channel with discrete trace (flat in one recording). Evidence: 1 high, 1 medium
 pos
  group:
   L12
  req:
   sig = Position
 
-% L12 (2 recordings): SAO2 -> SpO2. Oximeter saturation in % with an SpO2 trace. Evidence: 2 high
+% L12 (2 recordings): SAO2 -> SpO2. Oximeter saturation in % with SpO2 trace. Evidence: 2 high
 SpO2
  group:
   L12
  req:
   sig = SAO2
 
-% L12 (2 recordings): HR -> HR. Oximeter heart rate in BPM. Evidence: 2 high
+% L12 (2 recordings): HR -> HR. Oximeter heart rate in BPM with HR trace. Evidence: 2 high
 HR
  group:
   L12
  req:
   sig = HR
 
-% L12 (2 recordings): PLETH -> pleth. Pulse waveform from the oximeter with a pleth trace. Evidence: 2 high
+% L12 (2 recordings): PLETH -> pleth. Pulse wave plethysmogram with pleth trace. Evidence: 2 high
 pleth
  group:
   L12
@@ -1370,7 +1370,7 @@ airflow
  req:
   sig = THE
 
-% L15 (2 recordings): C4_A1 -> C4_M1. C4 referenced to ipsilateral A1 is not C4-M1 contralateral; closest central EEG but reference differs, so mapped as C4_M1 is not supported strictly—label C4-A1 still a referenced right central EEG with neuro trace. Evidence: 2 high
+% L15 (2 recordings): C4_A1 -> C4_M1. C4 referenced to contralateral A1 (left mastoid) is the standard C4-M1 derivation, and the trace looks neural. Evidence: 2 high
 C4_M1
  group:
   L15
@@ -1382,7 +1382,7 @@ C4_M1
  set:
   unit = uV
 
-% L15 (2 recordings): ROC_LOC -> EOG. Bipolar ROC-LOC eye derivation with neuro trace maps to single EOG. Evidence: 2 high
+% L15 (2 recordings): ROC_LOC -> EOG. Single bipolar right-minus-left eye derivation, so it maps to the generic EOG channel rather than LOC or ROC. Evidence: 2 high
 EOG
  group:
   L15
@@ -1394,7 +1394,7 @@ EOG
  set:
   unit = uV
 
-% L15 (2 recordings): EMG1_EMG2 -> EMG. Bipolar EMG1-EMG2 with 10-100 Hz filter and EMG trace is chin EMG. Evidence: 2 high
+% L15 (2 recordings): EMG1_EMG2 -> EMG. Bipolar EMG pair with 10-100 Hz filtering and an EMG-like trace is the chin EMG. Evidence: 2 high
 EMG
  group:
   L15
@@ -1406,7 +1406,7 @@ EMG
  set:
   unit = uV
 
-% L15 (2 recordings): ECG1_ECG2 -> ECG. ECG1-ECG2 lead in mV with ECG trace. Evidence: 2 high
+% L15 (2 recordings): ECG1_ECG2 -> ECG. Bipolar ECG lead with an ECG-like trace. Evidence: 2 high
 ECG
  group:
   L15
@@ -1418,21 +1418,21 @@ ECG
  set:
   unit = uV
 
-% L15 (2 recordings): SAO2 -> SpO2. Oximeter saturation in % with SpO2 trace. Evidence: 2 high
+% L15 (2 recordings): SAO2 -> SpO2. Oximeter saturation in % with an SpO2-like trace. Evidence: 2 high
 SpO2
  group:
   L15
  req:
   sig = SAO2
 
-% L15 (2 recordings): HR -> HR. Oximeter heart rate in BPM with HR trace. Evidence: 2 high
+% L15 (2 recordings): HR -> HR. Oximeter heart rate in BPM with an HR-like trace. Evidence: 2 high
 HR
  group:
   L15
  req:
   sig = HR
 
-% L15 (2 recordings): PLETH -> pleth. Pulse waveform from oximeter with pleth trace. Evidence: 2 high
+% L15 (2 recordings): PLETH -> pleth. Oximeter pulse waveform with a pleth-like trace. Evidence: 2 high
 pleth
  group:
   L15
@@ -1640,34 +1640,21 @@ pleth
  req:
   sig = PLETH
 
-% L17 (1 recordings): Position -> pos. Labelled body position on a DC channel; a flat trace is typical when the subject stays in one position. Evidence: 1 medium
+% L17 (1 recordings): Position -> pos. Position sensor; a flat trace is consistent with an unchanged body position. Evidence: 1 medium
 pos
  group:
   L17
  req:
   sig = Position
 
-% L17 (1 recordings): DX1 / DX2 -> RAT. DX (right) on an EMG transducer is the right leg EMG; the ECG-like trace fits cardiac artifact on a leg lead, paired with DX2. Evidence: 1 flag
-RAT
- group:
-  L17
- req:
-  sig = DX1
-  ref = DX2
-  unit = uV
-  unit = mV
-  unit = V
- set:
-  unit = uV
-
-% L17 (1 recordings): MIC -> snore. Sound transducer microphone used as the snore channel. Evidence: 1 flag
+% L17 (1 recordings): MIC -> snore. Microphone with a Sound transducer records snoring; its high-frequency trace fits. Evidence: 1 flag
 snore
  group:
   L17
  req:
   sig = MIC
 
-% L17 (1 recordings): C3 / A2 -> C3_M2. Unreferenced C3 electrode with contralateral mastoid A2 recorded separately. Evidence: 1 high
+% L17 (1 recordings): C3 / A2 -> C3_M2. Unreferenced C3 electrode with a neuro trace; contralateral mastoid A2 is recorded separately. Evidence: 1 high
 C3_M2
  group:
   L17
@@ -1680,7 +1667,7 @@ C3_M2
  set:
   unit = uV
 
-% L17 (1 recordings): C4 / A1 -> C4_M1. Unreferenced C4 electrode with contralateral mastoid A1 recorded separately. Evidence: 1 high
+% L17 (1 recordings): C4 / A1 -> C4_M1. Unreferenced C4 electrode with a neuro trace; contralateral mastoid A1 is recorded separately. Evidence: 1 high
 C4_M1
  group:
   L17
@@ -1693,20 +1680,7 @@ C4_M1
  set:
   unit = uV
 
-% L17 (1 recordings): ECG1 / ECG2 -> ECG. ECG electrode paired with ECG2; the single-electrode trace may look neural until it is referenced against ECG2. Evidence: 1 flag
-ECG
- group:
-  L17
- req:
-  sig = ECG1
-  ref = ECG2
-  unit = uV
-  unit = mV
-  unit = V
- set:
-  unit = uV
-
-% L17 (1 recordings): ROC -> ROC. Right outer canthus EOG on an EOG transducer with a neural-type trace. Evidence: 1 high
+% L17 (1 recordings): ROC -> ROC. Right eye EOG channel with a neuro trace. Evidence: 1 high
 ROC
  group:
   L17
@@ -1718,19 +1692,7 @@ ROC
  set:
   unit = uV
 
-% L17 (1 recordings): LOC -> LOC. Left outer canthus EOG on an EOG transducer; the slow resp-like trace is consistent with slow eye drift. Evidence: 1 flag
-LOC
- group:
-  L17
- req:
-  sig = LOC
-  unit = uV
-  unit = mV
-  unit = V
- set:
-  unit = uV
-
-% L17 (1 recordings): O1 / A2 -> O1_M2. Unreferenced O1 electrode with contralateral mastoid A2 recorded separately. Evidence: 1 high
+% L17 (1 recordings): O1 / A2 -> O1_M2. Unreferenced O1 electrode with a neuro trace; A2 is recorded separately. Evidence: 1 high
 O1_M2
  group:
   L17
@@ -1743,7 +1705,7 @@ O1_M2
  set:
   unit = uV
 
-% L17 (1 recordings): O2 / A1 -> O2_M1. Unreferenced O2 electrode with contralateral mastoid A1 recorded separately. Evidence: 1 high
+% L17 (1 recordings): O2 / A1 -> O2_M1. Unreferenced O2 electrode with a neuro trace; A1 is recorded separately. Evidence: 1 high
 O2_M1
  group:
   L17
@@ -1756,7 +1718,7 @@ O2_M1
  set:
   unit = uV
 
-% L17 (1 recordings): EMG1 / EMG2 -> EMG. Chin EMG electrode paired with EMG2. Evidence: 1 flag
+% L17 (1 recordings): EMG1 / EMG2 -> EMG. Chin EMG electrode, paired with EMG2; the neuro-like trace is plausible for submental EMG. Evidence: 1 flag
 EMG
  group:
   L17
@@ -1769,7 +1731,7 @@ EMG
  set:
   unit = uV
 
-% L17 (1 recordings): F4 / A1 -> F4_M1. Unreferenced F4 electrode with contralateral mastoid A1 recorded separately. Evidence: 1 high
+% L17 (1 recordings): F4 / A1 -> F4_M1. Unreferenced F4 electrode with a neuro trace; A1 is recorded separately. Evidence: 1 high
 F4_M1
  group:
   L17
@@ -1782,7 +1744,7 @@ F4_M1
  set:
   unit = uV
 
-% L17 (1 recordings): F3 / A2 -> F3_M2. Unreferenced F3 electrode with contralateral mastoid A2 recorded separately. Evidence: 1 high
+% L17 (1 recordings): F3 / A2 -> F3_M2. Unreferenced F3 electrode with a neuro trace; A2 is recorded separately. Evidence: 1 high
 F3_M2
  group:
   L17
@@ -1795,55 +1757,28 @@ F3_M2
  set:
   unit = uV
 
-% L17 (1 recordings): SX1 / SX2 -> LAT. SX (left) on an EMG transducer is the left leg EMG; the ECG-like trace fits cardiac artifact on a leg lead, paired with SX2. Evidence: 1 flag
-LAT
- group:
-  L17
- req:
-  sig = SX1
-  ref = SX2
-  unit = uV
-  unit = mV
-  unit = V
- set:
-  unit = uV
-
-% L17 (1 recordings): TORACE -> thorax. Torace is Italian for thorax, recorded as a respiratory effort belt. Evidence: 1 flag
-thorax
- group:
-  L17
- req:
-  sig = TORACE
-
-% L17 (1 recordings): ADDOME -> abdomen. Addome is Italian for abdomen, recorded as a respiratory effort belt. Evidence: 1 flag
-abdomen
- group:
-  L17
- req:
-  sig = ADDOME
-
-% L17 (1 recordings): HR -> HR. Oximeter heart rate in BPM with an HR-type trace. Evidence: 1 high
+% L17 (1 recordings): HR -> HR. Oximeter heart rate in BPM with an hr trace. Evidence: 1 high
 HR
  group:
   L17
  req:
   sig = HR
 
-% L17 (1 recordings): SAO2 -> SpO2. Oximeter saturation in % with an SpO2-type trace. Evidence: 1 high
+% L17 (1 recordings): SAO2 -> SpO2. Oxygen saturation in % with an spo2 trace. Evidence: 1 high
 SpO2
  group:
   L17
  req:
   sig = SAO2
 
-% L17 (1 recordings): PLETH -> pleth. Oximeter pulse wave with a pleth-type trace. Evidence: 1 high
+% L17 (1 recordings): PLETH -> pleth. Oximeter pulse waveform with a pleth trace. Evidence: 1 high
 pleth
  group:
   L17
  req:
   sig = PLETH
 
-% L18 (1 recordings): C4_A1 -> C4_M1. C4 referenced to left ear/mastoid A1 is the contralateral C4-M1 derivation, with neuro trace. Evidence: 1 high
+% L18 (1 recordings): C4_A1 -> C4_M1. C4 referenced to contralateral A1 (left mastoid), with an EEG-like trace, is the C4-M1 derivation. Evidence: 1 high
 C4_M1
  group:
   L18
@@ -1855,7 +1790,7 @@ C4_M1
  set:
   unit = uV
 
-% L18 (1 recordings): ROC_LOC -> EOG. Bipolar right-minus-left eye derivation is a single EOG; slow resp-like trace fits slow eye movements. Evidence: 1 flag
+% L18 (1 recordings): ROC_LOC -> EOG. A bipolar right-minus-left eye derivation is a single combined EOG channel. Evidence: 1 high
 EOG
  group:
   L18
@@ -1867,7 +1802,7 @@ EOG
  set:
   unit = uV
 
-% L18 (1 recordings): EMG1_EMG2 -> EMG. Bipolar EMG with 10-100 Hz filter and EMG trace is the chin EMG. Evidence: 1 high
+% L18 (1 recordings): EMG1_EMG2 -> EMG. A bipolar EMG pair with 10-100 Hz filtering and an EMG-like trace is the chin EMG. Evidence: 1 high
 EMG
  group:
   L18
@@ -1879,7 +1814,7 @@ EMG
  set:
   unit = uV
 
-% L18 (1 recordings): ECG1_ECG2 -> ECG. ECG1-ECG2 label with ECG trace. Evidence: 1 high
+% L18 (1 recordings): ECG1_ECG2 -> ECG. A bipolar ECG lead with an ECG-like trace. Evidence: 1 high
 ECG
  group:
   L18
@@ -1891,7 +1826,7 @@ ECG
  set:
   unit = uV
 
-% L18 (1 recordings): DX1_DX2 -> RAT. Italian dx (right) bipolar pair with 10-100 Hz EMG filtering is right leg EMG; low-activity trace looked neuro-like. Evidence: 1 flag
+% L18 (1 recordings): DX1_DX2 -> RAT. DX (Italian destra, right) pair with 10-100 Hz EMG filtering identical to SX is the right leg EMG; a quiet leg can look neuro-like. Evidence: 1 flag
 RAT
  group:
   L18
@@ -1903,7 +1838,7 @@ RAT
  set:
   unit = uV
 
-% L18 (1 recordings): SX1_SX2 -> LAT. Italian sx (left) bipolar pair with EMG filtering and EMG trace is left leg EMG. Evidence: 1 high
+% L18 (1 recordings): SX1_SX2 -> LAT. SX (Italian sinistra, left) pair with EMG filtering and an EMG trace is the left leg EMG. Evidence: 1 high
 LAT
  group:
   L18
@@ -1915,56 +1850,56 @@ LAT
  set:
   unit = uV
 
-% L18 (1 recordings): MIC -> snore. Microphone channel at 256 Hz is the snore sensor. Evidence: 1 high
+% L18 (1 recordings): MIC -> snore. A microphone channel at 256 Hz is the snore sensor. Evidence: 1 high
 snore
  group:
   L18
  req:
   sig = MIC
 
-% L18 (1 recordings): Canula -> nas_pres. Nasal cannula pressure channel with respiratory trace. Evidence: 1 high
+% L18 (1 recordings): Canula -> nas_pres. A nasal cannula with a respiratory trace is nasal pressure flow. Evidence: 1 high
 nas_pres
  group:
   L18
  req:
   sig = Canula
 
-% L18 (1 recordings): Torace -> thorax. Italian torace = thoracic effort belt, respiratory trace. Evidence: 1 high
+% L18 (1 recordings): Torace -> thorax. Torace (Italian for thorax) with a respiratory trace is thoracic effort. Evidence: 1 high
 thorax
  group:
   L18
  req:
   sig = Torace
 
-% L18 (1 recordings): Abdo -> abdomen. Abdominal effort belt with respiratory trace. Evidence: 1 high
+% L18 (1 recordings): Abdo -> abdomen. An abdominal belt with a respiratory trace is abdominal effort. Evidence: 1 high
 abdomen
  group:
   L18
  req:
   sig = Abdo
 
-% L18 (1 recordings): Position -> pos. Body position channel; flat trace consistent with unchanged position. Evidence: 1 medium
+% L18 (1 recordings): Position -> pos. A body position channel; a flat trace is consistent with an unchanged position. Evidence: 1 medium
 pos
  group:
   L18
  req:
   sig = Position
 
-% L18 (1 recordings): SAO2 -> SpO2. Oxygen saturation in % with SpO2 trace. Evidence: 1 high
+% L18 (1 recordings): SAO2 -> SpO2. An oxygen saturation channel in % with an SpO2 trace. Evidence: 1 high
 SpO2
  group:
   L18
  req:
   sig = SAO2
 
-% L18 (1 recordings): HR -> HR. Heart rate in BPM with HR trace. Evidence: 1 high
+% L18 (1 recordings): HR -> HR. A heart rate channel in BPM with an HR trace. Evidence: 1 high
 HR
  group:
   L18
  req:
   sig = HR
 
-% L18 (1 recordings): Pleth -> pleth. Oximeter plethysmogram with pleth trace. Evidence: 1 high
+% L18 (1 recordings): Pleth -> pleth. An oximeter plethysmogram with a pleth trace. Evidence: 1 high
 pleth
  group:
   L18
@@ -2299,7 +2234,7 @@ HR
  req:
   sig = HR
 
-% L22 (1 recordings): C4_A1 -> C4_M1. C4 referenced to contralateral mastoid A1 is the C4_M1 derivation, and the neuro trace supports it. Evidence: 1 high
+% L22 (1 recordings): C4_A1 -> C4_M1. C4 referenced to contralateral ear A1 with an EEG-like trace corresponds to C4_M1. Evidence: 1 high
 C4_M1
  group:
   L22
@@ -2311,7 +2246,7 @@ C4_M1
  set:
   unit = uV
 
-% L22 (1 recordings): ROC_LOC -> EOG. Bipolar ROC-LOC is a combined EOG derivation; the slow resp-like trace is consistent with slow eye movements. Evidence: 1 flag
+% L22 (1 recordings): ROC_LOC -> EOG. Bipolar right-left eye derivation with a neuro trace is a single EOG channel. Evidence: 1 high
 EOG
  group:
   L22
@@ -2323,7 +2258,7 @@ EOG
  set:
   unit = uV
 
-% L22 (1 recordings): EMG1_EMG2 -> EMG. Bipolar chin EMG with a 10-80 Hz filter and an EMG-like trace. Evidence: 1 high
+% L22 (1 recordings): EMG1_EMG2 -> EMG. Chin EMG bipolar derivation with an EMG-like trace. Evidence: 1 high
 EMG
  group:
   L22
@@ -2335,7 +2270,7 @@ EMG
  set:
   unit = uV
 
-% L22 (1 recordings): ECG1_ECG2 -> ECG. ECG1-ECG2 is the ECG lead per label and transducer, though the trace was classed as neuro-like. Evidence: 1 flag
+% L22 (1 recordings): ECG1_ECG2 -> ECG. Labeled ECG with ECG transducer; the trace was classed neuro rather than ecg, so check, but no other ECG channel exists. Evidence: 1 flag
 ECG
  group:
   L22
@@ -2347,7 +2282,7 @@ ECG
  set:
   unit = uV
 
-% L22 (1 recordings): TIB_Sx -> LAT. Tibialis on the left side (Italian 'Sx' = sinistro) is the left leg EMG. Evidence: 1 flag
+% L22 (1 recordings): TIB_Sx -> LAT. Tibialis Sx (sinistro = left) leg EMG. Evidence: 1 flag
 LAT
  group:
   L22
@@ -2359,7 +2294,7 @@ LAT
  set:
   unit = uV
 
-% L22 (1 recordings): TIB_Dx -> RAT. Tibialis on the right side (Italian 'Dx' = destro) is the right leg EMG. Evidence: 1 flag
+% L22 (1 recordings): TIB_Dx -> RAT. Tibialis Dx (destro = right) leg EMG. Evidence: 1 flag
 RAT
  group:
   L22
@@ -2371,49 +2306,49 @@ RAT
  set:
   unit = uV
 
-% L22 (1 recordings): SAO2 -> SpO2. Oximeter saturation in %, and the trace looks like SpO2. Evidence: 1 high
+% L22 (1 recordings): SAO2 -> SpO2. Oximeter saturation in % with an SpO2 trace. Evidence: 1 high
 SpO2
  group:
   L22
  req:
   sig = SAO2
 
-% L22 (1 recordings): HR -> HR. Oximeter heart rate in BPM, and the trace looks like HR. Evidence: 1 high
+% L22 (1 recordings): HR -> HR. Oximeter heart rate in BPM with an HR trace. Evidence: 1 high
 HR
  group:
   L22
  req:
   sig = HR
 
-% L22 (1 recordings): PLETH -> pleth. Pulse-wave plethysmogram from the oximeter, per label and the Pwave transducer. Evidence: 1 flag
+% L22 (1 recordings): PLETH -> pleth. Pulse wave transducer labeled PLETH at 128 Hz is the plethysmogram. Evidence: 1 flag
 pleth
  group:
   L22
  req:
   sig = PLETH
 
-% L22 (1 recordings): MIC -> snore. Sound microphone channel serves as the snore signal. Evidence: 1 high
+% L22 (1 recordings): MIC -> snore. Sound microphone channel is the snore sensor. Evidence: 1 high
 snore
  group:
   L22
  req:
   sig = MIC
 
-% L22 (1 recordings): Flusso -> nas_pres. Italian 'flusso' (flow) with a pressure transducer is nasal pressure, and the trace looks respiratory. Evidence: 1 high
+% L22 (1 recordings): Flusso -> nas_pres. Italian 'flow' from a pressure transducer with a respiratory trace is nasal pressure. Evidence: 1 high
 nas_pres
  group:
   L22
  req:
   sig = Flusso
 
-% L22 (1 recordings): TORACE -> thorax. Italian 'torace' is thoracic effort, and the trace looks respiratory. Evidence: 1 high
+% L22 (1 recordings): TORACE -> thorax. Italian 'thorax' effort belt with a respiratory trace. Evidence: 1 high
 thorax
  group:
   L22
  req:
   sig = TORACE
 
-% L22 (1 recordings): ADDDOME -> abdomen. Italian 'addome' (misspelled ADDDOME) is abdominal effort, and the trace looks respiratory. Evidence: 1 high
+% L22 (1 recordings): ADDDOME -> abdomen. Misspelled Italian 'addome' (abdomen) effort belt with a respiratory trace. Evidence: 1 high
 abdomen
  group:
   L22
@@ -2641,7 +2576,7 @@ pleth
  req:
   sig = PLETH
 
-% L25 (1 recordings): ROC_LOC -> EOG. Bipolar ROC-LOC eye channel with neuro-type trace; mapped to the generic EOG target. Evidence: 1 high
+% L25 (1 recordings): ROC_LOC -> EOG. Bipolar right-left EOG derivation with a neuro trace, kept as the single EOG channel. Evidence: 1 high
 EOG
  group:
   L25
@@ -2653,7 +2588,7 @@ EOG
  set:
   unit = uV
 
-% L25 (1 recordings): C4_A1 -> C4_M1. C4 referenced to the contralateral mastoid/ear A1 with a neuro trace matches C4_M1. Evidence: 1 high
+% L25 (1 recordings): C4_A1 -> C4_M1. C4 referenced to the contralateral left ear A1, equivalent to C4-M1, with a neuro trace. Evidence: 1 high
 C4_M1
  group:
   L25
@@ -2665,7 +2600,7 @@ C4_M1
  set:
   unit = uV
 
-% L25 (1 recordings): EMG1_EMG2 -> EMG. Bipolar EMG (10-100 Hz) with EMG trace and no limb indication is chin EMG. Evidence: 1 high
+% L25 (1 recordings): EMG1_EMG2 -> EMG. Bipolar EMG (presumed chin) at 10-100 Hz with an EMG-like trace. Evidence: 1 high
 EMG
  group:
   L25
@@ -2677,7 +2612,7 @@ EMG
  set:
   unit = uV
 
-% L25 (1 recordings): ECG1_ECG2 -> ECG. Bipolar ECG lead with ECG-type trace. Evidence: 1 high
+% L25 (1 recordings): ECG1_ECG2 -> ECG. Bipolar ECG derivation with an ECG trace. Evidence: 1 high
 ECG
  group:
   L25
@@ -2689,28 +2624,21 @@ ECG
  set:
   unit = uV
 
-% L25 (1 recordings): TERMISTORE -> airflow. Italian 'termistore' is a thermistor airflow sensor and the trace is respiratory. Evidence: 1 high
+% L25 (1 recordings): TERMISTORE -> airflow. Italian 'termistore' (thermistor) is an airflow sensor and the trace is respiratory. Evidence: 1 high
 airflow
  group:
   L25
  req:
   sig = TERMISTORE
 
-% L25 (1 recordings): TORACE -> thorax. Italian 'torace' is the thoracic effort belt and the trace is respiratory. Evidence: 1 high
-thorax
- group:
-  L25
- req:
-  sig = TORACE
-
-% L25 (1 recordings): ADDOME -> abdomen. Italian 'addome' is the abdominal effort belt and the trace is respiratory. Evidence: 1 high
+% L25 (1 recordings): ADDOME -> abdomen. Italian 'addome' is abdominal effort and the trace is respiratory. Evidence: 1 high
 abdomen
  group:
   L25
  req:
   sig = ADDOME
 
-% L25 (1 recordings): Dx1_DX2 -> RAT. Italian 'dx' (right) bipolar EMG with EMG trace is the right leg (tibialis) channel. Evidence: 1 high
+% L25 (1 recordings): Dx1_DX2 -> RAT. Italian 'dx' (right) EMG pair with an EMG trace, taken as the right leg. Evidence: 1 high
 RAT
  group:
   L25
@@ -2722,7 +2650,7 @@ RAT
  set:
   unit = uV
 
-% L25 (1 recordings): SX1_SX2 -> LAT. Italian 'sx' (left) bipolar EMG with EMG trace is the left leg (tibialis) channel. Evidence: 1 high
+% L25 (1 recordings): SX1_SX2 -> LAT. Italian 'sx' (left) EMG pair with an EMG trace, taken as the left leg. Evidence: 1 high
 LAT
  group:
   L25
@@ -2734,28 +2662,28 @@ LAT
  set:
   unit = uV
 
-% L25 (1 recordings): Posizione -> pos. Italian 'posizione' is the body position DC channel; a flat trace is consistent with an unchanged position. Evidence: 1 medium
+% L25 (1 recordings): Posizione -> pos. Italian 'posizione' is the body-position DC channel; a flat trace fits an unchanging position. Evidence: 1 medium
 pos
  group:
   L25
  req:
   sig = Posizione
 
-% L25 (1 recordings): HR -> HR. Oximeter heart rate in BPM with HR trace. Evidence: 1 high
+% L25 (1 recordings): HR -> HR. Oximeter heart rate in BPM with an HR trace. Evidence: 1 high
 HR
  group:
   L25
  req:
   sig = HR
 
-% L25 (1 recordings): SpO2 -> SpO2. Oximeter saturation in % with SpO2 trace. Evidence: 1 high
+% L25 (1 recordings): SpO2 -> SpO2. Oximeter saturation in % with an SpO2 trace. Evidence: 1 high
 SpO2
  group:
   L25
  req:
   sig = SpO2
 
-% L25 (1 recordings): Sound -> snore. Sound transducer with high-frequency trace is the snore microphone. Evidence: 1 high
+% L25 (1 recordings): Sound -> snore. Sound transducer channel used for snoring, with a high-frequency trace. Evidence: 1 high
 snore
  group:
   L25
@@ -2869,7 +2797,7 @@ SpO2
  req:
   sig = SpO2
 
-% L27 (1 recordings): ROC_LOC -> EOG. Bipolar right-minus-left eye derivation with EOG transducer, so it maps to the single EOG channel. Evidence: 1 high
+% L27 (1 recordings): ROC_LOC -> EOG. Bipolar right-minus-left EOG derivation with EOG transducer and neuro-type trace, so it fits the single EOG target. Evidence: 1 high
 EOG
  group:
   L27
@@ -2881,7 +2809,7 @@ EOG
  set:
   unit = uV
 
-% L27 (1 recordings): C4_A1 -> C4_M1. C4 referenced to the contralateral left ear/mastoid A1, equivalent to C4-M1, with a neuro trace. Evidence: 1 high
+% L27 (1 recordings): C4_A1 -> C4_M1. C4 referenced to the contralateral left ear/mastoid (A1) with a neuro trace matches C4_M1. Evidence: 1 high
 C4_M1
  group:
   L27
@@ -2893,7 +2821,7 @@ C4_M1
  set:
   unit = uV
 
-% L27 (1 recordings): EMG1_EMG2 -> EMG. Bipolar EMG pair with a 10-100 Hz filter and EMG trace, the standard chin EMG. Evidence: 1 high
+% L27 (1 recordings): EMG1_EMG2 -> EMG. Bipolar EMG pair with 10-100 Hz filtering and an EMG-like trace is the chin EMG. Evidence: 1 high
 EMG
  group:
   L27
@@ -2905,7 +2833,7 @@ EMG
  set:
   unit = uV
 
-% L27 (1 recordings): ECG1_ECG2 -> ECG. Bipolar ECG lead with ECG trace. Evidence: 1 high
+% L27 (1 recordings): ECG1_ECG2 -> ECG. Bipolar ECG lead in mV with an ECG-like trace. Evidence: 1 high
 ECG
  group:
   L27
@@ -2917,7 +2845,7 @@ ECG
  set:
   unit = uV
 
-% L27 (1 recordings): DX1_DX2 -> RAT. Italian 'dx' means right; an EMG transducer with an EMG trace fits right leg EMG. Evidence: 1 high
+% L27 (1 recordings): DX1_DX2 -> RAT. DX (Italian destra, right) EMG pair separate from chin EMG, with EMG trace, is the right leg EMG. Evidence: 1 high
 RAT
  group:
   L27
@@ -2929,7 +2857,7 @@ RAT
  set:
   unit = uV
 
-% L27 (1 recordings): SX1_SX2 -> LAT. Italian 'sx' means left; an EMG transducer with an EMG trace fits left leg EMG. Evidence: 1 high
+% L27 (1 recordings): SX1_SX2 -> LAT. SX (Italian sinistra, left) EMG pair separate from chin EMG, with EMG trace, is the left leg EMG. Evidence: 1 high
 LAT
  group:
   L27
@@ -2941,14 +2869,14 @@ LAT
  set:
   unit = uV
 
-% L27 (1 recordings): TORACE -> thorax. Italian 'torace' means thorax; the trace is a respiratory effort signal. Evidence: 1 high
+% L27 (1 recordings): TORACE -> thorax. Italian torace (thorax) effort belt with a respiratory trace. Evidence: 1 high
 thorax
  group:
   L27
  req:
   sig = TORACE
 
-% L27 (1 recordings): ADDOME -> abdomen. Italian 'addome' means abdomen; the trace is a respiratory effort signal. Evidence: 1 high
+% L27 (1 recordings): ADDOME -> abdomen. Italian addome (abdomen) effort belt with the same 0.05-3 Hz settings as TORACE; the neuro trace label likely reflects slow oscillation and is not a strong contradiction. Evidence: 1 flag
 abdomen
  group:
   L27
@@ -2969,7 +2897,7 @@ HR
  req:
   sig = HR
 
-% L27 (1 recordings): PLETH -> pleth. Pulse waveform with a pleth trace. Evidence: 1 high
+% L27 (1 recordings): PLETH -> pleth. Pulse-wave plethysmogram with a pleth trace. Evidence: 1 high
 pleth
  group:
   L27
@@ -3719,7 +3647,7 @@ airflow
  req:
   sig = THE
 
-% L36 (1 recordings): C4_A1 -> C4_M1. C4 referenced to contralateral A1 ear/mastoid with a neuro trace is the C4-M1 derivation. Evidence: 1 high
+% L36 (1 recordings): C4_A1 -> C4_M1. C4 referenced to contralateral ear A1 is the standard C4 to contralateral mastoid derivation, with neuro trace. Evidence: 1 high
 C4_M1
  group:
   L36
@@ -3731,7 +3659,7 @@ C4_M1
  set:
   unit = uV
 
-% L36 (1 recordings): ROC_LOC -> EOG. Bipolar ROC-LOC eye derivation; the slow resp-like trace is consistent with slow eye movements, so mapped to the single EOG. Evidence: 1 flag
+% L36 (1 recordings): ROC_LOC -> EOG. Bipolar right-minus-left eye derivation is a single combined EOG channel. Evidence: 1 high
 EOG
  group:
   L36
@@ -3743,7 +3671,7 @@ EOG
  set:
   unit = uV
 
-% L36 (1 recordings): EMG1_EMG2 -> EMG. Bipolar chin EMG at 256 Hz with 10-100 Hz filter and EMG-like trace. Evidence: 1 high
+% L36 (1 recordings): EMG1_EMG2 -> EMG. Bipolar EMG with 10-100 Hz filter and EMG trace is the chin EMG. Evidence: 1 high
 EMG
  group:
   L36
@@ -3767,7 +3695,7 @@ ECG
  set:
   unit = uV
 
-% L36 (1 recordings): DX1_DX2 -> RAT. EMG transducer labelled DX (Italian destra = right), presumably right leg EMG with EMG trace. Evidence: 1 high
+% L36 (1 recordings): DX1_DX2 -> RAT. Italian dx (right) bipolar EMG with EMG trace is the right leg/tibialis EMG. Evidence: 1 high
 RAT
  group:
   L36
@@ -3779,7 +3707,7 @@ RAT
  set:
   unit = uV
 
-% L36 (1 recordings): SX1_SX2 -> LAT. EMG transducer labelled SX (Italian sinistra = left), presumably left leg EMG with EMG trace. Evidence: 1 high
+% L36 (1 recordings): SX1_SX2 -> LAT. Italian sx (left) bipolar EMG with EMG trace is the left leg/tibialis EMG. Evidence: 1 high
 LAT
  group:
   L36
@@ -3791,21 +3719,21 @@ LAT
  set:
   unit = uV
 
-% L36 (1 recordings): SAO2 -> SpO2. Oxygen saturation in % with SpO2-like trace. Evidence: 1 high
+% L36 (1 recordings): SAO2 -> SpO2. Oxygen saturation in % with SpO2 trace. Evidence: 1 high
 SpO2
  group:
   L36
  req:
   sig = SAO2
 
-% L36 (1 recordings): HR -> HR. Heart rate in bpm with HR-like trace. Evidence: 1 high
+% L36 (1 recordings): HR -> HR. Heart rate in bpm with HR trace. Evidence: 1 high
 HR
  group:
   L36
  req:
   sig = HR
 
-% L36 (1 recordings): Pleth -> pleth. Oximeter plethysmogram with 5 Hz low-pass; pulsatile waveform resembling ECG is expected for pleth. Evidence: 1 flag
+% L36 (1 recordings): Pleth -> pleth. Labelled plethysmogram with 5 Hz low-pass; pulsatile cardiac-periodic trace is consistent with pleth. Evidence: 1 flag
 pleth
  group:
   L36
@@ -4172,7 +4100,7 @@ pleth
  req:
   sig = PLETH
 
-% L41 (1 recordings): EOG_dx -> ROC. Right EOG ('dx', transducer EOG-Right-A1) referenced to A1 is the right outer canthus channel. Evidence: 1 high
+% L41 (1 recordings): EOG_dx -> ROC. Right EOG (dx) referenced to A1, per label and transducer, maps to the right outer canthus channel. Evidence: 1 high
 ROC
  group:
   L41
@@ -4184,7 +4112,7 @@ ROC
  set:
   unit = uV
 
-% L41 (1 recordings): C4_A1 -> C4_M1. C4 referenced to the contralateral mastoid/ear A1 matches C4_M1, with a neuro trace. Evidence: 1 high
+% L41 (1 recordings): C4_A1 -> C4_M1. C4 referenced to the contralateral mastoid A1 is equivalent to C4-M1. Evidence: 1 high
 C4_M1
  group:
   L41
@@ -4196,7 +4124,7 @@ C4_M1
  set:
   unit = uV
 
-% L41 (1 recordings): milo -> EMG. Italian 'milo' (mylohyoid) with submental chin EMG transducer is the chin EMG. Evidence: 1 flag
+% L41 (1 recordings): milo -> EMG. Milo (mylohyoid) is the submental chin EMG, per the transducer and the EMG-like trace. Evidence: 1 high
 EMG
  group:
   L41
@@ -4208,7 +4136,7 @@ EMG
  set:
   unit = uV
 
-% L41 (1 recordings): EOG_sin -> LOC. Left EOG ('sin', transducer EOG-Left-A2) referenced to A2 is the left outer canthus channel. Evidence: 1 high
+% L41 (1 recordings): EOG_sin -> LOC. Left EOG (sin) referenced to A2, per label and transducer, maps to the left outer canthus channel. Evidence: 1 high
 LOC
  group:
   L41
@@ -4220,7 +4148,7 @@ LOC
  set:
   unit = uV
 
-% L41 (1 recordings): tib_dx -> RAT. Right tibialis EMG ('tib dx', EMG.Tibialis-Leg.Right) is the right leg channel. Evidence: 1 flag
+% L41 (1 recordings): tib_dx -> RAT. Right tibialis (dx) leg EMG. Evidence: 1 high
 RAT
  group:
   L41
@@ -4232,7 +4160,7 @@ RAT
  set:
   unit = uV
 
-% L41 (1 recordings): tib_sin -> LAT. Left tibialis EMG ('tib sin', EMG.Tibialis-Leg.Left) with EMG-like trace is the left leg channel. Evidence: 1 high
+% L41 (1 recordings): tib_sin -> LAT. Left tibialis (sin) leg EMG. Evidence: 1 high
 LAT
  group:
   L41
@@ -4244,21 +4172,21 @@ LAT
  set:
   unit = uV
 
-% L41 (1 recordings): cannula -> nas_pres. Nasal cannula pressure in mBar with a respiratory trace is nasal pressure. Evidence: 1 high
+% L41 (1 recordings): cannula -> nas_pres. Nasal cannula pressure in mBar, with a respiratory trace. Evidence: 1 high
 nas_pres
  group:
   L41
  req:
   sig = cannula
 
-% L41 (1 recordings): toracico -> thorax. Italian 'toracico' with piezo thorax movement transducer is thoracic effort, though the trace type was not classified. Evidence: 1 flag
+% L41 (1 recordings): toracico -> thorax. Toracico is the thoracic piezo effort belt, per the transducer; the trace type was unclassified. Evidence: 1 flag
 thorax
  group:
   L41
  req:
   sig = toracico
 
-% L41 (1 recordings): ekg -> ECG. EKG channel in mV with an ECG-like trace. Evidence: 1 high
+% L41 (1 recordings): ekg -> ECG. EKG channel with an ECG-like trace. Evidence: 1 high
 ECG
  group:
   L41
@@ -4269,13 +4197,6 @@ ECG
   unit = V
  set:
   unit = uV
-
-% L41 (1 recordings): Flow -> airflow. Respiratory flow signal in mL/s with a respiratory trace is the only airflow channel. Evidence: 1 high
-airflow
- group:
-  L41
- req:
-  sig = Flow
 
 % L42 (1 recordings): ROC_LOC -> EOG. Bipolar ROC-LOC eye derivation with EOG transducer, a single combined EOG channel. Evidence: 1 high
 EOG
@@ -4649,7 +4570,19 @@ snore
  req:
   sig = MIC
 
-% L46 (1 recordings): C4_A1 -> C4_M1. C4 referenced to the contralateral left ear A1 with a neuro trace, equivalent to C4-M1. Evidence: 1 high
+% L46 (1 recordings): ROC_LOC -> EOG. Bipolar ROC-LOC derivation with an EOG transducer and a neuro trace is a single combined EOG channel. Evidence: 1 high
+EOG
+ group:
+  L46
+ req:
+  sig = ROC_LOC
+  unit = uV
+  unit = mV
+  unit = V
+ set:
+  unit = uV
+
+% L46 (1 recordings): C4_A1 -> C4_M1. C4 is referenced to the contralateral mastoid (A1) and shows a neuro trace, so it maps to C4_M1. Evidence: 1 high
 C4_M1
  group:
   L46
@@ -4661,7 +4594,7 @@ C4_M1
  set:
   unit = uV
 
-% L46 (1 recordings): EMG1_EMG2 -> EMG. Bipolar chin EMG with 10-100 Hz filter and an EMG-like trace. Evidence: 1 high
+% L46 (1 recordings): EMG1_EMG2 -> EMG. Bipolar EMG1-EMG2 with a 10-100 Hz filter and an EMG trace is the chin EMG. Evidence: 1 high
 EMG
  group:
   L46
@@ -4673,7 +4606,7 @@ EMG
  set:
   unit = uV
 
-% L46 (1 recordings): ECG1_ECG2 -> ECG. Bipolar ECG lead with an ECG-like trace. Evidence: 1 high
+% L46 (1 recordings): ECG1_ECG2 -> ECG. Bipolar ECG1-ECG2 lead with an ECG trace. Evidence: 1 high
 ECG
  group:
   L46
@@ -4685,14 +4618,14 @@ ECG
  set:
   unit = uV
 
-% L46 (1 recordings): TORACE -> thorax. Italian 'torace' means thorax; slow-filtered effort trace. Evidence: 1 high
+% L46 (1 recordings): TORACE -> thorax. Italian 'torace' (thorax) is a respiratory effort belt with a resp trace. Evidence: 1 high
 thorax
  group:
   L46
  req:
   sig = TORACE
 
-% L46 (1 recordings): DX1_DX2 -> RAT. DX (destra, right) bipolar EMG at 10-100 Hz with an EMG trace, consistent with right leg EMG. Evidence: 1 high
+% L46 (1 recordings): DX1_DX2 -> RAT. DX (Italian 'destra', right) bipolar channel with an EMG filter and EMG trace is the right leg EMG. Evidence: 1 high
 RAT
  group:
   L46
@@ -4704,7 +4637,7 @@ RAT
  set:
   unit = uV
 
-% L46 (1 recordings): SX1_SX2 -> LAT. SX (sinistra, left) bipolar EMG with an EMG trace, consistent with left leg EMG. Evidence: 1 high
+% L46 (1 recordings): SX1_SX2 -> LAT. SX (Italian 'sinistra', left) bipolar channel with an EMG trace is the left leg EMG. Evidence: 1 high
 LAT
  group:
   L46
@@ -4716,7 +4649,7 @@ LAT
  set:
   unit = uV
 
-% L46 (1 recordings): SAO2 -> SpO2. Oximeter saturation in % with an SpO2 trace. Evidence: 1 high
+% L46 (1 recordings): SAO2 -> SpO2. Oximeter saturation in percent with an SpO2 trace. Evidence: 1 high
 SpO2
  group:
   L46
