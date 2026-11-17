@@ -1,0 +1,222 @@
+{
+ "prompt": "Layout L17, 1 recording(s).\n\nCanonical targets (name: kind): C4_M1: eeg, C3_M2: eeg, F4_M1: eeg, F3_M2: eeg, O2_M1: eeg, O1_M2: eeg, LOC: eog, ROC: eog, EOG: eog, EMG: emg, ECG: ecg, LAT: emg_leg, RAT: emg_leg, thorax: effort, abdomen: effort, airflow: flow, nas_pres: flow, SpO2: spo2, HR: hr, pleth: pleth, pos: pos, snore: snore\n\nChannels:\n- label=Position | original='Position' | units=[''] | rates_hz=[64.0] | transducer='DC' | prefilter='' | trace_types_seen={'flat': 1}\n- label=DX1 | original='DX1' | units=['mV'] | rates_hz=[128.0] | transducer='EMG' | prefilter='' | trace_types_seen={'ecg': 1}\n- label=DX2 | original='DX2' | units=['mV'] | rates_hz=[128.0] | transducer='EMG' | prefilter='' | trace_types_seen={'ecg': 1}\n- label=MIC | original='MIC' | units=['uV'] | rates_hz=[128.0] | transducer='Sound' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=C3 | original='C3' | units=['mV'] | rates_hz=[512.0] | transducer='EEG C3' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=C4 | original='C4' | units=['mV'] | rates_hz=[512.0] | transducer='EEG C4' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=ECG1 | original='ECG1' | units=['mV'] | rates_hz=[512.0] | transducer='EEG ECG1' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=ECG2 | original='ECG2' | units=['mV'] | rates_hz=[512.0] | transducer='EEG ECG2' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=A1 | original='A1' | units=['mV'] | rates_hz=[512.0] | transducer='EEG A1' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=A2 | original='A2' | units=['mV'] | rates_hz=[512.0] | transducer='EEG A2' | prefilter='' | trace_types_seen={'emg': 1}\n- label=ROC | original='ROC' | units=['mV'] | rates_hz=[128.0] | transducer='EOG' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=LOC | original='LOC' | units=['mV'] | rates_hz=[128.0] | transducer='EOG' | prefilter='' | trace_types_seen={'resp': 1}\n- label=O1 | original='O1' | units=['mV'] | rates_hz=[512.0] | transducer='EEG O1' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=O2 | original='O2' | units=['mV'] | rates_hz=[512.0] | transducer='EEG O2' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=EMG1 | original='EMG1' | units=['mV'] | rates_hz=[512.0] | transducer='EEG EMG1' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=EMG2 | original='EMG2' | units=['mV'] | rates_hz=[512.0] | transducer='EEG EMG2' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=Fp2 | original='Fp2' | units=['mV'] | rates_hz=[512.0] | transducer='EEG Fp2' | prefilter='' | trace_types_seen={'resp': 1}\n- label=F4 | original='F4' | units=['mV'] | rates_hz=[512.0] | transducer='EEG F4' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=P4 | original='P4' | units=['mV'] | rates_hz=[512.0] | transducer='EEG P4' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=FP1 | original='FP1' | units=['mV'] | rates_hz=[512.0] | transducer='EEG FP1' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=F3 | original='F3' | units=['mV'] | rates_hz=[512.0] | transducer='EEG F3' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=P3 | original='P3' | units=['mV'] | rates_hz=[512.0] | transducer='EEG P3' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=F8 | original='F8' | units=['mV'] | rates_hz=[512.0] | transducer='EEG F8' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=T4 | original='T4' | units=['mV'] | rates_hz=[512.0] | transducer='EEG T4' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=T6 | original='T6' | units=['mV'] | rates_hz=[512.0] | transducer='EEG T6' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=F7 | original='F7' | units=['mV'] | rates_hz=[512.0] | transducer='EEG F7' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=T5 | original='T5' | units=['mV'] | rates_hz=[512.0] | transducer='EEG T5' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=T3 | original='T3' | units=['mV'] | rates_hz=[512.0] | transducer='EEG T3' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=SX1 | original='SX1' | units=['mV'] | rates_hz=[128.0] | transducer='EMG' | prefilter='' | trace_types_seen={'ecg': 1}\n- label=SX2 | original='SX2' | units=['mV'] | rates_hz=[128.0] | transducer='EMG' | prefilter='' | trace_types_seen={'ecg': 1}\n- label=TORACE | original='TORACE' | units=['mV'] | rates_hz=[64.0] | transducer='HP' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=ADDOME | original='ADDOME' | units=['mV'] | rates_hz=[64.0] | transducer='HP' | prefilter='' | trace_types_seen={'neuro': 1}\n- label=STAT | original='STAT' | units=[''] | rates_hz=[1.0] | transducer='Oximeter' | prefilter='' | trace_types_seen={'flat': 1}\n- label=HR | original='HR' | units=['BPM'] | rates_hz=[1.0] | transducer='Oximeter' | prefilter='' | trace_types_seen={'hr': 1}\n- label=SAO2 | original='SAO2' | units=['%'] | rates_hz=[1.0] | transducer='Oximeter' | prefilter='' | trace_types_seen={'spo2': 1}\n- label=PLETH | original='PLETH' | units=['V'] | rates_hz=[128.0] | transducer='Pwave' | prefilter='' | trace_types_seen={'pleth': 1}\n\ntrace_types_seen counts recordings by what the signal looked like: neuro (EEG or EOG, not separable), ecg, emg, resp, pleth, spo2, hr, hr_or_spo2, discrete, flat, unknown.",
+ "model": "claude-opus-5-5",
+ "channels": [
+  {
+   "label": "Position",
+   "reason": "Position sensor; a flat trace is consistent with an unchanged body position.",
+   "target": "pos",
+   "ref": ""
+  },
+  {
+   "label": "DX1",
+   "reason": "Likely the right leg EMG pair, but the trace looked like ECG, so it is not mapped.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "DX2",
+   "reason": "Second electrode of the right leg pair, and the trace looked like ECG.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "MIC",
+   "reason": "Microphone with a Sound transducer records snoring; its high-frequency trace fits.",
+   "target": "snore",
+   "ref": ""
+  },
+  {
+   "label": "C3",
+   "reason": "Unreferenced C3 electrode with a neuro trace; contralateral mastoid A2 is recorded separately.",
+   "target": "C3_M2",
+   "ref": "A2"
+  },
+  {
+   "label": "C4",
+   "reason": "Unreferenced C4 electrode with a neuro trace; contralateral mastoid A1 is recorded separately.",
+   "target": "C4_M1",
+   "ref": "A1"
+  },
+  {
+   "label": "ECG1",
+   "reason": "Labelled ECG, but the trace looked neuro rather than cardiac, so it is not mapped.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "ECG2",
+   "reason": "Second ECG electrode with a neuro-looking trace; not mapped.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "A1",
+   "reason": "Left mastoid reference electrode, used as the ref for the right-side EEG.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "A2",
+   "reason": "Right mastoid reference electrode, used as the ref for the left-side EEG.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "ROC",
+   "reason": "Right eye EOG channel with a neuro trace.",
+   "target": "ROC",
+   "ref": ""
+  },
+  {
+   "label": "LOC",
+   "reason": "Labelled left EOG, but the trace looked respiratory, which contradicts the label, so it is not mapped.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "O1",
+   "reason": "Unreferenced O1 electrode with a neuro trace; A2 is recorded separately.",
+   "target": "O1_M2",
+   "ref": "A2"
+  },
+  {
+   "label": "O2",
+   "reason": "Unreferenced O2 electrode with a neuro trace; A1 is recorded separately.",
+   "target": "O2_M1",
+   "ref": "A1"
+  },
+  {
+   "label": "EMG1",
+   "reason": "Chin EMG electrode, paired with EMG2; the neuro-like trace is plausible for submental EMG.",
+   "target": "EMG",
+   "ref": "EMG2"
+  },
+  {
+   "label": "EMG2",
+   "reason": "Second chin EMG electrode, used as the reference for EMG1.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "Fp2",
+   "reason": "Fp2 has no canonical target, and its trace looked respiratory.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "F4",
+   "reason": "Unreferenced F4 electrode with a neuro trace; A1 is recorded separately.",
+   "target": "F4_M1",
+   "ref": "A1"
+  },
+  {
+   "label": "P4",
+   "reason": "Parietal electrode with no canonical target.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "FP1",
+   "reason": "Frontopolar electrode with no canonical target.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "F3",
+   "reason": "Unreferenced F3 electrode with a neuro trace; A2 is recorded separately.",
+   "target": "F3_M2",
+   "ref": "A2"
+  },
+  {
+   "label": "P3",
+   "reason": "Parietal electrode with no canonical target.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "F8",
+   "reason": "Lateral frontal electrode with no canonical target.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "T4",
+   "reason": "Temporal electrode with no canonical target.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "T6",
+   "reason": "Temporal electrode with no canonical target.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "F7",
+   "reason": "Lateral frontal electrode with no canonical target.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "T5",
+   "reason": "Temporal electrode with no canonical target.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "T3",
+   "reason": "Temporal electrode with no canonical target.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "SX1",
+   "reason": "Likely the left leg EMG pair, but the trace looked like ECG, so it is not mapped.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "SX2",
+   "reason": "Second electrode of the left leg pair, and the trace looked like ECG.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "TORACE",
+   "reason": "Italian for thorax, but the trace looked neuro rather than respiratory, so it is not mapped.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "ADDOME",
+   "reason": "Italian for abdomen, but the trace looked neuro rather than respiratory, so it is not mapped.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "STAT",
+   "reason": "Oximeter status channel with a flat trace and no canonical target.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "HR",
+   "reason": "Oximeter heart rate in BPM with an hr trace.",
+   "target": "HR",
+   "ref": ""
+  },
+  {
+   "label": "SAO2",
+   "reason": "Oxygen saturation in % with an spo2 trace.",
+   "target": "SpO2",
+   "ref": ""
+  },
+  {
+   "label": "PLETH",
+   "reason": "Oximeter pulse waveform with a pleth trace.",
+   "target": "pleth",
+   "ref": ""
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "prompt": "Layout L15, 2 recording(s).\n\nCanonical targets (name: kind): C4_M1: eeg, C3_M2: eeg, F4_M1: eeg, F3_M2: eeg, O2_M1: eeg, O1_M2: eeg, LOC: eog, ROC: eog, EOG: eog, EMG: emg, ECG: ecg, LAT: emg_leg, RAT: emg_leg, thorax: effort, abdomen: effort, airflow: flow, nas_pres: flow, SpO2: spo2, HR: hr, pleth: pleth, pos: pos, snore: snore\n\nChannels:\n- label=Fp2_F4 | original='Fp2-F4' | units=['uV'] | rates_hz=[512.0] | transducer='EEG Fp2-F4' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 2}\n- label=F4_C4 | original='F4-C4' | units=['uV'] | rates_hz=[512.0] | transducer='EEG F4-C4' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 2}\n- label=C4_P4 | original='C4-P4' | units=['uV'] | rates_hz=[512.0] | transducer='EEG C4-P4' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 2}\n- label=P4_O2 | original='P4-O2' | units=['uV'] | rates_hz=[512.0] | transducer='EEG P4-O2' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 2}\n- label=C4_A1 | original='C4-A1' | units=['uV'] | rates_hz=[512.0] | transducer='EEG C4-A1' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 2}\n- label=ROC_LOC | original='ROC-LOC' | units=['uV'] | rates_hz=[128.0] | transducer='EOG' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 2}\n- label=EMG1_EMG2 | original='EMG1-EMG2' | units=['mV', 'uV'] | rates_hz=[512.0] | transducer='EEG EMG1-EMG2' | prefilter='LP:100.00Hz HP:10.00Hz NOTCH:50' | trace_types_seen={'emg': 2}\n- label=ECG1_ECG2 | original='ECG1-ECG2' | units=['mV'] | rates_hz=[512.0] | transducer='EEG ECG1-ECG2' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'ecg': 2}\n- label=SAO2 | original='SAO2' | units=['%'] | rates_hz=[1.0] | transducer='Oximeter' | prefilter='' | trace_types_seen={'spo2': 2}\n- label=HR | original='HR' | units=['BPM'] | rates_hz=[1.0] | transducer='Oximeter' | prefilter='' | trace_types_seen={'hr': 2}\n- label=PLETH | original='PLETH' | units=['V', 'mV'] | rates_hz=[128.0] | transducer='Pwave' | prefilter='' | trace_types_seen={'pleth': 2}\n- label=STAT | original='STAT' | units=[''] | rates_hz=[1.0] | transducer='Oximeter' | prefilter='' | trace_types_seen={'flat': 1, 'discrete': 1}\n\ntrace_types_seen counts recordings by what the signal looked like: neuro (EEG or EOG, not separable), ecg, emg, resp, pleth, spo2, hr, hr_or_spo2, discrete, flat, unknown.",
+ "model": "claude-opus-5-5",
+ "channels": [
+  {
+   "label": "Fp2_F4",
+   "reason": "Bipolar Fp2-F4 chain derivation has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "F4_C4",
+   "reason": "Bipolar F4-C4 chain derivation has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "C4_P4",
+   "reason": "Bipolar C4-P4 chain derivation has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "P4_O2",
+   "reason": "Bipolar P4-O2 chain derivation has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "C4_A1",
+   "reason": "C4 referenced to contralateral A1 (left mastoid) is the standard C4-M1 derivation, and the trace looks neural.",
+   "target": "C4_M1",
+   "ref": ""
+  },
+  {
+   "label": "ROC_LOC",
+   "reason": "Single bipolar right-minus-left eye derivation, so it maps to the generic EOG channel rather than LOC or ROC.",
+   "target": "EOG",
+   "ref": ""
+  },
+  {
+   "label": "EMG1_EMG2",
+   "reason": "Bipolar EMG pair with 10-100 Hz filtering and an EMG-like trace is the chin EMG.",
+   "target": "EMG",
+   "ref": ""
+  },
+  {
+   "label": "ECG1_ECG2",
+   "reason": "Bipolar ECG lead with an ECG-like trace.",
+   "target": "ECG",
+   "ref": ""
+  },
+  {
+   "label": "SAO2",
+   "reason": "Oximeter saturation in % with an SpO2-like trace.",
+   "target": "SpO2",
+   "ref": ""
+  },
+  {
+   "label": "HR",
+   "reason": "Oximeter heart rate in BPM with an HR-like trace.",
+   "target": "HR",
+   "ref": ""
+  },
+  {
+   "label": "PLETH",
+   "reason": "Oximeter pulse waveform with a pleth-like trace.",
+   "target": "pleth",
+   "ref": ""
+  },
+  {
+   "label": "STAT",
+   "reason": "Oximeter status flag, flat or discrete, with no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  }
+ ]
+}

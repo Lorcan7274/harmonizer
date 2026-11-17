@@ -498,7 +498,7 @@
 {
 "id": "sdb3",
 "layout": "L25",
-"made": 13,
+"made": 12,
 "need": [
 "eeg",
 "eog",
@@ -534,7 +534,7 @@
 {
 "id": "n4",
 "layout": "L41",
-"made": 10,
+"made": 9,
 "need": [
 "eeg",
 "eog",

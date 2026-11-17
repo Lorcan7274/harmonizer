@@ -1,0 +1,54 @@
+{
+ "prompt": "Layout L01, 151 recording(s).\n\nCanonical targets (name: kind): C4_M1: eeg, C3_M2: eeg, F4_M1: eeg, F3_M2: eeg, O2_M1: eeg, O1_M2: eeg, LOC: eog, ROC: eog, EOG: eog, EMG: emg, ECG: ecg, LAT: emg_leg, RAT: emg_leg, thorax: effort, abdomen: effort, airflow: flow, nas_pres: flow, SpO2: spo2, HR: hr, pleth: pleth, pos: pos, snore: snore\n\nChannels:\n- label=EEG_F4_M1 | original='EEG F4-M1' | units=['uV'] | rates_hz=[256.0] | transducer='AgAgCl electrodes' | prefilter='HP:0.2Hz LP:35.0Hz' | trace_types_seen={'neuro': 144, 'emg': 4, 'resp': 3}\n- label=EEG_C4_M1 | original='EEG C4-M1' | units=['uV'] | rates_hz=[256.0] | transducer='AgAgCl electrodes' | prefilter='HP:0.2Hz LP:35.0Hz' | trace_types_seen={'neuro': 141, 'emg': 5, 'resp': 5}\n- label=EEG_O2_M1 | original='EEG O2-M1' | units=['uV'] | rates_hz=[256.0] | transducer='AgAgCl electrodes' | prefilter='HP:0.2Hz LP:35.0Hz' | trace_types_seen={'neuro': 140, 'emg': 6, 'resp': 5}\n- label=EEG_C3_M2 | original='EEG C3-M2' | units=['uV'] | rates_hz=[256.0] | transducer='AgAgCl electrodes' | prefilter='HP:0.2Hz LP:35.0Hz' | trace_types_seen={'neuro': 141, 'emg': 7, 'resp': 3}\n- label=EMG_chin | original='EMG chin' | units=['uV'] | rates_hz=[256.0] | transducer='AgAgCl electrodes' | prefilter='HP:1.0Hz LP:150.0Hz' | trace_types_seen={'emg': 96, 'neuro': 41, 'resp': 14}\n- label=EOG_E1_M2 | original='EOG E1-M2' | units=['uV'] | rates_hz=[256.0] | transducer='AgAgCl electrodes' | prefilter='HP:0.2Hz LP:35.0Hz' | trace_types_seen={'neuro': 135, 'resp': 9, 'emg': 7}\n- label=EOG_E2_M2 | original='EOG E2-M2' | units=['uV'] | rates_hz=[256.0] | transducer='AgAgCl electrodes' | prefilter='HP:0.2Hz LP:35.0Hz' | trace_types_seen={'neuro': 132, 'resp': 12, 'emg': 7}\n- label=ECG | original='ECG' | units=['uV'] | rates_hz=[256.0] | transducer='AgAgCl electrodes' | prefilter='HP:1.0Hz LP:150.0Hz' | trace_types_seen={'neuro': 10, 'ecg': 139, 'emg': 1, 'flat': 1}\n\ntrace_types_seen counts recordings by what the signal looked like: neuro (EEG or EOG, not separable), ecg, emg, resp, pleth, spo2, hr, hr_or_spo2, discrete, flat, unknown.",
+ "model": "claude-opus-5-5",
+ "channels": [
+  {
+   "label": "EEG_F4_M1",
+   "reason": "Label F4-M1 is a referenced right frontal EEG derivation, and traces are mostly neuro.",
+   "target": "F4_M1",
+   "ref": ""
+  },
+  {
+   "label": "EEG_C4_M1",
+   "reason": "Label C4-M1 is a referenced right central EEG derivation, and traces are mostly neuro.",
+   "target": "C4_M1",
+   "ref": ""
+  },
+  {
+   "label": "EEG_O2_M1",
+   "reason": "Label O2-M1 is a referenced right occipital EEG derivation, and traces are mostly neuro.",
+   "target": "O2_M1",
+   "ref": ""
+  },
+  {
+   "label": "EEG_C3_M2",
+   "reason": "Label C3-M2 is a referenced left central EEG derivation, and traces are mostly neuro.",
+   "target": "C3_M2",
+   "ref": ""
+  },
+  {
+   "label": "EMG_chin",
+   "reason": "The chin EMG label matches the 1-150 Hz filter, and traces are mostly EMG.",
+   "target": "EMG",
+   "ref": ""
+  },
+  {
+   "label": "EOG_E1_M2",
+   "reason": "E1-M2 is the left eye EOG, and traces are neuro.",
+   "target": "LOC",
+   "ref": ""
+  },
+  {
+   "label": "EOG_E2_M2",
+   "reason": "E2-M2 is the right eye EOG, and traces are neuro.",
+   "target": "ROC",
+   "ref": ""
+  },
+  {
+   "label": "ECG",
+   "reason": "The channel is labelled ECG, and traces are mostly ECG.",
+   "target": "ECG",
+   "ref": ""
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "prompt": "Layout L01, 153 recording(s).\n\nCanonical targets (name: kind): C4_M1: eeg, C3_M2: eeg, F4_M1: eeg, F3_M2: eeg, O2_M1: eeg, O1_M2: eeg, LOC: eog, ROC: eog, EOG: eog, EMG: emg, ECG: ecg, LAT: emg_leg, RAT: emg_leg, thorax: effort, abdomen: effort, airflow: flow, nas_pres: flow, SpO2: spo2, HR: hr, pleth: pleth, pos: pos, snore: snore\n\nChannels:\n- label=EEG_Fpz_Cz | original='EEG Fpz-Cz' | units=['uV'] | rates_hz=[100.0] | transducer='Ag-AgCl electrodes' | prefilter='HP:0.5Hz LP:100Hz [enhanced cassette BW]' | trace_types_seen={'neuro': 146, 'emg': 7}\n- label=EEG_Pz_Oz | original='EEG Pz-Oz' | units=['uV'] | rates_hz=[100.0] | transducer='Ag-AgCl electrodes' | prefilter='HP:0.5Hz LP:100Hz [enhanced cassette BW]' | trace_types_seen={'neuro': 144, 'emg': 9}\n- label=EOG_horizontal | original='EOG horizontal' | units=['uV'] | rates_hz=[100.0] | transducer='Ag-AgCl electrodes' | prefilter='HP:0.5Hz LP:100Hz [enhanced cassette BW]' | trace_types_seen={'neuro': 152, 'emg': 1}\n- label=Resp_oro_nasal | original='Resp oro-nasal' | units=[''] | rates_hz=[1.0] | transducer='Oral-nasal thermistors' | prefilter='HP:0.03Hz LP:0.9Hz' | trace_types_seen={'hr': 90, 'slow_other': 63}\n- label=EMG_submental | original='EMG submental' | units=['uV'] | rates_hz=[1.0] | transducer='Ag-AgCl electrodes' | prefilter='HP:16Hz Rectification LP:0.7Hz' | trace_types_seen={'slow_other': 153}\n- label=Temp_rectal | original='Temp rectal' | units=['', 'DegC'] | rates_hz=[1.0] | transducer='Rectal thermistor' | prefilter='' | trace_types_seen={'hr': 57, 'slow_other': 96}\n- label=Event_marker | original='Event marker' | units=[''] | rates_hz=[1.0] | transducer='Marker button' | prefilter='Hold during 2 seconds' | trace_types_seen={'slow_other': 153}\n\ntrace_types_seen counts recordings by what the signal looked like: neuro (EEG or EOG, not separable), ecg, emg, resp, pleth, spo2, hr, hr_or_spo2, discrete, flat, unknown.",
+ "model": "claude-opus-5-5",
+ "channels": [
+  {
+   "label": "EEG_Fpz_Cz",
+   "reason": "Bipolar Fpz-Cz EEG derivation has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "EEG_Pz_Oz",
+   "reason": "Bipolar Pz-Oz EEG derivation has no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "EOG_horizontal",
+   "reason": "Single horizontal EOG channel with no side given, and the trace looks neuro, so it maps to generic EOG.",
+   "target": "EOG",
+   "ref": ""
+  },
+  {
+   "label": "Resp_oro_nasal",
+   "reason": "Oro-nasal thermistor airflow, but it is sampled at 1 Hz and the trace looks like hr or slow, so airflow is kept with caution.",
+   "target": "airflow",
+   "ref": ""
+  },
+  {
+   "label": "EMG_submental",
+   "reason": "Submental EMG, rectified and low-passed at 1 Hz, is still the chin EMG envelope.",
+   "target": "EMG",
+   "ref": ""
+  },
+  {
+   "label": "Temp_rectal",
+   "reason": "Rectal temperature has no canonical target.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "Event_marker",
+   "reason": "Event marker button is not a physiological signal.",
+   "target": "none",
+   "ref": ""
+  }
+ ]
+}

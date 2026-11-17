@@ -1,0 +1,114 @@
+{
+ "prompt": "Layout L25, 1 recording(s).\n\nCanonical targets (name: kind): C4_M1: eeg, C3_M2: eeg, F4_M1: eeg, F3_M2: eeg, O2_M1: eeg, O1_M2: eeg, LOC: eog, ROC: eog, EOG: eog, EMG: emg, ECG: ecg, LAT: emg_leg, RAT: emg_leg, thorax: effort, abdomen: effort, airflow: flow, nas_pres: flow, SpO2: spo2, HR: hr, pleth: pleth, pos: pos, snore: snore\n\nChannels:\n- label=ROC_LOC | original='ROC-LOC' | units=['uV'] | rates_hz=[512.0] | transducer='EEG ROC-LOC' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=LOC_ROC | original='LOC-ROC' | units=['uV'] | rates_hz=[512.0] | transducer='EEG LOC-ROC' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=F2_F4 | original='F2-F4' | units=['uV'] | rates_hz=[512.0] | transducer='EEG F2-F4' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=F4_C4 | original='F4-C4' | units=['uV'] | rates_hz=[512.0] | transducer='EEG F4-C4' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=C4_P4 | original='C4-P4' | units=['uV'] | rates_hz=[512.0] | transducer='EEG C4-P4' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=P4_O2 | original='P4-O2' | units=['uV'] | rates_hz=[512.0] | transducer='EEG P4-O2' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=C4_A1 | original='C4-A1' | units=['uV'] | rates_hz=[512.0] | transducer='EEG C4-A1' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=EMG1_EMG2 | original='EMG1-EMG2' | units=['uV'] | rates_hz=[256.0] | transducer='EMG' | prefilter='LP:100.00Hz HP:10.00Hz NOTCH:50' | trace_types_seen={'emg': 1}\n- label=ECG1_ECG2 | original='ECG1-ECG2' | units=['uV'] | rates_hz=[512.0] | transducer='EEG ECG1-ECG2' | prefilter='LP:30.00Hz HP:0.30Hz NOTCH:50' | trace_types_seen={'ecg': 1}\n- label=TERMISTORE | original='TERMISTORE' | units=['uV'] | rates_hz=[64.0] | transducer='HP' | prefilter='LP:3.00Hz HP:0.05Hz NOTCH:50' | trace_types_seen={'resp': 1}\n- label=TORACE | original='TORACE' | units=['mV'] | rates_hz=[64.0] | transducer='HP' | prefilter='LP:3.00Hz HP:0.05Hz NOTCH:50' | trace_types_seen={'neuro': 1}\n- label=ADDOME | original='ADDOME' | units=['mV'] | rates_hz=[64.0] | transducer='HP' | prefilter='LP:3.00Hz HP:0.05Hz NOTCH:50' | trace_types_seen={'resp': 1}\n- label=Dx1_DX2 | original='Dx1-DX2' | units=['uV'] | rates_hz=[256.0] | transducer='EMG' | prefilter='LP:100.00Hz HP:10.00Hz NOTCH:50' | trace_types_seen={'emg': 1}\n- label=SX1_SX2 | original='SX1-SX2' | units=['uV'] | rates_hz=[256.0] | transducer='EMG' | prefilter='LP:100.00Hz HP:10.00Hz NOTCH:50' | trace_types_seen={'emg': 1}\n- label=Posizione | original='Posizione' | units=[''] | rates_hz=[64.0] | transducer='DC' | prefilter='' | trace_types_seen={'flat': 1}\n- label=HR | original='HR' | units=['BPM'] | rates_hz=[1.0] | transducer='Oximeter' | prefilter='' | trace_types_seen={'hr': 1}\n- label=SpO2 | original='SpO2' | units=['%'] | rates_hz=[1.0] | transducer='Oximeter' | prefilter='' | trace_types_seen={'spo2': 1}\n- label=Sound | original='Sound' | units=['uV'] | rates_hz=[128.0] | transducer='Sound' | prefilter='LP:100.00Hz HP:10.00Hz NOTCH:50' | trace_types_seen={'emg': 1}\n\ntrace_types_seen counts recordings by what the signal looked like: neuro (EEG or EOG, not separable), ecg, emg, resp, pleth, spo2, hr, hr_or_spo2, discrete, flat, unknown.",
+ "model": "claude-opus-5-5",
+ "channels": [
+  {
+   "label": "ROC_LOC",
+   "reason": "Bipolar right-left EOG derivation with a neuro trace, kept as the single EOG channel.",
+   "target": "EOG",
+   "ref": ""
+  },
+  {
+   "label": "LOC_ROC",
+   "reason": "Inverse duplicate of the ROC-LOC derivation, and EOG is already taken.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "F2_F4",
+   "reason": "Bipolar frontal chain with no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "F4_C4",
+   "reason": "Bipolar EEG chain with no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "C4_P4",
+   "reason": "Bipolar EEG chain with no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "P4_O2",
+   "reason": "Bipolar EEG chain with no canonical counterpart.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "C4_A1",
+   "reason": "C4 referenced to the contralateral left ear A1, equivalent to C4-M1, with a neuro trace.",
+   "target": "C4_M1",
+   "ref": ""
+  },
+  {
+   "label": "EMG1_EMG2",
+   "reason": "Bipolar EMG (presumed chin) at 10-100 Hz with an EMG-like trace.",
+   "target": "EMG",
+   "ref": ""
+  },
+  {
+   "label": "ECG1_ECG2",
+   "reason": "Bipolar ECG derivation with an ECG trace.",
+   "target": "ECG",
+   "ref": ""
+  },
+  {
+   "label": "TERMISTORE",
+   "reason": "Italian 'termistore' (thermistor) is an airflow sensor and the trace is respiratory.",
+   "target": "airflow",
+   "ref": ""
+  },
+  {
+   "label": "TORACE",
+   "reason": "Italian 'torace' means thorax, but the trace looked neuro rather than respiratory, so it is left unmapped.",
+   "target": "none",
+   "ref": ""
+  },
+  {
+   "label": "ADDOME",
+   "reason": "Italian 'addome' is abdominal effort and the trace is respiratory.",
+   "target": "abdomen",
+   "ref": ""
+  },
+  {
+   "label": "Dx1_DX2",
+   "reason": "Italian 'dx' (right) EMG pair with an EMG trace, taken as the right leg.",
+   "target": "RAT",
+   "ref": ""
+  },
+  {
+   "label": "SX1_SX2",
+   "reason": "Italian 'sx' (left) EMG pair with an EMG trace, taken as the left leg.",
+   "target": "LAT",
+   "ref": ""
+  },
+  {
+   "label": "Posizione",
+   "reason": "Italian 'posizione' is the body-position DC channel; a flat trace fits an unchanging position.",
+   "target": "pos",
+   "ref": ""
+  },
+  {
+   "label": "HR",
+   "reason": "Oximeter heart rate in BPM with an HR trace.",
+   "target": "HR",
+   "ref": ""
+  },
+  {
+   "label": "SpO2",
+   "reason": "Oximeter saturation in % with an SpO2 trace.",
+   "target": "SpO2",
+   "ref": ""
+  },
+  {
+   "label": "Sound",
+   "reason": "Sound transducer channel used for snoring, with a high-frequency trace.",
+   "target": "snore",
+   "ref": ""
+  }
+ ]
+}
